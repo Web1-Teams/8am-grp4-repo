@@ -1,0 +1,231 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #0f5192; 
+    display: flex;
+    padding: 0.6rem;
+    font-family: Arial, sans-serif;
+      
+} 
+
+.navbar ul {
+    list-style: none;
+    flex-direction: row-reverse;
+    display: flex;
+    flex-wrap: wrap;
+    height: 45px;
+    gap: 0.5rem;
+}
+
+.navbar ul li {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;    
+    font-weight: bold;
+}
+
+.translate{
+        margin-left: 1050px;
+
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    display: block;
+}
+
+.navbar ul li:hover > a {
+    background-color: #03070a; 
+    border-radius: 30px;
+    
+}
+
+.dropdown-section{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 200px;
+    top: 85%;
+    left: 0.5px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+   
+}
+
+.dropdown a {
+    display: flex;
+    justify-content: flex-end;
+    color: #333;
+    padding: 1.5rem 1rem;
+    white-space: nowrap;
+}
+
+.dropdown a:hover {
+    background-color: #bebebec7;
+}
+
+
+.navbar ul li:hover .dropdown {
+    display: block;
+}
+
+
+.dropdown-section {
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    color: #2C3E50;
+    border-bottom: 1px solid #ccc;
+}
+
+
+body {
+     direction: ltr;
+    font-family: Arial, sans-serif; 
+  
+}
+
+
+.card1 {
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;
+    background: #ffffff;
+    display: flex;
+    gap: 5px;
+    padding: .4em;
+    border-radius: 2px;
+  }
+  
+  .card1 p {
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all .5s;
+    background: #000000;
+    border: 1px solid #2C3E50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card1 p:hover {
+    flex: 4;
+  }
+  
+  .card1 p span {
+    min-width: 14em;
+    padding: .5em;
+    text-align: center;
+    transform: rotate(-90deg);
+    transition: all .5s;
+    text-transform: uppercase;
+    color: #ff568e;
+    letter-spacing: .1em;
+  }
+  
+  .card1 p:hover span {
+    transform: rotate(0);
+  }
+  
+  footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+
+
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    list-style-type: none;
+    
+
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
