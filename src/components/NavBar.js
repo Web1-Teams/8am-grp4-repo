@@ -25,7 +25,7 @@ const NavBar=()=>{
                     <a href="../Clinics/Clinic (3)/Index For C3/Index_C1 ar.html">العيادة 3</a>
                     <a href="../Clinics/Clinic (4)/Index For C4/Index_C1 ar.html">العيادة 4</a>
                     <a href="../Clinics/Clinic (5)/Index For C5/Index_C1 ar.html">العيادة 5</a>
-                </div>
+                    </div>
             </li>
             <li><a href="#">الفريق الطبي</a></li>
             <li className='search'>
