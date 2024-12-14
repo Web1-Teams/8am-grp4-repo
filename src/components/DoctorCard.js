@@ -1,4 +1,4 @@
-
+import '../styles/doctorcard.css'
 
 
 const DoctorCard=(props)=>{
