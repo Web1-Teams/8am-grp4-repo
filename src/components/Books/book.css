@@ -1,0 +1,26 @@
+
+.book {
+    width: 22%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3 ease;
+    background-color: #fff;
+}
+.book:hover {
+    transform: scale(1.05);
+}
+
+.book-img {
+    width: 16rem;
+    height: 20rem;
+}
+
+.caption h3 {
+    font-size: 15px;
+    margin: 10px 0;
+}
+.caption p{
+    margin: 5px 0;
+    color: #555;
+}
