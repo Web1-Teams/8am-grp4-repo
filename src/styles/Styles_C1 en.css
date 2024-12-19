@@ -4,3 +4,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.hero {
+    background: url('https://via.placeholder.com/1920x600?text=Physical+Therapy') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+.team img {
+    border-radius: 50%;
+}
