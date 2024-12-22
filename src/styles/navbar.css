@@ -1,60 +1,109 @@
+/* General Navbar Styling */
 .navbar {
-    background-color: #E5E1DA; 
+    background-color: #E5E1DA;
     display: flex;
-    padding: 0.6rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem 1rem;
     font-family: Arial, sans-serif;
-    
-      
-} 
-.navbar h1{
-    padding-top:0.6rem ;
-    color: #303F6F;
-}
-.navbar ul {
-    list-style: none;
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    height: 4rem;
-    gap: 0.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-.navbar ul li {
+/* Translate Icon Section */
+.translate-icon {
+    display: flex;
+    align-items: center;
+        order: 3;
+}
+
+.translate-icon a {
+    color: #303F6F;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-right: 1rem;
+    transition: transform 0.3s;
+}
+
+.translate-icon a:hover {
+    transform: scale(1.1);
+}
+
+/* Navbar Content Styling */
+.navbar-content {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Center Section - Search Bar */
+.center-section {
+    flex: 1;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+}
+
+.center-section input {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+/* Right Section - Buttons */
+.right-section {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+
+.right-section li {
     position: relative;
-    font-family: 'Times New Roman', Times, serif;    
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
 
-.translate{
-    margin-right: 45rem ;
-
-}
-.translate span{
-background-color: rgb(0, 0, 0);
-
+/* Logo Styling */
+.logo-container {
+    margin-right: 1rem;
 }
 
+.logo {
+    height: 45px;
+}
+
+/* Title Styling */
+.site-title h1 {
+    color: #303F6F;
+    margin: 0;
+}
+
+/* Links Styling */
 .navbar a {
     color: #ffffff;
     text-decoration: none;
-    padding: 1rem 1rem;
-    display: block;
-    background-color: #303F6F ;
+    padding: 0.8rem 1rem;
+    background-color: #303F6F;
     border-radius: 30px;
+    transition: background-color 0.3s ease;
 }
 
-
-
-.navbar ul li:hover > a {
-    background-color: #57648e; 
-    border-radius: 30px;
-    
+.navbar a:hover {
+    background-color: #57648e;
 }
 
-.dropdown-section{
-    display: flex;
-    justify-content: flex-start;
-    
+/* Dropdown Menu Styling */
+.dropdown-container {
+    position: relative;
 }
 
 .dropdown {
@@ -62,31 +111,23 @@ background-color: rgb(0, 0, 0);
     position: absolute;
     background-color: #fff;
     min-width: 200px;
-    top: 85%;
-    right: 0.5px;
-    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-    overflow: hidden;
+    top: 100%;
+    right: 0;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
-   
 }
 
 .dropdown a {
-    display: flex;
-    justify-content: flex-start;
     color: #333;
-    padding: 1.5rem 1rem;
+    padding: 0.8rem 1rem;
     white-space: nowrap;
+    display: block;
+    text-align: right;
 }
 
 .dropdown a:hover {
-    background-color: #bebebec7;
+    background-color: #bebebe;
 }
-
-
-.navbar ul li:hover .dropdown {
-    display: block;
-}
-
 
 .dropdown-section {
     padding: 0.5rem 1rem;
@@ -95,6 +136,49 @@ background-color: rgb(0, 0, 0);
     border-bottom: 1px solid #ccc;
 }
 
-.search {
-    margin-right: 20rem;
+.right-section li:hover .dropdown {
+    display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .navbar-content {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .center-section {
+        order: 1;
+    }
+
+    .right-section {
+        order: 2;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .translate-icon {
+        order: 3;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-content {
+        gap: 0.5rem;
+    }
+
+    .center-section input {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .center-section input {
+        max-width: 200px;
+    }
+
+    .navbar a {
+        padding: 0.5rem 0.8rem;
+    }
 }
