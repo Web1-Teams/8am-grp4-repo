@@ -3,10 +3,10 @@ import '../styles/SearchBar.css'
 const SearchBar=()=>{
     return(
         /* From Uiverse.io by OnlyCodeChannel */ 
-<div class="searchBox">
+<div className="searchBox">
 
-<input class="searchInput" type="text" name="" placeholder="Search something"/>
-<button class="searchButton" href="#">
+<input className="searchInput" type="text" name="" placeholder="Search something"/>
+<button className="searchButton" href="#">
        
       
 

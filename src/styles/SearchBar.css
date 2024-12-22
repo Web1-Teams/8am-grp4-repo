@@ -1,7 +1,8 @@
 /* From Uiverse.io by OnlyCodeChannel */ 
 .searchBox {
     display: flex;
-    max-width: 70rem;
+    height: 6;
+    max-width: 30rem;
     align-items: center;
     justify-content: space-between;
     gap: 8px;
@@ -13,23 +14,16 @@
   .searchButton {
     color: white;
     position: absolute;
-    right: 12rem;
-    width: 3.7rem;
-    height: 3.7rem;
+    right: 17.8rem;
+    width: 3.5rem;
+    height: 3.5rem;
     border-radius: 50%;
     background: var(--gradient-2, linear-gradient(90deg, #2AF598 0%, #009EFD 100%));
     border: 0;
     display: inline-block;
     transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
   }
-  /*hover effect*/
-  button:hover {
-    color: #fff;
-    background-color: #1A1A1A;
-    box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
-    transform: translateY(-3px);
-  }
-  /*button pressing effect*/
+
   button:active {
     box-shadow: none;
     transform: translateY(0);
