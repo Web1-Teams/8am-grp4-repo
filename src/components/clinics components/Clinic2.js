@@ -1,7 +1,6 @@
 import React from "react";
 import "../../styles/Styles_C2.css";
-import BookList from "../Books/bookList";
-
+import BookList from "../books/BookList";
 const booksData = [
     {
         id: 1,
