@@ -9,4 +9,3 @@ root.render(
 <Clinic3/>
 </>
 );
-
