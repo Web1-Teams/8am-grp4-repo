@@ -12,9 +12,7 @@ const TopTopic=(props)=>{
     <p><span>HOVER ME</span></p>
     <p><span>HOVER ME</span></p>
     <p><span>HOVER ME</span></p>
-    <p><span>HOVER ME</span></p>
-    <p><span>HOVER ME</span></p>
-    <p><span>HOVER ME</span></p>
+
 
 </div>
 </div>
