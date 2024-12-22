@@ -9,10 +9,12 @@ const Main=()=>{
         <>
         <NavBar/>
         <TopTopic topic1="Welcome" clinic1="Main"/>
+        <br/>
         <DoctorSection1/>
+        <br/>
         <Review/>
         <Footer/>
-        </>
+</>
     )
 }
 
