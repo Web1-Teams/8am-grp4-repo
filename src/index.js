@@ -7,4 +7,3 @@ root.render(
 <Clinic3/>
 </>
 );
-
