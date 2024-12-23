@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinic Info Section</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .info-section {
+            padding: 40px 20px;
+            background-color: #e2e1e1c7;
+            border-radius: 3%;
+        }
+        .info-section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #555;
+        }
+        .info-section p {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+        }
+        .card {
+            border: none;
+            border-radius: 10px;
+            text-align: center;
+            padding: 20px 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+        .card-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+        .fitness { background-color: #faab76; }
+        .physical-therapy { background-color: #80b3a9; }
+        .mental-health { background-color: #a693b8; }
+        .self-care { background-color: #fdbbc9; }
+        .nutrition { background-color: #ddef9b; }
+        .card-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .card-text {
+            font-size: 14px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <section class="info-section">
+        <div class="container">
+            <h2>حول عياداتنا</h2>
+            <p>مجموعة شاملة من العيادات المصممة لتلبية مختلف الاحتياجات الصحية.</p>
+            <div class="row text-center g-4">
+                <div class="col-lg-2 col-md-4 col-sm-6 mx-auto">
+                    <div class="card fitness">
+                        <div class="card-icon">🏋️</div>
+                        <h5 class="card-title">Fitness</h5>
+                        <p class="card-text">خدمات مخصصة لتعزيز اللياقة البدنية والصحة العامة.</p>
+                        <a href="#" class="text-white">اقرأ المزيد</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mx-auto">
+                    <div class="card physical-therapy">
+                        <div class="card-icon">🩺</div>
+                        <h5 class="card-title">Physical Therapy</h5>
+                        <p class="card-text">برنامج شامل لاستعادة الحركة وعلاج الإصابات الجسدية.</p>
+                        <a href="#" class="text-white">اقرأ المزيد</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mx-auto">
+                    <div class="card mental-health">
+                        <div class="card-icon">💭</div>
+                        <h5 class="card-title">Mental Health</h5>
+                        <p class="card-text">دعم نفسي شامل لتحسين الصحة العقلية والعاطفية.</p>
+                        <a href="#" class="text-white">اقرأ المزيد</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mx-auto">
+                    <div class="card self-care">
+                        <div class="card-icon">💄</div>
+                        <h5 class="card-title">Self Care</h5>
+                        <p class="card-text">خدمات تهدف إلى تعزيز العناية الذاتية والجمال.</p>
+                        <a href="#" class="text-white">اقرأ المزيد</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mx-auto">
+                    <div class="card nutrition">
+                        <div class="card-icon">🥗</div>
+                        <h5 class="card-title">Nutrition</h5>
+                        <p class="card-text">إرشادات غذائية لتحسين التغذية والصحة العامة.</p>
+                        <a href="#" class="text-white">اقرأ المزيد</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

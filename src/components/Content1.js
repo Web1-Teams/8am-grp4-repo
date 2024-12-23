@@ -5,8 +5,9 @@
 const Content1=()=>{
     return(
 <>
-<Section />
+
 </>
     )
 }
 //export
+export default Content1
