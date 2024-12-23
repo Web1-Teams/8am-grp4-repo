@@ -1,8 +1,9 @@
 * {
-    
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  direction: rtl;
+  text-align: right;
+  font-family: "Tajawal", "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
@@ -151,7 +152,7 @@ summary {
 
 .img-content {
     width: 18rem;
-    height: ;
+    height: 12rem;
     overflow: hidden;
     margin-right: 10px;
 }
