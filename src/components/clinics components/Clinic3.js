@@ -1,20 +1,26 @@
 import Exercise from "../clinic3ComponentsTemp/Exercise";
 import Exercise2 from "../clinic3ComponentsTemp/Exercise2";
 import Footer from "../Footer";
+import Header from "../header/Header";
 import NavBar from "../NavBar";
 import RatingCard from "../RatingCard";
 import Review from "../Review";
 
-
 const Clinic3 = (props) => {
     return ( 
        <div>
-        <NavBar/>
-        <section className="para&title">
-        <h1 className="title">Mental Health Clinic</h1>
-        <p className="para">Those who have believed and whose hearts are assured by the remembrance of Allah
-             Unquestionably, by the remembrance of Allah hearts are assured</p>
-        </section>
+         <NavBar/>
+     
+        
+        <div> 
+          <Header
+           ClinicName="Mental Health Clinic"
+           ClinicAyah="{Those who have believed and whose hearts are assured by the remembrance of Allah. Unquestionably, by the remembrance of Allah hearts are assured.}"
+           className="page3Background"
+           />
+        </div>
+
+        
         <p>
         <h2>Meditation & Mindfulness: A Guide to Inner Peace and Clarity</h2>
         <b>What is Meditation?</b><br/>
