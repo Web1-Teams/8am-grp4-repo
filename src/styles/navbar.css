@@ -1,184 +1,184 @@
-/* General Navbar Styling */
 .navbar {
-    background-color: #E5E1DA;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 0.6rem 1rem;
-    font-family: Arial, sans-serif;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-/* Translate Icon Section */
-.translate-icon {
-    display: flex;
+    height: 5rem;
     align-items: center;
-        order: 3;
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
 }
 
-.translate-icon a {
-    color: #303F6F;
-    font-size: 1.5rem;
-    text-decoration: none;
-    margin-right: 1rem;
-    transition: transform 0.3s;
-}
-
-.translate-icon a:hover {
-    transform: scale(1.1);
-}
-
-/* Navbar Content Styling */
-.navbar-content {
-    display: flex;
-    flex: 1;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-}
-
-/* Center Section - Search Bar */
-.center-section {
-    flex: 1;
-    flex-direction: row-reverse;
-    display: flex;
-    justify-content: center;
-}
-
-.center-section input {
-    width: 100%;
-    max-width: 400px;
-    padding: 0.5rem 1rem;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-}
-
-/* Right Section - Buttons */
-.right-section {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    gap: 1rem;
-}
-
-.right-section li {
-    position: relative;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-
-/* Logo Styling */
 .logo-container {
-    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    gap: 10px;
+    flex-grow: 0; /* لا حاجة لتوسيع هذا القسم */
 }
 
 .logo {
-    height: 45px;
+    margin-bottom: 0.4rem;
+    width: 30px;
+    height: auto;
 }
 
-/* Title Styling */
-.site-title h1 {
-    color: #303F6F;
-    margin: 0;
+.clinic-name {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
 }
 
-/* Links Styling */
-.navbar a {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 0.8rem 1rem;
-    background-color: #303F6F;
-    border-radius: 30px;
-    transition: background-color 0.3s ease;
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
 }
 
-.navbar a:hover {
-    background-color: #57648e;
-}
-
-/* Dropdown Menu Styling */
-.dropdown-container {
+.nav-links li {
+    font-size: 20px;
     position: relative;
 }
 
-.dropdown {
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #16a085;
+    border-radius: 5px;
+}
+
+.dropdown-menu {
     display: none;
+    color: rgb(0, 0, 0);
     position: absolute;
-    background-color: #fff;
-    min-width: 200px;
     top: 100%;
     right: 0;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    background-color: #ffffff;
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-.dropdown a {
-    color: #333;
-    padding: 0.8rem 1rem;
-    white-space: nowrap;
-    display: block;
-    text-align: right;
-}
-
-.dropdown a:hover {
-    background-color: #bebebe;
-}
-
-.dropdown-section {
-    padding: 0.5rem 1rem;
-    font-weight: bold;
-    color: #2C3E50;
-    border-bottom: 1px solid #ccc;
-}
-
-.right-section li:hover .dropdown {
+.dropdown:hover .dropdown-menu {
     display: block;
 }
 
-/* Responsive Design */
-@media (max-width: 1024px) {
-    .navbar-content {
-        flex-direction: column;
-        gap: 0.5rem;
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.sidebar-links {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-links li {
+    margin: 20px 0;
+}
+
+.sidebar-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/* Responsive */
+.toggle-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.translate-icon {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
     }
 
-    .center-section {
-        order: 1;
+    .toggle-btn {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 20px;
     }
 
-    .right-section {
-        order: 2;
-        flex-wrap: wrap;
+    .logo-container {
+        flex-grow: 1;
         justify-content: center;
     }
 
     .translate-icon {
-        order: 3;
-        justify-content: center;
+        position: absolute;
+        left: 20px;
+        top: 10px;
     }
 }
 
-@media (max-width: 768px) {
-    .navbar-content {
-        gap: 0.5rem;
+@media (min-width: 769px) and (max-width: 1024px) {
+    .nav-links {
+        display: flex;
+        margin-left: auto;
     }
 
-    .center-section input {
-        max-width: 300px;
+    .logo-container {
+        flex-grow: 0;
+        justify-content: flex-end; /* وضع الشعار على اليمين */
+    }
+
+    .toggle-btn {
+        display: none;
+    }
+
+    .translate-icon {
+        position: absolute;
+        left: 20px;
+        top: 10px;
     }
 }
 
-@media (max-width: 480px) {
-    .center-section input {
-        max-width: 200px;
+@media (min-width: 1025px) {
+    .nav-links {
+        display: flex;
+        margin-left: auto;
     }
 
-    .navbar a {
-        padding: 0.5rem 0.8rem;
+    .logo-container {
+        flex-grow: 0;
+        justify-content: flex-end; /* وضع الشعار على اليمين */
+    }
+
+    .translate-icon {
+        position: absolute;
+        left: 20px;
+        top: 10px;
     }
 }
