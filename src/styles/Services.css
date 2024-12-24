@@ -1,0 +1,11 @@
+.card-img-top {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #ddd; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
