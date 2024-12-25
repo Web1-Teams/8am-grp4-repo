@@ -1,9 +1,9 @@
 import Exercise from "../clinic3ComponentsTemp/Exercise";
 import Exercise2 from "../clinic3ComponentsTemp/Exercise2";
 import Footer from "../Footer";
-import Header from "../header/Header";
-import NavBar from "../NavBar";
-import RatingCard from "../RatingCard";
+// import Header from "../header/Header";
+import NavBar from "../navbar/Navbar";
+// import RatingCard from "../RatingCard";
 import Review from "../Review";
 
 const Clinic3 = (props) => {
@@ -12,13 +12,13 @@ const Clinic3 = (props) => {
          <NavBar/>
      
         
-        <div> 
+        {/* <div> 
           <Header
            ClinicName="Mental Health Clinic"
            ClinicAyah="{Those who have believed and whose hearts are assured by the remembrance of Allah. Unquestionably, by the remembrance of Allah hearts are assured.}"
            className="page3Background"
            />
-        </div>
+        </div> */}
 
         
         <p>
@@ -85,7 +85,7 @@ const Clinic3 = (props) => {
       Duration="5-10 minutes daily."
      video="https://youtu.be/7W1wUmI9ULw?si=YJoNpzTku_E6D9YO"
      />
-        <RatingCard/>
+        {/* <RatingCard/> */}
          <Review/>
          <Footer/>
         
