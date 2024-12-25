@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/Styles_C2.css";
-import book1 from "../../assests/Images/images for c2/book1.jpg"
-import BookList from "../Books/BookList";
+import BookList from "../books/BookList";
+
 const booksData = [
     {
         id: 1,
