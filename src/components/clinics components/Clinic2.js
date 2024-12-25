@@ -35,7 +35,15 @@ const booksData = [
 function Clinic2() {
     return (
         <div className="Clinic2">
+             <div> 
+          <Header
+           ClinicName="Mental Health Clinic"
+           ClinicAyah="{Those who have believed and whose hearts are assured by the remembrance of Allah. Unquestionably, by the remembrance of Allah hearts are assured.}"
+           className="page2Background"
+           />
+        </div>
             <BookList books={booksData}/>
+
         </div>
     )
 }
