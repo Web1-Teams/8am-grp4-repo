@@ -6,7 +6,7 @@ const Book = (props) => {    // const imagePath = require(`${book.image}`);
 
     return (
         <div className="book">
-            <a href={props.link} target="_blank" rel="">
+            <a href={props.link} target="_blank">
                 <img src={props.image} alt={props.title} className="book-img"/>
                 <div className="caption">
                     <h3>{props.title}</h3>
