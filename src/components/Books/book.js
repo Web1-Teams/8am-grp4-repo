@@ -1,14 +1,16 @@
 import React from 'react';
 import "./book.css";
 
-function Book({ book }){
+// function Book ({ book }) {
+const Book = (props) => {    // const imagePath = require(`${book.image}`);
+
     return (
         <div className="book">
-            <a href={book.link} target="_blank" rel="">
-                <img src={book.image} alt={book.title} className="book-img"/>
+            <a href={props.link} target="_blank">
+                <img src={props.image} alt={props.title} className="book-img"/>
                 <div className="caption">
-                    <h3>{book.title}</h3>
-                    <p>{book.description}</p>
+                    <h3>{props.title}</h3>
+                    <p>{props.description}</p>
                     <p>إضغط هنا</p>
                 </div>
             </a>

@@ -113,50 +113,83 @@
     color: #2C3E50;
     border-bottom: 1px solid #ccc;
 }
+/**/
 
-header h1 {
-    color: white;
-    text-align: center;
+.container {
+  font-family:'Times New Roman', Times, serif;
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 130rem;
+  background-color: #f9f9f9;
+  border-radius: 40px;
+  box-shadow: 0 15px 8px rgba(0, 0, 0, 0.1);
+  direction: rtl;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  gap: 20px;
+}
+
+.main-title {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.grid-container {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  gap: 15px;
 }
 
 details {
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 10px;
-    background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+
+}
+
+details[open] {
+  border-color: #ff7a18;
+  box-shadow: 0 10px 8px rgba(255, 122, 24, 0.2);
 }
 
 summary {
-    font-weight: bold;
-    cursor: pointer;
-    margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 35px;
+  cursor: pointer;
+  background: linear-gradient(45deg, #ff7a18, #ff3d81);
+  color: white;
+  border: none;
+  text-align: center;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease;
+
+}
+
+summary:hover {
+  background: linear-gradient(45deg, #ff9a3d, #ff5a99);
+  transform: scale(1.2);
 }
 
 .details-content {
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #f0f0f0;
-    border-radius: 4px;
-}
-
-.details-content ul {
-    margin: 15px;
-    padding-left: 20px;
-    list-style-type: disc;
-}
-
-.details-content ul li {
-    margin: 5px 0;
+  padding: 15px;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
 }
 
 .img-content {
-    width: 18rem;
-    height: 12rem;
-    overflow: hidden;
-    margin-right: 10px;
+  width: 18rem;
+  height: 12rem;
+  overflow: hidden;
+  margin-right: 10px;
 }
 
+/**/
 
 .dropdown {
     position: relative;
