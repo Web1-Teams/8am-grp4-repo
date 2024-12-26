@@ -1,4 +1,5 @@
-import '../styles/toptopic.css'
+import '../../styles/toptopic.css'
+import TopTopicPhone from './TopTopicphone'
 
 
 
@@ -13,6 +14,7 @@ const TopTopic=(props)=>{
     <p><span>{props.topic4}</span></p>
     <p><span>{props.topic5}</span></p>
 </div>
+<TopTopicPhone/>
 </div>
     )
 }
