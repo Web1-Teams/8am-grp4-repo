@@ -1,6 +1,6 @@
 import Footer from "../Footer"
 import Header from "../header/Header"
-import NavBar from "../NavBar"
+import Navbar from "../navbar/Navbar"
 import Review from "../Review"
 import TopTopic from "../TopTopic"
 
@@ -12,7 +12,7 @@ import TopTopic from "../TopTopic"
 const Clinic4=()=>{
     return(
      <>
-      <NavBar />
+      <Navbar/>
       <TopTopic topic1="Welcome" clinic1="Clinic1"/>
       <div> 
            <Header
