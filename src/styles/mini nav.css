@@ -1,0 +1,123 @@
+.menu-container {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-container input {
+    display: none;
+}
+.menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 1.5em;
+    height: 0.2em;
+    background: #333;
+    border-radius: 0.2em;
+    position: absolute;
+    transition: 0.3s;
+}
+
+.menu-toggle span:nth-child(1) {
+    top: 0.6em;
+}
+
+.menu-toggle span:nth-child(2) {
+    top: 1.2em;
+}
+
+.menu-toggle span:nth-child(3) {
+    top: 1.8em;
+}
+.menu-container input:checked + .menu-toggle span:nth-child(1) {
+    top: 1.2em;
+    transform: rotate(45deg);
+}
+
+.menu-container input:checked + .menu-toggle span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-container input:checked + .menu-toggle span:nth-child(3) {
+    top: 1.2em;
+    transform: rotate(-45deg);
+}
+
+.menu-name {
+    position: absolute;
+    top: 3em;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: 0.3s;
+    z-index: 100;
+}
+
+.menu-container input:checked ~ .menu-name {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+.menu-name legend {
+    padding: 0.5em 1rem;
+    margin: 0;
+    color: #777;
+    font-size: 0.625em;
+    text-transform: uppercase;
+}
+
+
+.menu-name ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-name li {
+    margin-bottom: 0.5em;
+}
+
+.menu-name ul button {
+    outline: none;
+    width: 100%;
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    color:#333;
+    font-size: 12px;
+    padding: 0.375em 1rem;
+    white-space: nowrap;
+    border-radius: 0.375em;
+    cursor: pointer;
+    column-gap: 0.875em;
+}
+
+.menu-name button:hover {
+    background: #6495ed;
+    color: #fff;
+}
+.menu-name hr {
+    margin: 0.5em 0;
+    border: none;
+    border-bottom: 1px solid #b8b6b6de;
+}

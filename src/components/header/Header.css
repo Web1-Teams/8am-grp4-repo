@@ -1,0 +1,152 @@
+
+.cardBox {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+  width: 80%;
+  height: 500px;
+  position: relative; /* Change from absolute to relative */
+  margin: 30rem 50% 0; /* Add margin to push it below the navbar */
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 10px, rgba(0, 0, 0, 0.5) 0px 2px 25px;
+}
+.page1Background {
+  background-image: url("./Therapy\ rehabilitation\ vector.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(0.8);
+}
+
+.page2Background {
+  background-image: url("./selfcare.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(1);
+}
+
+
+.page3Background {
+  background-image: url("./WhatsApp\ Image\ 2024-12-22\ at\ 16.10.57_25f6c835.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(1);
+}
+
+.page4Background {
+  background-image: url("./Healthy\ food\ and\ sport\ background\ on\ table\ with\ scale\ top.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(1);
+}
+
+.page5Background {
+  background-image: url("./Screenshot\ 2024-12-23\ 200034.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(1);
+}
+  .card {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #000000; /* White text for contrast */
+    padding: 10%;
+    position: relative;
+    z-index: 1; /* Make sure the text stays on top of the background */
+  
+
+  }
+  
+  .card .h4 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    font-size: 40px;
+    font-weight: 800;
+    opacity: 0.9;
+    margin-bottom:2rem;
+    transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+  }
+  
+  .card .p1 {
+    opacity: 5;
+    transform: translateY(0); /* Default position */
+   transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+    font-size: 20px;
+    font-weight:550 ;
+  }
+  
+  .card .content .h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight:600 ;
+    opacity: 0;
+    transform: translateY(50%);
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+  }
+  
+  .card:hover .content .h3 {
+    transform: translateY(0);
+    opacity: 1;
+    
+  }
+  
+  .card:hover .h4 {
+    opacity: 1;
+    transform: translateY(-10%);
+    margin-bottom: 1rem; /* Further reduce space on hover */
+
+
+  }
+  
+  .card:hover .p1 {
+    opacity: 0;
+    transform: translateY(50%); /* Move it downwards for smooth effect */
+  }
+  
+  .cardBox::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.7);  /* Darken the background image to make the text clearer */
+    z-index: 0; /* Ensure this stays below text */
+  }
+  @media (max-width: 768px) {
+    .cardBox {
+        height: 400px; /* Adjust height for smaller screens */
+    }
+    .card img {
+        width: 80px;
+    }
+    .card .h4 {
+        font-size: 30px;
+    }
+    .card .content {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cardBox {
+        height: 300px; /* Further reduce height for very small screens */
+    }
+    .card img {
+        width: 60px;
+    }
+    .card .h4 {
+        font-size: 18px;
+    }
+}
