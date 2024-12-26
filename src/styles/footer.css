@@ -30,6 +30,8 @@ footer{
 .socialIcons a:hover i{
     color: white;
     transition: 0.5s;
+    /*    opacity: 1;
+*/
 }
 .footerNav{
     margin: 30px 0;
