@@ -1,6 +1,5 @@
-
 footer{
-    background-color: #111;
+    background-color: #2c3450d4;
 }
 .footerContainer{
     width: 100%;
@@ -19,13 +18,13 @@ footer{
 }
 .socialIcons a i{
     font-size: 2em;
-    color: black;
+    color: #2c3450;
     opacity: 0,9;
 }
 
 
 .socialIcons a:hover{
-    background-color: #111;
+    background-color:#2c3450;
     transition: 0.5s;
 }
 .socialIcons a:hover i{
@@ -39,10 +38,11 @@ footer{
 .footerNav ul{
     display: flex;
     justify-content: center;
-    flex-direction: row-reverse;
+    
     list-style-type: none;
     
 
+    
 }
 .footerNav ul li a{
     color:white;
@@ -57,7 +57,7 @@ footer{
     opacity: 1;
 }
 .footerBottom{
-    background-color: #000;
+    background-color:#2c3450;
     padding: 20px;
     text-align: center;
 }

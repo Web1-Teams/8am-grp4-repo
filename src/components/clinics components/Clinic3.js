@@ -3,7 +3,8 @@ import Exercise2 from "../clinic3ComponentsTemp/Exercise2";
 import Footer from "../Footer";
 // import Header from "../header/Header";
 import NavBar from "../navbar/Navbar";
-// import RatingCard from "../RatingCard";
+import Header from "../header/Header";
+import NavBar from "../navbar/Navbar";
 import Review from "../Review";
 
 const Clinic3 = (props) => {
@@ -85,7 +86,6 @@ const Clinic3 = (props) => {
       Duration="5-10 minutes daily."
      video="https://youtu.be/7W1wUmI9ULw?si=YJoNpzTku_E6D9YO"
      />
-        {/* <RatingCard/> */}
          <Review/>
          <Footer/>
         
