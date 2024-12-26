@@ -12,8 +12,6 @@ const TopTopic=(props)=>{
     <p><span>{props.topic3}</span></p>
     <p><span>{props.topic4}</span></p>
     <p><span>{props.topic5}</span></p>
-
-
 </div>
 </div>
     )

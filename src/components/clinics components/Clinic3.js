@@ -3,14 +3,12 @@ import Exercise2 from "../clinic3ComponentsTemp/Exercise2";
 import Footer from "../Footer";
 // import Header from "../header/Header";
 import NavBar from "../navbar/Navbar";
-import Header from "../header/Header";
-import NavBar from "../navbar/Navbar";
 import Review from "../Review";
 
 const Clinic3 = (props) => {
     return ( 
        <div>
-         <Navbar/>
+         <NavBar/>
      
         
         {/* <div> 

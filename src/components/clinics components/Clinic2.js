@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/Styles_C2.css";
-import BookList from "../books/BookList";
+import BookList from "../Books/BookList";
 
 // const booksData = [
 //     {
