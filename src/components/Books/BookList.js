@@ -2,11 +2,12 @@
 
 import React from "react";
 import "./BookList.css";
-import book1 from "../../assests/Images/images for c2/book1.jpg";
-import book2 from "../../assests/Images/images for c2/book2.png";
-import book3 from "../../assests/Images/images for c2/book3.jpg";
-import book4 from "../../assests/Images/images for c2/book4.jpg";
+import book1 from "../../assests/Images/imagesForC2/book1.jpg";
+import book2 from "../../assests/Images/imagesForC2/book2.png";
+import book3 from "../../assests/Images/imagesForC2/book3.jpg";
+import book4 from "../../assests/Images/imagesForC2/book4.jpg";
 import Book from "./Book";
+
 
 function BookList() {
   return (

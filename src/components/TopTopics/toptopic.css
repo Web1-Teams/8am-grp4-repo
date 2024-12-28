@@ -45,3 +45,10 @@ h1{
   .card1 p:hover span {
     transform: rotate(0);
   }
+
+  @media (max-width: 768px) {
+    .card1{
+      display: none;
+    }
+  
+}

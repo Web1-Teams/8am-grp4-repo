@@ -8,7 +8,7 @@ import Navbar from "../../navbar/Navbar"
 const Clinic3 = (props) => {
     return ( 
        <div>
-         <Navbar/>
+         <NavBar/>
      
         
          
