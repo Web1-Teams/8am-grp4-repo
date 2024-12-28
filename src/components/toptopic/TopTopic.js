@@ -1,4 +1,4 @@
-import '../../styles/toptopic.css'
+import './toptopic.css'
 import TopTopicPhone from './TopTopicphone'
 
 

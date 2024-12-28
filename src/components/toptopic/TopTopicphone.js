@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import "../../styles/toptopicphone.css";
+import "./toptopicphone.css";
 
 const TopTopicPhone = () => {
   const tipsRowRef = useRef(null);
