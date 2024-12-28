@@ -1,9 +1,9 @@
-import Exercise from "../clinic3ComponentsTemp/Exercise";
-import Exercise2 from "../clinic3ComponentsTemp/Exercise2";
-import Footer from "../Footer";
-// import Header from "../header/Header";
-import NavBar from "../navbar/Navbar";
-import Review from "../Review";
+import Exercise from "../../clinic3ComponentsTemp/Exercise";
+import Exercise2 from "../../clinic3ComponentsTemp/Exercise2";
+import Footer from "../../Footer/Footer";
+import Header from "../../header/Header";
+import Review from "../../Review/Review";
+import Navbar from "../../navbar/Navbar"
 
 const Clinic3 = (props) => {
     return ( 
@@ -11,13 +11,19 @@ const Clinic3 = (props) => {
          <NavBar/>
      
         
-        {/* <div> 
+         
           <Header
            ClinicName="Mental Health Clinic"
            ClinicAyah="{Those who have believed and whose hearts are assured by the remembrance of Allah. Unquestionably, by the remembrance of Allah hearts are assured.}"
            className="page3Background"
+           clinicName="mental health"
+           option1="meditation"
+           option2="mindfulness"
+           option3="art therapy"
+           option4="suggested books"
+           option5="relaxing sounds "
            />
-        </div> */}
+        
 
         
         <p>

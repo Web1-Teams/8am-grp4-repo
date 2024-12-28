@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Services.css"
+import "./Services.css"
 const Card = ({ imgSrc, title, description }) => {
   return (
     <div className="col-md-4 mb-4">

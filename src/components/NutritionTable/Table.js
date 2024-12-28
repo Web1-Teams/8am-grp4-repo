@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Nutrationtable.css';  
+import './Nutrationtable.css';  
 
 const Table = ({ title, focus, benefits, foods }) => {
   return (

@@ -1,8 +1,8 @@
-import NavBar from "../navbar/Navbar"
-import TopTopic from '../TopTopic'
 import '../../styles/Styles_C1 en.css'
-import Review from '../Review'
-import Footer from '../Footer'
+import Navbar from "../../navbar/Navbar"
+import TopTopic from '../../TopTopics/TopTopic'
+import Review from '../../Review/Review'
+import Footer from '../../Footer/Footer'
 // import Header from '../header/Header'
 
 const Clinic1=()=>{

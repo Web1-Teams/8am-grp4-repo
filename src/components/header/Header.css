@@ -14,6 +14,16 @@
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 10px, rgba(0, 0, 0, 0.5) 0px 2px 25px;
 }
+
+.miniNavbar {
+  display: flex;
+  flex-wrap: wrap; 
+  padding: 1rem; 
+  
+}
+
+
+
 .page1Background {
   background-image: url("./Therapy\ rehabilitation\ vector.jpg");
   background-size: cover;
@@ -67,13 +77,15 @@
     position: relative;
     z-index: 1; /* Make sure the text stays on top of the background */
   
+    background-color: rgba(255, 255, 255, 0.8); /* Light semi-transparent background */
 
   }
+  
   
   .card .h4 {
     font-family:Georgia, 'Times New Roman', Times, serif;
 
-    font-size: 40px;
+    font-size: clamp(18px, 3vw, 40px); /* Scales with screen size */
     font-weight: 800;
     opacity: 0.9;
     margin-bottom:2rem;
@@ -88,16 +100,16 @@
     font-weight:550 ;
   }
   
-  .card .content .h3 {
+  .card  .h3 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight:600 ;
     opacity: 0;
     transform: translateY(50%);
-    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+    margin-bottom: -2rem;
   }
   
-  .card:hover .content .h3 {
+  .card:hover  .h3 {
     transform: translateY(0);
     opacity: 1;
     
@@ -106,7 +118,7 @@
   .card:hover .h4 {
     opacity: 1;
     transform: translateY(-10%);
-    margin-bottom: 1rem; /* Further reduce space on hover */
+    margin-bottom: -5rem; 
 
 
   }
@@ -125,8 +137,13 @@
     z-index: 0; /* Ensure this stays below text */
   }
   @media (max-width: 768px) {
+    .miniNavbar {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align to the left */
+    }
     .cardBox {
         height: 400px; /* Adjust height for smaller screens */
+         width: 95%; /* Reduce width for smaller screens */
     }
     .card img {
         width: 80px;
@@ -137,9 +154,15 @@
     .card .content {
         font-size: 14px;
     }
+    .card {
+      padding: 5%; /* Adjust padding */
+    }
 }
 
 @media (max-width: 480px) {
+  .miniNavbar {
+    justify-content: center; 
+  }
     .cardBox {
         height: 300px; /* Further reduce height for very small screens */
     }
@@ -148,5 +171,8 @@
     }
     .card .h4 {
         font-size: 18px;
+    }
+    .card .p1 {
+      font-size: 14px; /* Smaller paragraph font */
     }
 }
