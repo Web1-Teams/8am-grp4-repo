@@ -1,4 +1,4 @@
-import '../styles/MainAbout.css'
+import "./MainAbout.css"
 
 
 const MainAbout=(props)=>{

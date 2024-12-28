@@ -1,4 +1,4 @@
-import '../styles/benefits.css'
+import './benefits.css'
 
 
 const Benefits = (props) => {

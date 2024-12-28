@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/navbar.css';
+import './navbar.css';
 import logo from '../../assests/Images/Main Page Images/logo.png';
 import { TranslateIcon } from 'hugeicons-react';
 import Sidebar from './Sidebar';

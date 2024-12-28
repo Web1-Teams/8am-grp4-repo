@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/developer.css';
+import './developer.css';
 
 function Developer (props) {
     return (
