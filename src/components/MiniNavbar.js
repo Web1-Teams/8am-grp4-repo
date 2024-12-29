@@ -15,37 +15,43 @@ function MiniNav (props) {
     <legend> {props.clinicName} </legend>
     <ul>
       <li>
+        <a href={props.link1}>
         <button>
           <span> {props.option1} </span>
         </button>
+        </a>
       </li>
       <hr />
       <li>
+      <a href={props.link2}>
         <button>
-        
           <span> {props.option2} </span>
         </button>
+        </a>
       </li>
       <hr />
       <li>
-        <button>
-      
-          <span> {props.option3} </span>
-        </button>
+        <a href={props.link3}>
+          <button>
+            <span> {props.option3} </span>
+          </button>
+        </a>
       </li>
       <hr />
       <li>
-        <button>
-        
-          <span> {props.option4} </span>
-        </button>
+        <a href={props.link4}>
+          <button>
+            <span> {props.option4} </span>
+          </button>
+        </a>
       </li>
       <hr />
       <li>
-        <button>
-        
-          <span> {props.option5} </span>
-        </button>
+        <a href={props.link5}>
+          <button>
+            <span> {props.option5} </span>
+          </button>
+        </a>
       </li>
     </ul>
   </nav>
