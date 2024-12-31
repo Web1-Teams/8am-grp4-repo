@@ -30,7 +30,7 @@ const HairCareClinic = (props) => {
   />
   <Recipes 
     recipeName="Avocado & Egg Mask"
-    image={'/project images/avocado and egg mask.jpg'} // يجب تعديل المسار حسب المشروع
+    image={'/project images/avocado and egg mask.jpg'} 
     description="This mask is perfect for nourishing and strengthening your hair. Avocado is rich in healthy fats that deeply moisturize, while eggs provide protein to strengthen hair strands. The addition of rose oil offers a pleasant fragrance and added nourishment, and castor oil promotes hair growth and adds shine."
     ingName1="1 medium avocado"
     ingDescription1="Rich in healthy fats that deeply moisturize hair."
@@ -45,7 +45,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Hot Olive Oil Treatment"
-    image={'./project images/hot oil hair treatment.jpg'} // يجب تعديل المسار حسب المشروع
+    image={'./project images/hot oil hair treatment.jpg'} 
     description="This hot oil treatment is designed to protect and nourish dry hair. Olive oil works to deeply hydrate the scalp, repair split ends, and strengthen weak hair strands. Combined with coconut oil and jojoba oil, this treatment restores shine, combats free radicals, and prevents premature graying. Perfect for reducing hair thinning and breakage, this monthly treatment is a natural solution for revitalizing dry hair."
     ingName1="Coconut oil"
     ingDescription1="Provides deep hydration and nourishment for dry hair."
@@ -58,7 +58,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Aloe Vera & Argan Oil Mask"
-    image={'./project images/aloe vera argan oil mask.jpg'} // يجب تعديل المسار حسب المشروع
+    image={'./project images/aloe vera argan oil mask.jpg'}
     description="This mask deeply moisturizes and strengthens hair, making it perfect for treating split ends. Aloe vera provides soothing hydration, while argan oil enhances hair softness and shine."
     ingName1="2 tbsp aloe vera gel"
     ingDescription1="Aloe vera soothes and deeply hydrates the scalp and hair."
@@ -70,7 +70,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Banana & Honey Mask"
-    image={'./project images/banana and honey mask.jpg'} // يجب تعديل المسار حسب المشروع
+    image={'./project images/banana and honey mask.jpg'} 
     description="This mask is perfect for hydrating and soothing dry hair. Banana nourishes the hair, while honey provides antioxidant properties and helps reduce dandruff."
     ingName1="1 ripe banana"
     ingDescription1="Banana nourishes the hair and helps improve its texture."
@@ -90,7 +90,7 @@ const HairCareClinic = (props) => {
 
   <Recipes 
     recipeName="Castor Oil Treatment"
-    image={'./project images/castor-oil.jpg'} // يجب تعديل المسار حسب المشروع
+    image={'./project images/castor-oil.jpg'} 
     description="Castor oil is a natural remedy for hair loss, known for its ability to nourish the scalp, strengthen hair follicles, and promote healthy hair growth."
     ingName1="Equal parts of:"
     ingDescription1="Castor oil, coconut oil, sweet almond oil, and sesame oil."
@@ -100,7 +100,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Fenugreek Hair Mask"
-    image={'./project images/fenugreek.jpg'} // Adjust path based on your project structure
+    image={'./project images/fenugreek.jpg'} 
     description="Fenugreek helps to prevent hair loss, promote hair shine and softness, and enhance the health of hair follicles."
     ingName1="2 tbsp fenugreek seeds (ground)"
     ingDescription1="Rich in proteins, iron, and niacin, helps prevent hair loss and enhance shine."
@@ -111,7 +111,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Egg Hair Mask"
-    image={'./project images/egg.jpg'} // Adjust path based on your project structure
+    image={'./project images/egg.jpg'} 
     description="Eggs are rich in proteins that help rebuild keratin in the hair, reducing hair loss and repairing damaged hair."
     ingName1="2-3 whole eggs"
     ingDescription1="Rich in proteins that strengthen hair and reduce hair loss."
@@ -122,7 +122,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Yogurt and Honey Hair Mask"
-    image={'./project images/yogurt-honey.jpg'} // Adjust path based on your project structure
+    image={'./project images/yogurt-honey.jpg'} 
     description="This mask nourishes, hydrates, and strengthens hair, reduces dandruff, and promotes healthy hair growth."
     ingName1="Honey"
     ingDescription1="Contains antioxidants and antibacterial properties, helping to reduce hair fall and treat dandruff."
@@ -133,7 +133,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Natural Henna Hair Treatment"
-    image={'./project images/henna.jpg'} // Adjust path based on your project structure
+    image={'./project images/henna.jpg'} 
     description="Henna helps strengthen hair, prevent hair loss, reduce dandruff, and promote healthy, shiny hair growth."
     ingName1="25-50g of henna powder"
     ingDescription1="Contains nutrients and organic acids that strengthen hair and prevent hair loss."
@@ -155,7 +155,7 @@ const HairCareClinic = (props) => {
 
   <Recipes 
     recipeName="Garlic and Honey Scalp Treatment"
-    image={'./project images/garlic_honey.jpg'} // Adjust path based on your project structure
+    image={'./project images/garlic_honey.jpg'} 
     description="Garlic has antifungal properties that help eliminate dandruff, while honey soothes and nourishes the scalp."
     ingName1="Several garlic cloves"
     ingDescription1="Rich in antifungal properties to combat dandruff."
@@ -166,7 +166,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Coconut & Lemon Scalp Treatment"
-    image={'./project images/coconut_lemon.jpg'} // Adjust path based on your project structure
+    image={'./project images/coconut_lemon.jpg'} 
     description="Coconut oil nourishes the scalp and eliminates dandruff, while lemon juice helps balance the scalp and reduce flakes."
     ingName1="2 tbsp coconut oil"
     ingDescription1="Nourishes and hydrates the scalp, helping to eliminate dandruff."
@@ -177,7 +177,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Olive Oil Scalp Treatment"
-    image={'./project images/olive_oil.jpeg'} // Adjust path based on your project structure
+    image={'./project images/olive_oil.jpeg'} 
     description="Olive oil is rich in antioxidants and nourishes the scalp, helping to reduce dandruff and improve hair health."
     ingName1="Olive oil"
     ingDescription1="Packed with antioxidants to nourish the scalp and reduce dandruff."
@@ -186,7 +186,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Tea Tree Oil Scalp Treatment"
-    image={'./project images/tea_tree_oil.jpg'} // Adjust path based on your project structure
+    image={'./project images/tea_tree_oil.jpg'} 
     description="Tea tree oil is commonly used as a natural remedy for dandruff, helping to eliminate flakes and soothe the scalp."
     ingName1="10 drops of tea tree oil"
     ingDescription1="Known for its antibacterial and antifungal properties to help reduce dandruff."
@@ -198,7 +198,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Apple Cider Vinegar for Dandruff"
-    image={'./project images/apple_cider_vinegar.jpg'} // Adjust path based on your project structure
+    image={'./project images/apple_cider_vinegar.jpg'} 
     description="Apple cider vinegar helps balance the pH of the scalp, combat bacteria, and reduce dandruff."
     ingName1="3 tablespoons of apple cider vinegar"
     ingDescription1="Helps balance the scalp's pH and fight bacteria and fungi causing dandruff."
@@ -216,7 +216,7 @@ const HairCareClinic = (props) => {
   </div>
   <Recipes 
     recipeName="Rosemary Oil for Hair Growth"
-    image={'./project images/rosemary.jpg'} // Adjust path based on your project structure
+    image={'./project images/rosemary.jpg'} 
     description="Rosemary oil is known for its ability to combat hair loss and stimulate new hair growth due to its anti-inflammatory properties and its ability to improve blood circulation to the scalp."
     ingName1="5 drops of rosemary oil"
     ingDescription1="Known for stimulating hair growth and improving blood circulation to the scalp."
@@ -227,7 +227,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Amla Powder Hair Growth Treatment"
-    image={'./project images/amla powder.jpg'} // Adjust path based on your project structure
+    image={'./project images/amla powder.jpg'} 
     description="Amla powder helps in stimulating hair growth, strengthening hair, and preventing hair loss. It's packed with antioxidants and nutrients that promote healthy hair growth."
     ingName1="1 tablespoon of olive oil"
     ingDescription1="Helps nourish and strengthen the hair."
@@ -240,7 +240,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Sesame Oil Hair Mask"
-    image={'./project images/sesame oil.jpg'} // Adjust path based on your project structure
+    image={'./project images/sesame oil.jpg'} 
     description="Sesame oil helps stimulate hair growth, prevent early graying, and protect hair from harmful sun rays. A natural solution for healthy, thick hair!"
     ingName1="1 tablespoon of castor oil"
     ingDescription1="Helps nourish the scalp and stimulate hair growth."
@@ -255,7 +255,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Fermented Rice Water Hair Mask"
-    image={'./project images/fermented-rice-water.jpg'} // Adjust path based on your project structure
+    image={'./project images/fermented-rice-water.jpg'} 
     description="Fermented rice water promotes hair growth, strengthens the hair structure, and adds shine, leaving your hair thick, strong, and glossy."
     ingName1="1/2 cup of organic white rice"
     ingDescription1="The base ingredient for creating rice water."
@@ -266,7 +266,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Banana and Honey Hair Mask"
-    image={'./project images/banana-honey-mask.jpg'} // Adjust path based on your project structure
+    image={'./project images/banana-honey-mask.jpg'} 
     description="The banana and honey mask is a natural and popular remedy for improving hair health, providing nourishment, hydration, and shine to the hair."
     ingName1="1 ripe banana"
     ingDescription1="Rich in vitamins A, B, and C, and minerals like potassium and magnesium for healthy, shiny hair."
@@ -287,7 +287,7 @@ const HairCareClinic = (props) => {
 </div>
 <Recipes 
     recipeName="Argan Oil"
-    image={'./project images/argan_oil.jpg'} // Adjust path based on your project structure
+    image={'./project images/argan_oil.jpg'} 
     description="Argan oil is rich in fatty acids and antioxidants like Vitamin E, providing deep hydration, shine, and protection against hair loss."
     ingName1="8-10 drops of argan oil"
     ingDescription1="Packed with fatty acids and Vitamin E to nourish and hydrate the hair."
@@ -296,7 +296,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Aloe Vera Hair Mask"
-    image={'./project images/Aloe_vera_hair.jpg'} // Adjust path based on your project structure
+    image={'./project images/Aloe_vera_hair.jpg'} 
     description="Aloe vera nourishes and moisturizes the hair, helping to reduce hair fall and dandruff while promoting smoothness and shine."
     ingName1="4 tablespoons of Aloe Vera gel"
     ingDescription1="Hydrates and nourishes the hair."
@@ -308,7 +308,7 @@ const HairCareClinic = (props) => {
 />
 <Recipes 
     recipeName="Almond Oil for Hair"
-    image={'./project images/almond oil.jpg'} // Adjust path based on your project structure
+    image={'./project images/almond oil.jpg'} 
     description="Almond oil nourishes and softens the hair, helping to increase shine and smoothness, especially when applied after a shower."
     ingName1="Sweet Almond Oil"
     ingDescription1="Rich in vitamins and minerals that hydrate and nourish the hair."
@@ -317,7 +317,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Peppermint Oil and Coconut Oil"
-    image={'./project images/peppermint oil.jpg'} // Adjust path based on your project structure
+    image={'./project images/peppermint oil.jpg'} 
     description="Peppermint oil promotes hair growth, alleviates scalp irritation, and gives your hair a refreshing scent when combined with coconut oil."
     ingName1="Peppermint oil"
     ingDescription1="Enhances blood circulation to the scalp, stimulates hair follicles, and reduces scalp itchiness."
@@ -328,7 +328,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Oatmeal and Yogurt Mask"
-    image={'./project images/oatmeal yogurt mask.jpg'} // Adjust path based on your project structure
+    image={'./project images/oatmeal yogurt mask.jpg'} 
     description="Oatmeal nourishes the hair and helps promote growth, while yogurt adds moisture and shine to the hair."
     ingName1="3 tablespoons oatmeal"
     ingDescription1="Rich in essential nutrients like zinc and vitamins to strengthen and nourish hair."
