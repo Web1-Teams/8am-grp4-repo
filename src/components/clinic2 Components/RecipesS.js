@@ -6,7 +6,7 @@ const RecipesS = (props) => {
     <details>
         <summary>Slin Brightening and Tone</summary>
         <Recipes recipeName = "Milk & Apple Mask"
-    image = {image1}
+    image = {image1} 
   description = " This mask is ideal for all skin types. The lactic acid in the milk helps exfoliate dead skin cells, while the apple's vitamin C helps brighten the skin. The honey locks in moisture, leaving your skin soft and supple."
   ingName1 = "1/2 cup milk"
   ingDescription1 = "The lactic acid in the milk helps exfoliate dead skin cells."
@@ -19,4 +19,4 @@ const RecipesS = (props) => {
     </details>
     )
 }
-export default RecipesS
+export default RecipesS 
