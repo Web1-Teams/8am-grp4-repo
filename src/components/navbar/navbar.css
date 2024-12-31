@@ -3,8 +3,7 @@
     justify-content: space-between;
     height: 5rem;
     align-items: center;
-    background-color: #0a335c;
-    color: #F1F0E8;
+    background-color: #F1F0E8;
     padding: 10px 20px;
 }
 
@@ -25,7 +24,7 @@
 .clinic-name {
     font-size: 25px;
     font-weight: bold;
-    color: #F1F0E8;
+    color: #0a335c;
 }
 
 .nav-links {
@@ -44,11 +43,13 @@
     color: #F1F0E8;
     padding: 5px 10px;
     transition: 0.3s;
+    background-color: #0a335c;/*its affecting the dropdown menu */
+    border-radius: 20px;
+
 }
 
 .nav-links a:hover {
     background-color: #57648e;
-    border-radius: 20px;
 }
 
 .dropdown-menu {
@@ -57,12 +58,12 @@
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: #57648e;
     list-style: none;
     padding: 10px;
     border-radius: 5px;
    
 }
+
 
 
 .dropdown:hover .dropdown-menu {
@@ -94,14 +95,14 @@
 
 .sidebar-links a {
     text-decoration: none;
-    color: white;
+    color: #F1F0E8;
 }
 
 .close-btn {
     background: none;
     border: none;
     font-size: 24px;
-    color: white;
+    color: #F1F0E8;
     cursor: pointer;
     margin-bottom: 20px;
 }
@@ -112,7 +113,7 @@
     background: none;
     border: none;
     font-size: 24px;
-    color: white;
+    color: #0a335c;
     cursor: pointer;
 }
 

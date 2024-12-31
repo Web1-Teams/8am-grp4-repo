@@ -2,13 +2,13 @@
 
 //import
 import React from 'react';
-import '../styles/Review.css';
-import pic1 from '../assests/Images/Main Page Images/4202841.png';
-import pic2 from '../assests/Images/Main Page Images/5231019.png';
-import pic3 from '../assests/Images/Main Page Images//5719511.png';
-import pic4 from '../assests/Images/Main Page Images/6889369.png';
-import pic5 from '../assests/Images/Main Page Images/7084424.png';
-import pic6 from '../assests/Images/Main Page Images/921053.png';
+import './Review.css';
+import pic1 from '../../assests/Images/Main Page Images/4202841.png';
+import pic2 from '../../assests/Images/Main Page Images/5231019.png';
+import pic3 from '../../assests/Images/Main Page Images//5719511.png';
+import pic4 from '../../assests/Images/Main Page Images/6889369.png';
+import pic5 from '../../assests/Images/Main Page Images/7084424.png';
+import pic6 from '../../assests/Images/Main Page Images/921053.png';
 // function
 
 const Review= ()=>{

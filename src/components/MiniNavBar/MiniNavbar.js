@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/mini nav.css";
+import "./mini nav.css";
 
 function MiniNav (props) {
     return (

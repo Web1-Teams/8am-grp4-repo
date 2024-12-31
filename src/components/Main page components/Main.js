@@ -1,8 +1,8 @@
 import NavBar from "../navbar/Navbar"
 import './styles_main ar.css'
-import TopTopic from "../TopTopic"
-import Footer from "../Footer"
-import Review from "../Review"
+import TopTopic from "../toptopic/TopTopic"
+import Review from "../Review/Review"
+import Footer from "../Footer/Footer"
 
 const Main=()=>{
     return (
