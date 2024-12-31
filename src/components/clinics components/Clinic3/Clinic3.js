@@ -2,7 +2,9 @@ import Exercise from "../../clinic3ComponentsTemp/Exercise";
 import Exercise2 from "../../clinic3ComponentsTemp/Exercise2";
 import Footer from "../../Footer/Footer";
 import Header from "../../header/Header";
+import Navbar from "../../navbar/Navbar";
 import Review from "../../Review/Review";
+
 // import Navbar from "../../navbar/Navbar"
 import SimpleArtTherapyExercises from "../../clinic3ComponentsTemp/SimpleArtTherapyExercises";
 
@@ -11,9 +13,15 @@ const Clinic3 = (props) => {
     return ( 
        <div>
          {/* <NavBar/> */}
+
+import "../Clinic3/Styles_C3.css"
+const Clinic3 = (props) => {
+    return ( 
+       <div>
+         <Navbar/>
+
      
         
-         
           <Header
            ClinicName="Mental Health Clinic"
            ClinicAyah="{Those who have believed and whose hearts are assured by the remembrance of Allah. Unquestionably, by the remembrance of Allah hearts are assured.}"
