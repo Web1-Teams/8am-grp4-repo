@@ -8,6 +8,10 @@ import Footer from "../Footer";
 
 const CleanEatClinic = (props) => {
 return (
+    <div className="main-container">
+    <div className="main-frame">
+        <h1>The Impact of Healthy and Clean Nutrition on Hair Health</h1>
+
     <details>
     <summary>The Impact of Nutrition on Promoting Hair Growth</summary>
     <div class="container">
@@ -53,7 +57,8 @@ return (
       instructions="1. Chop one or two peeled carrots into small pieces and blend them in a blender with 1 cup of coconut water.\n2. Add sugar or salt as desired for taste.\n3. Add the orange pulp and a small piece of ginger to the mixture.\n4. Blend the mixture until it becomes a smooth, semi-liquid consistency.\n5. You can either strain the juice or enjoy it as is. Serve immediately."
     />
         </details>
-
+</div>
+</div>
     )
 };   
 
