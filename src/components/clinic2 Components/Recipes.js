@@ -24,6 +24,10 @@ function Recipes (props) {
             <p className="ingredient-name">{props.ingName3}</p>
             <p className="ingredient-info">{props.ingDescription3}</p>
           </div>
+          <div className="ingredient-item">
+            <p className="ingredient-name">{props.ingName4}</p>
+            <p className="ingredient-info">{props.ingDescription4}</p>
+          </div>
         </div>
       
         <h2 className="section-title">Instructions</h2>
