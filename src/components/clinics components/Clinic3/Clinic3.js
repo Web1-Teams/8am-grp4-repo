@@ -3,12 +3,14 @@ import Exercise2 from "../../clinic3ComponentsTemp/Exercise2";
 import Footer from "../../Footer/Footer";
 import Header from "../../header/Header";
 import Review from "../../Review/Review";
-import Navbar from "../../navbar/Navbar"
+// import Navbar from "../../navbar/Navbar"
+import SimpleArtTherapyExercises from "../../clinic3ComponentsTemp/SimpleArtTherapyExercises";
+
 
 const Clinic3 = (props) => {
     return ( 
        <div>
-         <NavBar/>
+         {/* <NavBar/> */}
      
         
          
@@ -90,6 +92,104 @@ const Clinic3 = (props) => {
       Duration="5-10 minutes daily."
      video="https://youtu.be/7W1wUmI9ULw?si=YJoNpzTku_E6D9YO"
      />
+      <div className="artTherapy">
+        <h2>Art Therapy</h2>
+        <p className="ArtTherapy">
+          Art Therapy is a form of expressive therapy that uses creative processes such as drawing, coloring,
+          <br />
+          sculpting, or collage-making to help individuals explore and express their emotions,
+          <br />
+          improve mental health, and gain personal insights. It is not about artistic skills
+          <br />
+          but about self-expression and the healing journey.
+        </p>
+        <section className="mentalTechniques">
+          <h2>Common Techniques in Art Therapy</h2>
+          <ol>
+            <li>
+              <b>Spontaneous Drawing:</b> Helps participants draw what they feel without prior planning.
+            </li>
+            <li>
+              <b>Coloring:</b> Coloring books can be used as a way to relieve stress.
+            </li>
+            <li>
+              <b>Collage Making:</b> Combining images and magazine clippings reflects different aspects of one's personality.
+            </li>
+            <li>
+              <b>Clay Sculpting:</b> Allows individuals to express their emotions in a tangible form.
+            </li>
+          </ol>
+        </section>
+        <section className="mentalColorImportance">
+          <h2>The Importance of Colors in Art Therapy</h2>
+          <ul>
+            <li>
+              <b>Warm Colors:</b> Such as red and orange, can express energy, anger, or passion.
+            </li>
+            <li>
+              <b>Cool Colors:</b> Such as blue and green, help calm the mind and promote relaxation.
+            </li>
+            <li>
+              <b>Black:</b> Can signify sadness or strength, depending on the context.
+            </li>
+            <li>
+              <b>Yellow: </b>Reflects optimism and positivity.
+            </li>
+          </ul>
+          <p>Choose colors that resonate with you and let them guide your artistic expression.</p>
+        </section>
+      </div>
+      <h2>How Sleep Affects Mental Health</h2>
+      <section className="sleepMentalHealth">
+        <h3>Emotional Regulation</h3>
+        <p>
+          Adequate sleep helps maintain emotional balance. Sleep deprivation can heighten emotional reactivity, making it harder to cope with stress or conflict.
+        </p>
+
+        <h3>Cognitive Function</h3>
+        <p>
+          Sleep plays a critical role in decision-making, problem-solving, and concentration. Chronic sleep deprivation impairs these functions, leading to forgetfulness, confusion, or difficulty focusing.
+        </p>
+
+        <h3>Mental Health Disorders</h3>
+        
+        <p>
+          Insomnia and poor sleep quality are often linked to anxiety, depression, and bipolar disorder. In some cases, sleep disturbances can be both a symptom and a cause of these conditions.
+        </p>
+
+        <h3>Signs of Poor Sleep Hygiene</h3>
+        <ul>
+          <li>Difficulty falling asleep or staying asleep.</li>
+          <li>Feeling tired despite getting enough hours of sleep.</li>
+          <li>Relying on naps or stimulants like caffeine to stay awake.</li>
+          <li>Experiencing disrupted or restless sleep due to stress or physical discomfort.</li>
+        </ul>
+
+        <h3>Physical and Emotional Benefits of Quality Sleep</h3>
+        <ul>
+          <li><b>Stress Reduction:</b> Restful sleep lowers cortisol levels, reducing stress.</li>
+          <li><b>Improved Mood:</b> Adequate sleep fosters positivity and resilience.</li>
+          <li><b>Strengthened Relationships:</b> Better emotional regulation reduces conflict.</li>
+          <li><b>Enhanced Physical Health:</b> Sleep supports immune function and cardiovascular health.</li>
+        </ul>
+
+        <h3>Creating Better Sleep Habits</h3>
+        <ul>
+          <li><b>Consistency is Key:</b> Sleep and wake at the same time daily.</li>
+          <li><b>Relax Before Bed:</b> Develop a calming bedtime routine.</li>
+          <li><b>Limit Stimuli:</b> Avoid screens and loud noises before bedtime.</li>
+          <li><b>Optimize Environment:</b> Keep your room cool, dark, and quiet.</li>
+          <li><b>Avoid Sleep Disruptors:</b> Limit caffeine and alcohol before bed.</li>
+        </ul>
+
+        <h3>When to Seek Professional Help</h3>
+        <p>
+          If sleep disturbances persist, consult a healthcare professional. Conditions like insomnia, sleep apnea, and chronic stress may require specialized treatments such as cognitive-behavioral therapy for insomnia (CBT-I).
+        </p>
+      </section>
+      
+      {/* <Sound /> */}
+      <SimpleArtTherapyExercises />
          <Review/>
          <Footer/>
         
