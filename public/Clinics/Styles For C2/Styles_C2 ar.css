@@ -98,6 +98,29 @@
     border-bottom: 1px solid #ccc;
 }
 
+/* General Container Style */
+.main-container {
+  width: 80%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Main Frame Style (Large Frame for Main Title and Sub Frames) */
+.main-frame {
+  border: 3px solid #ddd;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Main Title Style */
+.main-frame h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
 
 body {
     direction: rtl;
@@ -241,6 +264,11 @@ body {
 header h1 {
     color: #303F6F;
 }
+
+.mask-title{
+  font-size: 500px;
+}
+
 details {
     margin-bottom: 15px;
     border: 1px solid #ccc;
