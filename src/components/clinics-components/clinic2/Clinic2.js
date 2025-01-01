@@ -1,9 +1,9 @@
 import React from "react";
 import "../../styles/Styles_C2.css";
-import BookList from "../Books/BookList";
-import IntroSection from "../clinic2 Components/IntroSection";
+// import BookList from "../Books/BookList";
+// import IntroSection from "../clinic2 Components/IntroSection";
 import Navbar from "../navbar/Navbar";
-import RecipeCard from "../clinic2 Components/RecipeCard";
+// import RecipeCard from "../clinic2 Components/RecipeCard";
 import { BrowserRouter as Router, Route, Routes, Link} from "react-router-dom";
 import HairCareClinic from "../clinic2 Components/HairCareClinic";
 import RecipesS from "../clinic2 Components/RecipesS";

@@ -1,9 +1,9 @@
 import Exercise from "../../clinic3ComponentsTemp/Exercise";
 import Exercise2 from "../../clinic3ComponentsTemp/Exercise2";
-import Footer from "../../Footer/Footer";
+import Footer from "../../footer/Footer";
 import Header from "../../header/Header";
 import Navbar from "../../navbar/Navbar";
-import Review from "../../Review/Review";
+import Review from "../../review/Review";
 import "../Clinic3/Styles_C3.css"
 const Clinic3 = (props) => {
     return ( 
