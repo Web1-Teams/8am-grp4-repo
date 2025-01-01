@@ -342,7 +342,7 @@ const Clinic2 = () => {
             </div>
 
             <Router>
-                <div className="services-container">
+                <div className="services-container">  {/* must be deleted and import the component */}
                     <h3>Our Services</h3>
                     <div className="services-grid">
                         <Link
