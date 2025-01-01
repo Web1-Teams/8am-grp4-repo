@@ -1,7 +1,7 @@
 import './styles_main ar.css'
-import TopTopic from "../../toptopic/TopTopic"
-import Review from "../../review/Review"
-import Footer from "../../footer/Footer"
+import TopTopic from "../toptopic/TopTopic"
+import Review from "../Review/Review"
+import Footer from "../Footer/Footer"
 
 const Main=()=>{
     return (
