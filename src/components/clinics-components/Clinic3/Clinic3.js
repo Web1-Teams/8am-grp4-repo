@@ -3,18 +3,13 @@ import Exercise2 from "../../clinic3ComponentsTemp/Exercise2";
 import Footer from "../../footer/Footer";
 import Header from "../../header/Header";
 import Navbar from "../../navbar/Navbar";
-import Review from "../../Review/Review";
+import Review from "../../review/Review";
+import "../Clinic3/Styles_C3.css";
 
 // import Navbar from "../../navbar/Navbar"
 import SimpleArtTherapyExercises from "../../clinic3ComponentsTemp/SimpleArtTherapyExercises";
 
 
-const Clinic3 = (props) => {
-    return ( 
-       <div>
-         {/* <NavBar/> */}
-
-import "../Clinic3/Styles_C3.css"
 const Clinic3 = (props) => {
     return ( 
        <div>
