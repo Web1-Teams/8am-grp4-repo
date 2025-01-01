@@ -1,5 +1,3 @@
-/*
-
 import React from "react";
 import "./BookList.css";
 import book1 from "../../assests/Images/imagesForC2/book1.jpg";
@@ -48,4 +46,3 @@ function BookList() {
 }
 
 export default BookList;
-*/
