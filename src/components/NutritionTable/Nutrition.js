@@ -1,5 +1,5 @@
 
-import Table from './NutritionTable/Table'; 
+import Table from './nutritionTable/Table'; 
 const NutritionTables = () => {
   return (
     <div>

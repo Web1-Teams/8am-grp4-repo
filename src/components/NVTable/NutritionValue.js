@@ -1,5 +1,5 @@
 import React from "react";
-import "../../components/NVTable/NutritionTable.css";
+import "./NutritionTable.css";
 
 const Table = ({ title, rows }) => {
   return (

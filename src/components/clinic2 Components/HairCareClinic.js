@@ -3,7 +3,7 @@ import "../../styles/Styles_C2.css";
 import IntroSection from "./IntroSection";
 import Navbar from "../navbar/Navbar";
 import RecipeCard from "./RecipeCard";
-import BookList from "../Books/BookList";
+import BookList from "../books/BookList";
 import Footer from "../Footer";
 import mint from "../../assests/Images/imagesForC2/strawberryjuice.jpg";
 

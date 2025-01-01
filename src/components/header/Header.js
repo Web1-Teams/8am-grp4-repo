@@ -1,7 +1,7 @@
  import React from "react";
  import classNames from "classnames";
-import MiniNav from "../MiniNavBar/MiniNavbar";
  import "./Header.css";
+import MiniNav from "../MiniNavBar/MiniNavbar";
  const Header = (props) => {
  
    const headerClass = classNames("card", props.className);
