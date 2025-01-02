@@ -5,7 +5,42 @@ import Navbar from "../navbar/Navbar";
 import RecipeCard from "./RecipeCard";
 import BookList from "../books/BookList";
 import Footer from "../Footer";
-import mint from "../../assests/Images/imagesForC2/strawberryjuice.jpg";
+
+import coconutOilandHoney from "../../assests/Images/imagesForC2/coconutOilandHoney.jpg";
+import avocadoANDegg from "../../assests/Images/imagesForC2/avocadoANDegg.jpg";
+import hotOliveOil from "../../assests/Images/imagesForC2/hotOliveOil.jpg";
+import bananaANDhoney from "../../assests/Images/imagesForC2/bananaANDhoney.jpg";
+import aloeveraAndArganOil from "../../assests/Images/imagesForC2/aloeveraAndArganOil.jpg";
+
+import castorOil from "../../assests/Images/imagesForC2/castorOil.jpg";
+import henna from "../../assests/Images/imagesForC2/henna.jpg";
+import helbah from "../../assests/Images/imagesForC2/helbah.jpg";
+import egg from "../../assests/Images/imagesForC2/egg.jpg";
+import yogurtANDhoney from "../../assests/Images/imagesForC2/yogurtANDhoney.jpg";
+
+import garlicAndHoney from "../../assests/Images/imagesForC2/garlicAndHoney.jpg";
+import coconutOilandlemon from "../../assests/Images/imagesForC2/coconutOilandlemon.jpg";
+import oliveOil from "../../assests/Images/imagesForC2/oliveOil.jpg";
+import teaTreeOil from "../../assests/Images/imagesForC2/teaTreeOil.jpg";
+import appleCider from "../../assests/Images/imagesForC2/appleCider.jpg";
+
+import rosmaryOil from "../../assests/Images/imagesForC2/rosemaryoil.jpg";
+import amlaPowder from "../../assests/Images/imagesForC2/amlaPowder.jpg";
+import sesameOil from "../../assests/Images/imagesForC2/sesameoil.jpg";
+import riceWater from "../../assests/Images/imagesForC2/riceWater.jpg";
+import bananaHoney from "../../assests/Images/imagesForC2/bananaHoney.jpg";
+
+import arganOil from "../../assests/Images/imagesForC2/arganoil.jpg";
+import aloevera from "../../assests/Images/imagesForC2/aloevera.jpg";
+import sweetAlmondOil from "../../assests/Images/imagesForC2/mintANDcoconutOil.jpg";
+import coconutAndMintOil from "../../assests/Images/imagesForC2/riceWater.jpg";
+import yogurtAndOats from "../../assests/Images/imagesForC2/yogurtANDoats.jpg";
+
+import vaslean from "../../assests/Images/imagesForC2/vaslean.jpg";
+import kettanOil from "../../assests/Images/imagesForC2/kettanOil.jpg";
+import roseWater from "../../assests/Images/imagesForC2/roseWater.jpg";
+import greenTea from "../../assests/Images/imagesForC2/greenTea.jpg";
+import milk from "../../assests/Images/imagesForC2/milk.jpg";
 
 
 const HairCareClinic = (props) => {
@@ -20,7 +55,7 @@ const HairCareClinic = (props) => {
   </div>
   <Recipes 
     recipeName="Coconut Oil & Honey Mask"
-    image = {mint}
+    image = {coconutOilandHoney}
     description="Coconut oil is a magical ingredient for your hair. It deeply nourishes and hydrates hair from roots to ends, enhancing its shine. Honey is a natural humectant that retains moisture in your hair, making it ideal for dry hair. It also works as an emollient, softening and smoothing your hair while restoring its shine and vitality."
     ingName1="1 tbsp coconut oil"
     ingDescription1="Coconut oil deeply nourishes and hydrates the hair, enhancing its shine."
@@ -30,7 +65,7 @@ const HairCareClinic = (props) => {
   />
   <Recipes 
     recipeName="Avocado & Egg Mask"
-    image={'/project images/avocado and egg mask.jpg'} 
+    image = {avocadoANDegg}
     description="This mask is perfect for nourishing and strengthening your hair. Avocado is rich in healthy fats that deeply moisturize, while eggs provide protein to strengthen hair strands. The addition of rose oil offers a pleasant fragrance and added nourishment, and castor oil promotes hair growth and adds shine."
     ingName1="1 medium avocado"
     ingDescription1="Rich in healthy fats that deeply moisturize hair."
@@ -45,7 +80,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Hot Olive Oil Treatment"
-    image={'./project images/hot oil hair treatment.jpg'} 
+    image = {hotOliveOil}
     description="This hot oil treatment is designed to protect and nourish dry hair. Olive oil works to deeply hydrate the scalp, repair split ends, and strengthen weak hair strands. Combined with coconut oil and jojoba oil, this treatment restores shine, combats free radicals, and prevents premature graying. Perfect for reducing hair thinning and breakage, this monthly treatment is a natural solution for revitalizing dry hair."
     ingName1="Coconut oil"
     ingDescription1="Provides deep hydration and nourishment for dry hair."
@@ -58,7 +93,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Aloe Vera & Argan Oil Mask"
-    image={'./project images/aloe vera argan oil mask.jpg'}
+    image = {bananaANDhoney}
     description="This mask deeply moisturizes and strengthens hair, making it perfect for treating split ends. Aloe vera provides soothing hydration, while argan oil enhances hair softness and shine."
     ingName1="2 tbsp aloe vera gel"
     ingDescription1="Aloe vera soothes and deeply hydrates the scalp and hair."
@@ -70,7 +105,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Banana & Honey Mask"
-    image={'./project images/banana and honey mask.jpg'} 
+    image = {aloeveraAndArganOil}
     description="This mask is perfect for hydrating and soothing dry hair. Banana nourishes the hair, while honey provides antioxidant properties and helps reduce dandruff."
     ingName1="1 ripe banana"
     ingDescription1="Banana nourishes the hair and helps improve its texture."
@@ -90,7 +125,7 @@ const HairCareClinic = (props) => {
 
   <Recipes 
     recipeName="Castor Oil Treatment"
-    image={'./project images/castor-oil.jpg'} 
+    image = {castorOil}
     description="Castor oil is a natural remedy for hair loss, known for its ability to nourish the scalp, strengthen hair follicles, and promote healthy hair growth."
     ingName1="Equal parts of:"
     ingDescription1="Castor oil, coconut oil, sweet almond oil, and sesame oil."
@@ -100,7 +135,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Fenugreek Hair Mask"
-    image={'./project images/fenugreek.jpg'} 
+    image = {helbah}
     description="Fenugreek helps to prevent hair loss, promote hair shine and softness, and enhance the health of hair follicles."
     ingName1="2 tbsp fenugreek seeds (ground)"
     ingDescription1="Rich in proteins, iron, and niacin, helps prevent hair loss and enhance shine."
@@ -111,7 +146,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Egg Hair Mask"
-    image={'./project images/egg.jpg'} 
+    image = {egg}
     description="Eggs are rich in proteins that help rebuild keratin in the hair, reducing hair loss and repairing damaged hair."
     ingName1="2-3 whole eggs"
     ingDescription1="Rich in proteins that strengthen hair and reduce hair loss."
@@ -122,7 +157,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Yogurt and Honey Hair Mask"
-    image={'./project images/yogurt-honey.jpg'} 
+    image = {yogurtANDhoney}
     description="This mask nourishes, hydrates, and strengthens hair, reduces dandruff, and promotes healthy hair growth."
     ingName1="Honey"
     ingDescription1="Contains antioxidants and antibacterial properties, helping to reduce hair fall and treat dandruff."
@@ -133,7 +168,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Natural Henna Hair Treatment"
-    image={'./project images/henna.jpg'} 
+    image = {henna}
     description="Henna helps strengthen hair, prevent hair loss, reduce dandruff, and promote healthy, shiny hair growth."
     ingName1="25-50g of henna powder"
     ingDescription1="Contains nutrients and organic acids that strengthen hair and prevent hair loss."
@@ -155,7 +190,7 @@ const HairCareClinic = (props) => {
 
   <Recipes 
     recipeName="Garlic and Honey Scalp Treatment"
-    image={'./project images/garlic_honey.jpg'} 
+    image = {garlicAndHoney}
     description="Garlic has antifungal properties that help eliminate dandruff, while honey soothes and nourishes the scalp."
     ingName1="Several garlic cloves"
     ingDescription1="Rich in antifungal properties to combat dandruff."
@@ -166,7 +201,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Coconut & Lemon Scalp Treatment"
-    image={'./project images/coconut_lemon.jpg'} 
+    image = {coconutOilandlemon}
     description="Coconut oil nourishes the scalp and eliminates dandruff, while lemon juice helps balance the scalp and reduce flakes."
     ingName1="2 tbsp coconut oil"
     ingDescription1="Nourishes and hydrates the scalp, helping to eliminate dandruff."
@@ -177,7 +212,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Olive Oil Scalp Treatment"
-    image={'./project images/olive_oil.jpeg'} 
+    image = {oliveOil}
     description="Olive oil is rich in antioxidants and nourishes the scalp, helping to reduce dandruff and improve hair health."
     ingName1="Olive oil"
     ingDescription1="Packed with antioxidants to nourish the scalp and reduce dandruff."
@@ -186,7 +221,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Tea Tree Oil Scalp Treatment"
-    image={'./project images/tea_tree_oil.jpg'} 
+    image = {teaTreeOil}
     description="Tea tree oil is commonly used as a natural remedy for dandruff, helping to eliminate flakes and soothe the scalp."
     ingName1="10 drops of tea tree oil"
     ingDescription1="Known for its antibacterial and antifungal properties to help reduce dandruff."
@@ -198,7 +233,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Apple Cider Vinegar for Dandruff"
-    image={'./project images/apple_cider_vinegar.jpg'} 
+    image = {appleCider}
     description="Apple cider vinegar helps balance the pH of the scalp, combat bacteria, and reduce dandruff."
     ingName1="3 tablespoons of apple cider vinegar"
     ingDescription1="Helps balance the scalp's pH and fight bacteria and fungi causing dandruff."
@@ -216,7 +251,7 @@ const HairCareClinic = (props) => {
   </div>
   <Recipes 
     recipeName="Rosemary Oil for Hair Growth"
-    image={'./project images/rosemary.jpg'} 
+    image = {rosmaryOil}
     description="Rosemary oil is known for its ability to combat hair loss and stimulate new hair growth due to its anti-inflammatory properties and its ability to improve blood circulation to the scalp."
     ingName1="5 drops of rosemary oil"
     ingDescription1="Known for stimulating hair growth and improving blood circulation to the scalp."
@@ -227,7 +262,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Amla Powder Hair Growth Treatment"
-    image={'./project images/amla powder.jpg'} 
+    image = {amlaPowder}
     description="Amla powder helps in stimulating hair growth, strengthening hair, and preventing hair loss. It's packed with antioxidants and nutrients that promote healthy hair growth."
     ingName1="1 tablespoon of olive oil"
     ingDescription1="Helps nourish and strengthen the hair."
@@ -240,7 +275,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Sesame Oil Hair Mask"
-    image={'./project images/sesame oil.jpg'} 
+    image = {sesameOil}
     description="Sesame oil helps stimulate hair growth, prevent early graying, and protect hair from harmful sun rays. A natural solution for healthy, thick hair!"
     ingName1="1 tablespoon of castor oil"
     ingDescription1="Helps nourish the scalp and stimulate hair growth."
@@ -255,7 +290,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Fermented Rice Water Hair Mask"
-    image={'./project images/fermented-rice-water.jpg'} 
+    image = {riceWater}
     description="Fermented rice water promotes hair growth, strengthens the hair structure, and adds shine, leaving your hair thick, strong, and glossy."
     ingName1="1/2 cup of organic white rice"
     ingDescription1="The base ingredient for creating rice water."
@@ -266,7 +301,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Banana and Honey Hair Mask"
-    image={'./project images/banana-honey-mask.jpg'} 
+    image = {bananaHoney}
     description="The banana and honey mask is a natural and popular remedy for improving hair health, providing nourishment, hydration, and shine to the hair."
     ingName1="1 ripe banana"
     ingDescription1="Rich in vitamins A, B, and C, and minerals like potassium and magnesium for healthy, shiny hair."
@@ -287,7 +322,7 @@ const HairCareClinic = (props) => {
 </div>
 <Recipes 
     recipeName="Argan Oil"
-    image={'./project images/argan_oil.jpg'} 
+    image = {arganOil}
     description="Argan oil is rich in fatty acids and antioxidants like Vitamin E, providing deep hydration, shine, and protection against hair loss."
     ingName1="8-10 drops of argan oil"
     ingDescription1="Packed with fatty acids and Vitamin E to nourish and hydrate the hair."
@@ -296,7 +331,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Aloe Vera Hair Mask"
-    image={'./project images/Aloe_vera_hair.jpg'} 
+    image = {aloevera}
     description="Aloe vera nourishes and moisturizes the hair, helping to reduce hair fall and dandruff while promoting smoothness and shine."
     ingName1="4 tablespoons of Aloe Vera gel"
     ingDescription1="Hydrates and nourishes the hair."
@@ -308,7 +343,7 @@ const HairCareClinic = (props) => {
 />
 <Recipes 
     recipeName="Almond Oil for Hair"
-    image={'./project images/almond oil.jpg'} 
+    image = {sweetAlmondOil}
     description="Almond oil nourishes and softens the hair, helping to increase shine and smoothness, especially when applied after a shower."
     ingName1="Sweet Almond Oil"
     ingDescription1="Rich in vitamins and minerals that hydrate and nourish the hair."
@@ -317,7 +352,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Peppermint Oil and Coconut Oil"
-    image={'./project images/peppermint oil.jpg'} 
+    image = {coconutAndMintOil}
     description="Peppermint oil promotes hair growth, alleviates scalp irritation, and gives your hair a refreshing scent when combined with coconut oil."
     ingName1="Peppermint oil"
     ingDescription1="Enhances blood circulation to the scalp, stimulates hair follicles, and reduces scalp itchiness."
@@ -328,7 +363,7 @@ const HairCareClinic = (props) => {
 
 <Recipes 
     recipeName="Oatmeal and Yogurt Mask"
-    image={'./project images/oatmeal yogurt mask.jpg'} 
+    image = {yogurtAndOats}
     description="Oatmeal nourishes the hair and helps promote growth, while yogurt adds moisture and shine to the hair."
     ingName1="3 tablespoons oatmeal"
     ingDescription1="Rich in essential nutrients like zinc and vitamins to strengthen and nourish hair."
@@ -343,73 +378,6 @@ const HairCareClinic = (props) => {
       </details>
     </div>
 
-    <div>
-  <details>
-    <summary>Hair Smoothing Remedies</summary>
-    <div className="container">
-      <p>
-        Discover effective solutions to smooth and soften your hair, leaving it shiny and manageable. These easy-to-follow remedies nourish and hydrate your hair, restoring its natural softness and promoting a healthy, silky texture.
-      </p>
-</div>
-<Recipes
-    recipeName="Argan Oil"
-    image="./project images/argan_oil.jpg"
-    description="Argan oil is rich in fatty acids and antioxidants like Vitamin E, providing deep hydration, shine, and protection against hair loss."
-    ingName1="8-10 drops of argan oil"
-    ingDescription1="Packed with fatty acids and Vitamin E to nourish and hydrate the hair."
-    instructions="1. Massage 8-10 drops of argan oil onto your scalp using your fingers for 10 minutes, ensuring even coverage from roots to tips. 2. Wrap your hair with a towel and leave it overnight. 3. Wash your hair in the morning. 4. Repeat this treatment twice a week for optimal results."
- />
-
-<Recipes
-    recipeName="Aloe Vera Hair Mask"
-    image="./project images/Aloe_vera_hair.jpg"
-    description="Aloe vera nourishes and moisturizes the hair, helping to reduce hair fall and dandruff while promoting smoothness and shine."
-    ingName1="4 tablespoons of Aloe Vera gel"
-    ingDescription1="Hydrates and nourishes the hair."
-    ingName2="3 tablespoons of yogurt"
-    ingDescription2="Provides protein and cleanses the scalp."
-    ingName3="2 tablespoons of coconut oil"
-    ingDescription3="Helps to moisturize and condition the hair."
-    instructions="1. Mix 4 tablespoons of Aloe Vera gel, 3 tablespoons of yogurt, and 2 tablespoons of coconut oil to form a smooth paste. 2. Apply the mixture to your hair and scalp. 3. Leave the mask on for 30 minutes. 4. Wash your hair with cold water. 5. Repeat this treatment once a week for the best results."
- />
-
-<Recipes
-    recipeName="Almond Oil for Hair"
-    image="./project images/almond oil.jpg"
-    description="Almond oil nourishes and softens the hair, helping to increase shine and smoothness, especially when applied after a shower."
-    ingName1="Sweet Almond Oil"
-    ingDescription1="Rich in vitamins and minerals that hydrate and nourish the hair."
-    instructions="1. Apply a small amount of sweet almond oil to your hands. 2. Gently massage the oil into your scalp and hair, focusing on the ends. 3. Leave the oil on for about 30 minutes, covering your hair with a towel. 4. Wash your hair thoroughly. 5. For an enhanced effect, repeat this treatment weekly for smoother and shinier hair."
- />
-
-      <Recipes
-    recipeName="Peppermint Oil and Coconut Oil"
-    image="./project images/peppermint oil.jpg"
-    description="Peppermint oil promotes hair growth, alleviates scalp irritation, and gives your hair a refreshing scent when combined with coconut oil."
-    ingName1="Peppermint oil"
-    ingDescription1="Enhances blood circulation to the scalp, stimulates hair follicles, and reduces scalp itchiness."
-    ingName2="Coconut oil"
-    ingDescription2="Moisturizes the hair, adds shine, and nourishes the scalp."
-    instructions="1. Mix 2-3 drops of peppermint oil with 2 tablespoons of coconut oil. 2. Gently massage the mixture into your scalp for 5-10 minutes. 3. Leave it on for 30 minutes before washing your hair with shampoo. 4. For added benefits, you can also add 2-3 drops of peppermint oil to your regular shampoo or conditioner."
- />
-
-<Recipes
-    recipeName="Oatmeal and Yogurt Mask"
-    image="./project images/oatmeal yogurt mask.jpg"
-    description="Oatmeal nourishes the hair and helps promote growth, while yogurt adds moisture and shine to the hair."
-    ingName1="3 tablespoons oatmeal"
-    ingDescription1="Rich in essential nutrients like zinc and vitamins to strengthen and nourish hair."
-    ingName2="1/2 teaspoon yogurt"
-    ingDescription2="Moisturizes and adds smoothness to the hair."
-    ingName3="1 tablespoon coconut oil"
-    ingDescription3="Helps hydrate and strengthen the hair."
-    ingName4="1 tablespoon honey"
-    ingDescription4="Natural humectant that helps retain moisture and adds shine."
-    instructions="1. Boil the oatmeal with yogurt in a deep bowl and mix thoroughly. 2. Add the honey and coconut oil to the mixture and blend again with a hand mixer to create a smooth paste. 3. Apply the mask to your hair and leave it on for 30 minutes. 4. Wash your hair as usual."
- />
-  </details>
-  </div>
-
 
   <div>
   <details>
@@ -421,7 +389,7 @@ const HairCareClinic = (props) => {
     </div>
     <Recipes
     recipeName="Vaseline for Eyelash Growth & Thickness"
-    image="./project images/vaseline for eyelashes.jpg"
+    image = {vaslean}
     description="While Vaseline doesn't speed up eyelash growth, it helps moisturize and make them appear thicker. It prevents moisture loss, leaving lashes looking fuller and healthier."
     ingName1="Vaseline"
     ingDescription1="Moisturizes and prevents moisture loss, making lashes appear thicker and fuller."
@@ -430,7 +398,7 @@ const HairCareClinic = (props) => {
 
 <Recipes
     recipeName="Green Tea for Eyelash Growth"
-    image="./project images/green tea for eyelashes.jpg"
+    image = {greenTea}
     description="Green tea is rich in antioxidants and vitamins that help stimulate eyelash growth. The catechins and vitamin C found in green tea promote healthy, fuller lashes."
     ingName1="Green tea (cooled)"
     ingDescription1="Rich in antioxidants and catechins that promote eyelash growth."
@@ -441,7 +409,7 @@ const HairCareClinic = (props) => {
 
 <Recipes
     recipeName="Rose Water for Eyelash Thickening"
-    image="./project images/rosewater for eyelashes.jpg"
+    image = {roseWater}
     description="Rose water is packed with antioxidants and vitamins such as Vitamin A, E, C, D, and B3, which help nourish and strengthen the eyelashes, promoting longer and thicker lashes over time."
     ingName1="Rose water"
     ingDescription1="Rich in antioxidants and vitamins that promote eyelash growth and thickness."
@@ -452,7 +420,7 @@ const HairCareClinic = (props) => {
 
 <Recipes
     recipeName="Flaxseed for Eyelash and Eyebrow Thickening"
-    image="./project images/flaxseed for eyelashes.jpg"
+    image = {kettanOil}
     description="Flaxseeds help thicken and strengthen both eyelashes and eyebrows. They are rich in essential fatty acids and antioxidants that promote healthy hair growth and prevent hair breakage."
     ingName1="Flaxseed oil"
     ingDescription1="Rich in omega-3 fatty acids that promote hair growth and strength."
@@ -463,7 +431,7 @@ const HairCareClinic = (props) => {
 
 <Recipes
     recipeName="Cold Milk for Eyelash Growth & Thickness"
-    image="./project images/cold milk for lashes.jpg"
+    image = {milk}
     description="Cold milk is a natural ingredient that helps nourish and thicken the eyelashes. It contains proteins and vitamins that promote healthy eyelash growth, making them appear longer and thicker."
     ingName1="Cold milk"
     ingDescription1="Contains proteins and vitamins that nourish and strengthen the eyelashes."
