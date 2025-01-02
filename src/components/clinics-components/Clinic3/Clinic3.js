@@ -4,26 +4,16 @@ import Footer from "../../Footer/Footer";
 import Header from "../../header/Header";
 import Navbar from "../../navbar/Navbar";
 import Review from "../../Review/Review";
-<<<<<<< HEAD:src/components/clinics components/Clinic3/Clinic3.js
 import "../Clinic3/Styles_C3.css"
 import SimpleArtTherapyExercises from "../../clinic3ComponentsTemp/SimpleArtTherapyExercises";
 import BenefitsSection from "../../Benefites/BenefitsSection";
 import { SlackIcon } from "hugeicons-react";
 
-=======
-import "../Clinic3/Styles_C3.css";
-
-// import Navbar from "../../navbar/Navbar"
-import SimpleArtTherapyExercises from "../../clinic3ComponentsTemp/SimpleArtTherapyExercises";
->>>>>>> main:src/components/clinics-components/Clinic3/Clinic3.js
 
 
 const Clinic3 = (props) => {
     return ( 
-<<<<<<< HEAD:src/components/clinics components/Clinic3/Clinic3.js
       
-=======
->>>>>>> main:src/components/clinics-components/Clinic3/Clinic3.js
        <div>
          <Navbar/>
 
