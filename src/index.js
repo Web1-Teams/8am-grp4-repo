@@ -1,6 +1,10 @@
 import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
+<<<<<<< HEAD
+import Clinic3 from './components/clinics components/Clinic3/Clinic3';
+=======
 import App from './App';
+>>>>>>> main
 
 
 
