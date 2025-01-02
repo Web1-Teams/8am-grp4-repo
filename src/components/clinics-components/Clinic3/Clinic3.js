@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import Exercise from "../../clinic3ComponentsTemp/Exercise";
 import Exercise2 from "../../clinic3ComponentsTemp/Exercise2";
 import Footer from "../../footer/Footer";
@@ -8,13 +9,20 @@ import "../Clinic3/Styles_C3.css";
 
 // import Navbar from "../../navbar/Navbar"
 import SimpleArtTherapyExercises from "../../clinic3ComponentsTemp/SimpleArtTherapyExercises";
+import Canvas from '../../clinic3ComponentsTemp/canvass/Canvas';
 
 
 const Clinic3 = (props) => {
+  const navigate = useNavigate();
+
+  const handleOpenCanvas = () => {
+    navigate('/canvas');
+  };
+
+
     return ( 
        <div>
          <Navbar/>
-
      
         
           <Header
@@ -98,6 +106,10 @@ const Clinic3 = (props) => {
       <div className="artTherapy">
         <h2>Art Therapy</h2>
         <p className="ArtTherapy">
+
+      <button onClick={handleOpenCanvas} className="openCanvasButton">
+        Open Canvas
+      </button>
           Art Therapy is a form of expressive therapy that uses creative processes such as drawing, coloring,
           <br />
           sculpting, or collage-making to help individuals explore and express their emotions,

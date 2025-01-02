@@ -7,6 +7,7 @@ import TopTopic from "./components/toptopic/TopTopic";
 import Review from "./components/review/Review";
 import Footer from "./components/footer/Footer";
 import Clinic3 from './components/clinics-components/Clinic3/Clinic3';
+import Canvas from './components/clinic3ComponentsTemp/canvass/Canvas';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
             </Main>
           }
         />
-        <Route path="/src/components/clinics-components/Clinic3" element={<Clinic3 />} />
+        <Route path="/clinic3" element={<Clinic3 />} />
+        <Route path="/canvas" element={<Canvas/>} />
       </Routes>
     </Router>
   );

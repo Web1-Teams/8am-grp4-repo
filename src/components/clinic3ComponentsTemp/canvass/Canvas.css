@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    
+}
+
+#toolbar{
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    position: fixed;
+    top:0 ;
+    background-color:#bebebec7 ;
+    color: #0a335c;
+}
+
+.radcontrol{
+    width: 30px;
+    height: 30px;
+    background-color:#F1F0E8;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.swatch{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5),
+    0px 2px 2px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.swatch.active{
+    border: 2px solid white;
+    box-shadow:inset   0px 1px 2px rgba(0, 0, 0, 0.5) ;
+}
+
+
+
+#saveButton {
+    float: right;
+    margin-left: 20px;
+    padding: 5px 10px;
+    background-color: #0a335c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#saveButton:hover {
+    background-color: #084080;
+}
+
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    #toolbar {
+        padding: 5px; /* Reduce padding for smaller screen */
+        height: auto; /* Let the height adjust automatically */
+        justify-content: space-between; /* Keep items spaced out */
+    }
+
+    .swatch {
+        width: 20px;
+        height: 20px;
+        margin-left: 5px; /* Less margin for mobile */
+    }
+
+    .radcontrol {
+        width: 20px;
+        height: 25px;
+    }
+
+    #saveButton {
+        padding: 8px 15px; /* Adjust padding for mobile */
+        font-size: 14px; /* Slightly smaller text */
+        text-align: center; /* Center button text */
+        white-space: nowrap; /* Prevent text from wrapping */
+    }
+}
