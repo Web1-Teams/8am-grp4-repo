@@ -1,13 +1,42 @@
 import React from "react";
 import Recipes from "./Recipes";
+import image1 from "../../../public/Clinics/images For C2/milk and apple mask.jpg";
+import image2 from "../../../public/Clinics/images For C2/cucumber and lemon mask.jpg";
+import image3 from "../../../public/Clinics/images For C2/yogurt turmeric and honey mask.jpg";
+import image4 from "../../../public/Clinics/images For C2/honey and rice mask.jpg";
+import image5 from "../../../public/Clinics/images For C2/Lemon and turmeric mask.jpg";
+import image6 from "../../../public/Clinics/images For C2/cucumber and rose water mask.jpg";
+import image7 from "../../../public/Clinics/images For C2/coffee and yogurt mask.jpg";
+import image8 from "../../../public/Clinics/images For C2/tea.jpg";
+import image9 from "../../../public/Clinics/images For C2/cucumber.jpg";
+import image10 from "../../../public/Clinics/images For C2/rose water.jpg";
+import image11 from "../../../public/Clinics/images For C2/sweet almond oil.jpg";
+import image12 from "../../../public/Clinics/images For C2/potato.jpg";
+import image13 from "../../../public/Clinics/images For C2/honey.jpg";
+import image14 from "../../../public/Clinics/images For C2/cucumber 2.jpg";
+import image15 from "../../../public/Clinics/images For C2/tea tree oil.jpg";
+import image16 from "../../../public/Clinics/images For C2/apple cider vinegar.webp";
+import image17 from "../../../public/Clinics/images For C2/sodium bicarbonate.webp";
+import image18 from "../../../public/Clinics/images For C2/egg.jpg";
+import image19 from "../../../public/Clinics/images For C2/honey and lemon.jpg";
+import image20 from "../../../public/Clinics/images For C2/oats.webp";
+import image21 from "../../../public/Clinics/images For C2/steam.jpg";
+import image22 from "../../../public/Clinics/images For C2/vaseline.webp";
+import image23 from "../../../public/Clinics/images For C2/olive oil.jpg";
+import image24 from "../../../public/Clinics/images For C2/Aloe vera.jpg";
+import image25 from "../../../public/Clinics/images For C2/honey and turmeric.jpg";
+import image26 from "../../../public/Clinics/images For C2/green tea.png";
+import image27 from "../../../public/Clinics/images For C2/egg.jpg";
 
 const SkinCare = (props) => {
     return (
         <div>
     <details>
         <summary>Skin Brightening and Tone</summary>
+        <div className="container">
         <p>  Discover a variety of masks that will brighten and tone your skin. These recipes are simple to follow and
         provide your skin with the care it needs.</p>
+        </div>
         <Recipes recipeName = "Milk & Apple Mask"
     image = {image1}
   description = " This mask is ideal for all skin types. The lactic acid in the milk helps exfoliate dead skin cells, while the apple's vitamin C helps brighten the skin. The honey locks in moisture, leaving your skin soft and supple."
@@ -94,7 +123,9 @@ const SkinCare = (props) => {
     <br/>
     <details>
         <summary>Dark circles treatment</summary>
+        <div className="container">
         <p>   Explore effective remedies to diminish dark circles and revitalize your under-eye area. These simple, natural recipes are easy to prepare and designed to nourish your skin, leaving you refreshed and radiant.</p>
+        </div>
         <Recipes recipeName = "Tea Bags Eye Mask"
     image = {image8}
   description = "  The caffeine and antioxidants in tea boost blood circulation and shrink blood vessels in the area, reducing puffiness and dark circles."
@@ -143,9 +174,11 @@ const SkinCare = (props) => {
     <br/>
     <datalis>
         <summary>Acne treatment</summary>
+        <div className="container">
         <p>
         Discover simple and effective remedies to tackle acne and achieve clearer skin. These easy-to-follow recipes are designed to soothe, heal, and restore your skin's natural balance, giving you a healthy and confident glow.
         </p>
+        </div>
         <Recipes recipeName = "Natural Honey Spot Treatment"
     image = {image13}
   description = "  Honey is a natural antioxidant with soothing properties, helping to calm inflammation and reduce acne."
