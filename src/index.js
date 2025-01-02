@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
+<<<<<<< HEAD
 import Clinic3 from './components/clinics components/Clinic3/Clinic3';
+=======
+import App from './App';
+>>>>>>> main
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-
-
-<Clinic3 />
-
-
+<StrictMode>
+    <App/>
+</StrictMode>
 
 );

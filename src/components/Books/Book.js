@@ -1,7 +1,6 @@
 import React from 'react';
 import "./Book.css";
 
-
 const Book = (props) => {   
 
     return (

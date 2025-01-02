@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './navbar.css';
 import logo from '../../assests/Images/Main Page Images/logo.png';
 import { TranslateIcon } from 'hugeicons-react';
 import Sidebar from './Sidebar';
-import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -14,28 +14,40 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
+      {/* شعار العيادة */}
       <div className="logo-container">
         <img src={logo} className="logo" alt="Logo" />
         <span className="clinic-name">فيتال كير</span>
       </div>
+
+      {/* الروابط الرئيسية */}
       <ul className="nav-links">
-        <li><a href="/">الرئيسية</a></li>
+        <li>
+          <Link to="/src/components/Main page components/Main.js">الرئيسية</Link>
+        </li>
+        
         <li className="dropdown">
-          <a href="#">العيادات الطبية</a>
+          <span>العيادات الطبية</span>
           <ul className="dropdown-menu">
-            <li><a href="#">العيادة 1</a></li>
-            <li><a href="#">العيادة 2</a></li>
-            <li><a href="#">العيادة 3</a></li>
-            <li><a href="#">العيادة 4</a></li>
-            <li><a href="#">العيادة 5</a></li>
+            <li><Link to="/clinic1">العيادة 1</Link></li>
+            <li><Link to="/clinic2">العيادة 2</Link></li>
+            <li><Link to="/clinic3">العيادة 3</Link></li>
+            <li><Link to="/clinic4">العيادة 4</Link></li>
+            <li><Link to="/clinic5">العيادة 5</Link></li>
           </ul>
         </li>
-        <li><a href="#">الفريق الطبي</a></li>
+        <li>
+          <Link to="/team">الفريق الطبي</Link>
+        </li>
       </ul>
+
+      {/* زر القائمة الجانبية */}
       <button className="toggle-btn" onClick={toggleSidebar}>
         ☰
       </button>
       {isSidebarOpen && <Sidebar closeSidebar={toggleSidebar} />}
+
+      {/* أيقونة الترجمة */}
       <div className="translate-icon">
         <a href="./Index_main en.html">
           <TranslateIcon />
