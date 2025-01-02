@@ -51,6 +51,7 @@ import image48 from "../../../public/Clinics/images For C2/tea tree oil.jpeg";
 import image49 from "../../../public/Clinics/images For C2/apple cider vinegar.webp";
 import image50 from "../../../public/Clinics/images For C2/Aloe vera.jpg";
 import image51 from "../../../public/Clinics/images For C2/green tea.png";
+
 const BodyCare = (props) => {
     return (
         <div>
@@ -218,7 +219,9 @@ const BodyCare = (props) => {
   ingDescription3="Walking and cycling are excellent cardio exercises that help burn fat and improve circulation."
   instructions="Note: Exercise regularly (3-5 times a week) to achieve sustainable results."
 />
+
 <br></br>
+
         </details>
         <br/>
         <details>
@@ -289,6 +292,7 @@ const BodyCare = (props) => {
   ingDescription3="Used for applying the mixture onto the skin."
   instructions="1. Mix lemon juice and cucumber juice together. 2. Apply the mixture to the skin using a cotton pad and leave it for 10-15 minutes, then wash it off with water. 3. It is recommended to use this treatment once a day and avoid sun exposure during that time."
 />
+
 <br></br>
         </details>
         <br/>
@@ -684,6 +688,9 @@ const BodyCare = (props) => {
 <br></br>
         </details>
         <br/>
+
+        </details>
+
         </div>
     )
 }
