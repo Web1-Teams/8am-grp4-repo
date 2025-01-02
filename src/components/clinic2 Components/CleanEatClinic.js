@@ -6,6 +6,59 @@ import RecipeCard from "./RecipeCard";
 import BookList from "../Books/BookList";
 import Footer from "../Footer";
 
+import almondMilk from "../../assests/Images/imagesForC2/almondMilk.jpg";
+import appleJuice from "../../assests/Images/imagesForC2/appleJuice.jpg";
+import apricot from "../../assests/Images/imagesForC2/apricot.jpg";
+import avocado2CleanEating from "../../assests/Images/imagesForC2/avocado2CleanEating.jpg";
+import avocadoCleanEating from "../../assests/Images/imagesForC2/avocadoCleanEating.jpg";
+import beetrootAndCarrotsJuice from "../../assests/Images/imagesForC2/beetrootAndCarrotsJuice.jpg";
+import beetrootAndMint from "../../assests/Images/imagesForC2/beetrootAndMint.jpg";
+import beetroot from "../../assests/Images/imagesForC2/beetroot.jpg";
+import berry from "../../assests/Images/imagesForC2/berry.jpg";
+import blackTea from "../../assests/Images/imagesForC2/blackTea.jpg";
+import cherry from "../../assests/Images/imagesForC2/cherry.jpg";
+import chlorophyll from "../../assests/Images/imagesForC2/chlorophyll.jpg";
+import chocolateDrink from "../../assests/Images/imagesForC2/chocolateDrink.jpg";
+import coconutDrink from "../../assests/Images/imagesForC2/coconutDrink.jpg";
+import coconutWater from "../../assests/Images/imagesForC2/coconutWater.jpg";
+import coffee1 from "../../assests/Images/imagesForC2/coffee1.jpg";
+import cranberry from "../../assests/Images/imagesForC2/cranberry.jpg";
+import fruitsAndAloeVeraGel from "../../assests/Images/imagesForC2/fruitsAndAloeVeraGel.jpg";
+import grapefruit from "../../assests/Images/imagesForC2/grapefruit.jpg";
+import lemonAndGinger from "../../assests/Images/imagesForC2/lemonAndGinger.jpg";
+import lemonAndGreenTea from "../../assests/Images/imagesForC2/lemonAndGreenTea.jpg";
+import lemonJuice from "../../assests/Images/imagesForC2/lemonJuice.jpg";
+import lemonHoneyGinger from "../../assests/Images/imagesForC2/lemonHoneyGinger.jpg";
+import licorice from "../../assests/Images/imagesForC2/licorice.jpg";
+import matcha from "../../assests/Images/imagesForC2/matcha.jpg";
+import milkAndTurmeric from "../../assests/Images/imagesForC2/milkAndTurmeric.jpg";
+import mint from "../../assests/Images/imagesForC2/mint.jpg";
+import nuts from "../../assests/Images/imagesForC2/nuts.jpg";
+import nuts2 from "../../assests/Images/imagesForC2/nuts2.jpg";
+import orangeAndCarrotJuice from "../../assests/Images/imagesForC2/orangeAndCarrotJuice.jpg";
+import pineappleAndGinger from "../../assests/Images/imagesForC2/pineappleAndGinger.jpg";
+import pineappleAndLemon from "../../assests/Images/imagesForC2/pineappleAndLemon.jpg";
+import plum from "../../assests/Images/imagesForC2/plum.jpg";
+import pomegranate from "../../assests/Images/imagesForC2/pomegranate.jpg";
+import roselle from "../../assests/Images/imagesForC2/roselle.jpg";
+import sage from "../../assests/Images/imagesForC2/sage.jpg";
+import soyProtein from "../../assests/Images/imagesForC2/soyProtein.jpg";
+import spinach from "../../assests/Images/imagesForC2/spinach.jpg";
+import spinach2 from "../../assests/Images/imagesForC2/spinach2.jpg";
+import strawberry from "../../assests/Images/imagesForC2/strawberry.jpg";
+import tamarind from "../../assests/Images/imagesForC2/tamarind.jpg";
+import turmericTea from "../../assests/Images/imagesForC2/turmericTea.jpg";
+import eggs from "../../assests/Images/imagesForC2/eggs.jpg";
+import appleCider from "../../assests/Images/imagesForC2/ciderApple.jpg";
+import neamTeaWithHoney from "../../assests/Images/imagesForC2/neamTeaWithHoney.jpg";
+import sesameANDdate from "../../assests/Images/imagesForC2/sesameANDdate.jpg";
+import greenTea from "../../assests/Images/imagesForC2/greenTea.jpg";
+import darkChocolate from "../../assests/Images/imagesForC2/darkChocolate.jpg";
+import BananaDateandAlmondSmoothie from "../../assests/Images/imagesForC2/BananaDateandAlmondSmoothie.jpg";
+import ChiaSeedandAloeVeraDrink from "../../assests/Images/imagesForC2/ChiaSeedandAloeVeraDrink.jpg";
+import PruneJuice from "../../assests/Images/imagesForC2/PruneJuice.jpg";
+import HibiscusTea from "../../assests/Images/imagesForC2/HibiscusTea.jpg"
+
 const CleanEatClinic = (props) => {
 return (
     <div>
@@ -23,7 +76,7 @@ return (
     </div>
         <Recipes
         recipeName="Strawberry Smoothie"
-        image="./images/strawberry.jpg"
+        image = {strawberry}
         description="Rich in vitamin C to support hair growth."
         ingName1="1/2 cup strawberries"
         ingDescription1="Rich in vitamin C."
@@ -33,7 +86,7 @@ return (
       />      
       <Recipes
     recipeName="Spinach Smoothie"
-    image="./project images/spinach smoothie.jpg"
+    image = {spinach}
     description="Spinach is a nutrient-rich leafy green packed with essentials like folic acid, iron, and vitamins that help promote hair growth and improve scalp health, supporting the growth of new hair follicles. Matcha powder is rich in antioxidants that stimulate hair growth. Bananas are high in silica, a mineral that strengthens hair, prevents hair loss, and boosts collagen production."
     ingName1="1/2 cup banana slices or avocado slices"
     ingDescription1="Rich in silica, which strengthens hair and stimulates collagen production."
@@ -50,7 +103,7 @@ return (
     
     <Recipes
       recipeName="Carrot & Orange Juice"
-      image="./project/images/carrot orange juice.jpg"
+      image = {orangeAndCarrotJuice}
       description="Carrots and oranges are rich in vitamin C, which helps the body produce collagen, essential for building strong hair. They also aid in iron absorption, promoting better hair growth. This juice can improve scalp circulation, stimulating hair follicles for enhanced hair growth."
       ingName1="1 large carrot"
       ingDescription1="Rich in vitamin C, essential for collagen production and hair strength."
@@ -74,7 +127,7 @@ return (
     </div>
     <Recipes
     recipeName="Almond Milk Chocolate Drink"
-    image="./project images/chocolate banana drink.jpg"
+    image = {almondMilk}
     description="This delicious and nutritious chocolate banana drink combines the rich benefits of bananas and chocolate. Packed with essential nutrients like potassium, magnesium, and vitamins from bananas, it promotes better blood circulation to the scalp and strengthens hair follicles. Dark chocolate offers antioxidants that combat free radicals, maintaining scalp health. Milk provides vital proteins and calcium, essential for hair growth and strength."
     ingName1="1 ripe banana"
     ingDescription1="Rich in potassium and vitamins to improve blood flow to the scalp."
@@ -90,7 +143,7 @@ return (
  />
 <Recipes
     recipeName="Soy Protein Drink"
-    image="./project images/soy_protein_drink.jpg"
+    image = {soyProtein}
     description="Soy protein powder contains lysine and Vitamin B-6, essential for strengthening hair. This drink can be made with water or mixed with almond or cow's milk for added nutrients to promote healthier hair."
     ingName1="1 cup soy milk"
     ingDescription1="A great source of protein and nutrients to promote hair growth."
@@ -115,7 +168,7 @@ return (
     </div>
     <Recipes
     recipeName="Eggs for Hair Nourishment"
-    image="./project images/egg.jpg"
+    image = {eggs}
     description="Eggs are one of the best foods for supporting hair health and growth. They are rich in high-quality protein, which helps build hair structure and repair damage. Additionally, eggs contain biotin, a vitamin that promotes hair growth and prevents hair loss. The vitamins (A, D, E) and minerals like iron and zinc also help nourish the scalp and enhance natural oil production to keep hair hydrated and shiny. Regular consumption of eggs can improve hair strength and thickness."
     ingName1="Eggs"
     ingDescription1="Rich in high-quality protein, biotin, and vitamins A, D, E, iron, and zinc, all of which help promote hair health."
@@ -124,7 +177,7 @@ return (
 
 <Recipes
     recipeName="Berries for Hair Growth"
-    image="./project images/berries.jpg"
+    image = {berry}
     description="Berries are packed with beneficial compounds and vitamins that can support hair growth. They are particularly rich in vitamin C, which contains powerful antioxidants. These antioxidants help protect hair follicles from free radicals, harmful molecules found in the body and environment. Moreover, vitamin C is used by the body to produce collagen, a protein that strengthens hair and prevents breakage."
     ingName1="Berries"
     ingDescription1="Packed with vitamin C and antioxidants that protect hair follicles from free radicals and strengthen hair."
@@ -133,7 +186,7 @@ return (
 
 <Recipes
     recipeName="Spinach for Hair Growth"
-    image="./project images/spinach.jpg"
+    image = {spinach2}
     description="Spinach is a leafy green vegetable that is packed with nutrients like folic acid, iron, and vitamins A and C, all of which may help support hair growth. Vitamin A produces sebum, a natural oil that moisturizes the scalp and promotes healthy hair growth. Spinach is also rich in iron, which helps deliver oxygen throughout the body, boosting energy and supporting hair growth and repair."
     ingName1="Spinach"
     ingDescription1="Packed with folic acid, iron, and vitamins A and C that may help support hair growth."
@@ -143,7 +196,7 @@ return (
 
 <Recipes
     recipeName="Avocado for Hair Health"
-    image="./project images/avocado.jpg"
+    image = {avocadoCleanEating}
     description="Avocados are rich in vitamin E, which may help support hair growth. Like vitamin C, vitamin E is an antioxidant that helps prevent oxidative stress by neutralizing free radicals. It also protects the scalp and other sensitive skin areas from oxidative stress and damage. Poor hair quality and insufficient follicles can lead to scalp damage."
     ingName1="Avocados"
     ingDescription1="Rich in vitamin E and essential fatty acids that help promote healthy hair growth and protect the scalp."
@@ -152,7 +205,7 @@ return (
 
 <Recipes
     recipeName="Nuts for Healthy Hair"
-    image="./project images/nuts.jpg"
+    image = {nuts}
     description="If you're looking to achieve healthy and strong hair, nuts are an excellent choice. They are delicious and convenient, offering a wide variety of nutrients that may help promote hair growth. Nuts are also rich in B vitamins, zinc, and essential fatty acids. Deficiencies in any of these nutrients have been linked to hair loss."
     ingName1="Nuts"
     ingDescription1="Rich in B vitamins, zinc, and essential fatty acids that promote healthy hair growth."
@@ -176,7 +229,7 @@ return (
     </div>
     <Recipes
     recipeName="Pomegranate Juice"
-    image="./project images/pomegranate.jpg"
+    image = {pomegranate}
     description="Pomegranate juice is a powerful drink that detoxifies the blood, making it an excellent choice for glowing skin. It also has anti-aging properties, helping to rejuvenate skin cells and give the skin a youthful glow. One cup of pomegranate juice daily can significantly enhance skin health and radiance."
     ingName1="1 pomegranate"
     ingDescription1="Rich in antioxidants that help fight free radicals and promote skin regeneration."
@@ -188,7 +241,7 @@ return (
  />
 <Recipes
     recipeName="Coconut Water Benefits"
-    image="./project images/coconut-water.jpg"
+    image = {coconutWater}
     description="Coconut water is rich in essential nutrients like potassium, magnesium, and calcium. It helps hydrate the skin, reduce wrinkles, and fight acne with its antimicrobial properties. It also promotes faster healing of skin wounds, making it a great addition to your skincare routine."
     ingName1="Fresh coconut water"
     ingDescription1="Hydrates the skin and fights acne with its natural antimicrobial properties."
@@ -199,7 +252,7 @@ return (
  />
 <Recipes
     recipeName="Apple Juice Benefits"
-    image="./project/images/apple-juice.jpg"
+    image = {appleJuice}
     description="Apple juice is rich in collagen, which enhances skin elasticity and promotes a youthful glow. It also contains antioxidants that help delay the appearance of aging signs, making it beneficial for maintaining smooth and healthy skin."
     ingName1="Fresh apple juice"
     ingDescription1="Boosts collagen production and helps maintain skin elasticity."
@@ -208,7 +261,7 @@ return (
  />
 <Recipes
     recipeName="Carrot and Beetroot Juice"
-    image="./project/images/carrot-beet-juice.jpg"
+    image = {beetrootAndCarrotsJuice}
     description="Carrot and beetroot juice is rich in antioxidants, vitamins, and minerals that promote healthy, glowing skin, lighten the complexion, and delay the signs of aging."
     ingName1="500g of fresh beetroot"
     ingDescription1="Rich in antioxidants and beneficial nutrients for skin health."
@@ -228,7 +281,7 @@ return (
  />
 <Recipes
     recipeName="Lemon Juice for Skin Brightening"
-    image="./project/images/lemon-juice.jpg"
+    image = {lemonJuice}
     description="Lemon juice is rich in Vitamin C and citric acid, making it perfect for brightening the skin, reducing wrinkles, and fighting acne. It boosts collagen production, giving the skin a youthful glow and helping treat sunburns and rashes."
     ingName1="1 fresh lemon"
     ingDescription1="Rich in Vitamin C and citric acid to brighten and exfoliate the skin."
@@ -247,7 +300,7 @@ return (
     </div>
     <Recipes
     recipeName="Turmeric Milk"
-    image="./project/images/turmeric milk.jpg"
+    image = {milkAndTurmeric}
     description="Turmeric milk, also known as 'golden milk,' is a traditional remedy for acne due to its anti-inflammatory and antibacterial properties. It helps reduce acne inflammation, fight bacteria, and improve skin texture."
     ingName1="1 teaspoon of turmeric"
     ingDescription1="Contains curcumin, a powerful antioxidant and anti-inflammatory agent."
@@ -265,7 +318,7 @@ return (
  />
 <Recipes
     recipeName="Sage Tea"
-    image="./project/images/sage tea.jpg"
+    image = {sage}
     description="Sage is rich in antioxidants and helps fight aging signs. It can be used both topically and as a drink to promote healthy skin."
     ingName1="1 tablespoon of dried sage leaves"
     ingDescription1="Rich in antioxidants that fight aging signs and promote skin health."
@@ -282,7 +335,7 @@ return (
  />
 <Recipes
     recipeName="Chlorophyll Drink"
-    image="./project/images/chlorophyll.jpg"
+    image = {chlorophyll}
     description="Chlorophyll helps cleanse the body and improve skin health by detoxifying and reducing acne, rosacea, and redness."
     ingName1="Chlorophyll supplement"
     ingDescription1="Rich in antioxidants, detoxifies the body and promotes clearer skin."
@@ -294,7 +347,7 @@ return (
  />
 <Recipes
     recipeName="Apple Cider Vinegar Drink"
-    image="./project/images/apple cider vinegar.jpg"
+    image = {appleCider}
     description="Apple cider vinegar helps to improve skin health by promoting cell renewal, inhibiting acne-causing bacteria, and tightening pores."
     ingName1="1 tablespoon of apple cider vinegar"
     ingDescription1="Stimulates skin cell renewal and balances the skin's pH level."
@@ -306,7 +359,7 @@ return (
 
 <Recipes
     recipeName="Raw Nuts"
-    image=""
+    image = {nuts2}
     description="Raw nuts are an ideal snack to protect the skin from inflammation and enhance its youthfulness. They are rich in vitamins A, C, E, zinc, and selenium."
     ingName1="Raw nuts"
     ingDescription1="Rich in vitamins A, C, E, zinc, and selenium to protect and rejuvenate the skin."
@@ -322,7 +375,7 @@ return (
   </div>
   <Recipes
     recipeName="Matcha Tea"
-    image="./project/images/matcha-tea.jpg"
+    image = {matcha}
     description="Matcha tea is packed with antioxidants, including chlorophyll and polyphenols, far more than regular green tea. It stimulates elastin production, improves blood circulation, and protects skin from UV damage."
     ingName1="1 teaspoon matcha powder"
     ingDescription1="Rich in antioxidants to fight free radicals and promote skin health."
@@ -335,7 +388,7 @@ return (
 
 <Recipes
     recipeName="Turmeric Tea"
-    image="./project/images/turmeric-tea.jpg"
+    image = {turmericTea}
     description="Turmeric tea, with its powerful anti-inflammatory properties, helps combat acne and reduce wrinkles. Regular consumption improves skin tone and boosts radiance."
     ingName1="1 teaspoon turmeric powder"
     ingDescription1="Contains curcumin, an antioxidant that fights skin aging."
@@ -350,7 +403,7 @@ return (
 
 <Recipes
     recipeName="Licorice Root Juice"
-    image="./project/images/licorice.jpg"
+    image = {licorice}
     description="Licorice root is rich in antioxidants, making it a potent remedy for delaying wrinkles and protecting skin from free radical damage."
     ingName1="1 tablespoon licorice root powder"
     ingDescription1="Antioxidant-rich to fight premature aging."
@@ -363,7 +416,7 @@ return (
 
 <Recipes
     recipeName="Neem and Honey Tea"
-    image="./project/images/neem-tea.jpg"
+    image = {neamTeaWithHoney}
     description="Neem leaves combined with honey offer antibacterial and anti-inflammatory benefits, reducing wrinkles and hydrating the skin effectively."
     ingName1="1-2 teaspoons dried neem leaves"
     ingDescription1="Fights bacteria and enhances skin healing."
@@ -391,7 +444,7 @@ return (
 </div>
 <Recipes
     recipeName="Refreshing Green Tea Recipe"
-    image="./project/images/green-tea.jpg"
+    image = {greenTea}
     description="Green tea is not just a refreshing beverage; it's a powerful ally for your immune system. Packed with antioxidants and bioactive compounds, it helps protect your body against infections, boosts overall immunity, and supports your health. This simple recipe will show you how to prepare a perfect cup of green tea with added flavors for maximum enjoyment."
     ingName1="1 cup water"
     ingDescription1="The base for brewing your green tea."
@@ -411,7 +464,7 @@ return (
 
 <Recipes
     recipeName="Hot Turmeric Drink"
-    image="./project/images/turmeric drink.jpg"
+    image = {turmericTea}
     description="Turmeric offers many health benefits, especially in boosting immunity when consumed regularly. It helps prevent colds and various diseases. This drink is made with ingredients like unsweetened milk, turmeric, ginger, and cinnamon."
     ingName1="1 cup unsweetened milk"
     ingDescription1="Provides a base for the turmeric drink and hydrates the body."
@@ -430,7 +483,7 @@ return (
 
 <Recipes
     recipeName="Tamarind Drink"
-    image="./project/images/tamarind drink.jpg"
+    image = {tamarind}
     description="Tamarind is a fruit with a sweet and sour taste, rich in vitamins and fiber. It helps prevent heart diseases, strengthens immunity, and prevents premature skin aging. It is recommended to consume it in moderation to avoid excess calorie intake."
     ingName1="1/4 cup tamarind pulp"
     ingDescription1="Rich in vitamins and antioxidants to boost immunity and skin health."
@@ -448,7 +501,7 @@ return (
 
 <Recipes
     recipeName="Orange & Grapefruit Juice"
-    image="./project/images/orange and grapefruit juice.jpg"
+    image = {grapefruit}
     description="Oranges and grapefruits are major sources of vitamin C, which fights colds and flu. It is a powerful antioxidant that boosts the immune system and protects the body from diseases."
     ingName1="1 orange"
     ingDescription1="Rich in vitamin C to enhance the immune system and fight free radicals."
@@ -465,7 +518,7 @@ return (
 
 <Recipes
     recipeName="Lemon & Ginger Drink"
-    image="./project/images/lemon and ginger drink.jpg"
+    image = {lemonAndGinger}
     description="Warm lemon juice with ginger slices is highly effective in treating colds and boosting immunity. You can add a little turmeric for additional antioxidant benefits and to detoxify the body."
     ingName1="1 lemon"
     ingDescription1="Lemon provides a high dose of vitamin C, which boosts immunity and aids in detoxification."
@@ -490,7 +543,7 @@ return (
     </div>
     <Recipes
     recipeName="Fresh Mint Drink"
-    image="./project_images/mint_drink.jpg"
+    image = {mint}
     description="Mint helps reduce stress and fatigue while improving focus and performance. It contains essential nutrients such as manganese, iron, calcium, and vitamin A."
     ingName1="2 cups of water"
     ingDescription1="The base for the mint drink."
@@ -504,7 +557,7 @@ return (
 
 <Recipes
     recipeName="Avocado Juice"
-    image="./project_images/avocado_drink.jpg"
+    image = {avocado2CleanEating}
     description="Avocado promotes blood flow to the brain, enhancing memory and focus. It is also rich in fiber, keeping you full for longer periods."
     ingName1="1 ripe avocado"
     ingDescription1="Packed with healthy fats and nutrients for better brain health."
@@ -519,7 +572,7 @@ return (
 
 <Recipes
     recipeName="Dark Chocolate Drink"
-    image="./project_images/dark_chocolate_drink.jpg"
+    image = {darkChocolate}
     description="Dark chocolate and cocoa powder are rich in flavonoids, caffeine, and antioxidants, which boost memory and focus while protecting the brain from age-related memory loss."
     ingName1="2 tbsp cocoa powder"
     ingDescription1="The base flavor of the drink, rich in antioxidants."
@@ -534,7 +587,7 @@ return (
 
 <Recipes
     recipeName="Berry Drink"
-    image="./project_images/berry_drink.jpg"
+    image = {berry}
     description="Berry drinks protect against Alzheimer’s disease and enhance memory and focus for up to five hours. Perfect as a breakfast addition or a refreshing lunch beverage."
     ingName1="1 cup mixed berries (blueberries, strawberries, raspberries)"
     ingDescription1="A blend of antioxidant-rich berries to boost brain health."
@@ -546,7 +599,7 @@ return (
 
 <Recipes
     recipeName="Banana, Date & Almond Smoothie"
-    image="./project_images/banana_date_drink.jpg"
+    image = {BananaDateandAlmondSmoothie}
     description="Packed with calcium, potassium, zinc, and vitamins, this smoothie boosts mental activity and enhances memory, especially in children, thanks to its potassium-rich content."
     ingName1="1 banana"
     ingDescription1="Rich in potassium, which helps in boosting brain function."
@@ -573,7 +626,7 @@ return (
     </div>
     <Recipes
     recipeName="Milk"
-    image="./project_images/milk.jpg"
+    image = {milk}
     description="Milk provides natural lactose, a carbohydrate that supplies energy. A single cup offers 13 essential nutrients, including protein, calcium, vitamins A, D, and B complex."
     ingName1="1 cup milk"
     ingDescription1="The base of the drink, packed with nutrients."
@@ -584,7 +637,7 @@ return (
 
 <Recipes
     recipeName="Coffee"
-    image="./project_images/coffee.jpg"
+    image = {coffee1}
     description="Coffee, rich in caffeine and polyphenol antioxidants, is a leading drink for boosting energy. It enhances alertness and reduces fatigue, increasing productivity."
     ingName1="1 cup brewed coffee"
     ingDescription1="The base of the coffee, packed with caffeine and antioxidants."
@@ -599,7 +652,7 @@ return (
 
 <Recipes
     recipeName="Pineapple and Ginger Juice"
-    image="./project_images/pineapple_ginger_juice.jpg"
+    image = {pineappleAndGinger}
     description="Pineapple offers natural sugars for an energy boost, while ginger enhances circulation and vitality. This drink is packed with vitamin A, vitamin C, and bromelain."
     ingName1="Half a pineapple"
     ingDescription1="Rich in vitamin C and bromelain for digestion."
@@ -618,7 +671,7 @@ return (
 
 <Recipes
     recipeName="Black Tea"
-    image="./project_images/black_tea.jpg"
+    image = {blackTea}
     description="Black tea contains caffeine, albeit in lower concentrations than coffee. It boosts energy and can be complemented with milk or honey for added benefits."
     ingName1="1 cup water"
     ingDescription1="The base for brewing the tea."
@@ -636,7 +689,7 @@ return (
 
 <Recipes
     recipeName="Coconut Water Smoothie"
-    image="./project_images/coconut_water.jpg"
+    image = {coconutWater}
     description="Coconut water is an excellent hydrating drink enriched with electrolytes and potassium, supporting brain and nerve function."
     ingName1="1/2 cup coconut water"
     ingDescription1="Provides hydration and electrolytes."
@@ -666,7 +719,7 @@ return (
 {/* Chia Seed and Aloe Vera Drink */}
 <Recipe
         recipeName="Chia Seed and Aloe Vera Drink"
-        image="./project_images/chia_aloe_drink.jpg"
+        image = {ChiaSeedandAloeVeraDrink}
         description="A hydrating drink rich in fiber and nutrients, supporting digestion and skin health."
         ingName1="1 liter of water"
         ingDescription1="Hydrates the body."
@@ -680,7 +733,7 @@ return (
       {/* Ginger, Honey, and Lemon Drink */}
       <Recipe
         recipeName="Ginger, Honey, and Lemon Drink"
-        image="./project_images/ginger_lemon_drink.jpg"
+        image = {lemonHoneyGinger}
         description="This drink boosts immunity, improves digestion, and has anti-inflammatory properties."
         ingName1="1 tsp grated ginger"
         ingDescription1="Improves digestion and boosts immunity."
@@ -694,7 +747,7 @@ return (
       {/* Green Tea with Lemon */}
       <Recipe
         recipeName="Green Tea with Lemon"
-        image="./project_images/green_tea_lemon.jpg"
+        image = {lemonAndGreenTea}
         description="A metabolism-boosting drink that aids in fat burning, especially around the abdomen."
         ingName1="1 cup green tea"
         ingDescription1="Rich in antioxidants and supports metabolism."
@@ -708,7 +761,7 @@ return (
       {/* Beetroot and Mint Juice */}
       <Recipe
         recipeName="Beetroot and Mint Juice"
-        image="./project_images/beet_mint_juice.jpg"
+        image = {beetrootAndMint}
         description="A detoxifying drink that energizes and cleanses the body."
         ingName1="1 beetroot"
         ingDescription1="Rich in antioxidants and helps detoxify the body."
@@ -722,7 +775,7 @@ return (
       {/* Pineapple and Lemon Juice */}
       <Recipe
         recipeName="Pineapple and Lemon Juice"
-        image="./project_images/pineapple_lemon.jpg"
+        image = {pineappleAndLemon}
         description="A refreshing detox drink with natural sugars and hydration properties."
         ingName1="1 pineapple, peeled and cubed"
         ingDescription1="Provides hydration and vitamin C."
@@ -744,7 +797,7 @@ return (
     </div>
     <Recipe
   recipeName="Prune Juice"
-  image="./project_images/prune_juice.jpg"
+  image = {PruneJuice}
   description="A nutrient-rich drink providing 2.8 mg of iron per cup, offering 17% of the daily requirement."
   ingName1="Prunes"
   ingDescription1="Rich in iron, fiber, and antioxidants."
@@ -757,7 +810,7 @@ return (
 
 <Recipe
   recipeName="Apricot Juice"
-  image="./project_images/apricot_juice.jpg"
+  image = {apricot}
   description="Regular consumption prevents anemia and combats fatigue."
   ingName1="Apricots"
   ingDescription1="Rich in Vitamin C, potassium, and iron."
@@ -770,7 +823,7 @@ return (
 
 <Recipe
   recipeName="Beetroot Juice"
-  image="./project_images/beetroot_juice.jpg"
+  image = {beetroot}
   description="Packed with iron, folate, manganese, and Vitamin C for improved absorption."
   ingName1="Beetroot"
   ingDescription1="Rich in iron, folate, and antioxidants."
@@ -783,7 +836,7 @@ return (
 
 <Recipe
   recipeName="Hibiscus Tea"
-  image="./project_images/hibiscus_tea.jpg"
+  image = {HibiscusTea}
   description="Rich in iron, Vitamin C, and other essential minerals like potassium and zinc."
   ingName1="Dried hibiscus flowers"
   ingDescription1="Packed with Vitamin C and antioxidants."
@@ -796,7 +849,7 @@ return (
 
 <Recipe
   recipeName="Sesame and Date Drink"
-  image="./project_images/sesame_date_drink.jpg"
+  image = {sesameANDdate}
   description="A creamy blend rich in iron and nutrients for a healthy boost."
   ingName1="Sesame seeds"
   ingDescription1="High in calcium, iron, and healthy fats."
