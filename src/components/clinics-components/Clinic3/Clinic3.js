@@ -1,11 +1,10 @@
 import { useNavigate } from 'react-router-dom';
 import Exercise from "../../clinic3ComponentsTemp/Exercise";
 import Exercise2 from "../../clinic3ComponentsTemp/Exercise2";
-import Footer from "../../footer/Footer";
+import Footer from "../../Footer/Footer";
 import Header from "../../header/Header";
 import Navbar from "../../navbar/Navbar";
-
-import Review from "../../review/Review";
+import Review from '../../Review/Review';
 import "../Clinic3/Styles_C3.css";
 
 // import Navbar from "../../navbar/Navbar"
