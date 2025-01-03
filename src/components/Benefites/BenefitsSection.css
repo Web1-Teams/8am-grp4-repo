@@ -1,0 +1,41 @@
+.benefits-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    background: linear-gradient(to bottom right, #816292d3, #f5f5f5);
+    border-radius: 8px;
+    margin-bottom: 5rem;
+  }
+  
+  .benefits-card {
+    background: #eae2f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .benefits-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .benefits-title {
+    font-family: 'Georgia', serif;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    list-style-type: none;
+
+  }
+  
+  .benefits-item {
+    font-family: 'Arial', sans-serif;
+    color: #555;
+    line-height: 1.6;
+    list-style-type: none;
+
+  }
+  
+  

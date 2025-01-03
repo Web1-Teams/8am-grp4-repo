@@ -1,42 +1,46 @@
 import React from "react";
-import "../clinic2/Styles_C2.css";
+import "./Styles_C2.css";
 // import BookList from "../Books/BookList";
+import HeaderSection from "../clinic2 Components/HeaderSection";
+import ServiceCard from "../../clinic2 Components/ServiceCard";
+// import { BrowserRouter as Router, Route, Routes, Link} from "react-router-dom";
+import SkinCare from "../../clinic2 Components/SkinCare";
+import HairCareClinic from "../clinic2 Components/HairCareClinic";
+import BodyCare from "../../clinic2 Components/BodyCare";
+import CleanEatClinic from "../clinic2 Components/CleanEatClinic";
+import TipCard from "../clinic2 Components/TipCard";
+import TestimonialBox from "../clinic2 Components/TestimonialBox";
+///import IntroSection from "../../clinic2 Components/IntroSection";
+import image1 from "../../../assests/Images/imagesForC2/skincare-background.jpeg";
+import image2 from "../../../assests/Images/imagesForC2/haircare_background.jpg";
+import image3 from "../../../assests/Images/imagesForC2/body care=main.jpeg";
+import image4 from "../../../assests/Images/imagesForC2/clean eating-background.png";
 // import IntroSection from "../clinic2 Components/IntroSection";
-import Navbar from "../../navbar/Navbar";
 // import RecipeCard from "../clinic2 Components/RecipeCard";
 // import { BrowserRouter as Router, Route, Routes, Link} from "react-router-dom";
-import HairCareClinic from "../../clinic2 Components/HairCareClinic";
+// import HairCareClinic from "../clinic2 Components/HairCareClinic";
 // import RecipesS from "../clinic2 Components/RecipesS";
-import CleanEatClinic from "../../clinic2 Components/CleanEatClinic";
+// import CleanEatClinic from "../clinic2 Components/CleanEatClinic";
 // import Recipes from "../clinic2 Components/Recipes";
 import TipCard from "../../clinic2 Components/TipCard";
-import TestimonialBox from "../../clinic2 Components/TestimonialBox";
-// import Footer from "../Footer";
+// import TestimonialBox from "../clinic2 Components/TestimonialBox";
 import HeaderSection from "../../clinic2 Components/HeaderSection";
-import IntroSection from "../../clinic2 Components/IntroSection";
-import ServiceCard from "../../clinic2 Components/ServiceCard";
-import coconutOilandHoney from "../../../assests/Images/imagesForC2/coconutOilandHoney.jpg";
-import BookList from "../../books/BookList";
-import Ninja from "../../../assests/Images/imagesForC2/Ninja.jpg"
+// import IntroSection from "../../clinic2 Components/IntroSection";
+// import ServiceCard from "../../clinic2 Components/ServiceCard";
 
 
 
 const Clinic2 = (props) => {
     return (
         <div>
-        <Navbar/>
+
         <br/><br/>
       
               <HeaderSection 
                 title = "Embrace Your Natural Beauty and Inner Peace"
                 subtitle = "Discover the harmony of nature and self-care with treatments designed to nurture your beauty and well-being"
-              />
-
-         <section className="services-section">
-          <div className="services-container">
-            <h3> Our Services </h3>
-            <div className="services-grid">
-         <ServiceCard  SerImage = {coconutOilandHoney}
+         />
+         {/* <ServiceCard  SerImage = {image1}
          serviceName = "Skincare Treatments "
          intro = "Personalized care for glowing, healthy skin."
          />
@@ -51,10 +55,8 @@ const Clinic2 = (props) => {
           <ServiceCard  SerImage = {coconutOilandHoney}
            serviceName = "Clean Eating Recipes "
          intro = "Rejuvenate your hair with our organic products."
-         />
-         </div>
-         </div>
-         </section>
+         /> */}
+
 <section class="tips-section">
   <div class="tips-container">
     <h3>Beauty Tips</h3>
@@ -154,36 +156,6 @@ const Clinic2 = (props) => {
          </div>
          </section>
          <br/><br/>
-         <BookList/>
-      <TestimonialBox
-        image={Ninja}
-        name="Laila Ahmed"
-        location="Riyadh, Saudi Arabia"
-        stars={5}
-        comment="The website is amazing! I tried several skincare recipes, and the results were incredible. My skin looks more radiant and glowing."
-      />
-      <TestimonialBox
-        image={Ninja}
-        name="Khaled Mahmoud"
-        location="Cairo, Egypt"
-        stars={4}
-        comment="The nutrition tips on the site are very helpful and easy to follow. I noticed a big improvement in my energy levels and overall health."
-      />
-      <TestimonialBox
-        image={Ninja}
-        name="Sara Ali"
-        location="Dubai, UAE"
-        stars={5}
-        comment="I loved the hair care recipes! I tried the hair mask, and my hair feels so soft and healthy now. Highly recommended!"
-      />
-      <TestimonialBox
-        image={Ninja}
-        name="Omar Hassan"
-        location="Amman, Jordan"
-        stars={4}
-        comment="Great website for self-care! The body scrub recipe worked wonders for my skin. I’ll definitely try more tips from here."
-      />
-{/* <Footer/> */}
         </div>
     )
 }
