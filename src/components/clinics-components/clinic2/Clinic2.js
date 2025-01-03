@@ -10,7 +10,6 @@ import "./Styles_C2.css";
 // import Recipes from "../clinic2 Components/Recipes";
 import TipCard from "../../clinic2 Components/TipCard";
 // import TestimonialBox from "../clinic2 Components/TestimonialBox";
-import Footer from "../../Footer/Footer";
 import HeaderSection from "../../clinic2 Components/HeaderSection";
 // import IntroSection from "../../clinic2 Components/IntroSection";
 // import ServiceCard from "../../clinic2 Components/ServiceCard";
@@ -138,7 +137,6 @@ const Clinic2 = (props) => {
          </div>
          </section>
          <br/><br/>
-         <Footer/>
         </div>
     )
 }

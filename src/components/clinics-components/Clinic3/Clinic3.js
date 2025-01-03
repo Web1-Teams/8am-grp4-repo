@@ -1,15 +1,13 @@
 import { useNavigate } from 'react-router-dom';
 import Exercise from "../../clinic3ComponentsTemp/Exercise";
 import Exercise2 from "../../clinic3ComponentsTemp/Exercise2";
-import Footer from "../../Footer/Footer";
 import Header from "../../header/Header";
 import Review from "../../Review/Review";
 import "../Clinic3/Styles_C3.css";
 import SimpleArtTherapyExercises from "../../clinic3ComponentsTemp/SimpleArtTherapyExercises";
 import BenefitsSection from "../../Benefites/BenefitsSection";
-import { SlackIcon } from "hugeicons-react";
-
-import Canvas from '../../clinic3ComponentsTemp/canvass/Canvas';
+// import { SlackIcon } from "hugeicons-react";
+// import Canvas from '../../clinic3ComponentsTemp/canvass/Canvas';
 
 
 const Clinic3 = (props) => {
@@ -324,7 +322,6 @@ const Clinic3 = (props) => {
       
       {/* <Sound /> */}
          <Review/>
-         <Footer/>
         
          </div>
     

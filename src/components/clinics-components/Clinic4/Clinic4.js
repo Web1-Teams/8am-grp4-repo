@@ -1,4 +1,3 @@
-import Footer from "../../Footer/Footer"
 import Header from "../../header/Header"
 import Review from "../../Review/Review"
 import TopTopic from "../../toptopic/TopTopic"
@@ -20,7 +19,7 @@ const Clinic4=()=>{
             />
          </div> 
       <Review/>
-      <Footer />
+
       </>
     )
  }
