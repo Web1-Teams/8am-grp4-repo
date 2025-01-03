@@ -96,42 +96,42 @@ const Clinic2 = (props) => {
          <br/>
          <div class="tips-container">
          <h4>Tips for strong and healthy hair</h4>
-         <TipCard link = "#"
+         <TipCard link = "https://www.haiirology.com/blog/hair-wash-tips-for-healthy-shiny-hair#:~:text=8%20Hair%20Washing%20Tips%20for%20Healthier%2C%20Shinier%20Hair,8%208.%20Choose%20the%20Right%20Water%20Temperature%20"
          icon = "🚿"
           title = "Wash Gently"
           description = "Use a gentle shampoo and avoid overwashing to maintain natural oils." 
         />
-        <TipCard link = "#"
+        <TipCard link = "https://www.goodhousekeeping.com/beauty/hair/a28494129/healthy-hair/"
           icon = "💆‍♀️"
          title = "Condition Regularly"
          description = "Apply conditioner to keep your hair soft and manageable." 
         />
-        <TipCard link = "#"
+        <TipCard link = "https://www.ipsy.com/blog/how-to-protect-hair-from-heat-damage"
          icon = "🔥"
          title = "Protect from Heat"
          description = "Use heat protectant sprays before styling with heat tools." 
         />
-        <TipCard link = "#"
+        <TipCard link = "https://toneop.com/blog/superfoods-for-hair-growth-and-consumption-tips"
          icon = "🥗"
          title = "Eat Nutrient-Rich Foods"
          description = "A balanced diet promotes strong and healthy hair." 
         />
-        <TipCard link = "#"
+        <TipCard link = "https://voiceofhair.com/7-tips-for-healthy-hair-how-often-you-should-get-a-trim/"
          icon = "✂️"
          title = "Trim Regularly"
          description = "Get regular trims to prevent split ends and maintain hair health." 
         />
-        <TipCard link = "#"
+        <TipCard link = "https://headandshoulders.com/en-us/healthy-hair-and-scalp/dandruff/how-drinking-water-is-key-to-a-healthy-scalp"
          icon = "💧"
          title = "Stay Hydrated"
          description = "Drinking water keeps your scalp and hair hydrated." 
         />
-        <TipCard link = "#"
+        <TipCard link = "https://www.anveya.com/blogs/top-tips/15-chemicals-to-avoid-from-hair-care-products"
          icon = "🚫💇‍♀️"
          title = "Avoid Harsh Chemicals"
          description = "Limit the use of dyes and harsh treatments to prevent damage." 
         />
-        <TipCard link = "#"
+        <TipCard link = "https://www.isdin.com/us/blog/beauty/tips-to-protect-hair-from-sun/"
          icon = "🌞"
          title = "Protect from Sun"
          description = "Wear a hat or use UV protection for your hair when in the sun." 
