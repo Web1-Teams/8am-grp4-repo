@@ -17,13 +17,13 @@ const Exercise = (props) => {
           <ul>
             <li><b>Purpose:</b> {props.purpose}</li>
             <li><b>Steps:</b>
-              <ol>
+              <ul>
                 <li>{props.step1}</li>
                 <li>{props.step2}</li>
                 <li>{props.step3}</li>
                 <li>{props.step4}</li>
                 <li>{props.step5}</li>
-              </ol>
+              </ul>
             </li>
             <li><b>Duration:</b> {props.Duration}</li>
             <li><a href={props.video} target="_blank" rel="noopener noreferrer">Video tutorial</a></li>
