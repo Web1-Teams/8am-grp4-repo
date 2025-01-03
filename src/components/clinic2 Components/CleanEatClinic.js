@@ -5,6 +5,7 @@ import Navbar from "../navbar/Navbar";
 import RecipeCard from "./RecipeCard";
 import BookList from "../books/BookList";
 import Footer from "../Footer";
+import Recipes from "./Recipes";
 
 import almondMilk from "../../assests/Images/imagesForC2/almondMilk.jpg";
 import appleJuice from "../../assests/Images/imagesForC2/appleJuice.jpg";
@@ -98,7 +99,10 @@ return (
     ingDescription4="Rich in antioxidants that stimulate hair growth."
     ingName5="Sugar or honey (optional)"
     ingDescription5="Adds natural sweetness to enhance the taste."
-    instructions="1. In a blender, add the banana or avocado slices, spinach leaves (washed thoroughly), and sugar or honey if desired. Blend into a smooth paste. 2. Add the coconut milk and blend until well combined. 3. Pour the smoothie into a glass and serve immediately. 4. Optionally, garnish with a sprinkle of matcha powder for added flavor and nutrition."
+    instructions="1. In a blender, add the banana or avocado slices, spinach leaves (washed thoroughly), and sugar or honey if desired. Blend into a smooth paste.<br>
+     2. Add the coconut milk and blend until well combined.<br>
+      3. Pour the smoothie into a glass and serve immediately.<br>
+       4. Optionally, garnish with a sprinkle of matcha powder for added flavor and nutrition."
  />
     
     <Recipes
@@ -115,7 +119,11 @@ return (
       ingDescription4="Stimulates circulation and provides antioxidants for scalp health."
       ingName5="Sugar or salt (optional)"
       ingDescription5="Adds taste based on preference."
-      instructions="1. Chop one or two peeled carrots into small pieces and blend them in a blender with 1 cup of coconut water.\n2. Add sugar or salt as desired for taste.\n3. Add the orange pulp and a small piece of ginger to the mixture.\n4. Blend the mixture until it becomes a smooth, semi-liquid consistency.\n5. You can either strain the juice or enjoy it as is. Serve immediately."
+      instructions="1. Chop one or two peeled carrots into small pieces and blend them in a blender with 1 cup of coconut water.<br>
+      2. Add sugar or salt as desired for taste.<br>
+      3. Add the orange pulp and a small piece of ginger to the mixture.<br>
+      4. Blend the mixture until it becomes a smooth, semi-liquid consistency.<br>
+      5. You can either strain the juice or enjoy it as is. Serve immediately."
     />
         </details>
         <details>
@@ -139,7 +147,12 @@ return (
     ingDescription4="Adds natural sweetness to enhance the flavor."
     ingName5="Ice cubes (optional)"
     ingDescription5="For a refreshing cold drink."
-    instructions="1. Peel the ripe banana and place it in a blender. 2. Add 1 cup of milk and raw cocoa powder or melted dark chocolate. 3. If desired, add 1 tsp of honey for sweetness. 4. Blend the ingredients until smooth and creamy. 5. For a cold drink, add ice cubes and blend again. 6. Pour the drink into a glass and enjoy its benefits for healthier hair growth."
+    instructions="1. Peel the ripe banana and place it in a blender.<br>
+     2. Add 1 cup of milk and raw cocoa powder or melted dark chocolate.<br>
+      3. If desired, add 1 tsp of honey for sweetness.<br>
+       4. Blend the ingredients until smooth and creamy.<br>
+        5. For a cold drink, add ice cubes and blend again.<br>
+         6. Pour the drink into a glass and enjoy its benefits for healthier hair growth."
  />
 <Recipes
     recipeName="Soy Protein Drink"
@@ -155,7 +168,12 @@ return (
     ingDescription4="Adds natural sweetness to the drink."
     ingName5="Ice cubes (optional)"
     ingDescription5="For a refreshing cold drink."
-    instructions="1. Add soy milk to a blender. 2. Add soy protein powder and 1 tsp of cocoa powder for extra flavor if desired. 3. Add 1 tsp of honey to sweeten the drink. 4. Blend all ingredients until smooth and well combined. 5. For a chilled drink, add ice cubes and blend again. 6. Pour the drink into a glass and enjoy its hair-strengthening benefits."
+    instructions="1. Add soy milk to a blender.<br>
+     2. Add soy protein powder and 1 tsp of cocoa powder for extra flavor if desired.<br>
+      3. Add 1 tsp of honey to sweeten the drink.<br>
+       4. Blend all ingredients until smooth and well combined.<br>
+        5. For a chilled drink, add ice cubes and blend again.<br>
+        v 6. Pour the drink into a glass and enjoy its hair-strengthening benefits."
  />
 
     </details>
@@ -857,7 +875,9 @@ return (
   ingDescription2="Rich in fiber, potassium, and natural sweetness."
   ingName3="Milk"
   ingDescription3="Provides creaminess and additional nutrients."
-  instructions="1. Add milk and honey to a blender.<br>2. Mix in soaked dates and sesame seeds.<br>3. Blend until smooth and creamy."
+  instructions="1. Add milk and honey to a blender.<br>
+  2. Mix in soaked dates and sesame seeds.<br>
+  3. Blend until smooth and creamy."
 />
 </details>
 </div>

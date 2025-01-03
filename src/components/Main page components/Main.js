@@ -6,11 +6,9 @@ import Footer from "../Footer/Footer"
 const Main=()=>{
     return (
         <>
-
         <TopTopic topic1="Welcome" clinic1="Main"/>
 
         <Review/>
-        <Footer/>
 </>
     )
 }
