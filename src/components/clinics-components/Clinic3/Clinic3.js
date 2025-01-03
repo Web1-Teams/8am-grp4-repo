@@ -6,19 +6,18 @@ import Navbar from "../../navbar/Navbar";
 import Review from '../../review/Review';
 import "../Clinic3/Styles_C3.css";
 import '../../books/BookList.css'
-
 import book1 from '../../../assests/Images/images For C3/atomic-hapits.jpg'
 import book2 from '../../../assests/Images/images For C3/David Burns - Feeling Good.jpg'
 import book3 from '../../../assests/Images/images For C3/Deep Work by Cal Newport.jpg'
 import book4 from '../../../assests/Images/images For C3/Nonviolent Communication by Marshall B. Rosenberg.jpg'
-
 import SimpleArtTherapyExercises from "../../clinic3ComponentsTemp/SimpleArtTherapyExercises";
 import BenefitsSection from "../../Benefites/BenefitsSection";
 import { SlackIcon } from "hugeicons-react";
-
 import Canvas from '../../clinic3ComponentsTemp/canvass/Canvas';
+import Sound from '../../clinic3ComponentsTemp/Sound';
 import Book from '../../books/Book';
 import BookList from '../../books/BookList';
+
 
 
 const Clinic3 = (props) => {
@@ -47,6 +46,8 @@ const Clinic3 = (props) => {
            option4="suggested books"
            option5="relaxing sounds "
            />
+   <Sound/>
+
         
 
       
@@ -291,6 +292,7 @@ const Clinic3 = (props) => {
     
       
       </section>
+
       <section id="books-info">
       <div>
         <h2> كتب يمكنك الاستفادة منها: </h2>
@@ -330,6 +332,7 @@ const Clinic3 = (props) => {
       </div>
     </section>
       {/* <Sound /> */}
+
          <Review/>
         
          </div>
