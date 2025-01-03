@@ -730,3 +730,4 @@ const BodyCare = (props) => {
         </div>
     )
 }
+export default BodyCare
