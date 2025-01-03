@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import Exercise from "../../clinic3ComponentsTemp/Exercise";
 import Exercise2 from "../../clinic3ComponentsTemp/Exercise2";
 import Footer from "../../footer/Footer";
@@ -13,14 +14,24 @@ import SimpleArtTherapyExercises from "../../clinic3ComponentsTemp/SimpleArtTher
 import BenefitsSection from "../../Benefites/BenefitsSection";
 import { SlackIcon } from "hugeicons-react";
 
+import Canvas from '../../clinic3ComponentsTemp/canvass/Canvas';
 
 
 const Clinic3 = (props) => {
+  const navigate = useNavigate();
+
+  const handleOpenCanvas = () => {
+    navigate('/canvas');
+  };
+
+
     return ( 
       
        <div>
          <Navbar/>
 
+     
+        
           <Header
            ClinicName="Mental Health Clinic"
            ClinicAyah="{Those who have believed and whose hearts are assured by the remembrance of Allah. Unquestionably, by the remembrance of Allah hearts are assured.}"
@@ -194,6 +205,55 @@ const Clinic3 = (props) => {
     </ul>
     <p>Choose colors that resonate with you and let them guide your artistic expression.</p>
   </section>
+        <h2>Art Therapy</h2>
+        <p className="ArtTherapy">
+
+      <button onClick={handleOpenCanvas} className="openCanvasButton">
+        Open Canvas
+      </button>
+          Art Therapy is a form of expressive therapy that uses creative processes such as drawing, coloring,
+          <br />
+          sculpting, or collage-making to help individuals explore and express their emotions,
+          <br />
+          improve mental health, and gain personal insights. It is not about artistic skills
+          <br />
+          but about self-expression and the healing journey.
+        </p>
+        <section className="mentalTechniques">
+          <h2>Common Techniques in Art Therapy</h2>
+          <ol>
+            <li>
+              <b>Spontaneous Drawing:</b> Helps participants draw what they feel without prior planning.
+            </li>
+            <li>
+              <b>Coloring:</b> Coloring books can be used as a way to relieve stress.
+            </li>
+            <li>
+              <b>Collage Making:</b> Combining images and magazine clippings reflects different aspects of one's personality.
+            </li>
+            <li>
+              <b>Clay Sculpting:</b> Allows individuals to express their emotions in a tangible form.
+            </li>
+          </ol>
+        </section>
+        <section className="mentalColorImportance">
+          <h2>The Importance of Colors in Art Therapy</h2>
+          <ul>
+            <li>
+              <b>Warm Colors:</b> Such as red and orange, can express energy, anger, or passion.
+            </li>
+            <li>
+              <b>Cool Colors:</b> Such as blue and green, help calm the mind and promote relaxation.
+            </li>
+            <li>
+              <b>Black:</b> Can signify sadness or strength, depending on the context.
+            </li>
+            <li>
+              <b>Yellow: </b>Reflects optimism and positivity.
+            </li>
+          </ul>
+          <p>Choose colors that resonate with you and let them guide your artistic expression.</p>
+        </section>
       </div>
       <SimpleArtTherapyExercises />
       </div>
