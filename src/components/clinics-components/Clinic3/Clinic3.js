@@ -1,20 +1,23 @@
 import { useNavigate } from 'react-router-dom';
 import Exercise from "../../clinic3ComponentsTemp/Exercise";
 import Exercise2 from "../../clinic3ComponentsTemp/Exercise2";
-import Footer from "../../Footer/Footer";
 import Header from "../../header/Header";
 import Navbar from "../../navbar/Navbar";
-import Review from '../../Review/Review';
+import Review from '../../review/Review';
 import "../Clinic3/Styles_C3.css";
-
-// import Navbar from "../../navbar/Navbar"
-
+import '../../books/BookList.css'
+import book1 from '../../../assests/Images/images For C3/atomic-hapits.jpg'
+import book2 from '../../../assests/Images/images For C3/David Burns - Feeling Good.jpg'
+import book3 from '../../../assests/Images/images For C3/Deep Work by Cal Newport.jpg'
+import book4 from '../../../assests/Images/images For C3/Nonviolent Communication by Marshall B. Rosenberg.jpg'
 import SimpleArtTherapyExercises from "../../clinic3ComponentsTemp/SimpleArtTherapyExercises";
 import BenefitsSection from "../../Benefites/BenefitsSection";
 import { SlackIcon } from "hugeicons-react";
-
 import Canvas from '../../clinic3ComponentsTemp/canvass/Canvas';
 import Sound from '../../clinic3ComponentsTemp/Sound';
+import Book from '../../books/Book';
+import BookList from '../../books/BookList';
+
 
 
 const Clinic3 = (props) => {
@@ -28,7 +31,7 @@ const Clinic3 = (props) => {
     return ( 
       
        <div>
-         <Navbar/>
+
 
      
         
@@ -47,8 +50,7 @@ const Clinic3 = (props) => {
 
         
 
-        <h1>Our Services</h1>
-        <BenefitsSection/>
+      
         <div className="MeditationMindfulness" >
         
         <h2>Meditation & Mindfulness: A Guide to Inner Peace and Clarity</h2>
@@ -72,9 +74,11 @@ const Clinic3 = (props) => {
       <br/>
       <br/>
       <br/>
-      <h2>Meditation Exercises</h2>
-      <div className="accordion" id="medEx">
+      <BenefitsSection/>
 
+     <div className='MedMindEX'>
+      <div className="accordion" id="medEx">
+        <h2>Meditation Exercises</h2>
       
         <Exercise
           exName="Breathing Awareness Exercise"
@@ -115,10 +119,10 @@ const Clinic3 = (props) => {
         />
       </div>
       <br/>
-      <h2>Mindfulness Exercises</h2>
+      
 
       <div className="accordion" id="mindEx">
-
+      <h2>Mindfulness Exercises</h2>
         <Exercise
           exName="Five Senses Exercise"
           purpose="Ground yourself in the present moment using your senses."
@@ -157,6 +161,7 @@ const Clinic3 = (props) => {
         />
       </div>
       </div>
+      </div>
      <div className="Art">
       <div className="artTherapy">
   <h2>Art Therapy</h2>
@@ -178,7 +183,7 @@ const Clinic3 = (props) => {
 <div className="sectionsContainer">
   <section className="mentalTechniques">
     <h2>Common Techniques in Art Therapy</h2>
-    <ol>
+    <ul>
       <li>
         <b>Spontaneous Drawing:</b> Helps participants draw what they feel without prior planning.
       </li>
@@ -191,7 +196,7 @@ const Clinic3 = (props) => {
       <li>
         <b>Clay Sculpting:</b> Allows individuals to express their emotions in a tangible form.
       </li>
-    </ol>
+    </ul>
   </section>
 
   <section className="mentalColorImportance">
@@ -213,41 +218,8 @@ const Clinic3 = (props) => {
     <p>Choose colors that resonate with you and let them guide your artistic expression.</p>
   </section>
        
-        <section className="mentalTechniques">
-          <h2>Common Techniques in Art Therapy</h2>
-          <ol>
-            <li>
-              <b>Spontaneous Drawing:</b> Helps participants draw what they feel without prior planning.
-            </li>
-            <li>
-              <b>Coloring:</b> Coloring books can be used as a way to relieve stress.
-            </li>
-            <li>
-              <b>Collage Making:</b> Combining images and magazine clippings reflects different aspects of one's personality.
-            </li>
-            <li>
-              <b>Clay Sculpting:</b> Allows individuals to express their emotions in a tangible form.
-            </li>
-          </ol>
-        </section>
-        <section className="mentalColorImportance">
-          <h2>The Importance of Colors in Art Therapy</h2>
-          <ul>
-            <li>
-              <b>Warm Colors:</b> Such as red and orange, can express energy, anger, or passion.
-            </li>
-            <li>
-              <b>Cool Colors:</b> Such as blue and green, help calm the mind and promote relaxation.
-            </li>
-            <li>
-              <b>Black:</b> Can signify sadness or strength, depending on the context.
-            </li>
-            <li>
-              <b>Yellow: </b>Reflects optimism and positivity.
-            </li>
-          </ul>
-          <p>Choose colors that resonate with you and let them guide your artistic expression.</p>
-        </section>
+       
+       
       </div>
       <SimpleArtTherapyExercises />
       </div>
@@ -320,9 +292,48 @@ const Clinic3 = (props) => {
     
       
       </section>
-      
+
+      <section id="books-info">
+      <div>
+        <h2> كتب يمكنك الاستفادة منها: </h2>
+        <div className="book-container">
+          <Book
+            title="Atomic Habits by James Clear"
+            description="Learn how small changes lead to remarkable results
+             by building good habits and breaking bad ones.
+             'Personal Growth and Self-Improvement'"
+            link="https://archive.org/details/atomic-habits-pdfdrive/page/n19/mode/2up"
+            image={book1}
+          />
+          <Book
+            title="Feeling Good: The New Mood Therapy by Dr. David D. Burns"
+            description="o	Techniques for managing depression and
+             improving your mood using cognitive-behavioral therapy.
+             'For Mental Health and Emotional Well-being'"
+            link="https://www.scribd.com/document/440135209/David-Burns-Feeling-Good-pdf"
+            image={book2}
+          />
+          <Book
+            title="Deep Work by Cal Newport"
+            description="o	Learn strategies to focus deeply and excel in a distracted world.
+            'For Productivity and Time Management'"
+            link="https://www.scribd.com/document/711710556/Deep-Work"
+            image={book3}
+
+          />
+          <Book
+            title="Nonviolent Communication by Marshall B. Rosenberg"
+            description="o	Learn empathetic communication techniques to resolve conflicts effectively."
+            link="https://ccpgc.usmf.md/sites/default/files/inline-files/Nonviolent%20Communication_%20A%20Language%20of%20Life_%20Life-Changing%20Tools%20for%20Healthy%20Relationships%20%28%20PDFDrive%20%29.pdf"
+            image={book4}
+         />
+
+        </div>
+      </div>
+    </section>
+      {/* <Sound /> */}
+
          <Review/>
-         <Footer/>
         
          </div>
     

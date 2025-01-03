@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/Styles_C2 en.css";
+import "../clinics-components/clinic2/Styles_C2.css";
 
 function ServiceCard (props) {
     return (

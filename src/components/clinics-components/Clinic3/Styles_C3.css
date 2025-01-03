@@ -63,20 +63,20 @@ margin-top: 3rem;
 
 
 /* Styling for the exercise container */
-#medEx{
+
+
+.MedMindEX{
   display: flex;
+  flex-wrap:wrap;
   justify-content: space-evenly;
-flex-wrap: wrap;
 }
-
-
 .exercise-box {
   background-color: #f9f9f9;
   padding: 15px;
   margin-bottom: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  width: 400px;
+  width: 600px;
 }
 
 .exercise-header {
@@ -110,11 +110,11 @@ flex-wrap: wrap;
 
 .exercise-details li {
   margin-bottom: 10px;
+  font-size: 15px;
+
 }
 
-.exercise-details ol {
-  padding-left: 20px;
-}
+
 
 .exercise-details a {
   color: #5c3778;
@@ -188,23 +188,23 @@ line-height: 1.6;
 
 .sectionsContainer {
 display: flex;
-justify-content: space-between;
-align-items: flex-start;
-gap: 20px;
+justify-content: space-evenly;
+align-items:center;
 margin-top: 20px;
+flex-wrap: wrap;
 }
 
 .mentalTechniques,
 .mentalColorImportance {
 background-color: hsla(278, 14%, 59%, 0.384);
 height:auto;
-position: relative; /* Change from absolute to relative */
-margin: 3rem; 
+margin: 2rem; 
 overflow: hidden;
 border-radius: 20px;
 box-shadow: #291d33 0px 1px 10px, #291d33 0px 2px 20px;
 padding: 2rem;
 text-align: center;
+width: 700px; ;
 }
 
 .mentalTechniques h2,
@@ -255,14 +255,13 @@ overflow: hidden;
 background-color: #ffffff;
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
-
 }
 
 .toggle-button {
 width: 100%;
 padding: 15px;
-background-color: #e8f0fe;
-color: #007bff;
+background-color:#61516d;
+color: white;
 border: none;
 font-size: 16px;
 font-weight: bold;
@@ -281,7 +280,11 @@ background-color: #291d33 0px 1px 10px;
 margin-bottom: 8px;
 color: #444;
 font-size: 14px;
+list-style-type: none;
+padding: 0;
 }
+
+
 
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -350,18 +353,6 @@ text-align:center;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 .HowSleepAffects h2,
 .SignsOfPoorSleepHygiene h3,
 .PhysicalAndEmotional h3,
@@ -390,6 +381,9 @@ text-align:center;
       font-size: 1.3rem;
       padding: 1.8rem;
   }
+
+
+
 }
 
 

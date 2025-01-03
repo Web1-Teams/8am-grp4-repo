@@ -1,32 +1,32 @@
 import React from "react";
 import Recipes from "./Recipes";
-import image1 from "../../../public/Clinics/images For C2/milk and apple mask.jpg";
-import image2 from "../../../public/Clinics/images For C2/cucumber and lemon mask.jpg";
-import image3 from "../../../public/Clinics/images For C2/yogurt turmeric and honey mask.jpg";
-import image4 from "../../../public/Clinics/images For C2/honey and rice mask.jpg";
-import image5 from "../../../public/Clinics/images For C2/Lemon and turmeric mask.jpg";
-import image6 from "../../../public/Clinics/images For C2/cucumber and rose water mask.jpg";
-import image7 from "../../../public/Clinics/images For C2/coffee and yogurt mask.jpg";
-import image8 from "../../../public/Clinics/images For C2/tea.jpg";
-import image9 from "../../../public/Clinics/images For C2/cucumber.jpg";
-import image10 from "../../../public/Clinics/images For C2/rose water.jpg";
-import image11 from "../../../public/Clinics/images For C2/sweet almond oil.jpg";
-import image12 from "../../../public/Clinics/images For C2/potato.jpg";
-import image13 from "../../../public/Clinics/images For C2/honey.jpg";
-import image14 from "../../../public/Clinics/images For C2/cucumber 2.jpg";
-import image15 from "../../../public/Clinics/images For C2/tea tree oil.jpg";
-import image16 from "../../../public/Clinics/images For C2/apple cider vinegar.webp";
-import image17 from "../../../public/Clinics/images For C2/sodium bicarbonate.webp";
-import image18 from "../../../public/Clinics/images For C2/egg.jpg";
-import image19 from "../../../public/Clinics/images For C2/honey and lemon.jpg";
-import image20 from "../../../public/Clinics/images For C2/oats.webp";
-import image21 from "../../../public/Clinics/images For C2/steam.jpg";
-import image22 from "../../../public/Clinics/images For C2/vaseline.webp";
-import image23 from "../../../public/Clinics/images For C2/olive oil.jpg";
-import image24 from "../../../public/Clinics/images For C2/Aloe vera.jpg";
-import image25 from "../../../public/Clinics/images For C2/honey and turmeric.jpg";
-import image26 from "../../../public/Clinics/images For C2/green tea.png";
-import image27 from "../../../public/Clinics/images For C2/egg.jpg";
+import image1 from "../../assests/Images/imagesForC2/milk and apple mask.jpg";
+import image2 from "../../assests/Images/imagesForC2/cucumber and lemon mask.jpg";
+import image3 from "../../assests/Images/imagesForC2/yogurt turmeric and honey mask.jpg";
+import image4 from "../../assests/Images/imagesForC2/honey and rice mask.jpg";
+import image5 from "../../assests/Images/imagesForC2/Lemon and turmeric mask.jpg";
+import image6 from "../../assests/Images/imagesForC2/cucumber and rose water mask.jpg";
+import image7 from "../../assests/Images/imagesForC2/coffee and yogurt mask.jpg";
+import image8 from "../../assests/Images/imagesForC2/tea.jpg";
+import image9 from "../../assests/Images/imagesForC2/cucumber.jpg";
+import image10 from "../../assests/Images/imagesForC2/rose water.jpg";
+import image11 from "../../assests/Images/imagesForC2/sweet almond oil.jpg";
+import image12 from "../../assests/Images/imagesForC2/potato.jpg";
+import image13 from "../../assests/Images/imagesForC2/honey.jpg";
+import image14 from "../../assests/Images/imagesForC2/cucumber 2.webp";
+import image15 from "../../assests/Images/imagesForC2/tea tree oil.jpeg";
+import image16 from "../../assests/Images/imagesForC2/apple cider vinegar.webp";
+import image17 from "../../assests/Images/imagesForC2/sodium bicarbonate.webp";
+import image18 from "../../assests/Images/imagesForC2/egg.jpg";
+import image19 from "../../assests/Images/imagesForC2/honey and lemon.jpg";
+import image20 from "../../assests/Images/imagesForC2/oats.webp";
+import image21 from "../../assests/Images/imagesForC2/steam.jpg";
+import image22 from "../../assests/Images/imagesForC2/vaseline.webp";
+import image23 from "../../assests/Images/imagesForC2/olive oil.jpg";
+import image24 from "../../assests/Images/imagesForC2/Aloe vera.jpg";
+import image25 from "../../assests/Images/imagesForC2/honey and turmeric.jpg";
+import image26 from "../../assests/Images/imagesForC2/green tea.png";
+import image27 from "../../assests/Images/imagesForC2/egg.jpg";
 
 const SkinCare = (props) => {
     return (
@@ -46,7 +46,7 @@ const SkinCare = (props) => {
   ingDescription2 = "The vitamin C in the apple helps brighten the skin."
   ingName3 = "1 tbsp honey"
   ingDescription3 = "The honey locks in moisture, leaving your skin soft and supple."
-  instructions = " 1. Blend 1/2 cup of milk and 1/2 an apple in a blender until smooth. 2. Add 1 tbsp of honey to the mixture and blend again. 3. Apply the mask to your face and leave it on for 15 minutes. 4. Rinse the mask off with warm water and pat your face dry with a towel."
+  instructions = " 1. Blend 1/2 cup of milk and 1/2 an apple in a blender until smooth.<br> 2. Add 1 tbsp of honey to the mixture and blend again.<br> 3. Apply the mask to your face and leave it on for 15 minutes.<br> 4. Rinse the mask off with warm water and pat your face dry with a towel."
   />
   <br></br>
   <Recipes recipeName = "Cucumber & Lemon Mask"
@@ -56,7 +56,7 @@ const SkinCare = (props) => {
   ingDescription1 = "Cucumber soothes the skin and reduces inflammation."
   ingName2 = "Juice of half a lemon"
   ingDescription2 = "Lemon acts as a natural brightener due to its Vitamin C."
-  instructions = "  1. Grate the cucumber and mix it with the juice of half a lemon.  2. Apply the mixture to your face and leave it on for 15 minutes.  3. Rinse the mask off with cold water and pat your face dry."
+  instructions = " 1. Grate the cucumber and mix it with the juice of half a lemon.<br> 2. Apply the mixture to your face and leave it on for 15 minutes.<br> 3. Rinse the mask off with cold water and pat your face dry."
   />
   <br></br>
   <Recipes recipeName = "Yogurt, Turmeric & Honey Mask"
@@ -68,7 +68,7 @@ const SkinCare = (props) => {
   ingDescription2 = "Turmeric acts as a powerful antioxidant for the skin."
   ingName3 = "1 tsp honey"
   ingDescription3 = "Honey hydrates and soothes the skin, leaving it soft."
-  instructions = "   1. Mix all the ingredients together to form a smooth paste. 2. Apply the mixture to your face and leave it on for 20 minutes. 3. Rinse the mask off with water and pat your face dry."
+  instructions = " 1. Mix all the ingredients together to form a smooth paste.<br> 2. Apply the mixture to your face and leave it on for 20 minutes.<br> 3. Rinse the mask off with water and pat your face dry."
   />
   <br></br>
   <Recipes recipeName = "Rice & Honey Mask"
@@ -82,7 +82,7 @@ const SkinCare = (props) => {
   ingDescription3 = "Honey provides deep hydration and soothes the skin."
   ingName4 = "1 tbsp milk (optional)"
   ingDescription4 = "Milk adds extra hydration and nourishment to the mask."
-  instructions = "  1. Soak the rice in water for at least 2 hours.  2. Blend the soaked rice into a smooth paste. 3. Mix the paste with honey (and milk if desired). 4. Apply the mixture to your face and leave it on for 20-30 minutes. 5. Rinse off with lukewarm water and pat your face dry."
+  instructions = " 1. Soak the rice in water for at least 2 hours.<br> 2. Blend the soaked rice into a smooth paste.<br> 3. Mix the paste with honey (and milk if desired).<br> 4. Apply the mixture to your face and leave it on for 20-30 minutes.<br> 5. Rinse off with lukewarm water and pat your face dry."
   />
   <br></br>
   <Recipes recipeName = "Lemon & Turmeric Mask"
@@ -94,7 +94,7 @@ const SkinCare = (props) => {
   ingDescription2 = "Lemon contains citric acid, which helps to brighten the skin."
   ingName3 = "1 tbsp yogurt"
   ingDescription3 = "Yogurt provides hydration and helps to balance the skin."
-  instructions = "    1. Combine all the ingredients in a bowl and mix well until smooth. 2. Apply the mixture to your face and leave it on for 10-15 minutes. 3. Rinse off with lukewarm water and pat your face dry"
+  instructions = " 1. Combine all the ingredients in a bowl and mix well until smooth.<br> 2. Apply the mixture to your face and leave it on for 10-15 minutes.<br> 3. Rinse off with lukewarm water and pat your face dry"
   />
   <br></br>
   <Recipes recipeName = "Cucumber & Rose Water Mask"
@@ -106,7 +106,7 @@ const SkinCare = (props) => {
   ingDescription2 = "Rose water adds a soothing effect and natural glow."
   ingName3 = "3 tbsp glycerin"
   ingDescription3 = "Glycerin locks in moisture, leaving the skin soft and radiant."
-  instructions = "   1. Mash the cucumber and mix it with rose water and glycerin. 2. Apply the mask in the evening and leave it on overnight. 3. Wash your face with cold water in the morning."
+  instructions = " 1. Mash the cucumber and mix it with rose water and glycerin.<br> 2. Apply the mask in the evening and leave it on overnight.<br> 3. Wash your face with cold water in the morning."
   />
   <br></br>
   <Recipes recipeName = "Coffee & Yogurt Mask"
@@ -116,7 +116,7 @@ const SkinCare = (props) => {
   ingDescription1 = "Yogurt moisturizes the skin, lightens dark spots, and smoothens the texture."
   ingName2 = "1 tsp ground coffee"
   ingDescription2 = "Coffee exfoliates the skin and provides antioxidants to fight free radicals."
-  instructions = "   1. Mix the ground coffee with yogurt thoroughly to create a smooth paste. 2. Apply the mask to a clean face, avoiding the eye area. 3. Gently massage your skin in circular motions for 1 minute to exfoliate. 4. Leave the mask on for 10-15 minutes. 5. Rinse your face with lukewarm water and pat it dry with a soft towel."
+  instructions = " 1. Mix the ground coffee with yogurt thoroughly to create a smooth paste.<br> 2. Apply the mask to a clean face, avoiding the eye area.<br> 3. Gently massage your skin in circular motions for 1 minute to exfoliate.<br> 4. Leave the mask on for 10-15 minutes.<br> 5. Rinse your face with lukewarm water and pat it dry with a soft towel."
   />
   <br></br>
     </details>
@@ -131,7 +131,7 @@ const SkinCare = (props) => {
   description = "  The caffeine and antioxidants in tea boost blood circulation and shrink blood vessels in the area, reducing puffiness and dark circles."
   ingName1 = "1 black or green tea bag"
   ingDescription1 = "Contains caffeine and antioxidants to reduce puffiness and brighten the area."
-  instructions = " 1. Use a cooled, used black or green tea bag. 2. Place the tea bags over your eyes for 10–15 minutes daily."
+  instructions = " 1. Use a cooled, used black or green tea bag.<br> 2. Place the tea bags over your eyes for 10–15 minutes daily."
   />
   <br></br>
   <Recipes recipeName = "Cucumber Slices Eye Mask"
@@ -139,7 +139,7 @@ const SkinCare = (props) => {
   description = "  Cucumbers are rich in antioxidants that help brighten the area and reduce swelling around the eyes."
   ingName1 = "1 cucumber, sliced"
   ingDescription1 = "Rich in antioxidants that help brighten the area and reduce puffiness."
-  instructions = "  1. Chill the cucumber slices in the refrigerator. 2. Place the chilled cucumber slices over your eyes for 10–15 minutes. 3. Repeat daily for best results."
+  instructions = " 1. Chill the cucumber slices in the refrigerator.<br> 2. Place the chilled cucumber slices over your eyes for 10–15 minutes.<br> 3. Repeat daily for best results."
   />
   <br></br>
   <Recipes recipeName = "Rose Water Eye Mask"
@@ -149,7 +149,7 @@ const SkinCare = (props) => {
   ingDescription1 = "Known for its soothing and rejuvenating properties, ideal for delicate skin around the eyes."
   ingName2 = "Cotton pads"
   ingDescription2 = "Used to apply rose water gently to the skin."
-  instructions = "    1. Soak a cotton pad in chilled rose water. 2. Place the cotton pad over your eyes for 10 minutes. 3. Repeat daily to achieve refreshed and rejuvenated eyes."
+  instructions = " 1. Soak a cotton pad in chilled rose water.<br> 2. Place the cotton pad over your eyes for 10 minutes.<br> 3. Repeat daily to achieve refreshed and rejuvenated eyes."
   />
    <br></br>
   <Recipes recipeName = "Sweet Almond Oil Treatment"
@@ -157,7 +157,7 @@ const SkinCare = (props) => {
   description = "  Sweet almond oil is rich in vitamin E, which moisturizes the skin and reduces dark pigmentation."
   ingName1 = "Sweet almond oil"
   ingDescription1 = "Packed with vitamin E, it deeply nourishes and helps lighten dark areas."
-  instructions = "  1. Apply a few drops of sweet almond oil to your under-eye area. 2. Gently massage the oil into the skin before bedtime. 3. Leave it on overnight and rinse in the morning if desired."
+  instructions = " 1. Apply a few drops of sweet almond oil to your under-eye area.<br> 2. Gently massage the oil into the skin before bedtime.<br> 3. Leave it on overnight and rinse in the morning if desired."
   />
    <br></br>
   <Recipes recipeName = "Grated Potato Eye Mask"
@@ -167,7 +167,7 @@ const SkinCare = (props) => {
   ingDescription1 = "Rich in natural brightening agents to lighten dark circles."
   ingName2 = "Cotton pads"
   ingDescription2 = "Helps apply the potato juice evenly under the eyes."
-  instructions = "    1. Grate the potato and extract its juice. 2. Soak cotton pads in the potato juice. 3. Place the soaked cotton pads over your eyes for 10–15 minutes. 4. Rinse your face with cold water and pat dry."
+  instructions = " 1. Grate the potato and extract its juice.<br> 2. Soak cotton pads in the potato juice.<br> 3. Place the soaked cotton pads over your eyes for 10–15 minutes.<br> 4. Rinse your face with cold water and pat dry."
   />
    <br></br>
     </details>
@@ -184,7 +184,7 @@ const SkinCare = (props) => {
   description = "  Honey is a natural antioxidant with soothing properties, helping to calm inflammation and reduce acne."
   ingName1 = "1 tsp of natural honey"
   ingDescription1 = "Rich in antioxidants and soothing properties to calm skin and reduce inflammation."
-  instructions = "  1. Apply a small amount of honey directly to acne spots. 2. Leave it on for 20–30 minutes. 3. Rinse off with warm water and pat dry."
+  instructions = " 1. Apply a small amount of honey directly to acne spots.<br> 2. Leave it on for 20–30 minutes.<br> 3. Rinse off with warm water and pat dry."
   />
   <br></br>
   <Recipes recipeName = "Grated Cucumber & Lemon Mask"
@@ -194,7 +194,7 @@ const SkinCare = (props) => {
   ingDescription1 = "Provides hydration and soothing properties for irritated skin."
   ingName2 = "1 tsp lemon juice"
   ingDescription2 = "Helps reduce inflammation and cleanse clogged pores."
-  instructions = "   1. Mix the grated cucumber and lemon juice together in a bowl. 2. Apply the mixture to the affected skin and leave it on for 15 minutes. 3. Rinse off with water and gently pat dry."
+  instructions = " 1. Mix the grated cucumber and lemon juice together in a bowl.<br> 2. Apply the mixture to the affected skin and leave it on for 15 minutes.<br> 3. Rinse off with water and gently pat dry."
   />
   <br></br>
   <Recipes recipeName = "Tea Tree Oil Treatment"
@@ -204,7 +204,7 @@ const SkinCare = (props) => {
   ingDescription1 = "Known for its antibacterial and anti-inflammatory properties to target acne."
   ingName2 = "Carrier oil (e.g., coconut oil)"
   ingDescription2 = "Helps dilute tea tree oil to prevent skin irritation."
-  instructions = "   1. Mix a few drops of tea tree oil with a carrier oil, such as coconut oil. 2. Apply the mixture to the affected areas using a cotton swab or your fingertips. 3. Leave it on overnight or for several hours, then rinse off if needed."
+  instructions = " 1. Mix a few drops of tea tree oil with a carrier oil, such as coconut oil.<br> 2. Apply the mixture to the affected areas using a cotton swab or your fingertips.<br> 3. Leave it on overnight or for several hours, then rinse off if needed."
   />
    <br></br>
   <Recipes recipeName = "Apple Cider Vinegar Toner"
@@ -216,7 +216,7 @@ const SkinCare = (props) => {
   ingDescription2 = "Dilutes the vinegar to make it gentle on the skin."
   ingName3 = "Cotton pads"
   ingDescription3 = "Helps apply the toner evenly on the skin."
-  instructions = "   1. Mix 1 tablespoon of apple cider vinegar with 3 tablespoons of water. 2. Soak a cotton pad in the solution and apply it to your skin. 3. Leave it on for 1 minute, then rinse off with water. 4. Use sparingly and avoid applying on open wounds or irritated skin."
+  instructions = " 1. Mix 1 tablespoon of apple cider vinegar with 3 tablespoons of water.<br> 2. Soak a cotton pad in the solution and apply it to your skin.<br> 3. Leave it on for 1 minute, then rinse off with water.<br> 4. Use sparingly and avoid applying on open wounds or irritated skin."
   />
    <br></br>
   <Recipes recipeName = "Baking Soda Paste"
@@ -226,7 +226,7 @@ const SkinCare = (props) => {
   ingDescription1 = "Acts as an exfoliant to unclog pores and remove dead skin cells."
   ingName2 = "A small amount of water"
   ingDescription2 = "Used to form a paste with the baking soda."
-  instructions = "  1. Mix 1 teaspoon of baking soda with a small amount of water to form a paste. 2. Apply the paste to the affected areas and leave it on for 10 minutes. 3. Rinse thoroughly with water and pat your skin dry. 4. Use sparingly as overuse may irritate the skin."
+  instructions = " 1. Mix 1 teaspoon of baking soda with a small amount of water to form a paste.<br> 2. Apply the paste to the affected areas and leave it on for 10 minutes.<br> 3. Rinse thoroughly with water and pat your skin dry.<br> 4. Use sparingly as overuse may irritate the skin."
   />
    <br></br>
     </datalis>
@@ -247,7 +247,7 @@ const SkinCare = (props) => {
   ingDescription2 = "Used to create a peel-off mask layer."
   ingName3 = "A small brush"
   ingDescription3 ="To evenly distribute the egg white on the skin."
-  instructions = "  1. Wash your face thoroughly with warm water to remove dirt and open up the pores. 2. Gently pat your skin dry with a clean towel. 3. Whisk the egg white slightly with a fork until it becomes liquid and easy to apply. 4. Using a small brush, apply a thin layer of egg white to the areas with blackheads. 5. Place small pieces of tissue paper over the areas coated with egg white, pressing gently to make them stick. 6. Apply another layer of egg white on top of the tissue to secure it. 7. Leave the mask on your face until it dries completely (approximately 15-20 minutes). 8. Once the tissue is dry and firm, gently peel it off from bottom to top. Blackheads will stick to the tissue. 9. Rinse your face with lukewarm water to remove any remaining egg white. 10. Moisturize your skin with a suitable cream to prevent dryness."
+  instructions = " 1. Wash your face thoroughly with warm water to remove dirt and open up the pores.<br> 2. Gently pat your skin dry with a clean towel.<br> 3. Whisk the egg white slightly with a fork until it becomes liquid and easy to apply.<br> 4. Using a small brush, apply a thin layer of egg white to the areas with blackheads.<br> 5. Place small pieces of tissue paper over the areas coated with egg white, pressing gently to make them stick.<br> 6. Apply another layer of egg white on top of the tissue to secure it.<br> 7. Leave the mask on your face until it dries completely (approximately 15-20 minutes).<br> 8. Once the tissue is dry and firm, gently peel it off from bottom to top. Blackheads will stick to the tissue.<br> 9. Rinse your face with lukewarm water to remove any remaining egg white.<br> 10. Moisturize your skin with a suitable cream to prevent dryness."
   />
   <br></br>
   <Recipes recipeName = "Honey and Lemon Mask"
@@ -257,7 +257,7 @@ const SkinCare = (props) => {
   ingDescription1 = "Moisturizes the skin and soothes irritation."
   ingName2 = "Half a lemon"
   ingDescription2 = "Contains natural antibacterial properties to cleanse pores."
-  instructions = " 1. Coat the cut side of the half lemon with honey. 2. Gently rub the lemon over the affected areas with blackheads in circular motions for 3-5 minutes. 3. Leave the mixture on your skin for 5 minutes. 4. Rinse your face with cold water."
+  instructions = " 1. Coat the cut side of the half lemon with honey.<br> 2. Gently rub the lemon over the affected areas with blackheads in circular motions for 3-5 minutes.<br> 3. Leave the mixture on your skin for 5 minutes.<br> 4. Rinse your face with cold water."
   />
   <br></br>
   <Recipes recipeName = "Oatmeal Mask"
@@ -267,7 +267,7 @@ const SkinCare = (props) => {
   ingDescription1 = "Gently exfoliates and nourishes the skin."
   ingName2 = "Warm water"
   ingDescription2 = "Helps create a paste for easy application."
-  instructions = "  1. Mix the oatmeal with an appropriate amount of warm water to form a thick paste. 2. Apply the mixture evenly on your face and leave it for 15 minutes to dry. 3. Rinse off gently with lukewarm water"
+  instructions = " 1. Mix the oatmeal with an appropriate amount of warm water to form a thick paste.<br> 2. Apply the mixture evenly on your face and leave it for 15 minutes to dry.<br> 3. Rinse off gently with lukewarm water"
   />
    <br></br>
   <Recipes recipeName = "Steam and Clean"
@@ -279,7 +279,7 @@ const SkinCare = (props) => {
   ingDescription2 = "Helps trap the steam for better effect."
   ingName3 = "Soft cotton pads"
   ingDescription3 = "For gentle removal of blackheads after steaming."
-  instructions = "  1. Expose your face to hot water steam for 10 minutes to open up the pores. 2. Use a soft cotton pad gently to remove blackheads without harsh pressure."
+  instructions = " 1. Expose your face to hot water steam for 10 minutes to open up the pores.<br> 2. Use a soft cotton pad gently to remove blackheads without harsh pressure."
   />
    <br></br>
   <Recipes recipeName = "Vaseline for Blackhead Removal"
@@ -293,7 +293,7 @@ const SkinCare = (props) => {
   ingDescription3 = "Used to apply warmth to the skin."
   ingName4 = "Warm water"
   ingDescription4 = "To wet the towel and provide gentle heat."
-  instructions = "  1. Clean your face with a suitable cleanser and pat it dry. 2. Apply a thick layer of Vaseline on the affected area with blackheads. 3. Cover the area with plastic wrap to retain heat and moisture. 4. Place a towel soaked in warm water over the plastic for 5-10 minutes, ensuring the temperature is comfortable. 5. Remove the plastic and towel, and gently massage the area with a soft tissue or clean cotton pad. 6. Use a sanitized blackhead removal tool to carefully extract blackheads. The softened pores make removal easier. 7. Wash your face with cold water to close the pores, and apply a light moisturizer."
+  instructions = " 1. Clean your face with a suitable cleanser and pat it dry.<br> 2. Apply a thick layer of Vaseline on the affected area with blackheads.<br> 3. Cover the area with plastic wrap to retain heat and moisture.<br> 4. Place a towel soaked in warm water over the plastic for 5-10 minutes, ensuring the temperature is comfortable.<br> 5. Remove the plastic and towel, and gently massage the area with a soft tissue or clean cotton pad.<br> 6. Use a sanitized blackhead removal tool to carefully extract blackheads. The softened pores make removal easier.<br> 7. Wash your face with cold water to close the pores, and apply a light moisturizer."
   />
    <br></br>
     </details>
@@ -310,7 +310,7 @@ const SkinCare = (props) => {
   description = "Olive oil deeply moisturizes the skin and reduces wrinkles thanks to its antioxidants and vitamin E."
   ingName1 = "A few drops of olive oil"
   ingDescription1 = "Packed with vitamin E and antioxidants to nourish and hydrate the skin."
-  instructions = " 1. Massage your skin with olive oil before bedtime. 2. Wipe off the excess oil using a soft towel."
+  instructions = " 1. Massage your skin with olive oil before bedtime.<br> 2. Wipe off the excess oil using a soft towel."
   />
   <br></br>
   <Recipes recipeName = "Aloe Vera"
@@ -318,7 +318,7 @@ const SkinCare = (props) => {
   description = " Contains malic acid that enhances skin elasticity and reduces wrinkles."
   ingName1 = "Fresh Aloe Vera gel"
   ingDescription1 = "Rich in nutrients that improve skin elasticity and hydration."
-  instructions = " 1. Apply the gel to your face and gently massage. 2. Leave it on for 15–20 minutes, then rinse with water."
+  instructions = " 1. Apply the gel to your face and gently massage.<br> 2. Leave it on for 15–20 minutes, then rinse with water."
   />
   <br></br>
   <Recipes recipeName = "Turmeric and Honey Mask"
@@ -330,7 +330,7 @@ const SkinCare = (props) => {
   ingDescription2 = "Moisturizes and revitalizes the skin."
   ingName3 = "1 teaspoon almond milk"
   ingDescription3 = "Enhances skin hydration and smoothness."
-  instructions = "1. Mix all the ingredients well in a bowl. 2. Apply the mixture to your face and leave it on for 20 minutes. 3. Rinse off with cold water."
+  instructions = " 1. Mix all the ingredients well in a bowl.<br> 2. Apply the mixture to your face and leave it on for 20 minutes.<br> 3. Rinse off with cold water."
   />
    <br></br>
   <Recipes recipeName = "Green Tea"
@@ -338,7 +338,7 @@ const SkinCare = (props) => {
   description = "  Antioxidants combat free radicals, keeping your skin youthful and healthy."
   ingName1 = "Used green tea bags"
   ingDescription1 = "Rich in antioxidants to rejuvenate and refresh the skin."
-  instructions = " 1. Place chilled green tea bags on your face. 2. Leave them on for 10–15 minutes."
+  instructions = " 1. Place chilled green tea bags on your face.<br> 2. Leave them on for 10–15 minutes."
   />
    <br></br>
   <Recipes recipeName = "Egg White"
@@ -346,7 +346,7 @@ const SkinCare = (props) => {
   description = "  Proteins and vitamins help tighten the skin and reduce fine lines."
   ingName1 = "1 egg white"
   ingDescription1 = "Rich in nutrients to firm and tone the skin."
-  instructions = " 1. Whisk the egg white thoroughly and apply it to your face. 2. Let it dry completely, then rinse with lukewarm water."
+  instructions = " 1. Whisk the egg white thoroughly and apply it to your face.<br> 2. Let it dry completely, then rinse with lukewarm water."
   />
    <br></br>
   </details>
