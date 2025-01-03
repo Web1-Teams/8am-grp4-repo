@@ -66,7 +66,9 @@ const BodyCare = (props) => {
   description="Coconut oil is a great option for moisturizing the skin. It contains natural fats that prevent moisture loss and has antibacterial and anti-inflammatory properties, making it ideal for cracked and dry skin."
   ingName1="A few drops of coconut oil"
   ingDescription1="Coconut oil contains natural fats that prevent moisture loss and has antibacterial and anti-inflammatory properties, making it ideal for cracked and dry skin."
-  instructions="1. Warm a few drops of coconut oil in your hands. 2. Massage the oil onto dry skin before bedtime. 3. Leave it on overnight to let the skin absorb its nutrients."
+  instructions="1. Warm a few drops of coconut oil in your hands.<br>
+   2. Massage the oil onto dry skin before bedtime.<br>
+    3. Leave it on overnight to let the skin absorb its nutrients."
 />
 <br></br>
 <Recipes 
@@ -79,7 +81,9 @@ const BodyCare = (props) => {
   ingDescription2="Olive oil provides extra hydration and helps lock in moisture."
   ingName3="1 tbsp honey"
   ingDescription3="Honey is a natural humectant that locks in moisture and soothes the skin."
-  instructions="1. Mash 1/2 avocado and mix it with olive oil and honey. 2. Apply the mixture to your skin and leave it on for 15-20 minutes. 3. Rinse it off with water."
+  instructions="1. Mash 1/2 avocado and mix it with olive oil and honey.<br>
+   2. Apply the mixture to your skin and leave it on for 15-20 minutes.<br>
+    3. Rinse it off with water."
 />
 <br></br>
 <Recipes 
@@ -92,7 +96,9 @@ const BodyCare = (props) => {
   ingDescription2="Honey is a natural humectant that locks in moisture and has antibacterial properties to protect the skin."
   ingName3="3 tbsp sugar"
   ingDescription3="Sugar acts as a gentle exfoliant, helping to remove dead skin cells and leave the skin soft and smooth."
-  instructions="1. Mix all the ingredients well in a bowl. 2. Use the mixture as a scrub by massaging it gently onto your skin. 3. Wash it off with cold water after 5-6 minutes."
+  instructions="1. Mix all the ingredients well in a bowl.<br>
+   2. Use the mixture as a scrub by massaging it gently onto your skin.<br>
+    3. Wash it off with cold water after 5-6 minutes."
 />
 <br></br>
 <Recipes 
@@ -101,7 +107,8 @@ const BodyCare = (props) => {
   description="Shea butter contains vitamins A and E, which nourish the skin and restore its natural moisture barrier. It is ideal for deep hydration, especially during winter."
   ingName1="Shea butter"
   ingDescription1="Shea butter is rich in vitamins A and E, providing intense nourishment and restoring the skin's natural moisture barrier."
-  instructions="1. Apply a thick layer of shea butter to dry areas of the skin. 2. Cover the area with a clean cloth and leave it on overnight to allow the skin to absorb the nutrients."
+  instructions="1. Apply a thick layer of shea butter to dry areas of the skin.<br>
+   2. Cover the area with a clean cloth and leave it on overnight to allow the skin to absorb the nutrients."
 />
 <br></br>
 <Recipes 
@@ -110,7 +117,8 @@ const BodyCare = (props) => {
   description="Aloe vera gel is known for its soothing and anti-inflammatory properties. It contains enzymes and nutrients that help hydrate the skin and promote cell renewal."
   ingName1="Pure aloe vera gel"
   ingDescription1="Aloe vera gel is packed with soothing enzymes and nutrients that hydrate the skin and promote cell regeneration."
-  instructions="1. Apply the pure gel to dry skin. 2. Leave it on until fully absorbed."
+  instructions="1. Apply the pure gel to dry skin.<br>
+   2. Leave it on until fully absorbed."
 />
 <br></br>
 <Recipes 
@@ -123,7 +131,8 @@ const BodyCare = (props) => {
   ingDescription2="Glycerin acts as a natural humectant, attracting moisture to the skin."
   ingName3="3 tbsp rose water"
   ingDescription3="Rose water soothes irritation, adds softness, and enhances hydration."
-  instructions="1. Mix all ingredients together in a bowl. 2. Use a clean cotton pad to apply the mixture to your skin for hydration and cleansing."
+  instructions="1. Mix all ingredients together in a bowl.<br>
+   2. Use a clean cotton pad to apply the mixture to your skin for hydration and cleansing."
 />
 <br></br>
 <Recipes 
@@ -136,7 +145,9 @@ const BodyCare = (props) => {
   ingDescription2="Honey is a natural moisturizer that locks in hydration and soothes the skin."
   ingName3="A small amount of water"
   ingDescription3="Water is used to adjust the consistency of the paste for easy application."
-  instructions="1. Mix all the ingredients together to form a paste. 2. Apply the paste to your skin and leave it on for 15 minutes. 3. Rinse it off with water."
+  instructions="1. Mix all the ingredients together to form a paste.<br>
+   2. Apply the paste to your skin and leave it on for 15 minutes.<br>
+    3. Rinse it off with water."
 />
 <br></br>
 <Recipes 
@@ -147,7 +158,8 @@ const BodyCare = (props) => {
   ingDescription1="Warm milk contains natural fats and proteins that soothe and hydrate dry skin, along with lactic acid for gentle exfoliation."
   ingName2="Dry cotton pads"
   ingDescription2="Cotton pads are used to apply the milk to the skin."
-  instructions="1. Dip a cotton pad into the warm milk and gently wipe it across your skin. 2. Leave it on for 10 minutes, then rinse with cold water."
+  instructions="1. Dip a cotton pad into the warm milk and gently wipe it across your skin.<br>
+   2. Leave it on for 10 minutes, then rinse with cold water."
 />
 <br></br>
         </details>
@@ -167,7 +179,9 @@ const BodyCare = (props) => {
   ingDescription2="Brown sugar or sea salt acts as a gentle exfoliant to remove dead skin cells."
   ingName3="1/4 cup warm coconut oil"
   ingDescription3="Warm coconut oil moisturizes the skin and helps bind the ingredients together."
-  instructions="1. Mix all the ingredients together until you get a uniform mixture. 2. Massage the scrub onto areas with cellulite in circular motions for 5-10 minutes. 3. Rinse off with warm water. Repeat this scrub 2-3 times a week for noticeable results."
+  instructions="1. Mix all the ingredients together until you get a uniform mixture.<br>
+   2. Massage the scrub onto areas with cellulite in circular motions for 5-10 minutes.<br>
+    3. Rinse off with warm water. Repeat this scrub 2-3 times a week for noticeable results."
 />
 <br></br>
 <Recipes 
@@ -176,7 +190,9 @@ const BodyCare = (props) => {
   description="Dry brushing improves blood circulation and promotes lymphatic drainage, reducing the appearance of cellulite."
   ingName1="Brush with natural bristles"
   ingDescription1="A brush with natural bristles is ideal for gently exfoliating the skin and stimulating blood flow."
-  instructions="1. Clean the skin before showering. 2. Start with gentle circular motions from the feet upward toward the heart. 3. Continue for 5-10 minutes and repeat daily for the best results."
+  instructions="1. Clean the skin before showering.<br>
+   2. Start with gentle circular motions from the feet upward toward the heart.<br>
+    3. Continue for 5-10 minutes and repeat daily for the best results."
 />
 <br></br>
 <Recipes 
@@ -191,7 +207,8 @@ const BodyCare = (props) => {
   ingDescription3="Sea salt adds minerals to the water and helps promote relaxation."
   ingName4="Few drops of essential oil (optional)"
   ingDescription4="Essential oils can provide additional soothing effects and fragrance for the bath."
-  instructions="1. Add all the ingredients to warm water in the bathtub. 2. Soak your body for 20 minutes, then gently pat your skin dry."
+  instructions="1. Add all the ingredients to warm water in the bathtub.<br>
+   2. Soak your body for 20 minutes, then gently pat your skin dry."
 />
 <br></br>
 <Recipes 
@@ -204,7 +221,10 @@ const BodyCare = (props) => {
   ingDescription2="Olive oil moisturizes and nourishes the skin."
   ingName3="Warm water to make a paste"
   ingDescription3="Warm water is used to mix the ingredients into a smooth paste."
-  instructions="1. Mix the ingredients together until a smooth paste forms. 2. Apply the mixture to areas affected by cellulite. 3. Wrap the skin with plastic wrap and leave it for 30 minutes. 4. Rinse off with warm water. Repeat once a week for best results."
+  instructions="1. Mix the ingredients together until a smooth paste forms.<br>
+   2. Apply the mixture to areas affected by cellulite.<br>
+    3. Wrap the skin with plastic wrap and leave it for 30 minutes.<br>
+     4. Rinse off with warm water. Repeat once a week for best results."
 />
 <br></br>
 <Recipes 
@@ -237,7 +257,9 @@ const BodyCare = (props) => {
   ingDescription1="Turmeric is known for its antioxidant and anti-inflammatory benefits."
   ingName2="2 tsp milk"
   ingDescription2="Milk helps soothe and nourish the skin while enhancing the turmeric's effects."
-  instructions="1. Mix the ingredients together to form a paste. 2. Apply the paste to the affected areas for 15-20 minutes. 3. Rinse off with warm water. Repeat 2-3 times a week for best results."
+  instructions="1. Mix the ingredients together to form a paste.<br>
+   2. Apply the paste to the affected areas for 15-20 minutes.<br>
+    3. Rinse off with warm water. Repeat 2-3 times a week for best results."
 />
 <br></br>
 <Recipes 
@@ -246,7 +268,8 @@ const BodyCare = (props) => {
   description="Potatoes contain natural bleaching agents that help lighten pigmentation."
   ingName1="1 potato, sliced thinly"
   ingDescription1="Potato slices contain enzymes that help lighten skin pigmentation."
-  instructions="1. Place the potato slices on your skin and gently rub them for 5-10 minutes. 2. Leave the juice on your skin for an additional 10 minutes before rinsing with water."
+  instructions="1. Place the potato slices on your skin and gently rub them for 5-10 minutes.<br>
+   2. Leave the juice on your skin for an additional 10 minutes before rinsing with water."
 />
 <br></br>
 <Recipes 
@@ -255,7 +278,8 @@ const BodyCare = (props) => {
   description="Green tea contains antioxidants that reduce melanin production in the skin."
   ingName1="1 cup of green tea"
   ingDescription1="Green tea is rich in antioxidants that help lighten pigmentation."
-  instructions="1. Prepare a cup of green tea and let it cool. 2. Soak a cotton pad in the tea and apply it to the pigmented areas for 10-15 minutes, then rinse with water."
+  instructions="1. Prepare a cup of green tea and let it cool.<br>
+   2. Soak a cotton pad in the tea and apply it to the pigmented areas for 10-15 minutes, then rinse with water."
 />
 <br></br>
 <Recipes 
@@ -266,7 +290,9 @@ const BodyCare = (props) => {
   ingDescription1="Yogurt is rich in lactic acid that helps brighten the skin."
   ingName2="1 tablespoon of oats"
   ingDescription2="Oats work as a natural exfoliant for smooth skin."
-  instructions="1. Mix the yogurt and oats well. 2. Apply the mixture to the skin for 10-15 minutes, then rinse with lukewarm water. 3. Wrap the skin with plastic wrap and leave it for 30 minutes."
+  instructions="1. Mix the yogurt and oats well.<br>
+   2. Apply the mixture to the skin for 10-15 minutes, then rinse with lukewarm water.<br>
+    3. Wrap the skin with plastic wrap and leave it for 30 minutes."
 />
 <br></br>
 <Recipes 
@@ -277,7 +303,9 @@ const BodyCare = (props) => {
   ingDescription1="Papaya contains papain, an enzyme that exfoliates and removes pigmentation."
   ingName2="1 tablespoon of honey"
   ingDescription2="Honey hydrates the skin and helps with moisture retention."
-  instructions="1. Mash a piece of ripe papaya and mix it with honey. 2. Apply the mixture to dark spots for 20-30 minutes. 3. Wash it off with warm water, use this treatment twice a week."
+  instructions="1. Mash a piece of ripe papaya and mix it with honey.<br>
+   2. Apply the mixture to dark spots for 20-30 minutes.<br>
+    3. Wash it off with warm water, use this treatment twice a week."
 />
 <br></br>
 <Recipes 
@@ -290,7 +318,9 @@ const BodyCare = (props) => {
   ingDescription2="Cucumber cools and hydrates the skin."
   ingName3="Cotton pad"
   ingDescription3="Used for applying the mixture onto the skin."
-  instructions="1. Mix lemon juice and cucumber juice together. 2. Apply the mixture to the skin using a cotton pad and leave it for 10-15 minutes, then wash it off with water. 3. It is recommended to use this treatment once a day and avoid sun exposure during that time."
+  instructions="1. Mix lemon juice and cucumber juice together.<br>
+   2. Apply the mixture to the skin using a cotton pad and leave it for 10-15 minutes, then wash it off with water.<br>
+    3. It is recommended to use this treatment once a day and avoid sun exposure during that time."
 />
 
 <br></br>
@@ -309,7 +339,10 @@ const BodyCare = (props) => {
   ingDescription1="Rich in natural acids that exfoliate and brighten the skin."
   ingName2="Honey"
   ingDescription2="A natural moisturizer and antibacterial agent for smooth, healthy skin."
-  instructions="1. Mix 1 cup of lemon juice with 2 tablespoons of honey. 2. Add the mixture to warm water in a basin. 3. Soak your feet for 15-20 minutes. 4. Use a pumice stone to remove dead skin for soft, refreshed feet."
+  instructions="1. Mix 1 cup of lemon juice with 2 tablespoons of honey.<br>
+   2. Add the mixture to warm water in a basin.<br>
+    3. Soak your feet for 15-20 minutes.<br>
+     4. Use a pumice stone to remove dead skin for soft, refreshed feet."
 />
 <br></br>
 <Recipes 
@@ -320,7 +353,9 @@ const BodyCare = (props) => {
   ingDescription1="A rich natural moisturizer that deeply nourishes and hydrates dry skin."
   ingName2="Almond Oil"
   ingDescription2="A lightweight oil that softens the skin and improves elasticity."
-  instructions="1. Mix 2 tablespoons of shea butter with 1 teaspoon of almond oil. 2. Apply the mixture to the cracked areas and gently massage. 3. Repeat this step daily for best results."
+  instructions="1. Mix 2 tablespoons of shea butter with 1 teaspoon of almond oil.<br>
+   2. Apply the mixture to the cracked areas and gently massage.<br>
+    3. Repeat this step daily for best results."
 />
 <br></br>
 <Recipes 
@@ -331,8 +366,9 @@ const BodyCare = (props) => {
   ingDescription1="A natural exfoliant that removes dead skin cells and smoothens the skin."
   ingName2="Olive Oil"
   ingDescription2="A nourishing oil that deeply moisturizes and protects the skin barrier."
-  instructions="1. Mix 2 tablespoons of sugar with 1 tablespoon of olive oil.
-                2. Rub the mixture on your feet for a few minutes in circular motions. 3. Rinse with lukewarm water and dry thoroughly."
+  instructions="1. Mix 2 tablespoons of sugar with 1 tablespoon of olive oil.<br>
+                2. Rub the mixture on your feet for a few minutes in circular motions. <br>
+                3. Rinse with lukewarm water and dry thoroughly."
 />
 <br></br>
 <Recipes 
@@ -343,9 +379,9 @@ const BodyCare = (props) => {
   ingDescription1="A natural moisturizer that soothes and hydrates dry or irritated skin."
   ingName2="Gelatin"
   ingDescription2="A protein-rich ingredient that helps improve skin elasticity and texture."
-  instructions="1. Extract fresh aloe vera gel from the plant.  
-                2. Mix it with 1 teaspoon of gelatin dissolved in warm water.  
-                3. Apply the mixture to your feet and leave it on for 20 minutes.  
+  instructions="1. Extract fresh aloe vera gel from the plant.  <br>
+                2. Mix it with 1 teaspoon of gelatin dissolved in warm water.  <br>
+                3. Apply the mixture to your feet and leave it on for 20 minutes. <br> 
                 4. Rinse with water and pat dry."
 />
 <br></br>
@@ -357,8 +393,8 @@ const BodyCare = (props) => {
   ingDescription1="An effective natural ingredient that softens hardened, dead skin."
   ingName2="Warm Water"
   ingDescription2="Helps to open pores and enhance the vinegar's effects."
-  instructions="1. Add half a cup of white vinegar to a bowl of warm water.  
-                2. Soak your feet in the mixture for 10-15 minutes.  
+  instructions="1. Add half a cup of white vinegar to a bowl of warm water.<br>  
+                2. Soak your feet in the mixture for 10-15 minutes.<br>  
                 3. Rinse your feet thoroughly, pat dry, and apply a moisturizer immediately."
 />
 <br></br>
@@ -368,7 +404,9 @@ const BodyCare = (props) => {
   description="Coconut oil has antimicrobial and anti-inflammatory properties, deeply moisturizing the feet and preventing infections."
   ingName1="Coconut oil"
   ingDescription1="Known for its deep moisturizing and antimicrobial properties, ideal for dry and cracked feet."
-  instructions="1. Massage a small amount of coconut oil onto your feet at night before sleeping. 2. Wear cotton socks to seal in the moisture. 3. Leave it on overnight for maximum benefit."
+  instructions="1. Massage a small amount of coconut oil onto your feet at night before sleeping.<br>
+   2. Wear cotton socks to seal in the moisture.<br>
+    3. Leave it on overnight for maximum benefit."
 />
 <br></br>
         </details>
@@ -386,7 +424,7 @@ const BodyCare = (props) => {
   ingDescription1="A natural ingredient with astringent properties that helps control sweat and balance skin pH."
   ingName2="Honey (optional for drink)"
   ingDescription2="A natural humectant that complements vinegar's detoxifying effects when consumed."
-  instructions="1. **Topical Use:** Soak a cotton pad in apple cider vinegar and apply it to sweaty areas. Leave it on overnight. Wash the skin in the morning and apply talcum powder.  
+  instructions="1. **Topical Use:** Soak a cotton pad in apple cider vinegar and apply it to sweaty areas. Leave it on overnight. Wash the skin in the morning and apply talcum powder.  <br>
                 2. **Drink:** Mix 2 tablespoons of apple cider vinegar with 1 tablespoon of honey in a cup of water. Drink daily on an empty stomach for internal benefits."
 />
 <br></br>
@@ -396,7 +434,7 @@ const BodyCare = (props) => {
   description="Sage contains magnesium and vitamin B, which reduce the activity of sweat glands and have astringent properties."
   ingName1="Sage Leaves"
   ingDescription1="A natural herb rich in magnesium and vitamin B, known for its sweat-reducing and astringent effects."
-  instructions="1. **Topical Use:** Boil a teaspoon of sage leaves in a cup of water. Let it cool and use it to wash sweaty areas daily.  
+  instructions="1. **Topical Use:** Boil a teaspoon of sage leaves in a cup of water. Let it cool and use it to wash sweaty areas daily. <br> 
                 2. **Drink:** Prepare sage tea by boiling sage leaves in water. Drink it twice daily for internal benefits."
 />
 <br></br>
@@ -408,8 +446,8 @@ const BodyCare = (props) => {
   ingDescription1="Neutralizes odors and absorbs excess moisture."
   ingName2="Lemon Juice"
   ingDescription2="A natural antibacterial agent that helps eliminate odor-causing bacteria."
-  instructions="1. Mix one teaspoon of baking soda with enough lemon juice to form a paste.  
-                2. Apply the paste to sweaty areas and leave it on for 15 minutes.  
+  instructions="1. Mix one teaspoon of baking soda with enough lemon juice to form a paste.<br>  
+                2. Apply the paste to sweaty areas and leave it on for 15 minutes. <br> 
                 3. Rinse off with water and pat dry."
 />
 <br></br>
@@ -419,8 +457,8 @@ const BodyCare = (props) => {
   description="Rich in tannic acid, black tea acts as a natural astringent and antiperspirant."
   ingName1="Black Tea Bags"
   ingDescription1="Contains tannic acid to help reduce sweat production and fight bacteria."
-  instructions="1. Steep black tea bags in hot water and let them cool.  
-                2. Wipe sweaty areas with the cooled tea using a cloth or cotton.  
+  instructions="1. Steep black tea bags in hot water and let them cool. <br> 
+                2. Wipe sweaty areas with the cooled tea using a cloth or cotton.<br>  
                 3. Alternatively, soak your hands or feet in black tea for 20 minutes."
 />
 <br></br>
@@ -434,7 +472,7 @@ const BodyCare = (props) => {
   ingDescription2="Helps neutralize odors and absorb excess moisture."
   ingName3="Essential Oil (optional)"
   ingDescription3="Adds a pleasant, refreshing fragrance."
-  instructions="1. **Direct Use:** Massage sweaty areas with pure coconut oil.  
+  instructions="1. **Direct Use:** Massage sweaty areas with pure coconut oil.<br>  
                 2. **Natural Deodorant:** Mix 3 teaspoons of coconut oil with baking soda and a few drops of your favorite essential oil. Apply as needed."
 />
 <br></br>
@@ -444,7 +482,7 @@ const BodyCare = (props) => {
   description="A natural astringent that helps tighten pores and reduce sweating."
   ingName1="Fresh Tomato Juice"
   ingDescription1="Acts as a natural astringent to reduce sweat and tighten pores."
-  instructions="1. Apply fresh tomato juice to the skin and leave it for 10 minutes, then rinse it off.  
+  instructions="1. Apply fresh tomato juice to the skin and leave it for 10 minutes, then rinse it off.<br>  
                 2. Drinking a cup of tomato juice daily can also be beneficial."
 />
 <br></br>
@@ -458,8 +496,8 @@ const BodyCare = (props) => {
   ingDescription2="Soothing and hydrating, often used to mix with powders for skincare."
   ingName3="Lemon Juice"
   ingDescription3="Contains natural astringent properties to enhance the formula."
-  instructions="1. Mix one tablespoon of sandalwood powder with rose water and a little lemon juice.  
-                2. Apply the paste to the skin and let it dry.  
+  instructions="1. Mix one tablespoon of sandalwood powder with rose water and a little lemon juice.<br>  
+                2. Apply the paste to the skin and let it dry.  <br>
                 3. Rinse it off with water."
 />
 <br></br>
@@ -469,7 +507,7 @@ const BodyCare = (props) => {
   description="Rich in vitamins and minerals that balance sweat gland activity and detoxify the body."
   ingName1="Fresh Wheatgrass"
   ingDescription1="A nutrient-dense plant known for its detoxifying properties."
-  instructions="1. Extract juice from fresh wheatgrass to make one cup.  
+  instructions="1. Extract juice from fresh wheatgrass to make one cup.  <br>
                 2. Drink it daily on an empty stomach."
 />
 <br></br>
@@ -479,7 +517,7 @@ const BodyCare = (props) => {
   description="Has antifungal and astringent properties that help reduce sweating."
   ingName1="Tea Tree Oil"
   ingDescription1="A natural antifungal agent with astringent properties."
-  instructions="1. Apply tea tree oil directly to sweaty areas using a cotton pad.  
+  instructions="1. Apply tea tree oil directly to sweaty areas using a cotton pad. <br> 
                 2. If you have sensitive skin, dilute the oil with water before application."
 />
 <br></br>
@@ -496,8 +534,8 @@ const BodyCare = (props) => {
   description="Aloe vera gel helps soothe and hydrate the skin while boosting collagen production to repair damaged tissue."
   ingName1="Fresh Aloe Vera Gel"
   ingDescription1="Extracted directly from the aloe vera plant for maximum skin benefits."
-  instructions="1. Extract fresh aloe vera gel and gently massage it onto stretch marks.  
-                2. Leave it on for 20-30 minutes, then rinse with warm water.  
+  instructions="1. Extract fresh aloe vera gel and gently massage it onto stretch marks.<br>  
+                2. Leave it on for 20-30 minutes, then rinse with warm water. <br> 
                 3. Repeat daily for best results."
 />
 <br></br>
@@ -509,7 +547,7 @@ const BodyCare = (props) => {
   ingDescription1="Known for its deep moisturizing properties, Shea Butter softens and nourishes the skin."
   ingName2="Cocoa Butter"
   ingDescription2="Rich in antioxidants, Cocoa Butter helps to improve skin texture and elasticity."
-  instructions="1. Massage a small amount of Shea Butter or Cocoa Butter onto the affected areas.
+  instructions="1. Massage a small amount of Shea Butter or Cocoa Butter onto the affected areas.<br>
                 2. Apply twice daily, once in the morning and once before bed."
 />
 <br></br>
@@ -521,8 +559,8 @@ const BodyCare = (props) => {
   ingDescription1="Rich in Vitamin E, Sweet Almond Oil nourishes and moisturizes the skin."
   ingName2="Olive Oil"
   ingDescription2="Packed with antioxidants, Olive Oil helps to repair and protect the skin."
-  instructions="1. Warm the oils slightly.
-                2. Massage the affected areas in circular motions for 5-10 minutes.
+  instructions="1. Warm the oils slightly.<br>
+                2. Massage the affected areas in circular motions for 5-10 minutes.<br>
                 3. Leave the oil on the skin or wash it off after 2 hours."
 />
 <br></br>
@@ -536,8 +574,8 @@ const BodyCare = (props) => {
   ingDescription2="Honey is a natural moisturizer that nourishes the skin and improves its elasticity."
   ingName3="Olive Oil"
   ingDescription3="Olive Oil helps to moisturize the skin, preventing dryness and improving skin texture."
-  instructions="1. Mix 1 tablespoon of sugar with 1 teaspoon of honey and olive oil.
-                2. Use the mixture as a scrub for the affected areas for 2-3 minutes.
+  instructions="1. Mix 1 tablespoon of sugar with 1 teaspoon of honey and olive oil.<br>
+                2. Use the mixture as a scrub for the affected areas for 2-3 minutes.<br>
                 3. Rinse with warm water. Repeat twice a week."
 />
 <br></br>
@@ -692,3 +730,4 @@ const BodyCare = (props) => {
         </div>
     )
 }
+export default BodyCare
