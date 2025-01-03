@@ -411,3 +411,65 @@ text-align:center;
       border-radius: 5px;
   }
 }
+
+
+.sound {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 350px;
+  text-align: left;
+  position: sticky;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+  
+}
+
+.header-sound {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-sound img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.header-soundh2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.song {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.song img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #e0e0e0;
+}
+
+.song-info {
+  flex-grow: 1;
+}
+
+.song-info h3 {
+  font-size: 14px;
+  margin: 0;
+}
+
+.play-icon {
+  font-size: 20px;
+  color: #1db954;
+  cursor: pointer;
+}

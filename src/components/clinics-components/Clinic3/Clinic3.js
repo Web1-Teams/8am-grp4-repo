@@ -14,6 +14,7 @@ import BenefitsSection from "../../Benefites/BenefitsSection";
 import { SlackIcon } from "hugeicons-react";
 
 import Canvas from '../../clinic3ComponentsTemp/canvass/Canvas';
+import Sound from '../../clinic3ComponentsTemp/Sound';
 
 
 const Clinic3 = (props) => {
@@ -42,6 +43,8 @@ const Clinic3 = (props) => {
            option4="suggested books"
            option5="relaxing sounds "
            />
+   <Sound/>
+
         
 
         <h1>Our Services</h1>
@@ -318,7 +321,6 @@ const Clinic3 = (props) => {
       
       </section>
       
-      {/* <Sound /> */}
          <Review/>
          <Footer/>
         
