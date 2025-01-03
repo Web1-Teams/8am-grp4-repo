@@ -1,7 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import Exercise from "../../clinic3ComponentsTemp/Exercise";
 import Exercise2 from "../../clinic3ComponentsTemp/Exercise2";
-import Footer from "../../footer/Footer";
 import Header from "../../header/Header";
 import Navbar from "../../navbar/Navbar";
 import Review from '../../review/Review';
@@ -33,7 +32,7 @@ const Clinic3 = (props) => {
     return ( 
       
        <div>
-         <Navbar/>
+
 
      
         
@@ -332,7 +331,6 @@ const Clinic3 = (props) => {
     </section>
       {/* <Sound /> */}
          <Review/>
-         <Footer/>
         
          </div>
     
