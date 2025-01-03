@@ -3,7 +3,7 @@ import React from "react";
 import IntroSection from "./IntroSection";
 import Navbar from "../navbar/Navbar";
 import RecipeCard from "./RecipeCard";
-import BookList from "../books/BookList";
+import BookList from "../Books/BookList";
 // import Footer from "../Footer";
 import Recipes from "./Recipes";
 
