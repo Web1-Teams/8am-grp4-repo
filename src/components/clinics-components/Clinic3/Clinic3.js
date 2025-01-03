@@ -71,9 +71,9 @@ const Clinic3 = (props) => {
       <br/>
       <br/>
       <h2>Meditation Exercises</h2>
+      <div className="accordion" id="medEx">
 
-      {/* Parent Container for Collapsible Exercises */}
-      <div className="accordion" id="exerciseAccordion">
+      
         <Exercise
           exName="Breathing Awareness Exercise"
           purpose="Cultivate focus and calmness."
@@ -113,9 +113,10 @@ const Clinic3 = (props) => {
         />
       </div>
       <br/>
-
       <h2>Mindfulness Exercises</h2>
-      <div className="accordion" id="exerciseAccordion">
+
+      <div className="accordion" id="mindEx">
+
         <Exercise
           exName="Five Senses Exercise"
           purpose="Ground yourself in the present moment using your senses."
@@ -157,6 +158,10 @@ const Clinic3 = (props) => {
      <div className="Art">
       <div className="artTherapy">
   <h2>Art Therapy</h2>
+  
+  <button onClick={handleOpenCanvas} className="openCanvasButton">
+        Open Canvas
+      </button>
   <p>
     Art Therapy is a form of expressive therapy that uses creative processes such as drawing, coloring,
     <br />
@@ -205,20 +210,7 @@ const Clinic3 = (props) => {
     </ul>
     <p>Choose colors that resonate with you and let them guide your artistic expression.</p>
   </section>
-        <h2>Art Therapy</h2>
-        <p className="ArtTherapy">
-
-      <button onClick={handleOpenCanvas} className="openCanvasButton">
-        Open Canvas
-      </button>
-          Art Therapy is a form of expressive therapy that uses creative processes such as drawing, coloring,
-          <br />
-          sculpting, or collage-making to help individuals explore and express their emotions,
-          <br />
-          improve mental health, and gain personal insights. It is not about artistic skills
-          <br />
-          but about self-expression and the healing journey.
-        </p>
+       
         <section className="mentalTechniques">
           <h2>Common Techniques in Art Therapy</h2>
           <ol>

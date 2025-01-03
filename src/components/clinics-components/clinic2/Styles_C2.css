@@ -1,7 +1,6 @@
 @media (min-width: 769px) and (max-width: 1024px) {
 
   * {
-    direction: rtl;
     text-align: right;
     font-family: "Tajawal", "Arial", sans-serif;
     margin: 0;
