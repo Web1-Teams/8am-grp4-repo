@@ -1,8 +1,7 @@
-import Footer from "../../footer/Footer"
+import Footer from "../../Footer/Footer"
 import Header from "../../header/Header"
-import Navbar from "../../navbar/Navbar"
-import Review from "../../review/Review"
-import TopTopic from "../../TopTopics/TopTopic"
+import Review from "../../Review/Review"
+import TopTopic from "../../toptopic/TopTopic"
 
 
 
@@ -11,7 +10,7 @@ import TopTopic from "../../TopTopics/TopTopic"
 const Clinic4=()=>{
     return(
      <>
-      <Navbar/>
+
       <TopTopic topic1="Welcome" clinic1="Clinic1"/>
        <div> 
            <Header

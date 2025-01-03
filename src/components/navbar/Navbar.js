@@ -23,13 +23,13 @@ const Navbar = () => {
       {/* الروابط الرئيسية */}
       <ul className="nav-links">
         <li>
-          <Link to="/src/components/Main page components/Main.js">الرئيسية</Link>
+          <Link to="/">الرئيسية</Link>
         </li>
         
         <li className="dropdown">
           <span>العيادات الطبية</span>
           <ul className="dropdown-menu">
-            <li><Link to="/clinic1">العيادة 1</Link></li>
+            <li><Link to="/Page 1">العيادة 1</Link></li>
             <li><Link to="/clinic2">العيادة 2</Link></li>
             <li><Link to="/clinic3">العيادة 3</Link></li>
             <li><Link to="/clinic4">العيادة 4</Link></li>

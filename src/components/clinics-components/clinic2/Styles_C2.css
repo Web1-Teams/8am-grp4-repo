@@ -23,7 +23,7 @@ body {
   min-height: 480px;
   flex-direction: column;
   gap: 20px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('./background-self\ care.png');
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('./background-selfcare.png'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -421,7 +421,7 @@ details {
   max-width: 800px; 
   background-color: #f9f9f9; 
   border: 1px solid #ddd; 
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 

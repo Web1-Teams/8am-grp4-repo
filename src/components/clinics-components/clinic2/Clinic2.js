@@ -1,32 +1,31 @@
 import React from "react";
-import "../../styles/Styles_C2.css";
+import "./Styles_C2.css";
 // import BookList from "../Books/BookList";
 // import IntroSection from "../clinic2 Components/IntroSection";
-import Navbar from "../navbar/Navbar";
 // import RecipeCard from "../clinic2 Components/RecipeCard";
 // import { BrowserRouter as Router, Route, Routes, Link} from "react-router-dom";
-import HairCareClinic from "../clinic2 Components/HairCareClinic";
+// import HairCareClinic from "../clinic2 Components/HairCareClinic";
 // import RecipesS from "../clinic2 Components/RecipesS";
-import CleanEatClinic from "../clinic2 Components/CleanEatClinic";
+// import CleanEatClinic from "../clinic2 Components/CleanEatClinic";
 // import Recipes from "../clinic2 Components/Recipes";
-import TipCard from "../clinic2 Components/TipCard";
-import TestimonialBox from "../clinic2 Components/TestimonialBox";
-import Footer from "../Footer";
-import HeaderSection from "../clinic2 Components/HeaderSection";
-import IntroSection from "../../clinic2 Components/IntroSection";
-import ServiceCard from "../../clinic2 Components/ServiceCard";
+import TipCard from "../../clinic2 Components/TipCard";
+// import TestimonialBox from "../clinic2 Components/TestimonialBox";
+import Footer from "../../Footer/Footer";
+import HeaderSection from "../../clinic2 Components/HeaderSection";
+// import IntroSection from "../../clinic2 Components/IntroSection";
+// import ServiceCard from "../../clinic2 Components/ServiceCard";
 
 
 const Clinic2 = (props) => {
     return (
         <div>
-        <Navbar/>
+
         <br/><br/>
         <HeaderSection 
          title = "Embrace Your Natural Beauty and Inner Peace"
                 subtitle = "Discover the harmony of nature and self-care with treatments designed to nurture your beauty and well-being"
          />
-         <ServiceCard  SerImage = {image1}
+         {/* <ServiceCard  SerImage = {image1}
          serviceName = "Skincare Treatments "
          intro = "Personalized care for glowing, healthy skin."
          />
@@ -41,7 +40,7 @@ const Clinic2 = (props) => {
           <ServiceCard  SerImage = {image4}
            serviceName = "Clean Eating Recipes "
          intro = "Rejuvenate your hair with our organic products."
-         />
+         /> */}
 
 <section class="tips-section">
   <div class="tips-container">
