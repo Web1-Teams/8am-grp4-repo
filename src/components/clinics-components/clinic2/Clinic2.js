@@ -4,12 +4,12 @@ import "./Styles_C2.css";
 import HeaderSection from "../clinic2 Components/HeaderSection";
 import ServiceCard from "../../clinic2 Components/ServiceCard";
 // import { BrowserRouter as Router, Route, Routes, Link} from "react-router-dom";
-import SkinCare from "../../clinic2 Components/SkinCare";
-import HairCareClinic from "../clinic2 Components/HairCareClinic";
-import BodyCare from "../../clinic2 Components/BodyCare";
-import CleanEatClinic from "../clinic2 Components/CleanEatClinic";
+// import SkinCare from "../../clinic2 Components/SkinCare";
+// import HairCareClinic from "../clinic2 Components/HairCareClinic";
+// import BodyCare from "../../clinic2 Components/BodyCare";
+// import CleanEatClinic from "../clinic2 Components/CleanEatClinic";
 import TipCard from "../clinic2 Components/TipCard";
-import TestimonialBox from "../clinic2 Components/TestimonialBox";
+// import TestimonialBox from "../clinic2 Components/TestimonialBox";
 ///import IntroSection from "../../clinic2 Components/IntroSection";
 import image1 from "../../../assests/Images/imagesForC2/skincare-background.jpeg";
 import image2 from "../../../assests/Images/imagesForC2/haircare_background.jpg";
@@ -17,14 +17,9 @@ import image3 from "../../../assests/Images/imagesForC2/body care=main.jpeg";
 import image4 from "../../../assests/Images/imagesForC2/clean eating-background.png";
 // import IntroSection from "../clinic2 Components/IntroSection";
 // import RecipeCard from "../clinic2 Components/RecipeCard";
-// import { BrowserRouter as Router, Route, Routes, Link} from "react-router-dom";
-// import HairCareClinic from "../clinic2 Components/HairCareClinic";
 // import RecipesS from "../clinic2 Components/RecipesS";
-// import CleanEatClinic from "../clinic2 Components/CleanEatClinic";
 // import Recipes from "../clinic2 Components/Recipes";
-import TipCard from "../../clinic2 Components/TipCard";
 // import TestimonialBox from "../clinic2 Components/TestimonialBox";
-import HeaderSection from "../../clinic2 Components/HeaderSection";
 // import IntroSection from "../../clinic2 Components/IntroSection";
 // import ServiceCard from "../../clinic2 Components/ServiceCard";
 
@@ -40,22 +35,22 @@ const Clinic2 = (props) => {
                 title = "Embrace Your Natural Beauty and Inner Peace"
                 subtitle = "Discover the harmony of nature and self-care with treatments designed to nurture your beauty and well-being"
          />
-         {/* <ServiceCard  SerImage = {image1}
+          <ServiceCard  SerImage = {image1}
          serviceName = "Skincare Treatments "
          intro = "Personalized care for glowing, healthy skin."
          />
-         <ServiceCard  SerImage = {coconutOilandHoney}
+         <ServiceCard  SerImage = {image2}
            serviceName = "Hair Care Solutions "
          intro = "Rejuvenate your hair with our organic products.."
          />
-          <ServiceCard  SerImage = {coconutOilandHoney} 
+          <ServiceCard  SerImage = {image3} 
           serviceName = "Body Care Routines "
          intro = "Nourishing treatments for total wellness."
          />
-          <ServiceCard  SerImage = {coconutOilandHoney}
+          <ServiceCard  SerImage = {image4}
            serviceName = "Clean Eating Recipes "
          intro = "Rejuvenate your hair with our organic products."
-         /> */}
+         /> 
 
 <section class="tips-section">
   <div class="tips-container">
