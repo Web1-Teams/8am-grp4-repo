@@ -689,8 +689,6 @@ const BodyCare = (props) => {
         </details>
         <br/>
 
-        </details>
-
         </div>
     )
 }
