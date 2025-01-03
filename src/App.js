@@ -11,24 +11,24 @@ import Canvas from './components/clinic3ComponentsTemp/canvass/Canvas';
 
 function App() {
   return (
-    // <Router>
+    <Router>
 
-    //   <Routes>
-    //     <Route
-    //       path="/"
-    //       element={
-    //         <Main>
-    //           <TopTopic topic1="Welcome" clinic1="Main" />
-    //           <Review />
-    //           <Footer />
-    //         </Main>
-    //       }
-    //     />
-    //     <Route path="/clinic3" element={<Clinic3 />} />
-    //     <Route path="/canvas" element={<Canvas/>} />
-    //   </Routes>
-    // </Router>
-    <></>
+       <Routes>
+         <Route
+           path="/"
+           element={
+             <Main>
+               <TopTopic topic1="Welcome" clinic1="Main" />
+             <Review />
+          <Footer />
+            </Main>
+         }
+      />
+        <Route path="/clinic3" element={<Clinic3 />} />
+     <Route path="/canvas" element={<Canvas/>} />
+    </Routes>
+   </Router>
+
   );
 }
 
