@@ -23,7 +23,7 @@ body {
   min-height: 480px;
   flex-direction: column;
   gap: 20px;
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('./background-selfcare.png'); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('../../../assests/Images/imagesForC2/almond\ milk.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -421,7 +421,7 @@ details {
   max-width: 800px; 
   background-color: #f9f9f9; 
   border: 1px solid #ddd; 
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -528,11 +528,14 @@ a{
   color: #641313;
 }
 .testimonial-box-container{
-  display: flex;
-  justify-content: center;
+  display: grid;
+  gap: 20px;
+  justify-content:space-between;
   align-items: center;
   flex-wrap: wrap;
   width:100%;
+  grid-template-columns: repeat(2, 1fr); /* عمودين */
+
 }
 .testimonial-box{
   width:500px;
@@ -541,6 +544,8 @@ a{
   padding: 20px;
   margin: 15px;
   cursor: pointer;
+  
+
 }
 .profile-img{
   width:50px;
@@ -588,17 +593,20 @@ a{
 .testimonial-box:hover{
   transform: translateY(-10px);
   transition: all ease 0.3s;
+
 }
 
 @media(max-width:1060px){
   .testimonial-box{
       width:45%;
       padding: 10px;
+
   }
 }
 @media(max-width:790px){
   .testimonial-box{
       width:100%;
+
   }
   .testimonial-heading h1{
       font-size: 1.4rem;

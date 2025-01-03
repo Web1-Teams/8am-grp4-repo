@@ -35,23 +35,24 @@ const Clinic2 = (props) => {
         <div>
 
         <br/><br/>
-        <HeaderSection 
-         title = "Embrace Your Natural Beauty and Inner Peace"
+      
+              <HeaderSection 
+                title = "Embrace Your Natural Beauty and Inner Peace"
                 subtitle = "Discover the harmony of nature and self-care with treatments designed to nurture your beauty and well-being"
          />
          {/* <ServiceCard  SerImage = {image1}
          serviceName = "Skincare Treatments "
          intro = "Personalized care for glowing, healthy skin."
          />
-          <ServiceCard  SerImage = {image2}
+         <ServiceCard  SerImage = {coconutOilandHoney}
            serviceName = "Hair Care Solutions "
          intro = "Rejuvenate your hair with our organic products.."
          />
-          <ServiceCard  SerImage = {image3} 
+          <ServiceCard  SerImage = {coconutOilandHoney} 
           serviceName = "Body Care Routines "
          intro = "Nourishing treatments for total wellness."
          />
-          <ServiceCard  SerImage = {image4}
+          <ServiceCard  SerImage = {coconutOilandHoney}
            serviceName = "Clean Eating Recipes "
          intro = "Rejuvenate your hair with our organic products."
          /> */}
@@ -109,6 +110,8 @@ const Clinic2 = (props) => {
          <br/>
          <div class="tips-container">
          <h4>Tips for strong and healthy hair</h4>
+         <div class="tips-row">
+
          <TipCard link = "https://www.haiirology.com/blog/hair-wash-tips-for-healthy-shiny-hair#:~:text=8%20Hair%20Washing%20Tips%20for%20Healthier%2C%20Shinier%20Hair,8%208.%20Choose%20the%20Right%20Water%20Temperature%20"
          icon = "🚿"
           title = "Wash Gently"
@@ -149,6 +152,7 @@ const Clinic2 = (props) => {
          title = "Protect from Sun"
          description = "Wear a hat or use UV protection for your hair when in the sun." 
         />
+        </div>
          </div>
          </section>
          <br/><br/>

@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/recipes.css";
+import "./recipes.css";
 
 
 function Recipes (props) {
