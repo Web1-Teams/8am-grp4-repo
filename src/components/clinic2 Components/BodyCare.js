@@ -1,57 +1,57 @@
 import React from "react";
 import Recipes from "./Recipes";
 import IntroSection from "./IntroSection";
-import image1 from "../../assests/Images/imagesForC2/coconut oil.jpg";
-import image2 from "../../assests/Images/imagesForC2/honey and avocado.jpg";
-import image3 from "../../assests/Images/imagesForC2/honey and yogurt.jpg";
-import image4 from "../../assests/Images/imagesForC2/shea butter.jpg";
-import image5 from "../../assests/Images/imagesForC2/Aloe vera.jpg";
+import image1 from "../../assests/Images/imagesForC2/coconuttoil.jpg";
+import image2 from "../../assests/Images/imagesForC2/honeyandavocado.jpg";
+import image3 from "../../assests/Images/imagesForC2/honeyandyogurt.jpg";
+import image4 from "../../assests/Images/imagesForC2/sheabutter.jpg";
+import image5 from "../../assests/Images/imagesForC2/aloeVeraa.jpg";
 import image6 from "../../assests/Images/imagesForC2/glycerin and lemon.webp";
-import image7 from "../../assests/Images/imagesForC2/honey and oats.webp";
+import image7 from "../../assests/Images/imagesForC2/honeyandoats.webp";
 import image8 from "../../assests/Images/imagesForC2/milk.jpg";
 import image9 from "../../assests/Images/imagesForC2/coffee.webp";
 import image10 from "../../assests/Images/imagesForC2/massage.webp";
-import image11 from "../../assests/Images/imagesForC2/epsom salt bath.jpeg";
+import image11 from "../../assests/Images/imagesForC2/epsomsaltbath.jpeg";
 import image12 from "../../assests/Images/imagesForC2/clay.jpg";
 import image13 from "../../assests/Images/imagesForC2/exercises.webp";
-import image14 from "../../assests/Images/imagesForC2/milk and turmeric.jpg";
+import image14 from "../../assests/Images/imagesForC2/milkandturmeric.jpg";
 import image15 from "../../assests/Images/imagesForC2/potato.jpg";
-import image16 from "../../assests/Images/imagesForC2/green tea2.jpg";
-import image17 from "../../assests/Images/imagesForC2/oats and yogurt.webp";
-import image18 from "../../assests/Images/imagesForC2/papaya and honey.jpg";
-import image19 from "../../assests/Images/imagesForC2/cucumber and lemon juice.jpg";
-import image20 from "../../assests/Images/imagesForC2/warm bath.jpg";
-import image21 from "../../assests/Images/imagesForC2/shea butter and almond oil.webp";
-import image22 from "../../assests/Images/imagesForC2/sugar and olive oil scrub.webp";
-import image23 from "../../assests/Images/imagesForC2/Gelatin and aloe vera.webp";
-import image24 from "../../assests/Images/imagesForC2/White vinegar.jpg";
-import image25 from "../../assests/Images/imagesForC2/coconut-oil.jpg";
-import image26 from "../../assests/Images/imagesForC2/apple cider vinegar.webp";
+import image16 from "../../assests/Images/imagesForC2/greentea2.jpg";
+import image17 from "../../assests/Images/imagesForC2/oatsandyogurt.webp";
+import image18 from "../../assests/Images/imagesForC2/papayaandhoney.jpg";
+import image19 from "../../assests/Images/imagesForC2/cucumberandlemonjuice.jpg";
+import image20 from "../../assests/Images/imagesForC2/warmbath.jpg";
+import image21 from "../../assests/Images/imagesForC2/sheabutterandalmondoil.webp";
+import image22 from "../../assests/Images/imagesForC2/sugarandoliveoilscrub.webp";
+import image23 from "../../assests/Images/imagesForC2/Gelatinandaloevera.webp";
+import image24 from "../../assests/Images/imagesForC2/Whitevinegar.jpg";
+import image25 from "../../assests/Images/imagesForC2/coconuttoil.jpg";
+import image26 from "../../assests/Images/imagesForC2/appleCiderVinegar.webp";
 import image27 from "../../assests/Images/imagesForC2/Sage.jpg";
-import image28 from "../../assests/Images/imagesForC2/Lemon and baking soda.jpeg";
-import image29 from "../../assests/Images/imagesForC2/Black tea bags.jpeg";
-import image30 from "../../assests/Images/imagesForC2/coconut-oil.jpg";
-import image31 from "../../assests/Images/imagesForC2/tomato juice.jpg";
-import image32 from "../../assests/Images/imagesForC2/White sandalwood powder.jpg";
-import image33 from "../../assests/Images/imagesForC2/Wheat juice.jpg";
-import image34 from "../../assests/Images/imagesForC2/tea tree oil.jpeg";
-import image35 from "../../assests/Images/imagesForC2/Aloe vera.jpg";
-import image36 from "../../assests/Images/imagesForC2/Shea butter and cocoa butter.jpeg";
-import image37 from "../../assests/Images/imagesForC2/olive and almonds oil.webp";
-import image38 from "../../assests/Images/imagesForC2/honey and suger scrub.webp";
-import image39 from "../../assests/Images/imagesForC2/Centella Asiatica.jpg";
-import image40 from "../../assests/Images/imagesForC2/apple cider vinegar.webp";
-import image41 from "../../assests/Images/imagesForC2/honey and lemon.jpg";
-import image42 from "../../assests/Images/imagesForC2/oats and milk.webp";
-import image43 from "../../assests/Images/imagesForC2/turmeric and yogurt.jpeg";
-import image44 from "../../assests/Images/imagesForC2/lemon and almonds oil.webp";
-import image45 from "../../assests/Images/imagesForC2/Rice water.gif";
-import image46 from "../../assests/Images/imagesForC2/Honey and cinnamon.jpg";
-import image47 from "../../assests/Images/imagesForC2/baking soda.jpg";
-import image48 from "../../assests/Images/imagesForC2/tea tree oil.jpeg";
-import image49 from "../../assests/Images/imagesForC2/apple cider vinegar.webp";
-import image50 from "../../assests/Images/imagesForC2/Aloe vera.jpg";
-import image51 from "../../assests/Images/imagesForC2/green tea.png";
+import image28 from "../../assests/Images/imagesForC2/Lemonandbakingsoda.jpeg";
+import image29 from "../../assests/Images/imagesForC2/Blackteabags.jpeg";
+import image30 from "../../assests/Images/imagesForC2/coconutoil.jpg";
+import image31 from "../../assests/Images/imagesForC2/tomatojuice.jpg";
+import image32 from "../../assests/Images/imagesForC2/Whitesandalwoodpowder.jpg";
+import image33 from "../../assests/Images/imagesForC2/Wheatjuice.jpg";
+import image34 from "../../assests/Images/imagesForC2/teaTreeeOil.jpeg";
+import image35 from "../../assests/Images/imagesForC2/aloeVeraa.jpg";
+import image36 from "../../assests/Images/imagesForC2/Sheabutterandcocoabutter.jpeg";
+import image37 from "../../assests/Images/imagesForC2/oliveandalmondsoil.webp";
+import image38 from "../../assests/Images/imagesForC2/honeyandsugerscrub.webp";
+import image39 from "../../assests/Images/imagesForC2/CentellaAsiatica.jpg";
+import image40 from "../../assests/Images/imagesForC2/appleCiderVinegar.webp";
+import image41 from "../../assests/Images/imagesForC2/honeyAndLemon.jpg";
+import image42 from "../../assests/Images/imagesForC2/oatsandmilk.webp";
+import image43 from "../../assests/Images/imagesForC2/turmericandyogurt.jpeg";
+import image44 from "../../assests/Images/imagesForC2/lemonandalmondsoil.webp";
+import image45 from "../../assests/Images/imagesForC2/Ricewater.gif";
+import image46 from "../../assests/Images/imagesForC2/Honeyandcinnamon.jpg";
+import image47 from "../../assests/Images/imagesForC2/bakingsoda.jpg";
+import image48 from "../../assests/Images/imagesForC2/teaTreeeOil.jpeg";
+import image49 from "../../assests/Images/imagesForC2/appleCiderVinegar.webp";
+import image50 from "../../assests/Images/imagesForC2/aloeVeraa.jpg";
+import image51 from "../../assests/Images/imagesForC2/greenTea.png";
 
 
 const CleanEatIntro = (
@@ -75,13 +75,7 @@ const CleanEatIntro = (
 const BodyCare = (props) => {
     return (
         <div>
-<<<<<<< HEAD
-          <Navbar/>
-        <IntroSection
-        title="Elevate Your Body Care"
-        subtitle={HairCareIntro}
-        />
-=======
+
        <IntroSection 
   title="Radiance starts here"
   subtitle1="Because your body deserves care as unique as you are."
@@ -94,7 +88,6 @@ const BodyCare = (props) => {
   subtitle6="Feel empowered, glow naturally, and embrace the care you deserve – because body care is self-love. Let’s make your transformation unforgettable."
 />
 
->>>>>>> 70b49f75420bb5b6f79ba5998e11bfded641a7ac
             <details>
         <summary>Dryness treatment</summary>
         <div className="container">
