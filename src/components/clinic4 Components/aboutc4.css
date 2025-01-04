@@ -1,0 +1,202 @@
+/* General Styles */
+.about-container {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #eeffb3; /* Light color */
+    border-radius: 10px;
+    font-family: "Arial", sans-serif;
+    color: #333333; /* Darker text color for better readability */
+    text-align: right; /* Arabic alignment */
+    line-height: 1.8;
+    box-sizing: border-box; /* Ensures padding is included in width calculation */
+}
+
+/* Flexbox layout for text and image */
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-section {
+    flex: 1;
+    margin-right: 20px; /* Adds space between text and image */
+}
+
+.image-section {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image {
+    width: 100%;
+    max-width: 600px; /* Increased max-width */
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Title */
+.about-title {
+    font-size: 28px;
+    text-align: center;
+    color: #4b9c55; /* Darker version of the light yellowish-green */
+    margin-bottom: 15px;
+}
+
+/* Description */
+.about-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333333; /* Dark text for readability */
+}
+
+/* Services Section */
+.about-services {
+    margin-top: 20px;
+}
+
+.services-title {
+    font-size: 22px;
+    color: #4b9c55; /* Darker green for contrast */
+    margin-bottom: 10px;
+}
+
+.services-list {
+    list-style-type: square;
+    padding-right: 20px;
+}
+
+.services-list li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* Mission Section */
+.about-mission {
+    margin-top: 30px;
+}
+
+.mission-title {
+    font-size: 22px;
+    color: #4b9c55; /* Darker green for contrast */
+    margin-bottom: 10px;
+}
+
+.mission-text {
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .about-container {
+        padding: 20px;
+    }
+
+    .about-title {
+        font-size: 26px;
+    }
+
+    .about-description,
+    .services-list li,
+    .mission-text {
+        font-size: 16px;
+    }
+
+    .services-title,
+    .mission-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .about-container {
+        padding: 18px;
+    }
+
+    .about-title {
+        font-size: 24px;
+    }
+
+    .about-description {
+        font-size: 16px;
+    }
+
+    .services-title,
+    .mission-title {
+        font-size: 18px;
+    }
+
+    .services-list li {
+        font-size: 14px;
+    }
+
+    .mission-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        padding: 15px;
+    }
+
+    .about-title {
+        font-size: 22px;
+    }
+
+    .about-description,
+    .services-list li,
+    .mission-text {
+        font-size: 14px;
+    }
+
+    .services-title,
+    .mission-title {
+        font-size: 16px;
+    }
+
+    .services-list {
+        padding-right: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .about-content {
+        flex-direction: column; /* Stack content on small screens */
+        text-align: center;
+    }
+
+    .text-section {
+        margin-right: 0; /* Remove margin for small screens */
+        margin-bottom: 20px; /* Add space below text */
+    }
+
+    .image-section {
+        margin-bottom: 20px; /* Add space below image on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .about-container {
+        padding: 10px;
+    }
+
+    .about-title {
+        font-size: 20px;
+    }
+
+    .about-description,
+    .services-list li,
+    .mission-text {
+        font-size: 12px;
+    }
+
+    .services-title,
+    .mission-title {
+        font-size: 14px;
+    }
+
+    .services-list {
+        padding-right: 10px; /* Reduce padding for very small screens */
+    }
+}

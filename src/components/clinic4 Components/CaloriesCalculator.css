@@ -1,0 +1,80 @@
+/* General Styles */
+#حاسبة-السعرات {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e3ff80; /* Light green background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    color: #333333;
+  }
+  
+  #حاسبة-السعرات h2 {
+    font-size: 28px;
+    color: #4b9c55; /* Green color for the title */
+    margin-bottom: 15px;
+  }
+  
+  #حاسبة-السعرات p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  #حاسبة-السعرات form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  #حاسبة-السعرات label {
+    font-size: 16px;
+    text-align: right;
+  }
+  
+  #حاسبة-السعرات input,
+  #حاسبة-السعرات select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  #حاسبة-السعرات button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4b9c55;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #حاسبة-السعرات button:hover {
+    background-color: #3a7f44;
+  }
+  
+  /* Result Section */
+  .نتيجة {
+    margin-top: 20px;
+    background-color: #eeffb3; /* Light yellow-green background */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .نتيجة h3 {
+    font-size: 20px;
+    color: #4b9c55;
+    margin-bottom: 10px;
+  }
+  
+  .نتيجة p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
