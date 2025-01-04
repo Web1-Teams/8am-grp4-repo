@@ -1,56 +1,57 @@
 import React from "react";
 import Recipes from "./Recipes";
-import image1 from "../../assests/Images/imagesForC2/coconut oil.jpg";
-import image2 from "../../assests/Images/imagesForC2/honey and avocado.jpg";
-import image3 from "../../assests/Images/imagesForC2/honey and yogurt.jpg";
-import image4 from "../../assests/Images/imagesForC2/shea butter.jpg";
-import image5 from "../../assests/Images/imagesForC2/Aloe vera.jpg";
+import IntroSection from "./IntroSection";
+import image1 from "../../assests/Images/imagesForC2/coconuttoil.jpg";
+import image2 from "../../assests/Images/imagesForC2/honeyandavocado.jpg";
+import image3 from "../../assests/Images/imagesForC2/honeyandyogurt.jpg";
+import image4 from "../../assests/Images/imagesForC2/sheabutter.jpg";
+import image5 from "../../assests/Images/imagesForC2/aloeVeraa.jpg";
 import image6 from "../../assests/Images/imagesForC2/glycerin and lemon.webp";
-import image7 from "../../assests/Images/imagesForC2/honey and oats.webp";
+import image7 from "../../assests/Images/imagesForC2/honeyandoats.webp";
 import image8 from "../../assests/Images/imagesForC2/milk.jpg";
 import image9 from "../../assests/Images/imagesForC2/coffee.webp";
 import image10 from "../../assests/Images/imagesForC2/massage.webp";
-import image11 from "../../assests/Images/imagesForC2/epsom salt bath.jpeg";
+import image11 from "../../assests/Images/imagesForC2/epsomsaltbath.jpeg";
 import image12 from "../../assests/Images/imagesForC2/clay.jpg";
 import image13 from "../../assests/Images/imagesForC2/exercises.webp";
-import image14 from "../../assests/Images/imagesForC2/milk and turmeric.jpg";
+import image14 from "../../assests/Images/imagesForC2/milkandturmeric.jpg";
 import image15 from "../../assests/Images/imagesForC2/potato.jpg";
-import image16 from "../../assests/Images/imagesForC2/green tea2.jpg";
-import image17 from "../../assests/Images/imagesForC2/oats and yogurt.webp";
-import image18 from "../../assests/Images/imagesForC2/papaya and honey.jpg";
-import image19 from "../../assests/Images/imagesForC2/cucumber and lemon juice.jpg";
-import image20 from "../../assests/Images/imagesForC2/warm bath.jpg";
-import image21 from "../../assests/Images/imagesForC2/shea butter and almond oil.webp";
-import image22 from "../../assests/Images/imagesForC2/sugar and olive oil scrub.webp";
-import image23 from "../../assests/Images/imagesForC2/Gelatin and aloe vera.webp";
-import image24 from "../../assests/Images/imagesForC2/White vinegar.jpg";
-import image25 from "../../assests/Images/imagesForC2/coconut-oil.jpg";
-import image26 from "../../assests/Images/imagesForC2/apple cider vinegar.webp";
+import image16 from "../../assests/Images/imagesForC2/greentea2.jpg";
+import image17 from "../../assests/Images/imagesForC2/oatsandyogurt.webp";
+import image18 from "../../assests/Images/imagesForC2/papayaandhoney.jpg";
+import image19 from "../../assests/Images/imagesForC2/cucumberandlemonjuice.jpg";
+import image20 from "../../assests/Images/imagesForC2/warmbath.jpg";
+import image21 from "../../assests/Images/imagesForC2/sheabutterandalmondoil.webp";
+import image22 from "../../assests/Images/imagesForC2/sugarandoliveoilscrub.webp";
+import image23 from "../../assests/Images/imagesForC2/Gelatinandaloevera.webp";
+import image24 from "../../assests/Images/imagesForC2/Whitevinegar.jpg";
+import image25 from "../../assests/Images/imagesForC2/coconuttoil.jpg";
+import image26 from "../../assests/Images/imagesForC2/appleCiderVinegar.webp";
 import image27 from "../../assests/Images/imagesForC2/Sage.jpg";
-import image28 from "../../assests/Images/imagesForC2/Lemon and baking soda.jpeg";
-import image29 from "../../assests/Images/imagesForC2/Black tea bags.jpeg";
-import image30 from "../../assests/Images/imagesForC2/coconut-oil.jpg";
-import image31 from "../../assests/Images/imagesForC2/tomato juice.jpg";
-import image32 from "../../assests/Images/imagesForC2/White sandalwood powder.jpg";
-import image33 from "../../assests/Images/imagesForC2/Wheat juice.jpg";
-import image34 from "../../assests/Images/imagesForC2/tea tree oil.jpeg";
-import image35 from "../../assests/Images/imagesForC2/Aloe vera.jpg";
-import image36 from "../../assests/Images/imagesForC2/Shea butter and cocoa butter.jpeg";
-import image37 from "../../assests/Images/imagesForC2/olive and almonds oil.webp";
-import image38 from "../../assests/Images/imagesForC2/honey and suger scrub.webp";
-import image39 from "../../assests/Images/imagesForC2/Centella Asiatica.jpg";
-import image40 from "../../assests/Images/imagesForC2/apple cider vinegar.webp";
-import image41 from "../../assests/Images/imagesForC2/honey and lemon.jpg";
-import image42 from "../../assests/Images/imagesForC2/oats and milk.webp";
-import image43 from "../../assests/Images/imagesForC2/turmeric and yogurt.jpeg";
-import image44 from "../../assests/Images/imagesForC2/lemon and almonds oil.webp";
-import image45 from "../../assests/Images/imagesForC2/Rice water.gif";
-import image46 from "../../assests/Images/imagesForC2/Honey and cinnamon.jpg";
-import image47 from "../../assests/Images/imagesForC2/baking soda.jpg";
-import image48 from "../../assests/Images/imagesForC2/tea tree oil.jpeg";
-import image49 from "../../assests/Images/imagesForC2/apple cider vinegar.webp";
-import image50 from "../../assests/Images/imagesForC2/Aloe vera.jpg";
-import image51 from "../../assests/Images/imagesForC2/green tea.png";
+import image28 from "../../assests/Images/imagesForC2/Lemonandbakingsoda.jpeg";
+import image29 from "../../assests/Images/imagesForC2/Blackteabags.jpeg";
+import image30 from "../../assests/Images/imagesForC2/coconutoil.jpg";
+import image31 from "../../assests/Images/imagesForC2/tomatojuice.jpg";
+import image32 from "../../assests/Images/imagesForC2/Whitesandalwoodpowder.jpg";
+import image33 from "../../assests/Images/imagesForC2/Wheatjuice.jpg";
+import image34 from "../../assests/Images/imagesForC2/teaTreeeOil.jpeg";
+import image35 from "../../assests/Images/imagesForC2/aloeVeraa.jpg";
+import image36 from "../../assests/Images/imagesForC2/Sheabutterandcocoabutter.jpeg";
+import image37 from "../../assests/Images/imagesForC2/oliveandalmondsoil.webp";
+import image38 from "../../assests/Images/imagesForC2/honeyandsugerscrub.webp";
+import image39 from "../../assests/Images/imagesForC2/CentellaAsiatica.jpg";
+import image40 from "../../assests/Images/imagesForC2/appleCiderVinegar.webp";
+import image41 from "../../assests/Images/imagesForC2/honeyAndLemon.jpg";
+import image42 from "../../assests/Images/imagesForC2/oatsandmilk.webp";
+import image43 from "../../assests/Images/imagesForC2/turmericandyogurt.jpeg";
+import image44 from "../../assests/Images/imagesForC2/lemonandalmondsoil.webp";
+import image45 from "../../assests/Images/imagesForC2/Ricewater.gif";
+import image46 from "../../assests/Images/imagesForC2/Honeyandcinnamon.jpg";
+import image47 from "../../assests/Images/imagesForC2/bakingsoda.jpg";
+import image48 from "../../assests/Images/imagesForC2/teaTreeeOil.jpeg";
+import image49 from "../../assests/Images/imagesForC2/appleCiderVinegar.webp";
+import image50 from "../../assests/Images/imagesForC2/aloeVeraa.jpg";
+import image51 from "../../assests/Images/imagesForC2/greenTea.png";
 
 
 const CleanEatIntro = (
@@ -74,11 +75,19 @@ const CleanEatIntro = (
 const BodyCare = (props) => {
     return (
         <div>
-          <Navbar/>
-        <IntroSection
-        title="Elevate Your Body Care"
-        subtitle={HairCareIntro}
-        />
+
+       <IntroSection 
+  title="Radiance starts here"
+  subtitle1="Because your body deserves care as unique as you are."
+  subtitle2="Step into a haven of wellness where every "
+  specific1="touch nurtures vitality"
+  subtitle3=", every treatment is a celebration, and every moment brings you closer to total rejuvenation."
+  subtitle4="Your body isn’t just a body – it’s "
+  specific2="strength"
+  subtitle5=", grace, and the essence of your inner beauty."
+  subtitle6="Feel empowered, glow naturally, and embrace the care you deserve – because body care is self-love. Let’s make your transformation unforgettable."
+/>
+
             <details>
         <summary>Dryness treatment</summary>
         <div className="container">
@@ -618,7 +627,7 @@ const BodyCare = (props) => {
   description="Apple cider vinegar is believed to lighten the color of marks and improve the appearance of the skin."
   ingName1="Apple Cider Vinegar"
   ingDescription1="Apple cider vinegar is thought to help lighten marks and improve skin texture."
-  instructions="Mix 1 tablespoon of apple cider vinegar with an equal amount of water. Soak a cotton pad in the mixture and apply it to the marks before bedtime. Wash it off in the morning."
+  instructions=" 1. Mix 1 tablespoon of apple cider vinegar with an equal amount of water.<br> 2. Soak a cotton pad in the mixture and apply it to the marks before bedtime. Wash it off in the morning."
 />
 <br></br>
         </details>
@@ -636,7 +645,7 @@ const BodyCare = (props) => {
   ingDescription1="Lemon contains Vitamin C and antioxidants that help lighten dark spots."
   ingName2="Honey"
   ingDescription2="Honey moisturizes the skin and prevents dryness."
-  instructions="Mix 1 teaspoon of lemon juice with 1 teaspoon of honey. Apply the mixture to the dark spots and leave it for 10-15 minutes. Rinse with lukewarm water and repeat the recipe twice a week."
+  instructions=" 1. Mix 1 teaspoon of lemon juice with 1 teaspoon of honey.<br> 2. Apply the mixture to the dark spots and leave it for 10-15 minutes.<br> 3. Rinse with lukewarm water and repeat the recipe twice a week."
 />
 <br></br>
 <Recipes 
@@ -647,7 +656,7 @@ const BodyCare = (props) => {
   ingDescription1="Oatmeal gently exfoliates the skin and removes dead skin cells."
   ingName2="Milk"
   ingDescription2="Milk contains lactic acid, which brightens and nourishes the skin."
-  instructions="Mix 1 tablespoon of oatmeal with 2 tablespoons of milk to form a paste. Gently rub the mixture on dark spots in circular motions. Leave it for 10 minutes, then rinse with water. Repeat twice a week."
+  instructions=" 1. Mix 1 tablespoon of oatmeal with 2 tablespoons of milk to form a paste.<br> 2. Gently rub the mixture on dark spots in circular motions.<br> 2. Leave it for 10 minutes, then rinse with water.<br> 3. Repeat twice a week."
 />
 <br></br>
 <Recipes 
@@ -658,7 +667,7 @@ const BodyCare = (props) => {
   ingDescription1="Turmeric has anti-inflammatory properties and is a natural brightener."
   ingName2="Yogurt"
   ingDescription2="Yogurt moisturizes the skin and helps lighten dark spots."
-  instructions="Mix 1/2 teaspoon of turmeric with 2 tablespoons of yogurt. Apply to the affected areas and leave it for 15-20 minutes. Rinse with lukewarm water. Use this remedy three times a week."
+  instructions=" 1. Mix 1/2 teaspoon of turmeric with 2 tablespoons of yogurt.<br> 2. Apply to the affected areas and leave it for 15-20 minutes.<br> 3. Rinse with lukewarm water.<br> 4. Use this remedy three times a week."
 />
 <br></br>
 <Recipes 
@@ -669,7 +678,7 @@ const BodyCare = (props) => {
   ingDescription1="Almond oil nourishes the skin and improves its elasticity."
   ingName2="Lemon Juice"
   ingDescription2="Lemon juice helps in lightening and reducing dark spots."
-  instructions="Mix 1 teaspoon of sweet almond oil with a few drops of lemon juice. Massage the mixture into the dark spots in circular motions. Leave it on for 30 minutes before washing off. It is recommended to use this remedy daily."
+  instructions=" 1. Mix 1 teaspoon of sweet almond oil with a few drops of lemon juice.<br> 2. Massage the mixture into the dark spots in circular motions.<br> 3. Leave it on for 30 minutes before washing off.<br> 4. It is recommended to use this remedy daily."
 />
 <br></br>
 <Recipes 
@@ -678,7 +687,7 @@ const BodyCare = (props) => {
   description="Rice water contains antioxidants and vitamins that brighten the skin and reduce dark spots."
   ingName1="Rice Water"
   ingDescription1="Rice water is rich in antioxidants and vitamins that brighten the skin and reduce pigmentation."
-  instructions="After washing the rice, retain the soaking water. Use the rice water as a natural cleanser daily."
+  instructions=" 1. After washing the rice, retain the soaking water.<br> 2. Use the rice water as a natural cleanser daily."
 />
 <br></br>
         </details>
@@ -696,7 +705,7 @@ const BodyCare = (props) => {
   ingDescription1="Honey is known for its antibacterial properties that help fight acne."
   ingName2="Cinnamon Powder"
   ingDescription2="Cinnamon helps in reducing inflammation and has antimicrobial properties."
-  instructions="Mix 1 teaspoon of honey with half a teaspoon of cinnamon powder. Apply the mixture as a mask on the affected areas for 10-15 minutes. Rinse with warm water. Use the recipe once or twice a week."
+  instructions=" 1. Mix 1 teaspoon of honey with half a teaspoon of cinnamon powder.<br> 2. Apply the mixture as a mask on the affected areas for 10-15 minutes.<br> 3. Rinse with warm water.<br> 4. Use the recipe once or twice a week."
 />
 <br></br>
 <Recipes 
@@ -707,7 +716,7 @@ const BodyCare = (props) => {
   ingDescription1="Baking soda works as an exfoliant, helping to remove dead skin cells and prevent clogged pores."
   ingName2="Water"
   ingDescription2="Water is used to create a paste with baking soda for easy application."
-  instructions="Mix a small amount of baking soda with water to form a paste. Gently rub it on the affected areas in circular motions for a few minutes. Rinse thoroughly with water. Use once or twice a week."
+  instructions=" 1. Mix a small amount of baking soda with water to form a paste.<br> 2. Gently rub it on the affected areas in circular motions for a few minutes.<br> 3. Rinse thoroughly with water.<br> 4. Use once or twice a week."
 />
 <br></br>
 <Recipes 
@@ -718,7 +727,7 @@ const BodyCare = (props) => {
   ingDescription1="Tea tree oil is known for its antibacterial properties, helping to reduce acne-causing bacteria."
   ingName2="Coconut Oil"
   ingDescription2="Coconut oil is used as a carrier oil and helps moisturize the skin."
-  instructions="Mix 1-2 drops of tea tree oil with a teaspoon of coconut oil. Apply directly to the acne using a cotton ball. Leave it to dry, then rinse with water. Repeat daily."
+  instructions=" 1. Mix 1-2 drops of tea tree oil with a teaspoon of coconut oil.<br> 2. Apply directly to the acne using a cotton ball.<br> 3. Leave it to dry, then rinse with water.<br> 4. Repeat daily."
 />
 <br></br>
 <Recipes 
@@ -727,7 +736,7 @@ const BodyCare = (props) => {
   description="Apple cider vinegar has antibacterial and anti-inflammatory properties that help kill acne-causing bacteria and reduce redness."
   ingName1="Apple Cider Vinegar"
   ingDescription1="Apple cider vinegar has antibacterial and anti-inflammatory properties that help kill acne-causing bacteria and reduce redness."
-  instructions="Mix two parts water with one part apple cider vinegar. Use a cotton ball to apply the solution to the affected areas. Leave it on for 5-10 minutes, then rinse with lukewarm water. Repeat once or twice daily."
+  instructions=" 1. Mix two parts water with one part apple cider vinegar.<br> 2. Use a cotton ball to apply the solution to the affected areas.<br> 3. Leave it on for 5-10 minutes, then rinse with lukewarm water.<br> 4. Repeat once or twice daily."
 />
 <br></br>
 <Recipes 
@@ -736,7 +745,7 @@ const BodyCare = (props) => {
   description="Aloe vera is known for its soothing and antibacterial properties, helping to accelerate acne healing."
   ingName1="Fresh Aloe Vera Gel"
   ingDescription1="Fresh aloe vera gel has soothing and antibacterial properties that help accelerate the healing of acne."
-  instructions="Extract fresh gel from an aloe vera leaf. Apply it directly to the affected areas. Leave it on until it dries, then rinse with water. Use it twice daily."
+  instructions=" 1. Extract fresh gel from an aloe vera leaf.<br> 2. Apply it directly to the affected areas.<br> 3. Leave it on until it dries, then rinse with water.<br> 4. Use it twice daily."
 />
 <br></br>
 <Recipes 
@@ -745,12 +754,12 @@ const BodyCare = (props) => {
   description="Rich in antioxidants that reduce inflammation and help decrease oil production."
   ingName1="Green Tea Bags"
   ingDescription1="Green tea bags contain antioxidants that help reduce inflammation and control oil production."
-  instructions="Soak the green tea bags in hot water, then allow them to cool. Use a cotton pad to wipe the skin with the tea water. Do not rinse and let it dry. You can repeat this process daily."
+  instructions=" 1. Soak the green tea bags in hot water, then allow them to cool.<br> 2. Use a cotton pad to wipe the skin with the tea water.<br> 3. Do not rinse and let it dry.<br> 4. You can repeat this process daily."
 />
 <br></br>
         </details>
         <br/>
-
+        <Footer/> 
         </div>
     )
 }
