@@ -29,16 +29,16 @@ const Navbar = () => {
           <span> Clinics </span>
           <ul className="dropdown-menu">
             <li>
-              <Link to="/clinic1">Clinic1</Link>
+              <Link to="/clinic1">Physical Therapy Clinic</Link>
             </li>
             <li>
-              <Link to="/clinic2"> Clinic2</Link>
+              <Link to="/clinic2">Self Care Clinic</Link>
             </li>
             <li>
-              <Link to="/clinic3"> Clinic3</Link>
+              <Link to="/clinic3">Mental Health Clinic</Link>
             </li>
             <li>
-              <Link to="/clinic4">Clinic4</Link>
+              <Link to="/clinic4">Nutrition Clinic</Link>
             </li>
           </ul>
         </li>
