@@ -18,6 +18,9 @@ import Sound from '../../clinic3ComponentsTemp/Sound';
 import Book from '../../Books/Book';
 import BookList from '../../Books/BookList';
 import SleepTracker from '../../clinic3ComponentsTemp/SleepTracker';
+import MedicalTeam from '../MedicalTeam';
+import DoctorCard from '../../DoctorCard/DoctorCard';
+
 
 
 
@@ -303,9 +306,11 @@ const Clinic3 = (props) => {
           <li><b>Chronic Stress or Anxiety:</b>These can prevent the mind from relaxing.</li>
         </ul>
         <p>Consulting a healthcare professional or sleep specialist can provide insights and solutions, such as cognitive-behavioral therapy for insomnia (CBT-I) or relaxation techniques tailored to individual needs</p>
-
         </div>
-    <SleepTracker/>
+        <div className="sleep-tracker ">
+          <SleepTracker/>
+        </div>
+
       </section>
 
       <section id="books-info ">
@@ -346,8 +351,38 @@ const Clinic3 = (props) => {
         </div>
       </div>
     </section>
-      <Sound />
 
+
+      <section className="team-section mental-health">
+        <h2>Mental Health Team</h2>
+        <div className="team-grid">
+          <DoctorCard
+            d_name="Dr. Farah"
+            d_specialist="Psychiatrist"
+            d_num="0597890123"
+            d_email="chloe@example.com"
+          />
+          <DoctorCard
+            d_name="Dr. Manar"
+            d_specialist="Oncologist"
+            d_num="0595678901"
+            d_email="grace@example.com"
+          />
+          <DoctorCard
+            d_name="Dr. Noah"
+            d_specialist="Urologist"
+            d_num="0596789012"
+            d_email="noah@example.com"
+          />
+          {/* Additional Doctors */}
+          <DoctorCard
+            d_name="Dr. Ava"
+            d_specialist="Therapist"
+            d_num="0592345678"
+            d_email="ava@example.com"
+          />
+        </div>
+      </section>
          <Review/>
         
          </div>

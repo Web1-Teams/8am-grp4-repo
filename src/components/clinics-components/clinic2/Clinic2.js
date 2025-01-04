@@ -15,6 +15,7 @@ import visitor3 from "../../../assests/Images/imagesForC2/women4.png";
 import visitor4 from "../../../assests/Images/imagesForC2/man3.png";
 import visitor5 from "../../../assests/Images/imagesForC2/women2.png";
 import visitor6 from "../../../assests/Images/imagesForC2/man2.png";
+import DoctorCard from "../../doctorCard/DoctorCard";
 
 const Clinic2 = (props) => {
   return (
@@ -167,6 +168,37 @@ const Clinic2 = (props) => {
       <br />
       <br />
       <BookList />
+      
+      <section className="team-section self-care">
+        <h2>Self-Care Team</h2>
+        <div className="team-grid">
+          <DoctorCard
+            d_name="Dr. Sedra"
+            d_specialist="Surgeon"
+            d_num="0599090256"
+            d_email="sedra@example.com"
+          />
+          <DoctorCard
+            d_name="Dr. Reem"
+            d_specialist="Dermatologist"
+            d_num="0590012345"
+            d_email="adam@example.com"
+          />
+          <DoctorCard
+            d_name="Dr. Olivia"
+            d_specialist="Dentist"
+            d_num="0599012345"
+            d_email="olivia@example.com"
+          />
+         
+          <DoctorCard
+            d_name="Dr. Isabella"
+            d_specialist="Cosmetic Surgeon"
+            d_num="0599876543"
+            d_email="isabella@example.com"
+          />
+        </div>
+      </section>
       <section id="testimonials">
         <div className="testimonial-heading">
           <span>Visitor reviews on our website :</span>
