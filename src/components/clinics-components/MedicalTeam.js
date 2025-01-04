@@ -1,4 +1,5 @@
 import "./MedicalTeam.css";
+import DoctorCard from "../DoctorCard/DoctorCard";
 import DoctorCard from "../doctorCard/DoctorCard";
 import Dr1 from "../../assests/Images/medical team/D1.png";
 import Dr2 from "../../assests/Images/medical team/D2.png";
@@ -16,8 +17,6 @@ import Dr13 from "../../assests/Images/medical team/D5.jpg";
 import Dr14 from "../../assests/Images/medical team/DO9.webp";
 import Dr15 from "../../assests/Images/medical team/D6.png";
 import Dr16 from "../../assests/Images/medical team/D8.jpeg";
-
-
 
 const MedicalTeam = () => {
   return (
