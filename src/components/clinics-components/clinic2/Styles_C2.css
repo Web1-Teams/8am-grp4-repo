@@ -203,6 +203,7 @@ text-decoration: none;
  a{
     text-decoration: none;
   }
+
   #testimonials{
     display: flex;
     justify-content:center;
@@ -240,7 +241,6 @@ text-decoration: none;
     justify-content:center;
     align-items: center;
     flex-wrap: wrap;
-    margin-left: 150px;
     margin-right: 2px;
     width:100%;
     
@@ -306,30 +306,83 @@ text-decoration: none;
     transition: all ease 0.3s;
   }
   
-  @media(max-width:1060px){
-    .testimonial-box{
-        width:45%;
-        padding: 10px;
+  @media(max-width: 1060px) {
+    .testimonial-box-container {
+      flex-wrap: wrap; 
+      justify-content: center; 
+      margin-left: 0; 
+      margin-right: 0;
+    }
+  
+    .testimonial-box {
+      width: 90%; 
+      margin: 15px auto; 
+      padding: 15px; 
     }
   }
-  @media(max-width:790px){
-    .testimonial-box{
-        width:100%;
+  
+  @media(max-width: 790px) {
+    .testimonial-box-container {
+      flex-direction: column; 
+      align-items: center; 
     }
-    .testimonial-heading h1{
-        font-size: 1.4rem;
+  
+    .testimonial-box {
+      width: 95%; 
+      margin: 10px 0; 
+    }
+  
+    .testimonial-heading h1 {
+      font-size: 1.6rem; 
+      text-align: center; 
     }
   }
-
-  @media(max-width:340px){
-    .box-top{
-        flex-wrap: wrap;
-        margin-bottom: 10px;
+  
+  @media(max-width: 500px) {
+    .testimonial-box {
+      width: 100%; 
+      font-size: 1.4rem; 
     }
-    .reviews{
-        margin-top: 10px;
+  
+    .client-comment p {
+      font-size: 1.2rem; 
+      line-height: 1.5; 
+    }
+  
+    .profile-img {
+      width: 40px; 
+      height: 40px;
+    }
+  
+    .name-user strong {
+      font-size: 1.4rem; 
+    }
+  
+    .name-user span {
+      font-size: 1.2rem; 
     }
   }
+  
+  @media(max-width: 340px) {
+    .box-top {
+      flex-wrap: wrap; 
+      margin-bottom: 5px; 
+    }
+  
+    .reviews {
+      margin-top: 5px; 
+    }
+  
+    .testimonial-box {
+      padding: 10px; 
+      font-size: 1.2rem; 
+    }
+  
+    .client-comment p {
+      font-size: 1rem; 
+    }
+  }
+  
   ::selection{
     color: #ffffff;
     background-color: #252525;
