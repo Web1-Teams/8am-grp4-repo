@@ -15,9 +15,9 @@ root.render(
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/" index element={<Main />} />
         <Route path="/clinic1" element={<Clinic1 />} />
-         <Route path="/clinic2" element={<Clinic2 />} />
+          <Route path="/clinic2" element={<Clinic2 />} /> 
         <Route path="/clinic3" element={<Clinic3 />} />
         <Route path="/clinic4" element={<Clinic4 />} />
       </Routes>
