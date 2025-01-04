@@ -1,36 +1,47 @@
 import React from "react";
 import Recipes from "./Recipes";
-import image1 from "../../assests/Images/imagesForC2/milk and apple mask.jpg";
-import image2 from "../../assests/Images/imagesForC2/cucumber and lemon mask.jpg";
-import image3 from "../../assests/Images/imagesForC2/yogurt turmeric and honey mask.jpg";
-import image4 from "../../assests/Images/imagesForC2/honey and rice mask.jpg";
-import image5 from "../../assests/Images/imagesForC2/Lemon and turmeric mask.jpg";
-import image6 from "../../assests/Images/imagesForC2/cucumber and rose water mask.jpg";
-import image7 from "../../assests/Images/imagesForC2/coffee and yogurt mask.jpg";
+import IntroSection from "./IntroSection";
+import image1 from "../../assests/Images/imagesForC2/milkAndAppleMask.jpg";
+import image2 from "../../assests/Images/imagesForC2/cucumberAndLemonMask.jpg";
+import image3 from "../../assests/Images/imagesForC2/yogurtTurmericAndHoneyMask.jpg";
+import image4 from "../../assests/Images/imagesForC2/honeyAndRiceMask.jpg";
+import image5 from "../../assests/Images/imagesForC2/lemonAndTurmericMask.jpg";
+import image6 from "../../assests/Images/imagesForC2/cucumberAndRoseWaterMask.jpg";
+import image7 from "../../assests/Images/imagesForC2/coffeeAndYogurtMask.jpg";
 import image8 from "../../assests/Images/imagesForC2/tea.jpg";
 import image9 from "../../assests/Images/imagesForC2/cucumber.jpg";
-import image10 from "../../assests/Images/imagesForC2/rose water.jpg";
-import image11 from "../../assests/Images/imagesForC2/sweet almond oil.jpg";
+import image10 from "../../assests/Images/imagesForC2/roseWaterr.jpg";
+import image11 from "../../assests/Images/imagesForC2/sweeetAlmondOil.jpg";
 import image12 from "../../assests/Images/imagesForC2/potato.jpg";
 import image13 from "../../assests/Images/imagesForC2/honey.jpg";
-import image14 from "../../assests/Images/imagesForC2/cucumber 2.webp";
-import image15 from "../../assests/Images/imagesForC2/tea tree oil.jpeg";
-import image16 from "../../assests/Images/imagesForC2/apple cider vinegar.webp";
-import image17 from "../../assests/Images/imagesForC2/sodium bicarbonate.webp";
+import image14 from "../../assests/Images/imagesForC2/cucumberTwo.webp";
+import image15 from "../../assests/Images/imagesForC2/teaTreeeOil.jpeg";
+import image16 from "../../assests/Images/imagesForC2/appleCiderVinegar.webp";
+import image17 from "../../assests/Images/imagesForC2/sodiumBicarbonate.webp";
 import image18 from "../../assests/Images/imagesForC2/egg.jpg";
-import image19 from "../../assests/Images/imagesForC2/honey and lemon.jpg";
+import image19 from "../../assests/Images/imagesForC2/honeyAndLemon.jpg";
 import image20 from "../../assests/Images/imagesForC2/oats.webp";
 import image21 from "../../assests/Images/imagesForC2/steam.jpg";
 import image22 from "../../assests/Images/imagesForC2/vaseline.webp";
-import image23 from "../../assests/Images/imagesForC2/olive oil.jpg";
-import image24 from "../../assests/Images/imagesForC2/Aloe vera.jpg";
-import image25 from "../../assests/Images/imagesForC2/honey and turmeric.jpg";
-import image26 from "../../assests/Images/imagesForC2/green tea.png";
+import image23 from "../../assests/Images/imagesForC2/oliveOill.jpg";
+import image24 from "../../assests/Images/imagesForC2/aloeVeraa.jpg";
+import image25 from "../../assests/Images/imagesForC2/honeyAndTurmeric.jpg";
+import image26 from "../../assests/Images/imagesForC2/greenTea.png";
 import image27 from "../../assests/Images/imagesForC2/egg.jpg";
 
 const SkinCare = (props) => {
     return (
         <div>
+          <IntroSection title = "Glow begins here"
+    subtitle1 = " Because your skin deserves a story as flawless as you are."
+   subtitle2 = "Dive into the world of skincare where every "
+   specific1 = "glow tells a tale"
+   subtitle3 = ", every routine becomes a ritual, and every moment is a step closer to your most radiant self."
+   subtitle4 = " Your skin isn’t just skin – it’s "
+   specific2 = "confidence"
+   subtitle5 = ", care, and a canvas of endless beauty."
+   subtitle6 = "Shine brighter, glow deeper, love harder – because skincare is self-care. Let’s make your glow-up legendary."
+    />
     <details>
         <summary>Skin Brightening and Tone</summary>
         <div className="container">
@@ -172,7 +183,7 @@ const SkinCare = (props) => {
    <br></br>
     </details>
     <br/>
-    <datalis>
+    <details>
         <summary>Acne treatment</summary>
         <div className="container">
         <p>
@@ -229,7 +240,7 @@ const SkinCare = (props) => {
   instructions = " 1. Mix 1 teaspoon of baking soda with a small amount of water to form a paste.<br> 2. Apply the paste to the affected areas and leave it on for 10 minutes.<br> 3. Rinse thoroughly with water and pat your skin dry.<br> 4. Use sparingly as overuse may irritate the skin."
   />
    <br></br>
-    </datalis>
+    </details>
     <br/>
     <details>
   <summary>Blackhead treatment</summary>
