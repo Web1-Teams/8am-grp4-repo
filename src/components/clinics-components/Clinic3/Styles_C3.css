@@ -164,6 +164,7 @@ margin-top: 3rem;
 .Art{
 background-color: hsla(278, 14%, 59%, 0.384);
 height: auto;
+margin-top: 8rem;
 }
 
 .artTherapy {
@@ -300,6 +301,7 @@ padding: 0;
   border-radius: 20px;
   max-width: 90%;
   margin: 3rem auto;
+  margin-top: 8rem;
   box-sizing: border-box;
   box-shadow: #291d33 0px 1px 10px, #291d33 0px 2px 20px;
 }
@@ -406,11 +408,10 @@ text-align:center;
   }
 }
 
-
 .sound {
-  background-color: #fff;
+  /* background-color: #fff; */
   border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
   padding: 20px;
   width: 350px;
   text-align: left;
@@ -421,22 +422,21 @@ text-align:center;
   
 }
 
-.header-sound {
+.sticky-icon {
+  cursor: pointer;
   display: flex;
+  justify-content: left;
   align-items: center;
-  margin-bottom: 20px;
+
 }
 
-.header-sound img {
+.toggle-icon {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
-  margin-right: 10px;
 }
 
-.header-soundh2 {
-  font-size: 18px;
-  margin: 0;
+.song-box {
+  margin-top: 15px;
 }
 
 .song {
@@ -453,10 +453,6 @@ text-align:center;
   background-color: #e0e0e0;
 }
 
-.song-info {
-  flex-grow: 1;
-}
-
 .song-info h3 {
   font-size: 14px;
   margin: 0;
@@ -466,4 +462,7 @@ text-align:center;
   font-size: 20px;
   color: #1db954;
   cursor: pointer;
+  background: none;
+  border: none;
+  margin-right: 10px;
 }

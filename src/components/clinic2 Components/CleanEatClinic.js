@@ -1,73 +1,87 @@
 import React from "react";
-import "../../styles/Styles_C2.css";
+import "../clinics-components/clinic2/Styles_C2.css";
 import IntroSection from "./IntroSection";
-import Navbar from "../navbar/Navbar";
 import RecipeCard from "./RecipeCard";
-import BookList from "../books/BookList";
-import Footer from "../Footer";
+import BookList from "../Books/BookList";
+// import Footer from "../Footer";
 import Recipes from "./Recipes";
 
 import almondMilk from "../../assests/Images/imagesForC2/almondMilk.jpg";
-import appleJuice from "../../assests/Images/imagesForC2/appleJuice.jpg";
+import appleJuice from "../../assests/Images/imagesForC2/applejuice.jpg";
 import apricot from "../../assests/Images/imagesForC2/apricot.jpg";
 import avocado2CleanEating from "../../assests/Images/imagesForC2/avocado2CleanEating.jpg";
 import avocadoCleanEating from "../../assests/Images/imagesForC2/avocadoCleanEating.jpg";
-import beetrootAndCarrotsJuice from "../../assests/Images/imagesForC2/beetrootAndCarrotsJuice.jpg";
-import beetrootAndMint from "../../assests/Images/imagesForC2/beetrootAndMint.jpg";
+import beetrootAndCarrotsJuice from "../../assests/Images/imagesForC2/beetrootandcarrotsjuice.jpg";
+import beetrootAndMint from "../../assests/Images/imagesForC2/Beetrootandmint.jpg";
 import beetroot from "../../assests/Images/imagesForC2/beetroot.jpg";
 import berry from "../../assests/Images/imagesForC2/berry.jpg";
-import blackTea from "../../assests/Images/imagesForC2/blackTea.jpg";
-import cherry from "../../assests/Images/imagesForC2/cherry.jpg";
-import chlorophyll from "../../assests/Images/imagesForC2/chlorophyll.jpg";
-import chocolateDrink from "../../assests/Images/imagesForC2/chocolateDrink.jpg";
-import coconutDrink from "../../assests/Images/imagesForC2/coconutDrink.jpg";
-import coconutWater from "../../assests/Images/imagesForC2/coconutWater.jpg";
+import blackTea from "../../assests/Images/imagesForC2/blacktea.jpg";
+import cherry from "../../assests/Images/imagesForC2/Cherry.jpg";
+import chlorophyll from "../../assests/Images/imagesForC2/Chlorophyll.jpg";
+import chocolateDrink from "../../assests/Images/imagesForC2/Chocolatedrink.jpg";
+import coconutDrink from "../../assests/Images/imagesForC2/coconutdrink.jpg";
+import coconutWater from "../../assests/Images/imagesForC2/coconutwater.jpg";
 import coffee1 from "../../assests/Images/imagesForC2/coffee1.jpg";
-import cranberry from "../../assests/Images/imagesForC2/cranberry.jpg";
-import fruitsAndAloeVeraGel from "../../assests/Images/imagesForC2/fruitsAndAloeVeraGel.jpg";
+import cranberry from "../../assests/Images/imagesForC2/Cranberry.jpg";
+import fruitsAndAloeVeraGel from "../../assests/Images/imagesForC2/Fruitsandaloeveragel.jpg";
 import grapefruit from "../../assests/Images/imagesForC2/grapefruit.jpg";
-import lemonAndGinger from "../../assests/Images/imagesForC2/lemonAndGinger.jpg";
-import lemonAndGreenTea from "../../assests/Images/imagesForC2/lemonAndGreenTea.jpg";
-import lemonJuice from "../../assests/Images/imagesForC2/lemonJuice.jpg";
-import lemonHoneyGinger from "../../assests/Images/imagesForC2/lemonHoneyGinger.jpg";
+import lemonAndGinger from "../../assests/Images/imagesForC2/Lemonandginger.jpg";
+import lemonAndGreenTea from "../../assests/Images/imagesForC2/lemonandgreentea.jpg";
+import lemonJuice from "../../assests/Images/imagesForC2/lemonjuice.jpg";
+import lemonHoneyGinger from "../../assests/Images/imagesForC2/Lemonhoneyginger.jpg";
 import licorice from "../../assests/Images/imagesForC2/licorice.jpg";
 import matcha from "../../assests/Images/imagesForC2/matcha.jpg";
-import milkAndTurmeric from "../../assests/Images/imagesForC2/milkAndTurmeric.jpg";
+import milkAndTurmeric from "../../assests/Images/imagesForC2/milkandturmeric.jpg";
 import mint from "../../assests/Images/imagesForC2/mint.jpg";
 import nuts from "../../assests/Images/imagesForC2/nuts.jpg";
-import nuts2 from "../../assests/Images/imagesForC2/nuts2.jpg";
-import orangeAndCarrotJuice from "../../assests/Images/imagesForC2/orangeAndCarrotJuice.jpg";
-import pineappleAndGinger from "../../assests/Images/imagesForC2/pineappleAndGinger.jpg";
-import pineappleAndLemon from "../../assests/Images/imagesForC2/pineappleAndLemon.jpg";
+import nuts2 from "../../assests/Images/imagesForC2/nuts2.jpeg";
+import orangeAndCarrotJuice from "../../assests/Images/imagesForC2/orangeandcarrotjuice.jpg";
+import pineappleAndGinger from "../../assests/Images/imagesForC2/pineappleandginger.jpg";
+import pineappleAndLemon from "../../assests/Images/imagesForC2/pineappleandlemon.jpg";
 import plum from "../../assests/Images/imagesForC2/plum.jpg";
 import pomegranate from "../../assests/Images/imagesForC2/pomegranate.jpg";
-import roselle from "../../assests/Images/imagesForC2/roselle.jpg";
-import sage from "../../assests/Images/imagesForC2/sage.jpg";
-import soyProtein from "../../assests/Images/imagesForC2/soyProtein.jpg";
-import spinach from "../../assests/Images/imagesForC2/spinach.jpg";
-import spinach2 from "../../assests/Images/imagesForC2/spinach2.jpg";
+import roselle from "../../assests/Images/imagesForC2/Roselle.jpg";
+import sage from "../../assests/Images/imagesForC2/Sage.jpg";
+import soyProtein from "../../assests/Images/imagesForC2/soyprotein.jpeg";
+import spinach from "../../assests/Images/imagesForC2/spinach.jpeg";
+import spinach2 from "../../assests/Images/imagesForC2/spinach2.jpeg";
 import strawberry from "../../assests/Images/imagesForC2/strawberry.jpg";
 import tamarind from "../../assests/Images/imagesForC2/tamarind.jpg";
-import turmericTea from "../../assests/Images/imagesForC2/turmericTea.jpg";
+import turmericTea from "../../assests/Images/imagesForC2/turmerictea.jpg";
 import eggs from "../../assests/Images/imagesForC2/eggs.jpg";
 import appleCider from "../../assests/Images/imagesForC2/ciderApple.jpg";
 import neamTeaWithHoney from "../../assests/Images/imagesForC2/neamTeaWithHoney.jpg";
 import sesameANDdate from "../../assests/Images/imagesForC2/sesameANDdate.jpg";
-import greenTea from "../../assests/Images/imagesForC2/greenTea.jpg";
+import greenTea from "../../assests/Images/imagesForC2/greentea2.jpg";
 import darkChocolate from "../../assests/Images/imagesForC2/darkChocolate.jpg";
 import BananaDateandAlmondSmoothie from "../../assests/Images/imagesForC2/BananaDateandAlmondSmoothie.jpg";
 import ChiaSeedandAloeVeraDrink from "../../assests/Images/imagesForC2/ChiaSeedandAloeVeraDrink.jpg";
 import PruneJuice from "../../assests/Images/imagesForC2/PruneJuice.jpg";
-import HibiscusTea from "../../assests/Images/imagesForC2/HibiscusTea.jpg"
+import HibiscusTea from "../../assests/Images/imagesForC2/hotOliveOil.jpg"
+
+
 
 const CleanEatClinic = (props) => {
 return (
     <div>
+      
+      <IntroSection 
+       title="The Power of Nutrition"
+       subtitle1="Nourish your body, and it will reward you with vibrant hair, glowing skin, and boundless energy."
+       subtitle2="Step into a world where every "
+       specific1="meal fuels beauty"
+       subtitle3=", every bite supports strength, and every choice leads you closer to your healthiest self."
+       subtitle4="Your diet isn’t just about food – it’s "
+       specific2="health"
+       subtitle5=", radiance, and the foundation of your inner and outer beauty."
+       subtitle6="Glow brighter, feel stronger, and live better – because true beauty starts from within. Let’s redefine your wellness journey."
+     />
+
+
     <div className="main-container">
     <div className="main-frame">
         <h1>The Impact of Healthy and Clean Nutrition on Hair Health</h1>
-        </div>
-        </div>
+        
     <details>
     <summary>The Impact of Nutrition on Promoting Hair Growth</summary>
     <div class="container">
@@ -126,6 +140,7 @@ return (
       5. You can either strain the juice or enjoy it as is. Serve immediately."
     />
         </details>
+        
         <details>
     <summary>Nutrition and Hair Loss Treatment</summary>
     <div class="container">
@@ -231,12 +246,12 @@ return (
  />
 
     </details>
-
+    </div>
+    </div>
     <div class="main-container">
   <div class="main-frame">
       <h1>The Impact of Healthy and Clean Nutrition on Skin Health</h1>
-      </div>
-      </div>
+      
       <details>
     <summary>Juice Recipes for Glowing Skin</summary>
     
@@ -447,12 +462,12 @@ return (
                  3. Drink warm, once daily, for maximum benefits."
  />
   </details>
-
+  </div>
+  </div>
   <div class="main-container">
       <div class="main-frame">
           <h1>The Impact of Healthy and Clean Nutrition on Body Health</h1>
-          </div>
-          </div>
+          
           <details>
 <summary>The Impact of Nutrition on the Immune System</summary>
 <div class="container">
@@ -644,7 +659,7 @@ return (
     </div>
     <Recipes
     recipeName="Milk"
-    image = {milk}
+    image = {milkAndTurmeric}
     description="Milk provides natural lactose, a carbohydrate that supplies energy. A single cup offers 13 essential nutrients, including protein, calcium, vitamins A, D, and B complex."
     ingName1="1 cup milk"
     ingDescription1="The base of the drink, packed with nutrients."
@@ -735,7 +750,7 @@ return (
       </p>
     </div>
 {/* Chia Seed and Aloe Vera Drink */}
-<Recipe
+<Recipes
         recipeName="Chia Seed and Aloe Vera Drink"
         image = {ChiaSeedandAloeVeraDrink}
         description="A hydrating drink rich in fiber and nutrients, supporting digestion and skin health."
@@ -749,7 +764,7 @@ return (
       />
 
       {/* Ginger, Honey, and Lemon Drink */}
-      <Recipe
+      <Recipes
         recipeName="Ginger, Honey, and Lemon Drink"
         image = {lemonHoneyGinger}
         description="This drink boosts immunity, improves digestion, and has anti-inflammatory properties."
@@ -763,7 +778,7 @@ return (
       />
 
       {/* Green Tea with Lemon */}
-      <Recipe
+      <Recipes
         recipeName="Green Tea with Lemon"
         image = {lemonAndGreenTea}
         description="A metabolism-boosting drink that aids in fat burning, especially around the abdomen."
@@ -777,7 +792,7 @@ return (
       />
 
       {/* Beetroot and Mint Juice */}
-      <Recipe
+      <Recipes
         recipeName="Beetroot and Mint Juice"
         image = {beetrootAndMint}
         description="A detoxifying drink that energizes and cleanses the body."
@@ -791,7 +806,7 @@ return (
       />
 
       {/* Pineapple and Lemon Juice */}
-      <Recipe
+      <Recipes
         recipeName="Pineapple and Lemon Juice"
         image = {pineappleAndLemon}
         description="A refreshing detox drink with natural sugars and hydration properties."
@@ -813,7 +828,7 @@ return (
            <p> Here are iron-rich beverages to help boost your hemoglobin levels:
         </p>
     </div>
-    <Recipe
+    <Recipes
   recipeName="Prune Juice"
   image = {PruneJuice}
   description="A nutrient-rich drink providing 2.8 mg of iron per cup, offering 17% of the daily requirement."
@@ -826,7 +841,7 @@ return (
   instructions="1. Soak prunes in water for 4 hours.<br>2. Blend prunes with water until smooth.<br>3. Strain the juice and serve chilled."
 />
 
-<Recipe
+<Recipes
   recipeName="Apricot Juice"
   image = {apricot}
   description="Regular consumption prevents anemia and combats fatigue."
@@ -839,7 +854,7 @@ return (
   instructions="1. Wash and halve apricots to remove seeds.<br>2. Blend in a juicer or blender until smooth.<br>3. Store in airtight glass containers in the refrigerator for up to 4 days."
 />
 
-<Recipe
+<Recipes
   recipeName="Beetroot Juice"
   image = {beetroot}
   description="Packed with iron, folate, manganese, and Vitamin C for improved absorption."
@@ -852,7 +867,7 @@ return (
   instructions="1. Peel and chop beetroot into chunks.<br>2. Blend beetroot with water until smooth.<br>3. Strain the juice and serve chilled."
 />
 
-<Recipe
+<Recipes
   recipeName="Hibiscus Tea"
   image = {HibiscusTea}
   description="Rich in iron, Vitamin C, and other essential minerals like potassium and zinc."
@@ -865,7 +880,7 @@ return (
   instructions="1. Boil 1 liter of water and add 2 tbsp dried hibiscus flowers.<br>2. Let steep for 30 minutes to enhance flavor.<br>3. Add ice, honey, and optional ingredients like fruits or cinnamon."
 />
 
-<Recipe
+<Recipes
   recipeName="Sesame and Date Drink"
   image = {sesameANDdate}
   description="A creamy blend rich in iron and nutrients for a healthy boost."
@@ -881,28 +896,30 @@ return (
 />
 </details>
 </div>
+          </div>
+</div>
     )
 };   
-const Navbar =(props) => { /*must be edited (maybe but footer instead of navbar) */
-    return (
-        <div>
-            <Navbar />
+// const Navbar =(props) => { /*must be edited (maybe but footer instead of navbar) */
+//     return (
+//         <div>
+//             <Navbar />
 
-            <IntroSection
-            title="The Power of Nutrition"
-            subtitle="Discover how clean eating enhances your beauty and vitality." />
+//             <IntroSection
+//             title="The Power of Nutrition"
+//             subtitle="Discover how clean eating enhances your beauty and vitality." />
             
-            <div className="Eat-container">
-                {EatClean.map((recipe, index) => (
-                <RecipeCard key={index} {...recipe} />
-                ))}
-            </div>
+//             <div className="Eat-container">
+//                 {EatClean.map((recipe, index) => (
+//                 <RecipeCard key={index} {...recipe} />
+//                 ))}
+//             </div>
 
-            <BookList/>
-            <Footer/>
-        </div>
-    );
-}
+//             <BookList/>
+//             <Footer/>
+//         </div>
+//     );
+// }
 
 
 export default CleanEatClinic;
