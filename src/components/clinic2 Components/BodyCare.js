@@ -759,7 +759,6 @@ const BodyCare = (props) => {
 <br/>
         </details>
         <br/>
-        <Footer/> 
         </div>
     )
 }
