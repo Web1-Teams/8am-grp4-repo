@@ -5,10 +5,10 @@
     overflow: hidden;
     transition: transform 0.3s ease;
     background-color: #f8eff6ec;
-    display: flex; /* Enables flexbox for centering */
-    flex-direction: column; /* Makes the content stack vertically */
-    align-items: center; /* Centers horizontally */
-    justify-content: center; /* Centers vertically */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
 }
 
 .book:hover {
@@ -18,8 +18,8 @@
 .book-img {
     width: 16rem;
     height: 20rem;
-    display: block; /* Ensure the image is treated as a block */
-    margin: 0 auto; /* Optional if needed */
+    display: block; 
+    margin: 0 auto;
 }
 
 .caption h3 {
