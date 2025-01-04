@@ -2,8 +2,15 @@ import { useNavigate } from 'react-router-dom';
 import Exercise from "../../clinic3ComponentsTemp/Exercise";
 import Exercise2 from "../../clinic3ComponentsTemp/Exercise2";
 import Header from "../../header/Header";
+
+import Navbar from "../../navbar/Navbar";
 import Review from '../../Review/Review';
 import "../Clinic3/Styles_C3.css";
+import '../../Books/BookList.css'
+
+import Review from '../../Review/Review';
+import "../Clinic3/Styles_C3.css";
+
 import book1 from '../../../assests/Images/images For C3/atomic-hapits.jpg'
 import book2 from '../../../assests/Images/images For C3/David Burns - Feeling Good.jpg'
 import book3 from '../../../assests/Images/images For C3/Deep Work by Cal Newport.jpg'
@@ -43,6 +50,9 @@ const Clinic3 = (props) => {
            option3="art therapy"
            option4="suggested books"
            option5="relaxing sounds "
+           content="Welcome to vital care mental health clinic, your trusted partner in mental health. Our online platform is designed to provide convenient, accessible, and personalized mental health support in anytime.
+                    Your Mental Health Matters.
+                    Take the first step towards a healthier mind and a brighter future. Explore our services, connect with professionals, and find the support you need to shine."
            />
    <Sound/>
 

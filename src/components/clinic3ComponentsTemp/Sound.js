@@ -1,11 +1,15 @@
 import React, { useRef, useState } from 'react';
-
+import icon1 from '../../assests/Images/images For C3/headset_6731957.png'
 function Sound() {
   const [currentAudio, setCurrentAudio] = useState(null); // للتحكم في الصوت الحالي
   const [currentIcon, setCurrentIcon] = useState(null); // للتحكم في أيقونة التشغيل الحالية
+  const [isBoxVisible, setIsBoxVisible] = useState(false); // حالة رؤية الصندوق
+
+  const toggleBox = () => {
+    setIsBoxVisible(!isBoxVisible);
+  };
 
   const songs = [
-
     {
       title: 'Sound of forest birds',
       cover: '/Clinics/clinic3/Forest.png',
@@ -23,7 +27,6 @@ function Sound() {
     }
   ];
 
-  // إنشاء مراجع للأيقونات والأصوات بشكل آمن
   const audioRefs = useRef(songs.map(() => React.createRef()));
   const iconRefs = useRef(songs.map(() => React.createRef()));
 
@@ -31,13 +34,11 @@ function Sound() {
     const audioRef = audioRefs.current[index].current;
     const iconRef = iconRefs.current[index].current;
 
-    // إذا كان هناك صوت آخر يعمل، قم بإيقافه
     if (currentAudio && currentAudio !== audioRef) {
       currentAudio.pause();
       currentIcon.textContent = '▶';
     }
 
-    // تحكم في التشغيل/الإيقاف
     if (audioRef.paused) {
       audioRef.play();
       iconRef.textContent = '⏸';
@@ -53,27 +54,35 @@ function Sound() {
 
   return (
     <div className="sound">
-        <div className="header-sound">
-          <h2>Relaxing Sounds</h2>
-        </div>
-      
+      {/* أيقونة ثابتة عند التمرير */}
+      <div className="sticky-icon" onClick={toggleBox}>
+        <img 
+          src={icon1}
+          alt="relaxing souunds"
+          className="toggle-icon"
+        />
+      </div>
 
-      {songs.map((song, index) => (
-        <div className="song" key={index}>
-          <span
-            ref={iconRefs.current[index]}
-            className="play-icon"
-            onClick={() => playAudio(index)}
-          >
-            ▶
-          </span>
-          <img src={song.cover} alt="Cover" />
-          <div className="song-info">
-            <h3>{song.title}</h3>
-            <audio ref={audioRefs.current[index]} src={song.audio}></audio>
-          </div>
+      {isBoxVisible && (
+        <div className="song-box">
+          {songs.map((song, index) => (
+            <div className="song" key={index}>
+              <span
+                ref={iconRefs.current[index]}
+                className="play-icon"
+                onClick={() => playAudio(index)}
+              >
+                ▶
+              </span>
+              <img src={song.cover} alt="Cover" />
+              <div className="song-info">
+                <h3>{song.title}</h3>
+                <audio ref={audioRefs.current[index]} src={song.audio}></audio>
+              </div>
+            </div>
+          ))}
         </div>
-      ))}
+      )}
     </div>
   );
 }

@@ -1,15 +1,34 @@
 import React from 'react';
-import HairCareClinic from '../src/components/clinic2 Components/HairCareClinic';
-import { BrowserRouter as Router } from 'react-router-dom'; // استيراد Router
-import CleanEatClinic from './components/clinic2 Components/CleanEatClinic';
-import Clinic2 from './components/clinics-components/clinic2/Clinic2';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import NavBar from "./components/navbar/Navbar";
+import Main from './components/Main page components/Main';
+// import Clinic1 from './components/clinics-components/clinic1/Clinic1';
+import TopTopic from "./components/toptopic/TopTopic";
+import Review from "./components/Review/Review";
+import Footer from "./components/Footer/Footer";
+import Clinic3 from './components/clinics-components/Clinic3/Clinic3';
+import Canvas from './components/clinic3ComponentsTemp/canvass/Canvas';
+
 function App() {
   return (
     <Router>
-    <div>
-      <Clinic2 />
-    </div>
-    </Router>
+
+       <Routes>
+         <Route
+           path="/"
+           element={
+             <Main>
+               <TopTopic topic1="Welcome" clinic1="Main" />
+             <Review />
+          <Footer />
+            </Main>
+         }
+      />
+        <Route path="/clinic3" element={<Clinic3 />} />
+     <Route path="/canvas" element={<Canvas/>} />
+    </Routes>
+   </Router>
+
   );
 }
 
