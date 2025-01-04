@@ -55,7 +55,7 @@ const Navbar = () => {
 
       {/* أيقونة الترجمة */}
       <div className="translate-icon">
-        <a href="./Index_main en.html">
+        <a href="#">
           <TranslateIcon />
         </a>
       </div>
