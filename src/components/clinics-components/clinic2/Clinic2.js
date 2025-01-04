@@ -178,42 +178,42 @@ const Clinic2 = (props) => {
             name="Laila Ahmed"
             location="Riyadh, Saudi Arabia"
             stars={5}
-            comment="This platform offers practical and easy-to-follow tips for healthier skin. The face mask recipe is exceptional it nourishes the skin while being completely safe. Great work!"
+            comment="As a doctor, I find natural self-care recipes a safe and effective way to support skin and hair health.😁"
           />
           <TestimonialBox
             image={visitor2}
             name="Khaled Mahmoud"
             location="Cairo, Egypt"
             stars={4}
-            comment="The nutrition tips on the site are very helpful and easy to follow. I noticed a big improvement in my energy levels and overall health."
+            comment="The nutrition tips on the site are very helpful and easy to follow. I noticed a big improvement in my energy levels and overall health.🤩👌"
           />
           <TestimonialBox
             image={visitor3}
             name="Manar Khader"
             location="Jerusalem, Palestine"
             stars={5}
-            comment="I loved the hair care recipes! I tried the hair mask, and my hair feels so soft and healthy now. Highly recommended!"
+            comment="I loved the hair care recipes! I tried the hair mask, and my hair feels so soft and healthy now. Highly recommended!🤗💅🏻"
           />
           <TestimonialBox
             image={visitor4}
             name="Omar Hassan"
             location="Amman, Jordan"
             stars={3}
-            comment="Great website for self-care! The body scrub recipe worked wonders for my skin. I’ll definitely try more tips from here."
+            comment="Great website for self-care! The body scrub recipe worked wonders for my skin. I’ll definitely try more tips from here.👍🏻"
           />
           <TestimonialBox
             image={visitor5}
             name="Farah Mari"
             location="Nablus, Palestine"
             stars={4}
-            comment="This website is a treasure trove of self-care recipes! The natural ingredients used in the DIY masks and scrubs make my skin feel amazing."
+            comment="This website is a goldmine of self-care recipes! The natural ingredients in the masks and scrubs leave my skin feeling amazing.😍🫶🏻"
           />
           <TestimonialBox
             image={visitor6}
             name="Ahmed Saleh"
             location="Dubai, UAE"
-            stars={2}
-            comment="The recipes are okay, but a bit time-consuming. Could be more practical."
+            stars={1}
+            comment="The recipes are underwhelming, but a bit time-consuming. Could be more practical.🤮👎"
           />
         </div>
       </section>
