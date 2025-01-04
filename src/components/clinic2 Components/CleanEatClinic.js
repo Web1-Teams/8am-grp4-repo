@@ -55,6 +55,22 @@ import ChiaSeedandAloeVeraDrink from "../../assests/Images/imagesForC2/ChiaSeeda
 import PruneJuice from "../../assests/Images/imagesForC2/PruneJuice.jpg";
 import HibiscusTea from "../../assests/Images/imagesForC2/hotOliveOil.jpg"
 import almondmilkchocolate from "../../assests/Images/imagesForC2/almondchocolatemilk.webp";
+import strawberrySmoothie from "../../assests/Images/imagesForC2/strawberrysmoothie.jpg";
+import spinachSmoothie from "../../assests/Images/imagesForC2/spinachsmoothie.jpg";
+import CarrotOrangeJuice from "../../assests/Images/imagesForC2/CarrotOrangeJuice.jpg";
+import ProteinSoy from "../../assests/Images/imagesForC2/proteinSoy.jpg";
+import egg from "../../assests/Images/imagesForC2/eggsForHair.jpg";
+import berries from "../../assests/Images/imagesForC2/berryForHair.jpg";
+import spanich from "../../assests/Images/imagesForC2/spinachForHair.jpg";
+import avoca from "../../assests/Images/imagesForC2/avocadoForHair.jpg";
+import nut from "../../assests/Images/imagesForC2/nutsForHair.jpg";
+import PomegranateJuice from "../../assests/Images/imagesForC2/pomegranateForHair.jpg";
+import waterCoconut from "../../assests/Images/imagesForC2/coconutWaterForHair.jpg";
+import juiceApple from "../../assests/Images/imagesForC2/applejuiceForHair.jpg";
+import CarrotandBeetrootJuice from "../../assests/Images/imagesForC2/carrotbeetrootForHair.jpg";
+import juiceLemon from "../../assests/Images/imagesForC2/lemonjuiceForHair.jpg";
+import teaGreen from "../../assests/Images/imagesForC2/teaGreen.jpg";
+import milk from "../../assests/Images/imagesForC2/milkForHair.jpg";
 
 
 const CleanEatClinic = (props) => {
@@ -86,7 +102,7 @@ return (
     </div>
         <Recipes
         recipeName="Strawberry Smoothie"
-        image = {strawberry}
+        image = {strawberrySmoothie}
         description="Rich in vitamin C to support hair growth."
         ingName1="1/2 cup strawberries"
         ingDescription1="Rich in vitamin C."
@@ -98,7 +114,7 @@ return (
 
       <Recipes
     recipeName="Spinach Smoothie"
-    image = {spinach}
+    image = {spinachSmoothie}
     description="Spinach is a nutrient-rich leafy green packed with essentials like folic acid, iron, and vitamins that help promote hair growth and improve scalp health, supporting the growth of new hair follicles. Matcha powder is rich in antioxidants that stimulate hair growth. Bananas are high in silica, a mineral that strengthens hair, prevents hair loss, and boosts collagen production."
     ingName1="1/2 cup banana slices or avocado slices"
     ingDescription1="Rich in silica, which strengthens hair and stimulates collagen production."
@@ -119,7 +135,7 @@ return (
 
     <Recipes
       recipeName="Carrot & Orange Juice"
-      image = {orangeAndCarrotJuice}
+      image = {CarrotOrangeJuice}
       description="Carrots and oranges are rich in vitamin C, which helps the body produce collagen, essential for building strong hair. They also aid in iron absorption, promoting better hair growth. This juice can improve scalp circulation, stimulating hair follicles for enhanced hair growth."
       ingName1="1 large carrot"
       ingDescription1="Rich in vitamin C, essential for collagen production and hair strength."
@@ -171,7 +187,7 @@ return (
 
 <Recipes
     recipeName="Soy Protein Drink"
-    image = {soyProtein}
+    image = {ProteinSoy}
     description="Soy protein powder contains lysine and Vitamin B-6, essential for strengthening hair. This drink can be made with water or mixed with almond or cow's milk for added nutrients to promote healthier hair."
     ingName1="1 cup soy milk"
     ingDescription1="A great source of protein and nutrients to promote hair growth."
@@ -201,7 +217,7 @@ return (
     </div>
     <Recipes
     recipeName="Eggs for Hair Nourishment"
-    image = {eggs}
+    image = {egg}
     description="Eggs are one of the best foods for supporting hair health and growth. They are rich in high-quality protein, which helps build hair structure and repair damage. Additionally, eggs contain biotin, a vitamin that promotes hair growth and prevents hair loss. The vitamins (A, D, E) and minerals like iron and zinc also help nourish the scalp and enhance natural oil production to keep hair hydrated and shiny. Regular consumption of eggs can improve hair strength and thickness."
     ingName1="Eggs"
     ingDescription1="Rich in high-quality protein, biotin, and vitamins A, D, E, iron, and zinc, all of which help promote hair health."
@@ -211,7 +227,7 @@ return (
 
 <Recipes
     recipeName="Berries for Hair Growth"
-    image = {berry}
+    image = {berries}
     description="Berries are packed with beneficial compounds and vitamins that can support hair growth. They are particularly rich in vitamin C, which contains powerful antioxidants. These antioxidants help protect hair follicles from free radicals, harmful molecules found in the body and environment. Moreover, vitamin C is used by the body to produce collagen, a protein that strengthens hair and prevents breakage."
     ingName1="Berries"
     ingDescription1="Packed with vitamin C and antioxidants that protect hair follicles from free radicals and strengthen hair."
@@ -221,7 +237,7 @@ return (
 
 <Recipes
     recipeName="Spinach for Hair Growth"
-    image = {spinach2}
+    image = {spanich}
     description="Spinach is a leafy green vegetable that is packed with nutrients like folic acid, iron, and vitamins A and C, all of which may help support hair growth. Vitamin A produces sebum, a natural oil that moisturizes the scalp and promotes healthy hair growth. Spinach is also rich in iron, which helps deliver oxygen throughout the body, boosting energy and supporting hair growth and repair."
     ingName1="Spinach"
     ingDescription1="Packed with folic acid, iron, and vitamins A and C that may help support hair growth."
@@ -232,7 +248,7 @@ return (
 
 <Recipes
     recipeName="Avocado for Hair Health"
-    image = {avocadoCleanEating}
+    image = {avoca}
     description="Avocados are rich in vitamin E, which may help support hair growth. Like vitamin C, vitamin E is an antioxidant that helps prevent oxidative stress by neutralizing free radicals. It also protects the scalp and other sensitive skin areas from oxidative stress and damage. Poor hair quality and insufficient follicles can lead to scalp damage."
     ingName1="Avocados"
     ingDescription1="Rich in vitamin E and essential fatty acids that help promote healthy hair growth and protect the scalp."
@@ -242,7 +258,7 @@ return (
 
 <Recipes
     recipeName="Nuts for Healthy Hair"
-    image = {nuts}
+    image = {nut}
     description="If you're looking to achieve healthy and strong hair, nuts are an excellent choice. They are delicious and convenient, offering a wide variety of nutrients that may help promote hair growth. Nuts are also rich in B vitamins, zinc, and essential fatty acids. Deficiencies in any of these nutrients have been linked to hair loss."
     ingName1="Nuts"
     ingDescription1="Rich in B vitamins, zinc, and essential fatty acids that promote healthy hair growth."
@@ -266,7 +282,7 @@ return (
     </div>
     <Recipes
     recipeName="Pomegranate Juice"
-    image = {pomegranate}
+    image = {PomegranateJuice}
     description="Pomegranate juice is a powerful drink that detoxifies the blood, making it an excellent choice for glowing skin. It also has anti-aging properties, helping to rejuvenate skin cells and give the skin a youthful glow. One cup of pomegranate juice daily can significantly enhance skin health and radiance."
     ingName1="1 pomegranate"
     ingDescription1="Rich in antioxidants that help fight free radicals and promote skin regeneration."
@@ -280,7 +296,7 @@ return (
 
 <Recipes
     recipeName="Coconut Water Benefits"
-    image = {coconutDrink}
+    image = {waterCoconut}
     description="Coconut water is rich in essential nutrients like potassium, magnesium, and calcium. It helps hydrate the skin, reduce wrinkles, and fight acne with its antimicrobial properties. It also promotes faster healing of skin wounds, making it a great addition to your skincare routine."
     ingName1="Fresh coconut water"
     ingDescription1="Hydrates the skin and fights acne with its natural antimicrobial properties."
@@ -293,7 +309,7 @@ return (
 
 <Recipes
     recipeName="Apple Juice Benefits"
-    image = {appleJuice}
+    image = {juiceApple}
     description="Apple juice is rich in collagen, which enhances skin elasticity and promotes a youthful glow. It also contains antioxidants that help delay the appearance of aging signs, making it beneficial for maintaining smooth and healthy skin."
     ingName1="Fresh apple juice"
     ingDescription1="Boosts collagen production and helps maintain skin elasticity."
@@ -304,7 +320,7 @@ return (
 
 <Recipes
     recipeName="Carrot and Beetroot Juice"
-    image = {beetrootAndCarrotsJuice}
+    image = {CarrotandBeetrootJuice} 
     description="Carrot and beetroot juice is rich in antioxidants, vitamins, and minerals that promote healthy, glowing skin, lighten the complexion, and delay the signs of aging."
     ingName1="500g of fresh beetroot"
     ingDescription1="Rich in antioxidants and beneficial nutrients for skin health."
@@ -326,7 +342,7 @@ return (
 
 <Recipes
     recipeName="Lemon Juice for Skin Brightening"
-    image = {lemonJuice}
+    image = {juiceLemon}
     description="Lemon juice is rich in Vitamin C and citric acid, making it perfect for brightening the skin, reducing wrinkles, and fighting acne. It boosts collagen production, giving the skin a youthful glow and helping treat sunburns and rashes."
     ingName1="1 fresh lemon"
     ingDescription1="Rich in Vitamin C and citric acid to brighten and exfoliate the skin."
@@ -499,7 +515,7 @@ return (
 </div>
 <Recipes
     recipeName="Refreshing Green Tea Recipe"
-    image = {greenTea}
+    image = {teaGreen}
     description="Green tea is not just a refreshing beverage; it's a powerful ally for your immune system. Packed with antioxidants and bioactive compounds, it helps protect your body against infections, boosts overall immunity, and supports your health. This simple recipe will show you how to prepare a perfect cup of green tea with added flavors for maximum enjoyment."
     ingName1="1 cup water"
     ingDescription1="The base for brewing your green tea."
@@ -689,7 +705,7 @@ return (
     </div>
     <Recipes
     recipeName="Milk"
-    image = {milkAndTurmeric}
+    image = {milk}
     description="Milk provides natural lactose, a carbohydrate that supplies energy. A single cup offers 13 essential nutrients, including protein, calcium, vitamins A, D, and B complex."
     ingName1="1 cup milk"
     ingDescription1="The base of the drink, packed with nutrients."
