@@ -15,7 +15,7 @@ import visitor3 from "../../../assests/Images/imagesForC2/women4.png";
 import visitor4 from "../../../assests/Images/imagesForC2/man3.png";
 import visitor5 from "../../../assests/Images/imagesForC2/women2.png";
 import visitor6 from "../../../assests/Images/imagesForC2/man2.png";
-import DoctorCard from "../../doctorCard/DoctorCard";
+import DoctorCard from "../../DoctorCard/DoctorCard";
 
 const Clinic2 = (props) => {
   return (
