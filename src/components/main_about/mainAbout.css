@@ -1,0 +1,79 @@
+.info-section {
+    padding: 20px 20px;
+    background-color: #F1F0E8;
+    border-radius: 3%;
+}
+.info-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #555;
+}
+.info-section p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+.card-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.physical-therapy { background-color: #80b3a9; }
+.mental-health { background-color: #a693b8; }
+.self-care { background-color: #fdbbc9; }
+.nutrition { background-color: #ddef9b; }
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.card-text {
+    font-size: 14px;
+    color: #fff;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+    .info-section .row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        margin: 10px;
+        flex: 1 1 calc(25% - 20px); /* 4 cards per row */
+    }
+}
+
+
+@media (max-width: 480px) {
+    .card {
+        padding: 15px;
+       top:30px;
+    }
+ 
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+}

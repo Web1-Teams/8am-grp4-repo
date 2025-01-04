@@ -2,7 +2,7 @@
 .MeditationMindfulness {
   background-color: hsla(278, 14%, 59%, 0.384);
   height:auto;
-  position: relative; /* Change from absolute to relative */
+  position: relative;
   margin: 3rem; 
   overflow: hidden;
   border-radius: 20px;
@@ -125,7 +125,7 @@ margin-top: 3rem;
   text-decoration: underline;
 }
 
-/* Make the layout responsive */
+/*  responsive */
 @media (max-width: 1200px) {
   .exercise-container {
     grid-template-columns: repeat(2, 1fr);  /* 2 columns for medium screens */
@@ -136,9 +136,12 @@ margin-top: 3rem;
   .exercise-container {
     grid-template-columns: 1fr;  /* 1 column for small screens */
   }
+  .exercise-box{
+    width: 400px;
+  }
 }
 
-/* Button to toggle all exercise details */
+
 .toggle-details-button {
   background-color: #b79ad8;
   color: white;
@@ -170,7 +173,7 @@ margin-top: 8rem;
 .artTherapy {
 background-color: hsla(278, 14%, 59%, 0.384);
 height:auto;
-position:relative; /* Change from absolute to relative */
+position:relative;
 top: 3rem;
 margin: 3rem; 
 margin-top: 5rem;
@@ -181,6 +184,25 @@ padding: 2rem;
 text-align: center;
 
 }
+.openCanvasButton {
+  background-color: #61516d;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px; 
+  font-weight: bold; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+
+.openCanvasButton:hover {
+  background-color: #675873; 
+  transform: scale(1.05);
+}
+
 
 .artTherapy p {
 font-size: 14px;
@@ -231,7 +253,7 @@ margin-top: 10px;
 .simple-art-therapy {
 background-color: #291d33 0px 1px 10px;
   height:auto;
-  position: relative; /* Change from absolute to relative */
+  position: relative; 
   margin: 3rem; 
   overflow: hidden;
   border-radius: 20px;

@@ -12,8 +12,12 @@
   align-items: center;
   overflow: hidden;
   border-radius: 20px;
+  
   box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 10px, rgba(0, 0, 0, 0.5) 0px 2px 25px;
 }
+
+
+
 
 .miniNavbar {
   display: flex;
@@ -29,7 +33,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: brightness(0.8);
+  filter: brightness(0.9);
 }
 
 .page2Background {
@@ -37,16 +41,18 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: brightness(1);
+  filter: brightness(0.9);
 }
 
 
 .page3Background {
-  background-image: url("./WhatsApp\ Image\ 2024-12-22\ at\ 16.10.57_25f6c835.jpg");
+  background-image: url("./444444.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: brightness(1);
+  filter: brightness(0.9);
+  
+
 }
 
 .page4Background {
@@ -54,7 +60,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: brightness(1);
+  filter: brightness(0.9);
 }
 
 .page5Background {
@@ -62,7 +68,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: brightness(1);
+  filter: brightness(0.9);
 }
   .card {
     width: 100%;
@@ -72,12 +78,11 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    color: #000000; /* White text for contrast */
+    color: rgb(52, 47, 47); /* White text for contrast */
     padding: 10%;
     position: relative;
     z-index: 1; /* Make sure the text stays on top of the background */
   
-    background-color: rgba(255, 255, 255, 0.8); /* Light semi-transparent background */
 
   }
   
@@ -112,6 +117,7 @@
   .card:hover  .h3 {
     transform: translateY(0);
     opacity: 1;
+  
     
   }
   

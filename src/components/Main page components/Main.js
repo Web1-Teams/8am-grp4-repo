@@ -1,17 +1,16 @@
 import './styles_main ar.css'
-import TopTopic from "../toptopic/TopTopic"
 import Review from "../Review/Review"
-import Footer from "../Footer/Footer"
+import Main_about from '../main_about/Main_about';
+
 
 const Main=()=>{
     return (
         <>
-        <TopTopic topic1="Welcome" clinic1="Main"/>
-
+        <Main_about/>
         <Review/>
 </>
     )
 }
 
 
-export default Main
+export default Main;

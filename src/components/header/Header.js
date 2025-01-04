@@ -2,6 +2,7 @@
  import classNames from "classnames";
  import "./Header.css";
 import MiniNav from "../MiniNavBar/MiniNavbar";
+import About from "../About/About";
  const Header = (props) => {
  
    const headerClass = classNames("card", props.className);
@@ -17,7 +18,7 @@ import MiniNav from "../MiniNavBar/MiniNavbar";
         <p className="p1">{props.ClinicAyah}</p>
          <div className="content">
            <h3 className="h3" >
-            {props.clinicinfo}
+            <About {...props}/>
            </h3>
          </div>
        </div>
