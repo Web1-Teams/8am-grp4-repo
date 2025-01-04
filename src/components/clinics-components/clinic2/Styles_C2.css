@@ -33,7 +33,6 @@
 
 .grid-container {
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
   grid-template-columns: repeat(4, 1fr); /* 4 columns */
   gap: 15px;
 }
@@ -111,12 +110,7 @@ summary:hover {
 
 
 
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: poppins;
-    box-sizing: border-box;
-  }
+
   a{
     text-decoration: none;
   }
@@ -506,6 +500,7 @@ summary:hover {
 }
 
 .service-card {
+  
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -539,7 +534,9 @@ summary:hover {
   font-size: 0.875rem;
 }
 
-.hover:hover {
+
+.service-card:hover {
+  text-decoration: none; /* يزيل الخط عند التمرير */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   transform: translateY(-17px);
 }
