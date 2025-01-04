@@ -35,14 +35,17 @@ const Clinic2 = (props) => {
          intro = "Personalized care for glowing, healthy skin."
          />
          <ServiceCard  serImage = {haircarebackground}
+        service= "/clinic2/HairCare"
            serviceName = "Hair Care Solutions "
          intro = "Rejuvenate your hair with our organic products.."
          />
           <ServiceCard  serImage = {bodycarebackground} 
+        service=  "/clinic2/BodyCare"
           serviceName = "Body Care Routines "
          intro = "Nourishing treatments for total wellness."
          />
           <ServiceCard  serImage = {cleaneatingbackground}
+          service= "/clinic2/CleanEating"
            serviceName = "Clean Eating Recipes "
          intro = "Rejuvenate your hair with our organic products."
          /> 
