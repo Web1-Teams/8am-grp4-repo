@@ -606,6 +606,9 @@ summary:hover {
   font-size: 1rem;
   color: #555;
 }
+.tip-card a {
+  text-decoration: none;
+}
 
 body {
   font-family: "Roboto Slab", serif;
