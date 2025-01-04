@@ -183,7 +183,7 @@ const SkinCare = (props) => {
    <br></br>
     </details>
     <br/>
-    <datalis>
+    <details>
         <summary>Acne treatment</summary>
         <div className="container">
         <p>
@@ -240,7 +240,7 @@ const SkinCare = (props) => {
   instructions = " 1. Mix 1 teaspoon of baking soda with a small amount of water to form a paste.<br> 2. Apply the paste to the affected areas and leave it on for 10 minutes.<br> 3. Rinse thoroughly with water and pat your skin dry.<br> 4. Use sparingly as overuse may irritate the skin."
   />
    <br></br>
-    </datalis>
+    </details>
     <br/>
     <details>
   <summary>Blackhead treatment</summary>
