@@ -22,9 +22,10 @@ import image4 from "../../../assests/Images/imagesForC2/clean eating-background.
 //  import TestimonialBox from "../clinic2 Components/TestimonialBox";
 // import IntroSection from "../../clinic2 Components/IntroSection";
 //  import ServiceCard from "../../clinic2 Components/ServiceCard";
-import TipCard from "../../clinic2 Components/TipCard";
+// import TipCard from "../../clinic2 Components/TipCard";
 import BookList from "../../Books/BookList";
 import Review from "../../Review/Review";
+import TipCard from "../../clinic2 Components/TipCard";
 
 
 
@@ -66,8 +67,6 @@ const Clinic2 = (props) => {
   <div class="tips-container">
     <h3>Beauty Tips</h3>
     <h4>Tips for Maintaining Healthy and Glowing Skin</h4>
-    <div class="arrow left-arrow">‹</div>
-    <div class="arrow right-arrow">›</div>
     <div class="tips-row">
 
          <TipCard link = "https://draxe.com/nutrition/how-to-stay-hydrated/"

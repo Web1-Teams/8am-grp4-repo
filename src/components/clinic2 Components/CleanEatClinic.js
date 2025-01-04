@@ -1,9 +1,8 @@
 import React from "react";
 import "../clinics-components/clinic2/Styles_C2.css";
 import IntroSection from "./IntroSection";
-import Navbar from "../navbar/Navbar";
 import RecipeCard from "./RecipeCard";
-import BookList from "../books/BookList";
+import BookList from "../Books/BookList";
 // import Footer from "../Footer";
 import Recipes from "./Recipes";
 
@@ -61,31 +60,23 @@ import PruneJuice from "../../assests/Images/imagesForC2/PruneJuice.jpg";
 import HibiscusTea from "../../assests/Images/imagesForC2/hotOliveOil.jpg"
 
 
-const CleanEatIntro = (
-  <div>
-    <p className="intro-subtitle">
-      Nourish your body, and it will reward you with vibrant hair, glowing skin, and boundless energy. <br />
-      Step into a world where every <span className="intro-highlight">meal fuels beauty</span>, every bite supports strength, <br />
-      and every choice leads you closer to your healthiest self.
-    </p>
-    <p className="intro-subtitle">
-      Your diet isn’t just about food – it’s about <span className="intro-highlight">health</span>, radiance, and the foundation of your inner and outer beauty.
-    </p>
-    <p className="intro-subtitle">
-      Glow brighter, feel stronger, and live better – because true beauty starts from within. Let’s redefine your wellness journey.
-    </p>
-  </div>
-);
-
 
 const CleanEatClinic = (props) => {
 return (
     <div>
-      <Navbar/>
-      <IntroSection
-        title="The Power of Nutrition"
-        subtitle={CleanEatIntro}
-        />
+      
+      <IntroSection 
+       title="The Power of Nutrition"
+       subtitle1="Nourish your body, and it will reward you with vibrant hair, glowing skin, and boundless energy."
+       subtitle2="Step into a world where every "
+       specific1="meal fuels beauty"
+       subtitle3=", every bite supports strength, and every choice leads you closer to your healthiest self."
+       subtitle4="Your diet isn’t just about food – it’s "
+       specific2="health"
+       subtitle5=", radiance, and the foundation of your inner and outer beauty."
+       subtitle6="Glow brighter, feel stronger, and live better – because true beauty starts from within. Let’s redefine your wellness journey."
+     />
+
 
     <div className="main-container">
     <div className="main-frame">

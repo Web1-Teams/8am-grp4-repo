@@ -1,8 +1,6 @@
 import React from "react";
-// import "../clinics-components/clinic2/Styles_C2.css";
+import "../../components/clinics-components/clinic2/Styles_C2.css";
 import IntroSection from "./IntroSection";
-import Navbar from "../navbar/Navbar";
-import RecipeCard from "./RecipeCard";
 import BookList from "../Books/BookList";
 // import Footer from "../Footer";
 import Recipes from "./Recipes";
@@ -50,7 +48,6 @@ const HairCareClinic = (props) => {
     return (
 <div>
 
-        <Navbar/>
       
         <IntroSection title = "Elevate Your Hair Care"
     subtitle1 = " Because your hair deserves care as vibrant as your personality."
