@@ -1,9 +1,9 @@
 import React from "react";
 import "./BookList.css";
 import book1 from "../../assests/Images/imagesForC2/skinCareBook2.jpg";
-import book2 from "../../assests/Images/imagesForC2/book2.png";
+import book2 from "../../assests/Images/imagesForC2/hairCareBook.jpg";
 import book3 from "../../assests/Images/imagesForC2/bodycareBook.jpg";
-import book4 from "../../assests/Images/imagesForC2/book4.jpg";
+import book4 from "../../assests/Images/imagesForC2/cleanEtingBook.jpg";
 
 import Book from "./Book";
 
