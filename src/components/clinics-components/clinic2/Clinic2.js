@@ -9,10 +9,10 @@ import cleaneatingbackground from "../../../assests/Images/imagesForC2/cleaneati
 import BookList from "../../Books/BookList";
 import TipCard from "../../clinic2 Components/TipCard";
 import TestimonialBox from "../../clinic2 Components/TestimonialBox";
-import Ninja from "../../../assests/Images/imagesForC2/Ninja.jpg"
-import visitor1 from "../../../assests/Images/imagesForC2/child1.png";
+// import Ninja from "../../../assests/Images/imagesForC2/Ninja.jpg"
+import visitor1 from "../../../assests/Images/imagesForC2/woman1.png";
 import visitor2 from "../../../assests/Images/imagesForC2/child2.png";
-import visitor3 from "../../../assests/Images/imagesForC2/man2.png";
+import visitor3 from "../../../assests/Images/imagesForC2/women4.png";
 import visitor4 from "../../../assests/Images/imagesForC2/man3.png";
 import visitor5 from "../../../assests/Images/imagesForC2/women2.png";
 import visitor6 from "../../../assests/Images/imagesForC2/women4.png";
@@ -25,7 +25,7 @@ const Clinic2 = (props) => {
                 title = "Embrace Your Natural Beauty and Inner Peace"
                 subtitle = "Discover the harmony of nature and self-care with treatments designed to nurture your beauty and well-being"
          />
-        <section className="services-section">
+        <section className="services-section" id="Our-Services">
           <div className="services-container">
             <h3>Our Services</h3>
             <div className="services-grid">
@@ -35,21 +35,24 @@ const Clinic2 = (props) => {
          intro = "Personalized care for glowing, healthy skin."
          />
          <ServiceCard  serImage = {haircarebackground}
+        service= "/clinic2/HairCare"
            serviceName = "Hair Care Solutions "
          intro = "Rejuvenate your hair with our organic products.."
          />
           <ServiceCard  serImage = {bodycarebackground} 
+        service=  "/clinic2/BodyCare"
           serviceName = "Body Care Routines "
          intro = "Nourishing treatments for total wellness."
          />
           <ServiceCard  serImage = {cleaneatingbackground}
+          service= "/clinic2/CleanEating"
            serviceName = "Clean Eating Recipes "
          intro = "Rejuvenate your hair with our organic products."
          /> 
          </div>
          </div>
          </section>
-<section class="tips-section">
+<section class="tips-section" id="Tips">
   <div class="tips-container">
     <h3>Beauty Tips</h3>
     <h4>Tips for Maintaining Healthy and Glowing Skin</h4>

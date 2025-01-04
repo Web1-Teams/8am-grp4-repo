@@ -1,4 +1,4 @@
-@media (min-width: 769px) and (max-width: 1024px) {
+/*@media (min-width: 769px) and (max-width: 1024px) {
 
   * {
     text-align: right;
@@ -7,7 +7,7 @@
     padding: 0;
   }
 
-}
+}*/
 
 
   .container {
@@ -36,7 +36,7 @@
   grid-template-columns: repeat(4, 1fr); /* 4 columns */
   gap: 15px;
 }
-
+/*
 details {
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -75,7 +75,7 @@ summary:hover {
   background-color: #fff;
   border-top: 1px solid #ddd;
 }
-
+*/
 .img-content {
   width: 18rem;
   height: 12rem;

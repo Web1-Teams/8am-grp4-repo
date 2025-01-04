@@ -9,6 +9,9 @@ import Clinic2 from "./components/clinics-components/clinic2/Clinic2";
 import Clinic3 from "./components/clinics-components/Clinic3/Clinic3";
 import Clinic4 from "./components/clinics-components/Clinic4/Clinic4";
 import SkinCare from './components/clinic2 Components/SkinCare'
+import HairCareClinic from "./components/clinic2 Components/HairCareClinic";
+import CleanEatClinic from "./components/clinic2 Components/CleanEatClinic";
+import BodyCare from "./components/clinic2 Components/BodyCare";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,7 +25,10 @@ root.render(
         <Route path="/clinic3" element={<Clinic3 />} />
         <Route path="/clinic4" element={<Clinic4 />} />
         <Route path="/clinic2/SkinCare" element={<SkinCare/>} />
-        {/* <Route path="/clinic2/اسم الصفحة" element={< الصفحة/>} /> */}
+        <Route path="/clinic2/HairCare" element={<HairCareClinic/>} />
+        <Route path="/clinic2/BodyCare" element={<BodyCare/>} />
+        <Route path="/clinic2/CleanEating" element={<CleanEatClinic/>} />
+
       </Routes>
       <Footer /> 
     </BrowserRouter>
