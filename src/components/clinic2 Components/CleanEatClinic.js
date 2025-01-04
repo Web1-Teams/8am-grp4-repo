@@ -2,54 +2,33 @@ import React from "react";
 import IntroSection from "./IntroSection";
 import Recipes from "./Recipes";
 
-import almondMilk from "../../assests/Images/imagesForC2/almondMilk.jpg";
-import appleJuice from "../../assests/Images/imagesForC2/applejuice.jpg";
 import apricot from "../../assests/Images/imagesForC2/apricot.jpg";
 import avocado2CleanEating from "../../assests/Images/imagesForC2/avocado2CleanEating.jpg";
-import avocadoCleanEating from "../../assests/Images/imagesForC2/avocadoCleanEating.jpg";
-import beetrootAndCarrotsJuice from "../../assests/Images/imagesForC2/beetrootandcarrotsjuice.jpg";
 import beetrootAndMint from "../../assests/Images/imagesForC2/Beetrootandmint.jpg";
 import beetroot from "../../assests/Images/imagesForC2/beetroot.jpg";
-import berry from "../../assests/Images/imagesForC2/berry.jpg";
 import blackTea from "../../assests/Images/imagesForC2/blacktea.jpg";
-import cherry from "../../assests/Images/imagesForC2/Cherry.jpg";
 import chlorophyll from "../../assests/Images/imagesForC2/Chlorophyll.jpg";
 import chocolateDrink from "../../assests/Images/imagesForC2/Chocolatedrink.jpg";
-import coconutDrink from "../../assests/Images/imagesForC2/coconutdrink.jpg";
 import coconutWater from "../../assests/Images/imagesForC2/coconutwater.jpg";
 import coffee1 from "../../assests/Images/imagesForC2/coffee1.jpg";
 import cranberry from "../../assests/Images/imagesForC2/Cranberry.jpg";
-import fruitsAndAloeVeraGel from "../../assests/Images/imagesForC2/Fruitsandaloeveragel.jpg";
 import grapefruit from "../../assests/Images/imagesForC2/grapefruit.jpg";
 import lemonAndGinger from "../../assests/Images/imagesForC2/Lemonandginger.jpg";
 import lemonAndGreenTea from "../../assests/Images/imagesForC2/lemonandgreentea.jpg";
-import lemonJuice from "../../assests/Images/imagesForC2/lemonjuice.jpg";
 import lemonHoneyGinger from "../../assests/Images/imagesForC2/Lemonhoneyginger.jpg";
 import licorice from "../../assests/Images/imagesForC2/licorice.jpg";
 import matcha from "../../assests/Images/imagesForC2/matcha.jpg";
 import milkAndTurmeric from "../../assests/Images/imagesForC2/milkandturmeric.jpg";
 import mint from "../../assests/Images/imagesForC2/mint.jpg";
-import nuts from "../../assests/Images/imagesForC2/nuts.jpg";
 import nuts2 from "../../assests/Images/imagesForC2/nuts2.jpeg";
-import orangeAndCarrotJuice from "../../assests/Images/imagesForC2/orangeandcarrotjuice.jpg";
 import pineappleAndGinger from "../../assests/Images/imagesForC2/pineappleandginger.jpg";
 import pineappleAndLemon from "../../assests/Images/imagesForC2/pineappleandlemon.jpg";
-import plum from "../../assests/Images/imagesForC2/plum.jpg";
-import pomegranate from "../../assests/Images/imagesForC2/pomegranate.jpg";
-import roselle from "../../assests/Images/imagesForC2/Roselle.jpg";
 import sage from "../../assests/Images/imagesForC2/Sage.jpg";
-import soyProtein from "../../assests/Images/imagesForC2/soyprotein.jpeg";
-import spinach from "../../assests/Images/imagesForC2/spinach.jpeg";
-import spinach2 from "../../assests/Images/imagesForC2/spinach2.jpeg";
-import strawberry from "../../assests/Images/imagesForC2/strawberry.jpg";
 import tamarind from "../../assests/Images/imagesForC2/tamarind.jpg";
 import turmericTea from "../../assests/Images/imagesForC2/turmerictea.jpg";
-import eggs from "../../assests/Images/imagesForC2/eggs.jpg";
 import appleCider from "../../assests/Images/imagesForC2/ciderApple.jpg";
 import neamTeaWithHoney from "../../assests/Images/imagesForC2/neamTeaWithHoney.jpg";
 import sesameANDdate from "../../assests/Images/imagesForC2/sesameANDdate.jpg";
-import greenTea from "../../assests/Images/imagesForC2/greentea2.jpg";
-import darkChocolate from "../../assests/Images/imagesForC2/darkChocolate.jpg";
 import BananaDateandAlmondSmoothie from "../../assests/Images/imagesForC2/BananaDateandAlmondSmoothie.jpg";
 import ChiaSeedandAloeVeraDrink from "../../assests/Images/imagesForC2/ChiaSeedandAloeVeraDrink.jpg";
 import PruneJuice from "../../assests/Images/imagesForC2/PruneJuice.jpg";
@@ -71,7 +50,6 @@ import CarrotandBeetrootJuice from "../../assests/Images/imagesForC2/carrotbeetr
 import juiceLemon from "../../assests/Images/imagesForC2/lemonjuiceForHair.jpg";
 import teaGreen from "../../assests/Images/imagesForC2/teaGreen.jpg";
 import milk from "../../assests/Images/imagesForC2/milkForHair.jpg";
-
 
 const CleanEatClinic = (props) => {
 return (

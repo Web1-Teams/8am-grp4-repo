@@ -9,7 +9,6 @@ import cleaneatingbackground from "../../../assests/Images/imagesForC2/cleaneati
 import BookList from "../../Books/BookList";
 import TipCard from "../../clinic2 Components/TipCard";
 import TestimonialBox from "../../clinic2 Components/TestimonialBox";
-// import Ninja from "../../../assests/Images/imagesForC2/Ninja.jpg"
 import visitor1 from "../../../assests/Images/imagesForC2/woman1.png";
 import visitor2 from "../../../assests/Images/imagesForC2/child2.png";
 import visitor3 from "../../../assests/Images/imagesForC2/women4.png";

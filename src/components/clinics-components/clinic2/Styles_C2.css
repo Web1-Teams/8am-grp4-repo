@@ -129,7 +129,7 @@ summary:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
   }
   
   .testimonial-heading span{
@@ -341,20 +341,6 @@ summary:hover {
       gap: 20px;
       padding: 20px;
     }
-
-    /*
-    .container {
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      overflow: hidden;
-      transition: transform 0.3s ease;
-    }
-
-  .container:hover {
-      transform: translateY(-10px); /* تأثير حركة عند التمرير */
-  
-  /**/
 
   .mask-header {
     height: 200px;
@@ -694,15 +680,17 @@ a{
 }
 .testimonial-box-container{
   display: grid;
-  gap: 20px;
-  justify-content:space-between;
+  gap: 1px;
+  justify-content:center;
   align-items: center;
   flex-wrap: wrap;
-  width:100%;
-  grid-template-columns: repeat(2, 1fr);
+  width:50%;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 .testimonial-box{
-  width:500px;
+  width: 40rem;
   box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
   background-color: #ffffff;
   padding: 20px;
