@@ -25,7 +25,7 @@ const Clinic2 = (props) => {
                 title = "Embrace Your Natural Beauty and Inner Peace"
                 subtitle = "Discover the harmony of nature and self-care with treatments designed to nurture your beauty and well-being"
          />
-        <section className="services-section">
+        <section className="services-section" id="Our-Services">
           <div className="services-container">
             <h3>Our Services</h3>
             <div className="services-grid">
@@ -48,7 +48,7 @@ const Clinic2 = (props) => {
          </div>
          </div>
          </section>
-<section class="tips-section">
+<section class="tips-section" id="Tips">
   <div class="tips-container">
     <h3>Beauty Tips</h3>
     <h4>Tips for Maintaining Healthy and Glowing Skin</h4>

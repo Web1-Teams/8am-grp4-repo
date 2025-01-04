@@ -8,13 +8,13 @@ const HeaderSection = (props) => {
       <div className="content-wrapper">
         <div className="header-section">
           <div className="header"> <MiniNav clinicName = "Self Care"
-          link1 = "#"
+          link1 = "#Our-Services"
           option1 = "Our Services"
-          link2 = "#"
+          link2 = "#Tips"
           option2 = "Tips Of Bueaty"
-          link3 = "#"
+          link3 = "#books-info"
           option3 = "Books"
-          link4 = "#"
+          link4 = "#testimonials"
           option4 = "Visitor Reviews"
            />
             <div className="header-content">
