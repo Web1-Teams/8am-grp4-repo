@@ -43,7 +43,7 @@ const Review = () => {
             <div className="row">
               {visibleItems.map((testimonial, index) => (
                 <div className="col-sm-6" key={index}>
-                  <div className="testimonial">
+                  <div className="testimonial1">
                     <p>{testimonial.text}</p>
                   </div>
                   <div className="media">

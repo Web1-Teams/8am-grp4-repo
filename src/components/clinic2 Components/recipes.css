@@ -80,6 +80,53 @@ body {
       transition: transform 0.3s ease; 
     }
     
+
+
+    body {
+      font-family: "Roboto Slab", serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fcf8f9;
+        color: #1b0e12;
+      }
+      
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+    
+    
+    details summary {
+      transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    details summary::after {
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+    
+    details summary:hover {
+      background-color: rgb(132, 127, 127); 
+      transform: scale(1.02); 
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
+    }
+    
+    details summary:hover::after {
+      color: #ffd700; 
+      transform: rotate(180deg); 
+    }
+    details summary:hover::after {
+      transform: rotate(180deg);
+    }
+    details:hover {
+      transform: translateY(-5px); 
+      transition: transform 0.2s ease; 
+    }
+    
+
+
+
+
     .container p {
       font-size: 1.4em;
       color: #974e67;

@@ -16,7 +16,8 @@ import { SlackIcon } from "hugeicons-react";
 import Canvas from '../../clinic3ComponentsTemp/canvass/Canvas';
 import Sound from '../../clinic3ComponentsTemp/Sound';
 import Book from '../../Books/Book';
-
+import BookList from '../../Books/BookList';
+import SleepTracker from '../../clinic3ComponentsTemp/SleepTracker';
 
 
 
@@ -31,7 +32,6 @@ const Clinic3 = (props) => {
     return ( 
       
        <div>
-
 
      
         
@@ -305,8 +305,7 @@ const Clinic3 = (props) => {
         <p>Consulting a healthcare professional or sleep specialist can provide insights and solutions, such as cognitive-behavioral therapy for insomnia (CBT-I) or relaxation techniques tailored to individual needs</p>
 
         </div>
-    
-      
+    <SleepTracker/>
       </section>
 
       <section id="books-info ">
@@ -347,7 +346,7 @@ const Clinic3 = (props) => {
         </div>
       </div>
     </section>
-      {/* <Sound /> */}
+      <Sound />
 
          <Review/>
         

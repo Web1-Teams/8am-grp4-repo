@@ -1,22 +1,21 @@
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end; /* محاذاة جميع العناصر لليمين */
     height: 6.5rem;
     align-items: center;
     background-color: #F1F0E8;
     padding: 10px 20px;
+    gap: 20px; /* إضافة فجوة بين العناصر */
 }
 
 .logo-container {
     display: flex;
     align-items: center;
-    margin-bottom: 0.5rem;
-    gap: 10px;
-    flex-grow: 0; /* لا حاجة لتوسيع هذا القسم */
+    gap: 1px;
+    margin-left: auto; /* يضمن دفع العناصر الأخرى نحو اليمين */
 }
 
 .logo {
-    margin-bottom: 0.4rem;
     width: 30px;
     height: auto;
 }
@@ -35,21 +34,20 @@
 
 .nav-links li {
     font-size: 20px;
-    position: relative;
 }
 
 .nav-links a {
     text-decoration: none;
     color: #F1F0E8;
-    padding: 10px 20px; /* حجم الحشو */
+    padding: 10px 20px;
     transition: 0.3s;
-    background-color: #0a335c; /* لون الخلفية */
+    background-color: #0a335c;
     border-radius: 20px;
     display: flex;
-    justify-content: center; /* لمحاذاة النص في المنتصف */
-    align-items: center; /* لمحاذاة النص في المنتصف */
-    min-width: 120px; /* عرض ثابت مبدئي */
-    height: 40px; /* ارتفاع ثابت */
+    justify-content: center;
+    align-items: center;
+    min-width: 120px;
+    height: 40px;
 }
 
 .nav-links a:hover {
@@ -67,7 +65,7 @@
     border-radius: 20px;
     box-shadow: 0px 4px 6px rgba(245, 244, 244, 0.1); /* إضافة ظل */
     z-index: 1000;
-    min-width: 120px; /* نفس عرض الأزرار */
+    min-width: 170px; /* نفس عرض الأزرار */
 }
 
 .dropdown-menu a {
@@ -110,6 +108,12 @@
 
 .dropdown:hover > span {
     background-color: #57648e; /* لون الهوفر للزر */
+}
+.translate-icon {
+    padding-top: 1.5;
+    margin-left: auto; /* محاذاة زر الترجمة لأقصى اليمين */
+    display: flex;
+    align-items: center;
 }
 
 /* Sidebar */

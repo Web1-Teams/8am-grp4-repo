@@ -4,30 +4,40 @@
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.3s ease;
-    background-color: #f8eff6ec;
-    display: flex; /* Enables flexbox for centering */
-    flex-direction: column; /* Makes the content stack vertically */
-    align-items: center; /* Centers horizontally */
-    justify-content: center; /* Centers vertically */
+    background-color: #efe1dfa4;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
 }
 
 .book:hover {
     transform: scale(1.05);
 }
 
+.book a {
+    text-decoration: none; 
+}
+
+.book a:hover {
+    text-decoration: none; 
+}
+
 .book-img {
     width: 16rem;
     height: 20rem;
-    display: block; /* Ensure the image is treated as a block */
-    margin: 0 auto; /* Optional if needed */
+    display: block; 
+    margin: 0 auto;
 }
 
 .caption h3 {
-    font-size: 15px;
+    font-size: 2.2rem;
     margin: 10px 0;
+    color: #641313;
 }
 
 .caption p {
     margin: 5px 0;
     color: #555;
+    font-size: 1.2rem;
 }

@@ -5,7 +5,7 @@ const Book = (props) => {
 
     return (
         <div className="book">
-            <a href={props.link}>
+            <a href={props.link} target='_blank'>
                 <img src={props.image} alt={props.title} className="book-img"/>
                 <div className="caption">
                     <h3>{props.title}</h3>

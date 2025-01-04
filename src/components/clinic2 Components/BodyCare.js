@@ -6,7 +6,7 @@ import image2 from "../../assests/Images/imagesForC2/honeyandavocado.jpg";
 import image3 from "../../assests/Images/imagesForC2/honeyandyogurt.jpg";
 import image4 from "../../assests/Images/imagesForC2/sheabutter.jpg";
 import image5 from "../../assests/Images/imagesForC2/aloeVeraa.jpg";
-import image6 from "../../assests/Images/imagesForC2/glycerin and lemon.webp";
+import image6 from "../../assests/Images/imagesForC2/glycerinandlemon.webp";
 import image7 from "../../assests/Images/imagesForC2/honeyandoats.webp";
 import image8 from "../../assests/Images/imagesForC2/milk.jpg";
 import image9 from "../../assests/Images/imagesForC2/coffee.webp";
@@ -52,23 +52,6 @@ import image48 from "../../assests/Images/imagesForC2/teaTreeeOil.jpeg";
 import image49 from "../../assests/Images/imagesForC2/appleCiderVinegar.webp";
 import image50 from "../../assests/Images/imagesForC2/aloeVeraa.jpg";
 import image51 from "../../assests/Images/imagesForC2/greenTea.png";
-
-
-const CleanEatIntro = (
-  <div>
-    <p className="intro-subtitle">
-      Nourish your body, and it will reward you with vibrant hair, glowing skin, and boundless energy. <br />
-      Step into a world where every <span className="intro-highlight">meal fuels beauty</span>, every bite supports strength, <br />
-      and every choice leads you closer to your healthiest self.
-    </p>
-    <p className="intro-subtitle">
-      Your diet isn’t just about food – it’s about <span className="intro-highlight">health</span>, radiance, and the foundation of your inner and outer beauty.
-    </p>
-    <p className="intro-subtitle">
-      Glow brighter, feel stronger, and live better – because true beauty starts from within. Let’s redefine your wellness journey.
-    </p>
-  </div>
-);
 
 
 
@@ -759,7 +742,6 @@ const BodyCare = (props) => {
 <br/>
         </details>
         <br/>
-        <Footer/> 
         </div>
     )
 }
