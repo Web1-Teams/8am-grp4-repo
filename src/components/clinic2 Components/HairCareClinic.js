@@ -1,8 +1,5 @@
 import React from "react";
-import "../../components/clinics-components/clinic2/Styles_C2.css";
 import IntroSection from "./IntroSection";
-import BookList from "../Books/BookList";
-// import Footer from "../Footer";
 import Recipes from "./Recipes";
 
 import coconutOilandHoney from "../../assests/Images/imagesForC2/coconutOilandHoney.jpg";
@@ -40,7 +37,6 @@ import kettanOil from "../../assests/Images/imagesForC2/kettanOil.jpg";
 import roseWater from "../../assests/Images/imagesForC2/roseWater.jpg";
 import greenTea from "../../assests/Images/imagesForC2/greenTea.jpg";
 import milk from "../../assests/Images/imagesForC2/milk.jpg";
-import Header from "../header/Header";
 
 
 const HairCareClinic = (props) => {
@@ -48,7 +44,6 @@ const HairCareClinic = (props) => {
     return (
 <div>
 
-      
         <IntroSection title = "Elevate Your Hair Care"
     subtitle1 = " Because your hair deserves care as vibrant as your personality."
    subtitle2 = "Step into a world of hair care where every "
@@ -482,10 +477,8 @@ const HairCareClinic = (props) => {
       3. Apply the mask to your hair and leave it on for 30 minutes. 4. Wash your hair as usual."
     />
   </details>
-    {/* </div> */}
 
 
-  {/* <div> */}
   <details>
     <summary>Eyelash Growth and Thickness</summary>
     <div className="container">
@@ -558,30 +551,9 @@ const HairCareClinic = (props) => {
     />
 
   </details>
-  {/* </div> */}
 </div>
      )
     };
-    
-        // return (
-        //     <div>
-        //         <Navbar />
-    
-        //         <IntroSection
-        //         title="Elevate Your Hair Care"
-        //         subtitle="Because your hair deserves care as vibrant as your personality. Step into a world of hair care where every strand tells a story"/>
-    
-        //         <div className="Hair-container">
-        //             { HairTreatments.map((treatment, index) => (
-        //             <RecipeCard key={index} {...treatment} />
-        //         ))}
-        //         </div>
-    
-        //         <BookList/>
-        //         <Footer/>
-        //     </div>
-        // );
-    
 
 
 export default HairCareClinic;

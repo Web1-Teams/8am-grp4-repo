@@ -1,9 +1,5 @@
 import React from "react";
-import "../clinics-components/clinic2/Styles_C2.css";
 import IntroSection from "./IntroSection";
-import RecipeCard from "./RecipeCard";
-import BookList from "../Books/BookList";
-// import Footer from "../Footer";
 import Recipes from "./Recipes";
 
 import almondMilk from "../../assests/Images/imagesForC2/almondMilk.jpg";
@@ -64,7 +60,6 @@ import HibiscusTea from "../../assests/Images/imagesForC2/hotOliveOil.jpg"
 const CleanEatClinic = (props) => {
 return (
     <div>
-      
       <IntroSection 
        title="The Power of Nutrition"
        subtitle1="Nourish your body, and it will reward you with vibrant hair, glowing skin, and boundless energy."
@@ -900,26 +895,5 @@ return (
 </div>
     )
 };   
-// const Navbar =(props) => { /*must be edited (maybe but footer instead of navbar) */
-//     return (
-//         <div>
-//             <Navbar />
-
-//             <IntroSection
-//             title="The Power of Nutrition"
-//             subtitle="Discover how clean eating enhances your beauty and vitality." />
-            
-//             <div className="Eat-container">
-//                 {EatClean.map((recipe, index) => (
-//                 <RecipeCard key={index} {...recipe} />
-//                 ))}
-//             </div>
-
-//             <BookList/>
-//             <Footer/>
-//         </div>
-//     );
-// }
-
 
 export default CleanEatClinic;
