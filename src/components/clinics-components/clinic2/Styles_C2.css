@@ -553,7 +553,7 @@ summary:hover {
   min-height: 480px;
   flex-direction: column;
   gap: 20px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('../../../assests/Images/imagesForC2/almond\ milk.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('../../../assests/Images/imagesForC2/background-self\ care.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
