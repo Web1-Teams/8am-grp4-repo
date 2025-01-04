@@ -22,9 +22,9 @@ import image4 from "../../../assests/Images/imagesForC2/clean eating-background.
 // import RecipesS from "../clinic2 Components/RecipesS";
 // import CleanEatClinic from "../clinic2 Components/CleanEatClinic";
 // import Recipes from "../clinic2 Components/Recipes";
-import TipCard from "../../clinic2 Components/TipCard";
+// import TipCard from "../../clinic2 Components/TipCard";
 // import TestimonialBox from "../clinic2 Components/TestimonialBox";
-import HeaderSection from "../../clinic2 Components/HeaderSection";
+// import HeaderSection from "../../clinic2 Components/HeaderSection";
 // import IntroSection from "../../clinic2 Components/IntroSection";
 // import ServiceCard from "../../clinic2 Components/ServiceCard";
 
