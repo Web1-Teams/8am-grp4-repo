@@ -13,7 +13,7 @@ const Exercise = (props) => {
         {props.exName}
       </div>
 
-      {/* Conditionally render the details section when `isOpen` is true */}
+     
       {isOpen && (
         <div className="exercise-details">
           <ul>
