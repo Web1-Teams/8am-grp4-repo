@@ -54,7 +54,7 @@ import BananaDateandAlmondSmoothie from "../../assests/Images/imagesForC2/Banana
 import ChiaSeedandAloeVeraDrink from "../../assests/Images/imagesForC2/ChiaSeedandAloeVeraDrink.jpg";
 import PruneJuice from "../../assests/Images/imagesForC2/PruneJuice.jpg";
 import HibiscusTea from "../../assests/Images/imagesForC2/hotOliveOil.jpg"
-
+import almondmilkchocolate from "../../assests/Images/imagesForC2/almondchocolatemilk.webp";
 
 
 const CleanEatClinic = (props) => {
@@ -148,7 +148,7 @@ return (
     </div>
     <Recipes
     recipeName="Almond Milk Chocolate Drink"
-    image = {almondMilk}
+    image = {almondmilkchocolate}
     description="This delicious and nutritious chocolate banana drink combines the rich benefits of bananas and chocolate. Packed with essential nutrients like potassium, magnesium, and vitamins from bananas, it promotes better blood circulation to the scalp and strengthens hair follicles. Dark chocolate offers antioxidants that combat free radicals, maintaining scalp health. Milk provides vital proteins and calcium, essential for hair growth and strength."
     ingName1="1 ripe banana"
     ingDescription1="Rich in potassium and vitamins to improve blood flow to the scalp."
