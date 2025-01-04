@@ -112,7 +112,7 @@ body {
 .service-card p {
   font-family: "Roboto Slab", serif;
   color: #2b2d30;
-
+  font-weight: bolder;
   margin-top: 0.5rem;
   font-size: 0.875rem;
 }

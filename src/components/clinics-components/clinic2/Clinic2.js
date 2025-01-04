@@ -8,7 +8,7 @@ import ServiceCard from "../../clinic2 Components/ServiceCard";
 // import HairCareClinic from "../clinic2 Components/HairCareClinic";
 // import BodyCare from "../../clinic2 Components/BodyCare";
 // import CleanEatClinic from "../clinic2 Components/CleanEatClinic";
-import TipCard from "../../clinic2 Components/TipCard";
+// import TipCard from "../../clinic2 Components/TipCard";
 // import TestimonialBox from "../clinic2 Components/TestimonialBox";
 ///import IntroSection from "../../clinic2 Components/IntroSection";
 import image1 from "../../../assests/Images/imagesForC2/skincare-background.jpeg";
@@ -17,11 +17,15 @@ import image3 from "../../../assests/Images/imagesForC2/body care=main.jpeg";
 import image4 from "../../../assests/Images/imagesForC2/clean eating-background.png";
 // import IntroSection from "../clinic2 Components/IntroSection";
 // import RecipeCard from "../clinic2 Components/RecipeCard";
-// import RecipesS from "../clinic2 Components/RecipesS";
-// import Recipes from "../clinic2 Components/Recipes";
-// import TestimonialBox from "../clinic2 Components/TestimonialBox";
+//  import RecipesS from "../clinic2 Components/RecipesS";
+//  import Recipes from "../clinic2 Components/Recipes";
+//  import TestimonialBox from "../clinic2 Components/TestimonialBox";
 // import IntroSection from "../../clinic2 Components/IntroSection";
-// import ServiceCard from "../../clinic2 Components/ServiceCard";
+//  import ServiceCard from "../../clinic2 Components/ServiceCard";
+import TipCard from "../../clinic2 Components/TipCard";
+import BookList from "../../Books/BookList";
+import Review from "../../Review/Review";
+
 
 
 
@@ -31,10 +35,14 @@ const Clinic2 = (props) => {
 
         <br/><br/>
       
-              <HeaderSection 
+              <HeaderSection
                 title = "Embrace Your Natural Beauty and Inner Peace"
                 subtitle = "Discover the harmony of nature and self-care with treatments designed to nurture your beauty and well-being"
          />
+        <section className="services-section">
+          <div className="services-container">
+            <h3>Our Services</h3>
+            <div className="services-grid">
           <ServiceCard  SerImage = {image1}
          serviceName = "Skincare Treatments "
          intro = "Personalized care for glowing, healthy skin."
@@ -51,7 +59,9 @@ const Clinic2 = (props) => {
            serviceName = "Clean Eating Recipes "
          intro = "Rejuvenate your hair with our organic products."
          /> 
-
+         </div>
+         </div>
+         </section>
 <section class="tips-section">
   <div class="tips-container">
     <h3>Beauty Tips</h3>
@@ -147,10 +157,13 @@ const Clinic2 = (props) => {
          title = "Protect from Sun"
          description = "Wear a hat or use UV protection for your hair when in the sun." 
         />
+        
         </div>
          </div>
          </section>
          <br/><br/>
+         <BookList/>
+         <Review/>
         </div>
     )
 }
