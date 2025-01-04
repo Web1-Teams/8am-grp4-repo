@@ -303,9 +303,11 @@ const Clinic3 = (props) => {
           <li><b>Chronic Stress or Anxiety:</b>These can prevent the mind from relaxing.</li>
         </ul>
         <p>Consulting a healthcare professional or sleep specialist can provide insights and solutions, such as cognitive-behavioral therapy for insomnia (CBT-I) or relaxation techniques tailored to individual needs</p>
-
         </div>
-    <SleepTracker/>
+        <div className="sleep-tracker ">
+          <SleepTracker/>
+        </div>
+
       </section>
 
       <section id="books-info ">
@@ -346,7 +348,7 @@ const Clinic3 = (props) => {
         </div>
       </div>
     </section>
-      <Sound />
+
 
          <Review/>
         
