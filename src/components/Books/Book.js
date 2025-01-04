@@ -10,7 +10,7 @@ const Book = (props) => {
                 <div className="caption">
                     <h3>{props.title}</h3>
                     <p>{props.description}</p>
-                    <p>Click here</p>
+                    <p>To order the book</p>
                 </div>
             </a>
         </div>
