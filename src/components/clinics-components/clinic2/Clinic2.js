@@ -30,6 +30,7 @@ const Clinic2 = (props) => {
             <h3>Our Services</h3>
             <div className="services-grid">
           <ServiceCard  serImage = {skincarebackground}
+         service="/clinic2/SkinCare"
          serviceName = "Skincare Treatments "
          intro = "Personalized care for glowing, healthy skin."
          />
