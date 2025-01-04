@@ -4,7 +4,7 @@ import "./recipes.css";
 
 function Recipes (props) {
     return (
-        <div className="container">
+        <div className="recipe-container">
         <div className="mask-header" style={{  backgroundImage : `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url(${props.image})`,}}>
           <h1 className="mask-title">{props.recipeName}</h1>
           <h2 className="mask-description">{props.description}</h2>

@@ -10,6 +10,12 @@ import BookList from "../../Books/BookList";
 import TipCard from "../../clinic2 Components/TipCard";
 import TestimonialBox from "../../clinic2 Components/TestimonialBox";
 import Ninja from "../../../assests/Images/imagesForC2/Ninja.jpg"
+import visitor1 from "../../../assests/Images/imagesForC2/child1.png";
+import visitor2 from "../../../assests/Images/imagesForC2/child2.png";
+import visitor3 from "../../../assests/Images/imagesForC2/man2.png";
+import visitor4 from "../../../assests/Images/imagesForC2/man3.png";
+import visitor5 from "../../../assests/Images/imagesForC2/women2.png";
+import visitor6 from "../../../assests/Images/imagesForC2/women4.png";
 
 
 const Clinic2 = (props) => {
@@ -149,28 +155,42 @@ const Clinic2 = (props) => {
   <div className="testimonial-box-container">
          <TestimonialBox
 
-  image={Ninja}
+  image={visitor1}
   name="Laila Ahmed"
   location="Riyadh, Saudi Arabia"
   stars={5}
   comment="The website is amazing! I tried several skincare recipes, and the results were incredible. My skin looks more radiant and glowing."
 />
 <TestimonialBox
-  image={Ninja}
+  image={visitor2}
   name="Khaled Mahmoud"
   location="Cairo, Egypt"
   stars={4}
   comment="The nutrition tips on the site are very helpful and easy to follow. I noticed a big improvement in my energy levels and overall health."
 />
 <TestimonialBox
-  image={Ninja}
+  image={visitor3}
   name="Sara Ali"
   location="Dubai, UAE"
   stars={5}
   comment="I loved the hair care recipes! I tried the hair mask, and my hair feels so soft and healthy now. Highly recommended!"
 />
 <TestimonialBox
-  image={Ninja}
+  image={visitor4}
+  name="Omar Hassan"
+  location="Amman, Jordan"
+  stars={4}
+  comment="Great website for self-care! The body scrub recipe worked wonders for my skin. I’ll definitely try more tips from here."
+/>
+<TestimonialBox
+  image={visitor5}
+  name="Omar Hassan"
+  location="Amman, Jordan"
+  stars={4}
+  comment="Great website for self-care! The body scrub recipe worked wonders for my skin. I’ll definitely try more tips from here."
+/>
+<TestimonialBox
+  image={visitor6}
   name="Omar Hassan"
   location="Amman, Jordan"
   stars={4}

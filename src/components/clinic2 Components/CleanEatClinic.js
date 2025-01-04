@@ -280,7 +280,7 @@ return (
 
 <Recipes
     recipeName="Coconut Water Benefits"
-    image = {coconutWater}
+    image = {coconutDrink}
     description="Coconut water is rich in essential nutrients like potassium, magnesium, and calcium. It helps hydrate the skin, reduce wrinkles, and fight acne with its antimicrobial properties. It also promotes faster healing of skin wounds, making it a great addition to your skincare routine."
     ingName1="Fresh coconut water"
     ingDescription1="Hydrates the skin and fights acne with its natural antimicrobial properties."
@@ -633,7 +633,7 @@ return (
 
 <Recipes
     recipeName="Dark Chocolate Drink"
-    image = {darkChocolate}
+    image = {chocolateDrink}
     description="Dark chocolate and cocoa powder are rich in flavonoids, caffeine, and antioxidants, which boost memory and focus while protecting the brain from age-related memory loss."
     ingName1="2 tbsp cocoa powder"
     ingDescription1="The base flavor of the drink, rich in antioxidants."
@@ -649,7 +649,7 @@ return (
 
 <Recipes
     recipeName="Berry Drink"
-    image = {berry}
+    image = {cranberry}
     description="Berry drinks protect against Alzheimer’s disease and enhance memory and focus for up to five hours. Perfect as a breakfast addition or a refreshing lunch beverage."
     ingName1="1 cup mixed berries (blueberries, strawberries, raspberries)"
     ingDescription1="A blend of antioxidant-rich berries to boost brain health."
