@@ -17,33 +17,33 @@ const Navbar = () => {
       {/* شعار العيادة */}
       <div className="logo-container">
         <img src={logo} className="logo" alt="Logo" />
-        <span className="clinic-name">فيتال كير</span>
+        <span className="clinic-name"> Vital Care</span>
       </div>
 
       {/* الروابط الرئيسية */}
       <ul className="nav-links">
         <li>
-          <Link to="/">الرئيسية</Link>
+          <Link to="/">Main Page</Link>
         </li>
         <li className="dropdown">
-          <span>العيادات الطبية</span>
+          <span> Clinics </span>
           <ul className="dropdown-menu">
             <li>
-              <Link to="/clinic1">العيادة 1</Link>
+              <Link to="/clinic1">Clinic1</Link>
             </li>
             <li>
-              <Link to="/clinic2">العيادة 2</Link>
+              <Link to="/clinic2"> Clinic2</Link>
             </li>
             <li>
-              <Link to="/clinic3">العيادة 3</Link>
+              <Link to="/clinic3"> Clinic3</Link>
             </li>
             <li>
-              <Link to="/clinic4">العيادة 4</Link>
+              <Link to="/clinic4">Clinic4</Link>
             </li>
           </ul>
         </li>
         <li>
-          <Link to="/team">الفريق الطبي</Link>
+          <Link to="/team">Medical Team</Link>
         </li>
       </ul>
 
