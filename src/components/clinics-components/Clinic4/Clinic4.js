@@ -16,6 +16,7 @@ const Clinic4=()=>{
             className="page4Background"
             />
          </div> 
+         
       <Review/>
 
       </>
