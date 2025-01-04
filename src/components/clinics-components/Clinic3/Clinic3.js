@@ -4,11 +4,10 @@ import Exercise2 from "../../clinic3ComponentsTemp/Exercise2";
 import Header from "../../header/Header";
 
 import Navbar from "../../navbar/Navbar";
-import Review from '../../Review/Review';
+import Review from '../../review/Review';
 import "../Clinic3/Styles_C3.css";
-import '../../Books/BookList.css'
+import '../../books/BookList.css'
 
-import Review from '../../Review/Review';
 import "../Clinic3/Styles_C3.css";
 
 import book1 from '../../../assests/Images/images For C3/atomic-hapits.jpg'
@@ -20,8 +19,8 @@ import BenefitsSection from "../../Benefites/BenefitsSection";
 import { SlackIcon } from "hugeicons-react";
 import Canvas from '../../clinic3ComponentsTemp/canvass/Canvas';
 import Sound from '../../clinic3ComponentsTemp/Sound';
-import Book from '../../Books/Book';
-import BookList from '../../Books/BookList';
+import Book from '../../books/Book';
+
 
 
 
@@ -45,21 +44,31 @@ const Clinic3 = (props) => {
            ClinicAyah="{Those who have believed and whose hearts are assured by the remembrance of Allah. Unquestionably, by the remembrance of Allah hearts are assured.}"
            className="page3Background"
            clinicName="mental health"
-           option1="meditation"
-           option2="mindfulness"
-           option3="art therapy"
+           option1="meditation & mindfulness"
+           option2="art therapy"
+           option3="Sleeep health"
            option4="suggested books"
-           option5="relaxing sounds "
+           option5="Sleep tracker "
            content="Welcome to vital care mental health clinic, your trusted partner in mental health. Our online platform is designed to provide convenient, accessible, and personalized mental health support in anytime.
                     Your Mental Health Matters.
                     Take the first step towards a healthier mind and a brighter future. Explore our services, connect with professionals, and find the support you need to shine."
+           
+           link1='#mental1'
+           link2='#mental2'
+           link3='#mental3'
+           link4='#books-info'
+
+           
+           
+           
+           
            />
    <Sound/>
 
         
 
       
-        <div className="MeditationMindfulness" >
+        <div className="MeditationMindfulness"  id='mental1'>
         
         <h2>Meditation & Mindfulness: A Guide to Inner Peace and Clarity</h2>
        <div className="MidAndMind">
@@ -170,13 +179,10 @@ const Clinic3 = (props) => {
       </div>
       </div>
       </div>
-     <div className="Art">
+     <div className="Art" id='mental2'>
       <div className="artTherapy">
   <h2>Art Therapy</h2>
   
-  <button onClick={handleOpenCanvas} className="openCanvasButton">
-        Open Canvas
-      </button>
   <p>
     Art Therapy is a form of expressive therapy that uses creative processes such as drawing, coloring,
     <br />
@@ -185,6 +191,12 @@ const Clinic3 = (props) => {
     improve mental health, and gain personal insights. It is not about artistic skills
     <br />
     but about self-expression and the healing journey.
+<br/><br/>
+<b>we made you a canvas to help you in these exercises</b>
+<br/>
+<button onClick={handleOpenCanvas} className="openCanvasButton">
+        Open Canvas
+      </button>
   </p>
 </div>
 
@@ -232,7 +244,7 @@ const Clinic3 = (props) => {
       <SimpleArtTherapyExercises />
       </div>
 
-      <section className="sleepMentalHealth">
+      <section className="sleepMentalHealth" id='mental3'>
         <div className="HowSleepAffects">
       <h2>How Sleep Affects Mental Health</h2>
 
@@ -301,9 +313,9 @@ const Clinic3 = (props) => {
       
       </section>
 
-      <section id="books-info">
+      <section id="books-info ">
       <div>
-        <h2> كتب يمكنك الاستفادة منها: </h2>
+        <h2> Suggested Books </h2>
         <div className="book-container">
           <Book
             title="Atomic Habits by James Clear"

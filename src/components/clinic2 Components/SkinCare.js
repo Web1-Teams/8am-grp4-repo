@@ -241,7 +241,7 @@ const SkinCare = (props) => {
   />
 
    <br/>
-    </datalis>
+    </details>
 
    <br></br>
 
