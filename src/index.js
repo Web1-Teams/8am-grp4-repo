@@ -13,6 +13,7 @@ import HairCareClinic from "./components/clinic2 Components/HairCareClinic";
 import CleanEatClinic from "./components/clinic2 Components/CleanEatClinic";
 import BodyCare from "./components/clinic2 Components/BodyCare";
 import MedicalTeam from "./components/clinics-components/MedicalTeam";
+import Canvas from "./components/clinic3ComponentsTemp/canvass/Canvas";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -24,6 +25,7 @@ root.render(
         <Route path="/clinic1" element={<Clinic1 />} />
         <Route path="/clinic2" element={<Clinic2 />} /> 
         <Route path="/clinic3" element={<Clinic3 />} />
+        <Route path="/canvas" element={<Canvas/>} />
         <Route path="/clinic4" element={<Clinic4 />} />
         <Route path="/clinic2/SkinCare" element={<SkinCare/>} />
         <Route path="/clinic2/HairCare" element={<HairCareClinic/>} />
