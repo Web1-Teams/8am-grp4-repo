@@ -6,7 +6,7 @@ import BookList from "../Books/BookList";
 // import Footer from "../Footer";
 import Recipes from "./Recipes";
 
-import almondMilk from "../../assests/Images/imagesForC2/milkalmond.jpg";
+import almondMilk from "../../assests/Images/imagesForC2/almondMilk.jpg";
 import appleJuice from "../../assests/Images/imagesForC2/applejuice.jpg";
 import apricot from "../../assests/Images/imagesForC2/apricot.jpg";
 import avocado2CleanEating from "../../assests/Images/imagesForC2/avocado2CleanEating.jpg";
@@ -52,7 +52,7 @@ import eggs from "../../assests/Images/imagesForC2/eggs.jpg";
 import appleCider from "../../assests/Images/imagesForC2/ciderApple.jpg";
 import neamTeaWithHoney from "../../assests/Images/imagesForC2/neamTeaWithHoney.jpg";
 import sesameANDdate from "../../assests/Images/imagesForC2/sesameANDdate.jpg";
-import greenTea from "../../assests/Images/imagesForC2/greenTea.jpg";
+import greenTea from "../../assests/Images/imagesForC2/greentea2.jpg";
 import darkChocolate from "../../assests/Images/imagesForC2/darkChocolate.jpg";
 import BananaDateandAlmondSmoothie from "../../assests/Images/imagesForC2/BananaDateandAlmondSmoothie.jpg";
 import ChiaSeedandAloeVeraDrink from "../../assests/Images/imagesForC2/ChiaSeedandAloeVeraDrink.jpg";
@@ -659,7 +659,7 @@ return (
     </div>
     <Recipes
     recipeName="Milk"
-    image = {almondMilk}
+    image = {milkAndTurmeric}
     description="Milk provides natural lactose, a carbohydrate that supplies energy. A single cup offers 13 essential nutrients, including protein, calcium, vitamins A, D, and B complex."
     ingName1="1 cup milk"
     ingDescription1="The base of the drink, packed with nutrients."
