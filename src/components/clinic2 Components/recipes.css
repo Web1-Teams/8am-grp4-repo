@@ -126,3 +126,28 @@ body {
       line-height: 1.5;
     }
     
+    
+/* General Container Style */
+.main-container {
+  width: 80%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  }
+  
+  /* Main Frame Style (Large Frame for Main Title and Sub Frames) */
+  .main-frame {
+  border: 2px solid #ddd;
+  background-color: #f4f4f4d9;
+  padding: 90px;
+  border-radius: 10px;
+  box-shadow: 6px 15px 6px rgba(0, 0, 0, 0.1);
+  }
+  /* Main Title Style */
+  .main-frame {
+  font-size: 1.05rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  }
+  
