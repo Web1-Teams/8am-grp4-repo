@@ -1,0 +1,149 @@
+/* General Container Styling */
+.medical-team-container {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Section Styling */
+  .team-section {
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+
+  /* Section Headers */
+  .team-section h2 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+  }
+  
+  .team-section h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: currentColor;
+    margin: 10px auto 0;
+    border-radius: 2px;
+  }
+  
+  /* Color Themes for Sections */
+  .team-section.physical-therapy h2 {
+    color: #537870; /* Deep green for Physical Therapy */
+  }
+  
+  .team-section.mental-health h2 {
+    color: #956cbd; /* Purple for Mental Health */
+  }
+ 
+  .team-section.self-care h2 {
+    color: #bd7685; /* Pink for Self Care */
+  }
+  
+  .team-section.nutrition h2 {
+    color: #cde386; /* Green for Nutrition */
+  }
+  
+  /* Grid Layout for Doctor Cards */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0 10px;
+  }
+  
+  /* Doctor Card Styling */
+  .flip-card {
+    background-color: transparent;
+    width: 100%;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+
+ 
+  
+  .flip-card-front img.doctor-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid white;
+  }
+  
+  .flip-card-front .title1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .flip-card-front .specialist {
+    font-size: 16px;
+    color: #051c32;
+  }
+  
+  /* Back of the Card */
+  .flip-card-back {
+    background-color: #ffffff;
+    color: #333;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .flip-card-back .contact {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .flip-card-back .contact:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .team-section h2 {
+      font-size: 24px;
+    }
+  
+    .team-grid {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  
+    .flip-card-front img.doctor-image {
+      width: 70px;
+      height: 70px;
+    }
+  
+    .flip-card-front .title1 {
+      font-size: 18px;
+    }
+  
+    .flip-card-front .specialist {
+      font-size: 14px;
+    }
+  }
+  
