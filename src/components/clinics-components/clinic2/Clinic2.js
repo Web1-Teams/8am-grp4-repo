@@ -162,7 +162,7 @@ const Clinic2 = (props) => {
   name="Laila Ahmed"
   location="Riyadh, Saudi Arabia"
   stars={5}
-  comment="This platform offers practical and easy-to-follow tips for healthier skin. The face mask recipe is exceptional—it nourishes the skin while being completely safe. Great work!"
+  comment="This platform offers practical and easy-to-follow tips for healthier skin. The face mask recipe is exceptional it nourishes the skin while being completely safe. Great work!"
 />
 <TestimonialBox
   image={visitor2}
