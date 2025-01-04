@@ -19,7 +19,7 @@ import Book from '../../Books/Book';
 import BookList from '../../Books/BookList';
 import SleepTracker from '../../clinic3ComponentsTemp/SleepTracker';
 import MedicalTeam from '../MedicalTeam';
-import DoctorCard from '../../doctorCard/DoctorCard';
+import DoctorCard from '../../DoctorCard/DoctorCard';
 
 
 
