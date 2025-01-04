@@ -1,5 +1,6 @@
 import "./MedicalTeam.css";
 import DoctorCard from "../DoctorCard/DoctorCard";
+
 import Dr1 from "../../assests/Images/medical team/D1.png";
 import Dr2 from "../../assests/Images/medical team/D2.png";
 import Dr3 from "../../assests/Images/medical team/DO1.jpeg";
