@@ -45,6 +45,9 @@ const Clinic3 = (props) => {
            option3="art therapy"
            option4="suggested books"
            option5="relaxing sounds "
+           content="Welcome to vital care mental health clinic, your trusted partner in mental health. Our online platform is designed to provide convenient, accessible, and personalized mental health support in anytime.
+                    Your Mental Health Matters.
+                    Take the first step towards a healthier mind and a brighter future. Explore our services, connect with professionals, and find the support you need to shine."
            />
    <Sound/>
 
