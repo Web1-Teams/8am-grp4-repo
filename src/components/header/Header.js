@@ -2,7 +2,7 @@
  import classNames from "classnames";
  import "./Header.css";
 import MiniNav from "../MiniNavBar/MiniNavbar";
-import About from "../about/About";
+import About from "../About/About";
  const Header = (props) => {
  
    const headerClass = classNames("card", props.className);
