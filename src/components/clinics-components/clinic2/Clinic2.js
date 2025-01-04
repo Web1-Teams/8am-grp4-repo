@@ -7,18 +7,14 @@ import haircarebackground from "../../../assests/Images/imagesForC2/haircareBack
 import bodycarebackground from "../../../assests/Images/imagesForC2/bodycareBackground.jpeg";
 import cleaneatingbackground from "../../../assests/Images/imagesForC2/cleaneatingBackground.png";
 import BookList from "../../Books/BookList";
-import Review from "../../Review/Review";
 import TipCard from "../../clinic2 Components/TipCard";
-
-
+import TestimonialBox from "../../clinic2 Components/TestimonialBox";
+import Ninja from "../../../assests/Images/imagesForC2/Ninja.jpg"
 
 
 const Clinic2 = (props) => {
     return (
         <div>
-
-        <br/><br/>
-      
               <HeaderSection
                 title = "Embrace Your Natural Beauty and Inner Peace"
                 subtitle = "Discover the harmony of nature and self-care with treatments designed to nurture your beauty and well-being"
@@ -27,19 +23,19 @@ const Clinic2 = (props) => {
           <div className="services-container">
             <h3>Our Services</h3>
             <div className="services-grid">
-          <ServiceCard  SerImage = {skincarebackground}
+          <ServiceCard  serImage = {skincarebackground}
          serviceName = "Skincare Treatments "
          intro = "Personalized care for glowing, healthy skin."
          />
-         <ServiceCard  SerImage = {haircarebackground}
+         <ServiceCard  serImage = {haircarebackground}
            serviceName = "Hair Care Solutions "
          intro = "Rejuvenate your hair with our organic products.."
          />
-          <ServiceCard  SerImage = {bodycarebackground} 
+          <ServiceCard  serImage = {bodycarebackground} 
           serviceName = "Body Care Routines "
          intro = "Nourishing treatments for total wellness."
          />
-          <ServiceCard  SerImage = {cleaneatingbackground}
+          <ServiceCard  serImage = {cleaneatingbackground}
            serviceName = "Clean Eating Recipes "
          intro = "Rejuvenate your hair with our organic products."
          /> 
@@ -145,7 +141,43 @@ const Clinic2 = (props) => {
          </section>
          <br/><br/>
          <BookList/>
-         <Review/>
+         <section id="testimonials">
+  <div className="testimonial-heading">
+      <span>Visitor reviews on our website :</span>
+      <h4>We'd love to hear your thoughts!</h4>
+  </div>
+  <div className="testimonial-box-container">
+         <TestimonialBox
+
+  image={Ninja}
+  name="Laila Ahmed"
+  location="Riyadh, Saudi Arabia"
+  stars={5}
+  comment="The website is amazing! I tried several skincare recipes, and the results were incredible. My skin looks more radiant and glowing."
+/>
+<TestimonialBox
+  image={Ninja}
+  name="Khaled Mahmoud"
+  location="Cairo, Egypt"
+  stars={4}
+  comment="The nutrition tips on the site are very helpful and easy to follow. I noticed a big improvement in my energy levels and overall health."
+/>
+<TestimonialBox
+  image={Ninja}
+  name="Sara Ali"
+  location="Dubai, UAE"
+  stars={5}
+  comment="I loved the hair care recipes! I tried the hair mask, and my hair feels so soft and healthy now. Highly recommended!"
+/>
+<TestimonialBox
+  image={Ninja}
+  name="Omar Hassan"
+  location="Amman, Jordan"
+  stars={4}
+  comment="Great website for self-care! The body scrub recipe worked wonders for my skin. I’ll definitely try more tips from here."
+/>
+</div>
+</section>
         </div>
     )
 }
