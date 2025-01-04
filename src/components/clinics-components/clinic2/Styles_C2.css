@@ -1,16 +1,4 @@
-/*@media (min-width: 769px) and (max-width: 1024px) {
-
-  * {
-    text-align: right;
-    font-family: "Tajawal", "Arial", sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-
-}*/
-
-
-  .container {
+.container {
     font-family:'Times New Roman', Times, serif;
     margin: 50px auto;
     padding: 20px;
@@ -20,11 +8,10 @@
     box-shadow: 0 15px 8px rgba(0, 0, 0, 0.1);
     direction: rtl;
     display: flex;
-    flex-direction:column; /* كانت row */
+    flex-direction:column; 
     align-items: center;
     gap: 20px;
   }
-/* } */
 .main-title {
   color: #333;
   font-size: 2.5rem;
@@ -33,49 +20,9 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-template-columns: repeat(4, 1fr); 
   gap: 15px;
 }
-/*
-details {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  transition: all 0.3s ease;
-
-}
-
-details[open] {
-  border-color: #ff7a18;
-  box-shadow: 0 10px 8px rgba(255, 122, 24, 0.2);
-}
-
-summary {
-  font-size: 20px;
-  font-weight: bold;
-  padding: 35px;
-  cursor: pointer;
-  background: linear-gradient(45deg, #ff7a18, #ff3d81);
-  color: white;
-  border: none;
-  text-align: center;
-  border-radius: 8px;
-  outline: none;
-  transition: all 0.3s ease;
-
-}
-
-summary:hover {
-  background: linear-gradient(45deg, #ff9a3d, #ff5a99);
-  transform: scale(1.2);
-}
-
-.details-content {
-  padding: 15px;
-  background-color: #fff;
-  border-top: 1px solid #ddd;
-}
-*/
 .img-content {
   width: 18rem;
   height: 12rem;
@@ -83,7 +30,6 @@ summary:hover {
   margin-right: 10px;
 }
 
-/**/
 
 .dropdown {
     position: relative;
@@ -107,9 +53,6 @@ summary:hover {
     padding: 15px;
     text-align: center;
   }
-
-
-
 
   a{
     text-decoration: none;
@@ -238,31 +181,6 @@ summary:hover {
     background-color: #252525;
   }
 
-  /* books info */
-  .book-container {
-    display: flex;
-    justify-content: space-between; 
-    gap: 20px; 
-    flex-wrap: wrap; 
-  }
-.book {
-    text-align: center; 
-    width: 22%; 
-}
-.book-img {
-    width: 16rem; 
-    height: 20rem; 
-}
-.book-img:hover {
-    transform: scale(1.1); 
-    filter: brightness(90%); 
-}
-
-.caption {
-    margin-top: 10px; 
-    font-size: 15px;
-}
-
 
 @media (min-width: 1025px) {
   .nav-links {
@@ -327,7 +245,6 @@ summary:hover {
       }
     }
 
-    /**/
     .Hair-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* شبكة مستجيبة */
@@ -364,7 +281,6 @@ summary:hover {
     margin: 0.5rem 0;
   }
   
-  /* المكونات والتعليمات */
   .section-title {
     font-size: 1.2rem;
     font-weight: bold;
@@ -384,7 +300,6 @@ summary:hover {
     color: #333;
   }
 
-  /* IntroSection */
   .intro-section {
     text-align: center;
     padding: 20px;
@@ -531,7 +446,7 @@ summary:hover {
 
 
 .service-card:hover {
-  text-decoration: none; /* يزيل الخط عند التمرير */
+  text-decoration: none; 
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   transform: translateY(-17px);
 }
