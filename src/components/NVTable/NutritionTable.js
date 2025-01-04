@@ -1,5 +1,5 @@
 import React from "react";
-import Table from "../../components/nVTable/NutritionValue";
+import Table from "../../components/NVTable/NutritionValue";
 
 const NutritionTables = () => {
   const nutritionData = [

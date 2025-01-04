@@ -1,8 +1,11 @@
-import AboutNutrition from "../../clinic4 Components/AboutNutrition"
-import Tips from "../../clinic4 Components/Tips"
-import Header from "../../header/Header"
-import Review from "../../Review/Review"
-
+import Aboutc4 from "../../clinic4 Components/Aboutc4";
+import BMICalculator from "../../clinic4 Components/BMICalculator";
+import ImmuneBoostingTips from "../../clinic4 Components/ImmuneBoostingTips";
+import WeightGainTips from "../../clinic4 Components/WeightGainTips";
+import Header from "../../header/Header";
+import Review from "../../Review/Review";
+import NutritionTable from '../../NVTable/NutritionTable';
+import CaloriesCalculator from "../../clinic4 Components/CaloriesCalculator";
 
 
 
@@ -17,8 +20,12 @@ const Clinic4=()=>{
             className="page4Background"
             />
          </div>
-      <AboutNutrition/>
-      <Tips/>
+         <Aboutc4/>
+         <ImmuneBoostingTips/>
+         <WeightGainTips/>
+         <BMICalculator/>
+         <CaloriesCalculator/>
+         <NutritionTable/>
       <Review/>
       </>
     )
