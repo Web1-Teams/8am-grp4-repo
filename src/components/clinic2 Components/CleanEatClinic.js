@@ -68,7 +68,7 @@ const CleanEatClinic = (props) => {
 
       <div className="main-container">
         <div className="main-frame">
-          <h1>The Impact of Healthy and Clean Nutrition on Hair Health</h1>
+          <h1><b>The Impact of Healthy and Clean Nutrition on Hair Health</b></h1>
 
           <details>
             <summary>The Impact of Nutrition on Promoting Hair Growth</summary>
@@ -254,7 +254,7 @@ const CleanEatClinic = (props) => {
       </div>
       <div class="main-container">
         <div class="main-frame">
-          <h1>The Impact of Healthy and Clean Nutrition on Skin Health</h1>
+          <h1><b>The Impact of Healthy and Clean Nutrition on Skin Health</b></h1>
 
           <details>
             <summary>Juice Recipes for Glowing Skin</summary>
@@ -507,7 +507,7 @@ const CleanEatClinic = (props) => {
       </div>
       <div class="main-container">
         <div class="main-frame">
-          <h1>The Impact of Healthy and Clean Nutrition on Body Health</h1>
+          <h1><b>The Impact of Healthy and Clean Nutrition on Body Health</b></h1>
 
           <details>
             <summary>The Impact of Nutrition on the Immune System</summary>
