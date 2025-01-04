@@ -1,0 +1,111 @@
+/* General Styles */
+#تعزيز-المناعة {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    color: #333333;
+    background-color: #e3ff80; /* Light green background */
+}
+
+#تعزيز-المناعة h2 {
+    font-size: 32px;
+    color: #4b9c55; /* Green color for the main title */
+    margin-top: 20px;
+}
+
+#تعزيز-المناعة h3 {
+    font-size: 24px;
+    color: #4b9c55; /* Green color for subheadings */
+    margin-top: 20px;
+}
+
+#تعزيز-المناعة p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Nutritional Tips Section */
+#تعزيز-المناعة #نصائح-المناعة {
+    margin-top: 30px;
+    background-color: #eeffb3; /* Light yellow-green background */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Customized List */
+#تعزيز-المناعة ul {
+    list-style-type: none; /* Remove bullets */
+    padding-right: 0; /* Align to the right */
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: right;
+}
+
+#تعزيز-المناعة ul li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-right: 25px; /* Add space for the icon */
+}
+
+#تعزيز-المناعة ul li::before {
+    content: "✔"; /* Add checkmark instead of bullets */
+    position: absolute;
+    right: 0;
+    color: #4b9c55; /* Green checkmark color */
+    font-size: 18px;
+}
+
+/* Suggested Meal Plans Section */
+#تعزيز-المناعة #خطط-غذائية {
+    margin-top: 30px;
+}
+
+#تعزيز-المناعة table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#تعزيز-المناعة th, 
+#تعزيز-المناعة td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#تعزيز-المناعة th {
+    background-color: #4b9c55;
+    color: #fff;
+}
+
+#تعزيز-المناعة td {
+    background-color: #f9f9f9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #تعزيز-المناعة {
+        padding: 15px;
+    }
+
+    #تعزيز-المناعة table {
+        font-size: 14px;
+    }
+
+    #تعزيز-المناعة h2 {
+        font-size: 28px;
+    }
+
+    #تعزيز-المناعة h3 {
+        font-size: 20px;
+    }
+
+    #تعزيز-المناعة p, 
+    #تعزيز-المناعة ul, 
+    #تعزيز-المناعة li {
+        font-size: 16px;
+    }
+}

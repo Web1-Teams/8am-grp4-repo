@@ -1,0 +1,125 @@
+/* General Section Styles */
+#الحفاظ-على-الوزن {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Arial", sans-serif;
+    background-color: #e3ff80; /* Light green background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333333;
+  }
+  
+  #الحفاظ-على-الوزن img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+  
+  #الحفاظ-على-الوزن h2 {
+    font-size: 28px;
+    color: #4b9c55;
+    margin-bottom: 20px;
+  }
+  
+  #الحفاظ-على-الوزن p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  /* Tips Section */
+  #الحفاظ-على-الوزن .نصائح {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  #الحفاظ-على-الوزن .نصيحة {
+    background-color: #eeffb3; /* Light yellow-green background */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: right;
+  }
+  
+  #الحفاظ-على-الوزن .نصيحة h3 {
+    font-size: 20px;
+    color: #4b9c55;
+    margin-bottom: 10px;
+  }
+  
+  #الحفاظ-على-الوزن .نصيحة p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  #الحفاظ-على-الوزن .نصيحة strong {
+    color: #4b9c55;
+  }
+  
+  /* Additional Tips Button */
+  #الحفاظ-على-الوزن #زر-الحفاظ-المزيد {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4b9c55;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #الحفاظ-على-الوزن #زر-الحفاظ-المزيد:hover {
+    background-color: #3a7f44;
+  }
+  
+  /* Additional Tips Section */
+  #الحفاظ-على-الوزن #نصائح-الحفاظ-إضافية {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  #الحفاظ-على-الوزن #نصائح-الحفاظ-إضافية ul {
+    list-style-type: none;
+    padding-right: 0;
+  }
+  
+  #الحفاظ-على-الوزن #نصائح-الحفاظ-إضافية li {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    position: relative;
+    padding-right: 25px; /* Space for the checkmark */
+  }
+  
+  #الحفاظ-على-الوزن #نصائح-الحفاظ-إضافية li::before {
+    content: "✔"; /* Checkmark icon */
+    position: absolute;
+    right: 0;
+    color: #4b9c55;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #الحفاظ-على-الوزن {
+      padding: 15px;
+    }
+  
+    #الحفاظ-على-الوزن .نصائح {
+      grid-template-columns: 1fr; /* Stack the tips on small screens */
+    }
+  
+    #الحفاظ-على-الوزن #زر-الحفاظ-المزيد {
+      font-size: 14px;
+    }
+  
+    #الحفاظ-على-الوزن #نصائح-الحفاظ-إضافية li {
+      font-size: 14px;
+    }
+  }
+  

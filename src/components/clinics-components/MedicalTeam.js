@@ -18,6 +18,7 @@ import Dr15 from "../../assests/Images/medical team/D6.png";
 import Dr16 from "../../assests/Images/medical team/D8.jpeg";
 
 
+
 const MedicalTeam = () => {
   return (
     <div className="medical-team-container">

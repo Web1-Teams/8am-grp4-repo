@@ -19,11 +19,13 @@ import Book from '../../Books/Book';
 import BookList from '../../Books/BookList';
 import SleepTracker from '../../clinic3ComponentsTemp/SleepTracker';
 import MedicalTeam from '../MedicalTeam';
+
 import DoctorCard from '../../doctorCard/DoctorCard';
 import Dr5 from "../../../assests/Images/medical team/DO3.jpg";
 import Dr6 from "../../../assests/Images/medical team/DO4.png";
 import Dr7 from "../../../assests/Images/medical team/D3.avif";
 import Dr8 from "../../../assests/Images/medical team/DO5.jpeg";
+
 
 
 
@@ -309,9 +311,11 @@ const Clinic3 = (props) => {
           <li><b>Chronic Stress or Anxiety:</b>These can prevent the mind from relaxing.</li>
         </ul>
         <p>Consulting a healthcare professional or sleep specialist can provide insights and solutions, such as cognitive-behavioral therapy for insomnia (CBT-I) or relaxation techniques tailored to individual needs</p>
-
         </div>
-    <SleepTracker/>
+        <div className="sleep-tracker ">
+          <SleepTracker/>
+        </div>
+
       </section>
 
       <section id="books-info ">
@@ -352,7 +356,7 @@ const Clinic3 = (props) => {
         </div>
       </div>
     </section>
-      
+
       <section className="team-section mental-health">
         <h2>Mental Health Team</h2>
         <div className="team-grid">
