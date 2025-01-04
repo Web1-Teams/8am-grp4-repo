@@ -15,7 +15,11 @@ import visitor3 from "../../../assests/Images/imagesForC2/women4.png";
 import visitor4 from "../../../assests/Images/imagesForC2/man3.png";
 import visitor5 from "../../../assests/Images/imagesForC2/women2.png";
 import visitor6 from "../../../assests/Images/imagesForC2/man2.png";
-import DoctorCard from "../../DoctorCard/DoctorCard";
+import DoctorCard from "../../doctorCard/DoctorCard";
+import Dr9 from "../../../assests/Images/medical team/DO6.webp";
+import Dr10 from "../../../assests/Images/medical team/DO7.jpeg";
+import Dr11 from "../../../assests/Images/medical team/DO8.avif";
+import Dr12 from "../../../assests/Images/medical team/D4.jpg";
 
 const Clinic2 = (props) => {
   return (
@@ -177,25 +181,29 @@ const Clinic2 = (props) => {
             d_specialist="Surgeon"
             d_num="0599090256"
             d_email="sedra@example.com"
+            d_img = {Dr9}
           />
           <DoctorCard
             d_name="Dr. Reem"
             d_specialist="Dermatologist"
             d_num="0590012345"
             d_email="adam@example.com"
+            d_img = {Dr10}
           />
           <DoctorCard
             d_name="Dr. Olivia"
             d_specialist="Dentist"
             d_num="0599012345"
             d_email="olivia@example.com"
+            d_img = {Dr11}
           />
-         
+          {/* Additional Doctors */}
           <DoctorCard
-            d_name="Dr. Isabella"
+            d_name="Dr. Momen"
             d_specialist="Cosmetic Surgeon"
             d_num="0599876543"
             d_email="isabella@example.com"
+            d_img = {Dr12}
           />
         </div>
       </section>

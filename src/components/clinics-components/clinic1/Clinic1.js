@@ -6,7 +6,11 @@ import BenefitsSection from "../../clinic1components/BenefitsSection";
 import ServiceCard from '../../clinic2 Components/ServiceCard';
 import services  from '../../clinic1components/ServicesSection'
 import FAQ from '../../clinic1components/FAQ';
-
+import DoctorCard from '../../doctorCard/DoctorCard';
+import Dr1 from "../../../assests/Images/medical team/D1.png";
+import Dr2 from "../../../assests/Images/medical team/D2.png";
+import Dr3 from "../../../assests/Images/medical team/DO1.jpeg";
+import Dr4 from "../../../assests/Images/medical team/D4.jpg";
 
 const Clinic1=()=>{
    return(
@@ -48,6 +52,42 @@ const Clinic1=()=>{
     </div>
 
 <FAQ/>
+<br/>
+<section className="team-section physical-therapy">
+        <h2>Physical Therapy Team</h2>
+        <div className="team-grid">
+          <DoctorCard
+            d_name="Dr. Michael"
+            d_specialist="Orthopedist"
+            d_num="0594567890"
+            d_email="michael@example.com"
+            d_img = {Dr1}
+          />
+          
+          <DoctorCard
+            d_name="Dr. Ethan"
+            d_specialist="Pulmonologist"
+            d_num="0592345678"
+            d_email="ethan@example.com"
+            d_img = {Dr2}
+          />
+          {/* Additional Doctors */}
+          <DoctorCard
+            d_name="Dr. Sophia"
+            d_specialist="Physiatrist"
+            d_num="0598765432"
+            d_email="sophia@example.com"
+            d_img = {Dr3}
+          />
+          <DoctorCard
+            d_name="Dr. Olivia"
+            d_specialist="Rehabilitation Specialist"
+            d_num="0591234567"
+            d_email="olivia@example.com"
+            d_img = {Dr4}
+          />
+        </div>
+      </section>
      <Review/>
 
      </>

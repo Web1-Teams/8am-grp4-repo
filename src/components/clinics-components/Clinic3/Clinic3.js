@@ -19,8 +19,11 @@ import Book from '../../Books/Book';
 import BookList from '../../Books/BookList';
 import SleepTracker from '../../clinic3ComponentsTemp/SleepTracker';
 import MedicalTeam from '../MedicalTeam';
-import DoctorCard from '../../DoctorCard/DoctorCard';
-
+import DoctorCard from '../../doctorCard/DoctorCard';
+import Dr5 from "../../../assests/Images/medical team/DO3.jpg";
+import Dr6 from "../../../assests/Images/medical team/DO4.png";
+import Dr7 from "../../../assests/Images/medical team/D3.avif";
+import Dr8 from "../../../assests/Images/medical team/DO5.jpeg";
 
 
 
@@ -349,8 +352,7 @@ const Clinic3 = (props) => {
         </div>
       </div>
     </section>
-      <Sound />
-
+      
       <section className="team-section mental-health">
         <h2>Mental Health Team</h2>
         <div className="team-grid">
@@ -359,18 +361,21 @@ const Clinic3 = (props) => {
             d_specialist="Psychiatrist"
             d_num="0597890123"
             d_email="chloe@example.com"
+            d_img = {Dr5}
           />
           <DoctorCard
             d_name="Dr. Manar"
             d_specialist="Oncologist"
             d_num="0595678901"
             d_email="grace@example.com"
+            d_img = {Dr6}
           />
           <DoctorCard
             d_name="Dr. Noah"
             d_specialist="Urologist"
             d_num="0596789012"
             d_email="noah@example.com"
+            d_img = {Dr7}
           />
           {/* Additional Doctors */}
           <DoctorCard
@@ -378,6 +383,7 @@ const Clinic3 = (props) => {
             d_specialist="Therapist"
             d_num="0592345678"
             d_email="ava@example.com"
+            d_img = {Dr8}
           />
         </div>
       </section>
