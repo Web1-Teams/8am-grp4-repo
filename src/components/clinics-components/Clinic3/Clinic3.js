@@ -4,9 +4,9 @@ import Exercise2 from "../../clinic3ComponentsTemp/Exercise2";
 import Header from "../../header/Header";
 
 import Navbar from "../../navbar/Navbar";
-import Review from '../../review/Review';
+import Review from '../../Review/Review';
 import "../Clinic3/Styles_C3.css";
-import '../../books/BookList.css'
+import '../../Books/BookList.css'
 
 import "../Clinic3/Styles_C3.css";
 
@@ -19,7 +19,7 @@ import BenefitsSection from "../../Benefites/BenefitsSection";
 import { SlackIcon } from "hugeicons-react";
 import Canvas from '../../clinic3ComponentsTemp/canvass/Canvas';
 import Sound from '../../clinic3ComponentsTemp/Sound';
-import Book from '../../books/Book';
+import Book from '../../Books/Book';
 
 
 
