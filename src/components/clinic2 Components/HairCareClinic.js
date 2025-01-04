@@ -68,16 +68,13 @@ const HairCareClinic = (props) => {
     ingDescription1="Coconut oil deeply nourishes and hydrates the hair, enhancing its shine."
     ingName2="1 tbsp honey"
     ingDescription2="Honey retains moisture in the hair and smoothens its texture."
-    instructions={
-      <ol>
-          <li>Mix all ingredients in a bowl.</li>
-          <li>Transfer the mixture to a saucepan and heat until melted.</li>
-          <li>Apply the mixture to your hair from roots to ends and cover with a shower cap.</li>
-          <li>Leave the mask on for 15-20 minutes.</li>
-          <li>Rinse your hair thoroughly with water.</li>
-      </ol>
-  }
+    instructions="Mix all ingredients in a bowl.
+          Transfer the mixture to a saucepan and heat until melted.
+          Apply the mixture to your hair from roots to ends and cover with a shower cap.
+          Leave the mask on for 15-20 minutes.
+          Rinse your hair thoroughly with water."
     />
+    <br/>
     <Recipes 
     recipeName="Avocado & Egg Mask"
     image = {avocadoANDegg}
@@ -90,12 +87,13 @@ const HairCareClinic = (props) => {
     ingDescription3="Adds a pleasant fragrance and nourishes the scalp."
     ingName4="1 tbsp castor oil"
     ingDescription4="Promotes hair growth and adds shine."
-    instructions="1. In a small bowl, mash the avocado and mix it with castor oil, rose oil, and the egg until you achieve a smooth, even mixture.<br/>
-     2. Dampen your hair with water and apply the mask to your scalp first, then spread it evenly through the rest of your hair.<br/>
-      3. Cover your hair with a shower cap and leave the mask on for 45 minutes.<br/>
-       4. After the time has passed, rinse your hair with lukewarm water and a mild shampoo.<br/>
+    instructions="1. In a small bowl, mash the avocado and mix it with castor oil, rose oil, and the egg until you achieve a smooth, even mixture.
+     2. Dampen your hair with water and apply the mask to your scalp first, then spread it evenly through the rest of your hair.
+      3. Cover your hair with a shower cap and leave the mask on for 45 minutes.
+       4. After the time has passed, rinse your hair with lukewarm water and a mild shampoo.
         5. Use this mask once a week for best results and healthier hair."
     />
+    <br/>
 
     <Recipes 
     recipeName="Hot Olive Oil Treatment"
@@ -107,15 +105,16 @@ const HairCareClinic = (props) => {
     ingDescription2="Repairs split ends and strengthens hair strands."
     ingName3="Jojoba oil"
     ingDescription3="Adds shine and helps combat hair thinning and damage."
-    instructions="1. Wash your hair with a sulfate-free shampoo before starting the treatment.<br/>
-     2. Place bottles of coconut oil, olive oil, and jojoba oil in a bowl of warm water on low heat for 2 minutes.<br/>
-      3. Mix equal parts of the oils in a separate bowl until warm but not hot.<br/>
-       4. Apply the oil mixture to your scalp and hair, massaging gently in circular motions.<br/>
-        5. Warm a towel using a hairdryer and wrap it around your hair to lock in heat.<br/>
-         6. Cover your hair with a plastic cap and leave the treatment on for 1 hour.<br/>
-          7. Rinse your hair with lukewarm water and a gentle shampoo.<br/>
+    instructions="1. Wash your hair with a sulfate-free shampoo before starting the treatment.
+     2. Place bottles of coconut oil, olive oil, and jojoba oil in a bowl of warm water on low heat for 2 minutes.
+      3. Mix equal parts of the oils in a separate bowl until warm but not hot.
+       4. Apply the oil mixture to your scalp and hair, massaging gently in circular motions.
+        5. Warm a towel using a hairdryer and wrap it around your hair to lock in heat.
+         6. Cover your hair with a plastic cap and leave the treatment on for 1 hour.
+          7. Rinse your hair with lukewarm water and a gentle shampoo.
            8. Repeat this treatment once a month for optimal results."
     />
+    <br/>
 
     <Recipes 
     recipeName="Aloe Vera & Argan Oil Mask"
@@ -125,13 +124,14 @@ const HairCareClinic = (props) => {
     ingDescription1="Aloe vera soothes and deeply hydrates the scalp and hair."
     ingName2="1 tbsp argan oil"
     ingDescription2="Argan oil enhances hair softness and provides a natural shine."
-    instructions="1. Mix the aloe vera gel and argan oil in a bowl until well combined.<br/>
-     2. Apply the mixture to your scalp and hair, massaging gently.<br/>
-      3. Leave the mask on for 30 minutes.<br/>
-       4. Rinse your hair with shampoo and conditioner as usual.<br/>
+    instructions="1. Mix the aloe vera gel and argan oil in a bowl until well combined.
+     2. Apply the mixture to your scalp and hair, massaging gently.
+      3. Leave the mask on for 30 minutes.
+       4. Rinse your hair with shampoo and conditioner as usual.
         5. Repeat weekly for stronger, healthier hair."
     />
 
+<br/>
 
     <Recipes 
     recipeName="Banana & Honey Mask"
@@ -141,11 +141,11 @@ const HairCareClinic = (props) => {
     ingDescription1="Banana nourishes the hair and helps improve its texture."
     ingName2="1/2 tbsp honey"
     ingDescription2="Honey provides hydration and reduces scalp irritation."
-    instructions="1. Mash the ripe banana thoroughly until smooth.<br/>
-     2. Add the honey to the mashed banana and mix well.<br/>
-      3. Wash your hair with shampoo and let it dry slightly.<br/>
-       4. Section your hair and apply the mask from roots to tips, focusing on the ends.<br/>
-        5. Cover your hair with a shower cap and leave the mask on for 20-30 minutes.<br/>
+    instructions="1. Mash the ripe banana thoroughly until smooth.
+     2. Add the honey to the mashed banana and mix well.
+      3. Wash your hair with shampoo and let it dry slightly.
+       4. Section your hair and apply the mask from roots to tips, focusing on the ends.
+        5. Cover your hair with a shower cap and leave the mask on for 20-30 minutes.
          6. Rinse your hair with lukewarm water and shampoo as usual."
     />
   </details>
@@ -155,6 +155,7 @@ const HairCareClinic = (props) => {
       <div className="container">
         <p> Discover natural solutions to reduce hair loss and promote healthier, stronger hair. These remedies are easy to prepare and use, designed to nourish your scalp and support hair growth effectively.</p>
       </div>
+      <br/>
 
     <Recipes 
     recipeName="Castor Oil Treatment"
@@ -162,14 +163,15 @@ const HairCareClinic = (props) => {
     description="Castor oil is a natural remedy for hair loss, known for its ability to nourish the scalp, strengthen hair follicles, and promote healthy hair growth."
     ingName1="Equal parts of:"
     ingDescription1="Castor oil, coconut oil, sweet almond oil, and sesame oil."
-    instructions="1. Mix all the oils thoroughly in equal parts.<br/>
-     2. Warm the mixture by placing the container in hot water until slightly warm.<br/>
-      3. Apply a small amount to your fingertips and massage into your scalp for a few minutes.<br/>
-       4. Distribute the oil mixture through your hair from roots to tips.<br/>
-        5. Leave the oil on your hair for one hour or overnight for better results.<br/>
+    instructions="1. Mix all the oils thoroughly in equal parts.
+     2. Warm the mixture by placing the container in hot water until slightly warm.
+      3. Apply a small amount to your fingertips and massage into your scalp for a few minutes.
+       4. Distribute the oil mixture through your hair from roots to tips.
+        5. Leave the oil on your hair for one hour or overnight for better results.
          6. Wash your hair with lukewarm water and shampoo."
     />
 
+<br/>
 
     <Recipes 
     recipeName="Fenugreek Hair Mask"
@@ -179,11 +181,12 @@ const HairCareClinic = (props) => {
     ingDescription1="Rich in proteins, iron, and niacin, helps prevent hair loss and enhance shine."
     ingName2="1-2 tbsp olive oil, coconut oil, or argan oil"
     ingDescription2="Nourishing oils that hydrate and support healthy hair growth."
-    instructions="1. Grind 2 tbsp of fenugreek seeds and mix with 1-2 tbsp of olive oil, coconut oil, or argan oil.<br/>
-     2. Warm the mask in a container using warm water.<br/>
-      3. Apply the mask to your hair, focusing on thinning or hair loss areas. You may cover your hair with a shower cap and leave it on for 10 minutes.<br/>
+    instructions="1. Grind 2 tbsp of fenugreek seeds and mix with 1-2 tbsp of olive oil, coconut oil, or argan oil.
+     2. Warm the mask in a container using warm water.
+      3. Apply the mask to your hair, focusing on thinning or hair loss areas. You may cover your hair with a shower cap and leave it on for 10 minutes.
        4. Wash your hair with lukewarm water as usual."
     />
+    <br/>
 
     <Recipes 
     recipeName="Egg Hair Mask"
@@ -193,14 +196,15 @@ const HairCareClinic = (props) => {
     ingDescription1="Rich in proteins that strengthen hair and reduce hair loss."
     ingName2="2-3 drops of lemon juice"
     ingDescription2="Lemon helps to neutralize the odor of eggs and adds a refreshing scent."
-    instructions="1. Mix 2-3 whole eggs with 2-3 drops of lemon juice to reduce the egg smell.<br/>
-     2. Whisk the mixture until it becomes frothy.<br/>
-      3. Apply the mixture to your hair, massaging it evenly.<br/>
-       4. Cover your hair with a shower cap and leave it on for 20 minutes.<br/>
-        5. Rinse with cold water (hot water will cause the egg to coagulate on your hair).<br/>
-         6. Wash your hair with shampoo and conditioner as usual.<br/>
+    instructions="1. Mix 2-3 whole eggs with 2-3 drops of lemon juice to reduce the egg smell.
+     2. Whisk the mixture until it becomes frothy.
+      3. Apply the mixture to your hair, massaging it evenly.
+       4. Cover your hair with a shower cap and leave it on for 20 minutes.
+        5. Rinse with cold water (hot water will cause the egg to coagulate on your hair).
+         6. Wash your hair with shampoo and conditioner as usual.
           7. Repeat once or twice a month for best results."
     />
+    <br/>
 
     <Recipes 
     recipeName="Yogurt and Honey Hair Mask"
@@ -210,11 +214,12 @@ const HairCareClinic = (props) => {
     ingDescription1="Contains antioxidants and antibacterial properties, helping to reduce hair fall and treat dandruff."
     ingName2="Yogurt"
     ingDescription2="Rich in vitamin B5 and D, nourishing hair follicles to prevent hair loss."
-    instructions="1. Mix equal amounts of honey and yogurt.<br/>
-     2. Apply the mixture to damp hair.<br/>
-      3. Leave the mask on for 30-40 minutes before washing with shampoo.<br/>
+    instructions="1. Mix equal amounts of honey and yogurt.
+     2. Apply the mixture to damp hair.
+      3. Leave the mask on for 30-40 minutes before washing with shampoo.
        4. Repeat 2-3 times a week for best results."
     />
+    <br/>
 
     <Recipes 
     recipeName="Natural Henna Hair Treatment"
@@ -226,10 +231,10 @@ const HairCareClinic = (props) => {
     ingDescription2="Used to form a thick paste with henna powder."
     ingName3="1-2 tablespoons of olive oil"
     ingDescription3="Adds nourishment to the hair, preventing split ends and promoting healthy growth."
-    instructions="1. Mix 25-50g of henna powder with hot water to form a thick paste.<br/>
-     2. Cover the mixture for 5-7 minutes.<br/>
-      3. Add 1-2 tablespoons of olive oil to the paste.<br/>
-       4. Apply the mixture to the roots and scalp, covering with a cap and towel, and leave it for 1 hour.<br/>
+    instructions="1. Mix 25-50g of henna powder with hot water to form a thick paste.
+     2. Cover the mixture for 5-7 minutes.
+      3. Add 1-2 tablespoons of olive oil to the paste.
+       4. Apply the mixture to the roots and scalp, covering with a cap and towel, and leave it for 1 hour.
         5. Wash your hair as usual."
     />
   </details>
@@ -248,11 +253,12 @@ const HairCareClinic = (props) => {
     ingDescription1="Rich in antifungal properties to combat dandruff."
     ingName2="1 tablespoon of honey"
     ingDescription2="Soothes the scalp and helps nourish the hair."
-    instructions="1. Mash the garlic cloves and mix them with honey to form a smooth paste.<br/>
-     2. Apply the mixture to your scalp, massaging gently for 15 minutes.<br/>
-      3. Wash your hair with shampoo.<br/>
+    instructions="1. Mash the garlic cloves and mix them with honey to form a smooth paste.
+     2. Apply the mixture to your scalp, massaging gently for 15 minutes.
+      3. Wash your hair with shampoo.
        4. Repeat this treatment in the morning during your shower for best results."
     />
+    <br/>
 
     <Recipes 
     recipeName="Coconut & Lemon Scalp Treatment"
@@ -262,11 +268,12 @@ const HairCareClinic = (props) => {
     ingDescription1="Nourishes and hydrates the scalp, helping to eliminate dandruff."
     ingName2="2 tbsp lemon juice"
     ingDescription2="Helps balance the scalp, reduce flakes, and cleanse the pores."
-    instructions="1. Heat 2 tablespoons of coconut oil in a small bowl.<br/>
-     2. Mix it with an equal amount of lemon juice.<br/>
-      3. Massage the mixture into your scalp thoroughly.<br/>
+    instructions="1. Heat 2 tablespoons of coconut oil in a small bowl.
+     2. Mix it with an equal amount of lemon juice.
+      3. Massage the mixture into your scalp thoroughly.
        4. Leave it on for 20–30 minutes before washing your hair with shampoo."
     />
+    <br/>
 
     <Recipes 
     recipeName="Olive Oil Scalp Treatment"
@@ -274,11 +281,12 @@ const HairCareClinic = (props) => {
     description="Olive oil is rich in antioxidants and nourishes the scalp, helping to reduce dandruff and improve hair health."
     ingName1="Olive oil"
     ingDescription1="Packed with antioxidants to nourish the scalp and reduce dandruff."
-    instructions="1. Massage a generous amount of olive oil into your scalp.<br/>
-     2. Comb your hair gently to remove flakes.<br/>
-      3. Cover your hair with a shower cap to lock in moisture.<br/>
+    instructions="1. Massage a generous amount of olive oil into your scalp.
+     2. Comb your hair gently to remove flakes.
+      3. Cover your hair with a shower cap to lock in moisture.
        4. Wash your hair thoroughly after some time."
     />
+    <br/>
 
     <Recipes 
     recipeName="Tea Tree Oil Scalp Treatment"
@@ -288,26 +296,25 @@ const HairCareClinic = (props) => {
     ingDescription1="Known for its antibacterial and antifungal properties to help reduce dandruff."
     ingName2="Shampoo"
     ingDescription2="Used as a base to mix the tea tree oil and cleanse the scalp."
-    instructions="1. Add 10 drops of tea tree oil to your regular shampoo.<br/>
-     2. Mix well and massage into your scalp.<br/>
-      3. This helps stimulate blood circulation and eliminate dandruff.<br/>
+    instructions="1. Add 10 drops of tea tree oil to your regular shampoo.
+     2. Mix well and massage into your scalp.
+      3. This helps stimulate blood circulation and eliminate dandruff.
        4. Rinse thoroughly after a few minutes."
     />
 
-
+<br/>
     <Recipes 
     recipeName="Apple Cider Vinegar for Dandruff"
     image = {appleCider}
     description="Apple cider vinegar helps balance the pH of the scalp, combat bacteria, and reduce dandruff."
     ingName1="3 tablespoons of apple cider vinegar"
     ingDescription1="Helps balance the scalp's pH and fight bacteria and fungi causing dandruff."
-    instructions="1. Massage 3 tablespoons of apple cider vinegar into your scalp for a few minutes.<br/>
-     2. Leave it on for 10 minutes, then rinse thoroughly with shampoo.<br/>
+    instructions="1. Massage 3 tablespoons of apple cider vinegar into your scalp for a few minutes.
+     2. Leave it on for 10 minutes, then rinse thoroughly with shampoo.
       3. Repeat once or twice a week for best results."
     />
   </details>
 
-  {/* <div> */}
   <details>
     <summary>Hair Growth Enhancement</summary>
     <div className="container">
@@ -321,11 +328,12 @@ const HairCareClinic = (props) => {
     ingDescription1="Known for stimulating hair growth and improving blood circulation to the scalp."
     ingName2="1 tablespoon of carrier oil (e.g., coconut oil or jojoba oil)"
     ingDescription2="Helps dilute rosemary oil to prevent scalp irritation."
-    instructions="1. Mix 5 drops of rosemary oil with 1 tablespoon of your chosen carrier oil (coconut oil or jojoba oil).<br/>
-     2. Gently massage the mixture into your scalp after showering.<br/>
-      3. Leave it on for at least 10 minutes before rinsing it out, or leave it overnight for best results.<br/>
+    instructions="1. Mix 5 drops of rosemary oil with 1 tablespoon of your chosen carrier oil (coconut oil or jojoba oil).
+     2. Gently massage the mixture into your scalp after showering.
+      3. Leave it on for at least 10 minutes before rinsing it out, or leave it overnight for best results.
        4. Repeat this treatment once or twice a week for faster hair growth."
     />
+    <br/>
 
     <Recipes 
     recipeName="Amla Powder Hair Growth Treatment"
@@ -337,15 +345,16 @@ const HairCareClinic = (props) => {
     ingDescription2="Moisturizes and strengthens the hair."
     ingName3="2 teaspoons of amla powder"
     ingDescription3="Stimulates hair growth and nourishes the scalp."
-    instructions="1. Mix the coconut oil and olive oil in a pan, then heat the mixture.<br/>
-     2. Add the amla powder to the oils and cook until the powder turns brown.<br/>
-      3. Let the mixture cool down until it's bearable to touch.<br/>
-       4. Strain the mixture to remove any leftover amla powder.<br/>
-        5. Massage the oil mixture into your scalp for 15 minutes.<br/>
-         6. Cover your hair with a shower cap and leave the mixture on for 30 minutes.<br/>
-          7. Wash your hair with water and shampoo as usual.<br/>
+    instructions="1. Mix the coconut oil and olive oil in a pan, then heat the mixture.
+     2. Add the amla powder to the oils and cook until the powder turns brown.
+      3. Let the mixture cool down until it's bearable to touch.
+       4. Strain the mixture to remove any leftover amla powder.
+        5. Massage the oil mixture into your scalp for 15 minutes.
+         6. Cover your hair with a shower cap and leave the mixture on for 30 minutes.
+          7. Wash your hair with water and shampoo as usual.
            8. Repeat this treatment 3 times a week for best results."
     />
+    <br/>
 
     <Recipes 
     recipeName="Sesame Oil Hair Mask"
@@ -359,12 +368,13 @@ const HairCareClinic = (props) => {
     ingDescription3="Promotes healthy hair growth and strengthens hair."
     ingName4="2 tablespoons of sweet almond oil"
     ingDescription4="Helps in treating hair loss and improving hair health."
-    instructions="1. Mix 1 tablespoon of castor oil, 2 tablespoons each of coconut oil, sesame oil, and sweet almond oil.<br/>
-     2. Heat the oil mixture slightly until warm.<br/>
-      3. Gently massage the mixture into your scalp.<br/>
-       4. Leave the sesame oil mask on your scalp overnight.<br/>
+    instructions="1. Mix 1 tablespoon of castor oil, 2 tablespoons each of coconut oil, sesame oil, and sweet almond oil.
+     2. Heat the oil mixture slightly until warm.
+      3. Gently massage the mixture into your scalp.
+       4. Leave the sesame oil mask on your scalp overnight.
         5. Wash it off with shampoo in the morning."
     />
+    <br/>
 
     <Recipes 
     recipeName="Fermented Rice Water Hair Mask"
@@ -374,13 +384,14 @@ const HairCareClinic = (props) => {
     ingDescription1="The base ingredient for creating rice water."
     ingName2="1 cup of water"
     ingDescription2="Used to extract the beneficial compounds from the rice."
-    instructions="1. Rinse the rice thoroughly, then place it in a bowl and add 1 cup of water.<br/>
-     2. Mix the rice in the water for at least 5 minutes to release the active compounds.<br/>
-      3. Boil the rice water for 10 minutes and let it cool for 30 minutes.<br/>
-       4. Pour the cooled rice water into a clean, airtight container and leave it to ferment for 5-7 days.<br/>
-        5. Once fermented, use it as a hair rinse after shampooing. Leave it on your hair for 20-30 minutes, then rinse with clean water.<br/>
+    instructions="1. Rinse the rice thoroughly, then place it in a bowl and add 1 cup of water.
+     2. Mix the rice in the water for at least 5 minutes to release the active compounds.
+      3. Boil the rice water for 10 minutes and let it cool for 30 minutes.
+       4. Pour the cooled rice water into a clean, airtight container and leave it to ferment for 5-7 days.
+        5. Once fermented, use it as a hair rinse after shampooing. Leave it on your hair for 20-30 minutes, then rinse with clean water.
          6. Alternatively, you can leave the rice water in your hair as a leave-in conditioner."
     />
+    <br/>
 
     <Recipes 
     recipeName="Banana and Honey Hair Mask"
@@ -390,20 +401,17 @@ const HairCareClinic = (props) => {
     ingDescription1="Rich in vitamins A, B, and C, and minerals like potassium and magnesium for healthy, shiny hair."
     ingName2="2 tablespoons of honey"
     ingDescription2="A natural humectant that moisturizes and nourishes the hair."
-    instructions="1. Peel and slice the ripe banana, then mash it into a smooth paste using a fork or blender.<br/>
-     2. Add the honey to the mashed banana and mix thoroughly to create a smooth, homogeneous paste.<br/>
-      3. Wash your hair with shampoo to remove dirt and excess oils, and gently towel dry your hair.<br/>
-      4. Apply the mask to your hair and scalp, starting from the roots and working through to the ends.<br/>
-       5. Massage the scalp gently to ensure even distribution of the mask.<br/>
-        6. Cover your hair with a plastic cap or warm towel to enhance the moisturizing effect.<br/>
-         7. Leave the mask on for 20-30 minutes to allow the nutrients to penetrate the hair.<br/>
-          8. Rinse the mask out with lukewarm water, then wash your hair with your regular shampoo to remove any residual banana or honey.<br/>
+    instructions="1. Peel and slice the ripe banana, then mash it into a smooth paste using a fork or blender.
+     2. Add the honey to the mashed banana and mix thoroughly to create a smooth, homogeneous paste.
+      3. Wash your hair with shampoo to remove dirt and excess oils, and gently towel dry your hair.
+      4. Apply the mask to your hair and scalp, starting from the roots and working through to the ends.
+       5. Massage the scalp gently to ensure even distribution of the mask.
+        6. Cover your hair with a plastic cap or warm towel to enhance the moisturizing effect.
+         7. Leave the mask on for 20-30 minutes to allow the nutrients to penetrate the hair.
+          8. Rinse the mask out with lukewarm water, then wash your hair with your regular shampoo to remove any residual banana or honey.
            9. Gently towel dry your hair without rubbing to avoid breakage."
     />
   </details>
-  {/* </div> */}
-
-  {/* <div> */}
   <details>
     <summary>Hair Smoothing Remedies</summary>
     <div className="container">
@@ -415,11 +423,12 @@ const HairCareClinic = (props) => {
     description="Argan oil is rich in fatty acids and antioxidants like Vitamin E, providing deep hydration, shine, and protection against hair loss."
     ingName1="8-10 drops of argan oil"
     ingDescription1="Packed with fatty acids and Vitamin E to nourish and hydrate the hair."
-    instructions="1. Massage 8-10 drops of argan oil onto your scalp using your fingers for 10 minutes, ensuring even coverage from roots to tips.<br/>
-     2. Wrap your hair with a towel and leave it overnight.<br/>
-      3. Wash your hair in the morning.<br/>
+    instructions="1. Massage 8-10 drops of argan oil onto your scalp using your fingers for 10 minutes, ensuring even coverage from roots to tips.
+     2. Wrap your hair with a towel and leave it overnight.
+      3. Wash your hair in the morning.
        4. Repeat this treatment twice a week for optimal results."  
     />
+    <br/>
 
     <Recipes 
     recipeName="Aloe Vera Hair Mask"
@@ -431,12 +440,14 @@ const HairCareClinic = (props) => {
     ingDescription2="Provides protein and cleanses the scalp."
     ingName3="2 tablespoons of coconut oil"
     ingDescription3="Helps to moisturize and condition the hair."
-    instructions="1. Mix 4 tablespoons of Aloe Vera gel, 3 tablespoons of yogurt, and 2 tablespoons of coconut oil to form a smooth paste.<br/>
-     2. Apply the mixture to your hair and scalp.<br/>
-      3. Leave the mask on for 30 minutes. <br/>
-      4. Wash your hair with cold water.<br/>
+    instructions="1. Mix 4 tablespoons of Aloe Vera gel, 3 tablespoons of yogurt, and 2 tablespoons of coconut oil to form a smooth paste.
+     2. Apply the mixture to your hair and scalp.
+      3. Leave the mask on for 30 minutes. 
+      4. Wash your hair with cold water.
        5. Repeat this treatment once a week for the best results."
     />
+        <br/>
+
     <Recipes 
     recipeName="Almond Oil for Hair"
     image = {sweetAlmondOil}
@@ -445,6 +456,7 @@ const HairCareClinic = (props) => {
     ingDescription1="Rich in vitamins and minerals that hydrate and nourish the hair."
     instructions="1. Apply a small amount of sweet almond oil to your hands. 2. Gently massage the oil into your scalp and hair, focusing on the ends. 3. Leave the oil on for about 30 minutes, covering your hair with a towel. 4. Wash your hair thoroughly. 5. For an enhanced effect, repeat this treatment weekly for smoother and shinier hair."
     />
+    <br/>
 
     <Recipes 
     recipeName="Peppermint Oil and Coconut Oil"
@@ -454,11 +466,12 @@ const HairCareClinic = (props) => {
     ingDescription1="Enhances blood circulation to the scalp, stimulates hair follicles, and reduces scalp itchiness."
     ingName2="Coconut oil"
     ingDescription2="Moisturizes the hair, adds shine, and nourishes the scalp."
-    instructions="1. Mix 2-3 drops of peppermint oil with 2 tablespoons of coconut oil.<br/>
-     2. Gently massage the mixture into your scalp for 5-10 minutes.<br/>
-      3. Leave it on for 30 minutes before washing your hair with shampoo.<br/>
+    instructions="1. Mix 2-3 drops of peppermint oil with 2 tablespoons of coconut oil.
+     2. Gently massage the mixture into your scalp for 5-10 minutes.
+      3. Leave it on for 30 minutes before washing your hair with shampoo.
        4. For added benefits, you can also add 2-3 drops of peppermint oil to your regular shampoo or conditioner."
     />
+    <br/>
 
     <Recipes 
     recipeName="Oatmeal and Yogurt Mask"
@@ -472,8 +485,8 @@ const HairCareClinic = (props) => {
     ingDescription3="Helps hydrate and strengthen the hair."
     ingName4="1 tablespoon honey"
     ingDescription4="Natural humectant that helps retain moisture and adds shine."
-    instructions="1. Boil the oatmeal with yogurt in a deep bowl and mix thoroughly.<br/>
-     2. Add the honey and coconut oil to the mixture and blend again with a hand mixer to create a smooth paste.<br/>
+    instructions="1. Boil the oatmeal with yogurt in a deep bowl and mix thoroughly.
+     2. Add the honey and coconut oil to the mixture and blend again with a hand mixer to create a smooth paste.
       3. Apply the mask to your hair and leave it on for 30 minutes. 4. Wash your hair as usual."
     />
   </details>
@@ -490,11 +503,12 @@ const HairCareClinic = (props) => {
     description="While Vaseline doesn't speed up eyelash growth, it helps moisturize and make them appear thicker. It prevents moisture loss, leaving lashes looking fuller and healthier."
     ingName1="Vaseline"
     ingDescription1="Moisturizes and prevents moisture loss, making lashes appear thicker and fuller."
-    instructions="1. After removing makeup, take a small amount of Vaseline on a cotton swab.<br/>
-     2. Gently apply it to the base of your eyelashes, ensuring it doesn’t get into your eyes.<br/>
-      3. Leave it on overnight and wash off in the morning.<br/>
+    instructions="1. After removing makeup, take a small amount of Vaseline on a cotton swab.
+     2. Gently apply it to the base of your eyelashes, ensuring it doesn’t get into your eyes.
+      3. Leave it on overnight and wash off in the morning.
        4. Repeat this process 2–3 times a week for the best results."
     />
+    <br/>
 
     <Recipes
     recipeName="Green Tea for Eyelash Growth"
@@ -504,11 +518,12 @@ const HairCareClinic = (props) => {
     ingDescription1="Rich in antioxidants and catechins that promote eyelash growth."
     ingName2="Jojoba oil (optional)"
     ingDescription2="Helps moisturize lashes and promote growth."
-    instructions="1. Brew a cup of green tea and let it cool.<br/>
-     2. Dip a cotton swab into the cooled tea and apply it to your eyelashes.<br/>
-      3. Leave it on for 4-5 minutes, then rinse with cold water.<br/>
+    instructions="1. Brew a cup of green tea and let it cool.
+     2. Dip a cotton swab into the cooled tea and apply it to your eyelashes.
+      3. Leave it on for 4-5 minutes, then rinse with cold water.
        4. For best results, mix green tea with jojoba oil and apply it to your lashes nightly."
     />
+    <br/>
 
     <Recipes
     recipeName="Rose Water for Eyelash Thickening"
@@ -518,11 +533,12 @@ const HairCareClinic = (props) => {
     ingDescription1="Rich in antioxidants and vitamins that promote eyelash growth and thickness."
     ingName2="Honey (optional)"
     ingDescription2="Helps to moisturize and soothe the skin around the eyes."
-    instructions="1. Mix a few drops of rose water with honey (if desired) to create a smooth consistency.<br/>
-     2. Use a clean mascara brush to apply the mixture to your eyelashes.<br/>
-      3. Gently massage the mixture into your lashes and leave it on overnight.<br/>
+    instructions="1. Mix a few drops of rose water with honey (if desired) to create a smooth consistency.
+     2. Use a clean mascara brush to apply the mixture to your eyelashes.
+      3. Gently massage the mixture into your lashes and leave it on overnight.
        4. For best results, apply regularly for at least a month to see noticeable growth."
     />
+    <br/>
 
     <Recipes
     recipeName="Flaxseed for Eyelash and Eyebrow Thickening"
@@ -532,11 +548,12 @@ const HairCareClinic = (props) => {
     ingDescription1="Rich in omega-3 fatty acids that promote hair growth and strength."
     ingName2="Flaxseed powder (optional)"
     ingDescription2="Contains proteins that strengthen hair follicles and prevent breakage."
-    instructions="1. To use flaxseed oil, soak a cotton ball with the oil.<br/>
-     2. Gently apply the oil to your eyelashes and eyebrows, massaging in circular motions.<br/>
-      3. Leave the oil on for about 30 minutes before washing it off with warm water.<br/>
+    instructions="1. To use flaxseed oil, soak a cotton ball with the oil.
+     2. Gently apply the oil to your eyelashes and eyebrows, massaging in circular motions.
+      3. Leave the oil on for about 30 minutes before washing it off with warm water.
        4. For better results, repeat daily. 5. Alternatively, use flaxseed water by soaking the seeds for 24 hours, straining them, and applying the water to your lashes and eyebrows with a clean cotton ball."
     />
+    <br/>
 
     <Recipes
     recipeName="Cold Milk for Eyelash Growth & Thickness"
@@ -544,9 +561,9 @@ const HairCareClinic = (props) => {
     description="Cold milk is a natural ingredient that helps nourish and thicken the eyelashes. It contains proteins and vitamins that promote healthy eyelash growth, making them appear longer and thicker."
     ingName1="Cold milk"
     ingDescription1="Contains proteins and vitamins that nourish and strengthen the eyelashes."
-    instructions="1. Dip a cotton ball into cold milk.<br/>
-     2. Gently apply it to your eyelashes, ensuring they are fully coated.<br/>
-      3. Leave it on for a few minutes, then rinse off with lukewarm water.<br/>
+    instructions="1. Dip a cotton ball into cold milk.
+     2. Gently apply it to your eyelashes, ensuring they are fully coated.
+      3. Leave it on for a few minutes, then rinse off with lukewarm water.
        4. Repeat this process twice daily for best results."
     />
 
