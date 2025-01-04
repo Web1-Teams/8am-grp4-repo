@@ -1,0 +1,92 @@
+#benefits-section {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #afcfc9; /* لون الخلفية الأساسي */
+}
+
+.benefits-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+  padding: 1rem;
+}
+
+.benefit-item {
+  background-color: #80b3a9; /* لون خلفية البطاقة */
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #ffffff; /* النص بلون أبيض */
+}
+
+.benefit-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-item h5 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.benefit-item p {
+  font-size: 1rem;
+  color: #f9f9f9;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .benefit-item p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .benefits-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .benefit-item img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .benefit-item h5 {
+    font-size: 1.1rem;
+  }
+
+  .benefit-item p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .benefits-container {
+    grid-template-columns: 1fr;
+  }
+
+  .benefit-item {
+    padding: 0.8rem;
+  }
+
+  .benefit-item img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .benefit-item h5 {
+    font-size: 1rem;
+  }
+
+  .benefit-item p {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,128 @@
+/* FAQ Container */
+.faq-container {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #afcfc9; /* Light color */
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Title */
+  .faq-title {
+    text-align: center;
+    color: #4b4b4b;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* FAQ Grid */
+  .faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* FAQ Items */
+  .faq-item {
+    background-color: #80b3a9; /* Dark color */
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .faq-item.active {
+    background-color: #4a7e73;
+  }
+  
+  .faq-item:hover {
+    background-color: #4a7e73;
+  }
+  
+  /* FAQ Question */
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .faq-icon {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #fff;
+  }
+  
+  /* FAQ Content */
+  .faq-content {
+    margin-top: 10px;
+    overflow: hidden;
+  }
+  
+  /* FAQ Answer */
+  .faq-answer {
+    font-size: 16px;
+    color: #f0f0f0;
+    margin-bottom: 10px;
+  }
+  
+  /* FAQ Tips */
+  .faq-tips {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #e0e0e0;
+  }
+  
+  .faq-tip {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  /* Responsive Design */
+  
+  /* Large devices (laptops/desktops, 1024px and above) */
+  @media (min-width: 1024px) {
+    .faq-grid {
+      grid-template-columns: repeat(2, 1fr); /* Two columns */
+      gap: 30px; /* Increased gap for larger screens */
+    }
+  }
+  
+  /* Medium devices (tablets, between 768px and 1024px) */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .faq-grid {
+      grid-template-columns: repeat(2, 1fr); /* Still two columns */
+      gap: 20px;
+    }
+  }
+  
+  /* Small devices (phones, below 768px) */
+  @media (max-width: 767px) {
+    .faq-grid {
+      grid-template-columns: 1fr; /* Single column */
+      gap: 15px;
+    }
+  
+    .faq-title {
+      font-size: 20px; /* Adjust title size */
+    }
+  
+    .faq-question {
+      font-size: 16px; /* Adjust question size */
+    }
+  
+    .faq-answer {
+      font-size: 14px; /* Adjust answer size */
+    }
+  
+    .faq-tip {
+      font-size: 12px; /* Adjust tips size */
+    }
+  }
+  
