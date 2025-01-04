@@ -11,10 +11,14 @@ import ServiceCard from "../../clinic2 Components/ServiceCard";
 // import TipCard from "../../clinic2 Components/TipCard";
 // import TestimonialBox from "../clinic2 Components/TestimonialBox";
 ///import IntroSection from "../../clinic2 Components/IntroSection";
-import image1 from "../../../assests/Images/imagesForC2/skincare-background.jpeg";
-import image2 from "../../../assests/Images/imagesForC2/haircare_background.jpg";
-import image3 from "../../../assests/Images/imagesForC2/body care=main.jpeg";
-import image4 from "../../../assests/Images/imagesForC2/clean eating-background.png";
+// import image1 from "../../../assests/Images/imagesForC2/skincare-background.jpeg";
+// import image2 from "../../../assests/Images/imagesForC2/haircare_background.jpg";
+// import image3 from "../../../assests/Images/imagesForC2/body care=main.jpeg";
+// import image4 from "../../../assests/Images/imagesForC2/clean eating-background.png";
+import skincarebackground from "../../../assests/Images/imagesForC2/skincareBackground.jpeg";
+import haircarebackground from "../../../assests/Images/imagesForC2/haircareBackground.jpg";
+import bodycarebackground from "../../../assests/Images/imagesForC2/bodycareBackground.jpeg";
+import cleaneatingbackground from "../../../assests/Images/imagesForC2/cleaneatingBackground.png";
 // import IntroSection from "../clinic2 Components/IntroSection";
 // import RecipeCard from "../clinic2 Components/RecipeCard";
 //  import RecipesS from "../clinic2 Components/RecipesS";
@@ -44,19 +48,19 @@ const Clinic2 = (props) => {
           <div className="services-container">
             <h3>Our Services</h3>
             <div className="services-grid">
-          <ServiceCard  SerImage = {image1}
+          <ServiceCard  SerImage = {skincarebackground}
          serviceName = "Skincare Treatments "
          intro = "Personalized care for glowing, healthy skin."
          />
-         <ServiceCard  SerImage = {image2}
+         <ServiceCard  SerImage = {haircarebackground}
            serviceName = "Hair Care Solutions "
          intro = "Rejuvenate your hair with our organic products.."
          />
-          <ServiceCard  SerImage = {image3} 
+          <ServiceCard  SerImage = {bodycarebackground} 
           serviceName = "Body Care Routines "
          intro = "Nourishing treatments for total wellness."
          />
-          <ServiceCard  SerImage = {image4}
+          <ServiceCard  SerImage = {cleaneatingbackground}
            serviceName = "Clean Eating Recipes "
          intro = "Rejuvenate your hair with our organic products."
          /> 
