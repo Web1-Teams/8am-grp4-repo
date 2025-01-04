@@ -5,7 +5,7 @@ const DoctorCard = (props) => {
     <div className="flip-card">
       <div className="flip-card-inner">
         <div className="flip-card-front">
-          <img src={Dimg} alt="doctor" className="doctor-image" />
+          <img src={props.d_img} alt="doctor" className="doctor-image" />
           <p className="title1">{props.d_name}</p>
           <p className="specialist">{props.d_specialist}</p>
         </div>
