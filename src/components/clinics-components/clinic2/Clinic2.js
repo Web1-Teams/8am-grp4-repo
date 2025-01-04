@@ -40,6 +40,7 @@ const Clinic2 = (props) => {
          intro = "Rejuvenate your hair with our organic products.."
          />
           <ServiceCard  serImage = {bodycarebackground} 
+        service=  "/clinic2/BodyCare"
           serviceName = "Body Care Routines "
          intro = "Nourishing treatments for total wellness."
          />
