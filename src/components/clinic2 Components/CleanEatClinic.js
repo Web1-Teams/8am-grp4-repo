@@ -1,9 +1,5 @@
 import React from "react";
-import "../clinics-components/clinic2/Styles_C2.css";
 import IntroSection from "./IntroSection";
-import RecipeCard from "./RecipeCard";
-import BookList from "../Books/BookList";
-// import Footer from "../Footer";
 import Recipes from "./Recipes";
 
 import almondMilk from "../../assests/Images/imagesForC2/almondMilk.jpg";
@@ -64,7 +60,6 @@ import HibiscusTea from "../../assests/Images/imagesForC2/hotOliveOil.jpg"
 const CleanEatClinic = (props) => {
 return (
     <div>
-      
       <IntroSection 
        title="The Power of Nutrition"
        subtitle1="Nourish your body, and it will reward you with vibrant hair, glowing skin, and boundless energy."
@@ -99,6 +94,8 @@ return (
         ingDescription2="Rich in antioxidants."
         instructions="1. Blend ingredients. 2. Serve chilled."
       />      
+          <br/>
+
       <Recipes
     recipeName="Spinach Smoothie"
     image = {spinach}
@@ -113,12 +110,13 @@ return (
     ingDescription4="Rich in antioxidants that stimulate hair growth."
     ingName5="Sugar or honey (optional)"
     ingDescription5="Adds natural sweetness to enhance the taste."
-    instructions="1. In a blender, add the banana or avocado slices, spinach leaves (washed thoroughly), and sugar or honey if desired. Blend into a smooth paste.<br>
-     2. Add the coconut milk and blend until well combined.<br>
-      3. Pour the smoothie into a glass and serve immediately.<br>
+    instructions="1. In a blender, add the banana or avocado slices, spinach leaves (washed thoroughly), and sugar or honey if desired. Blend into a smooth paste.
+     2. Add the coconut milk and blend until well combined.
+      3. Pour the smoothie into a glass and serve immediately.
        4. Optionally, garnish with a sprinkle of matcha powder for added flavor and nutrition."
  />
-    
+        <br/>
+
     <Recipes
       recipeName="Carrot & Orange Juice"
       image = {orangeAndCarrotJuice}
@@ -133,10 +131,10 @@ return (
       ingDescription4="Stimulates circulation and provides antioxidants for scalp health."
       ingName5="Sugar or salt (optional)"
       ingDescription5="Adds taste based on preference."
-      instructions="1. Chop one or two peeled carrots into small pieces and blend them in a blender with 1 cup of coconut water.<br>
-      2. Add sugar or salt as desired for taste.<br>
-      3. Add the orange pulp and a small piece of ginger to the mixture.<br>
-      4. Blend the mixture until it becomes a smooth, semi-liquid consistency.<br>
+      instructions="1. Chop one or two peeled carrots into small pieces and blend them in a blender with 1 cup of coconut water.
+      2. Add sugar or salt as desired for taste.
+      3. Add the orange pulp and a small piece of ginger to the mixture.
+      4. Blend the mixture until it becomes a smooth, semi-liquid consistency.
       5. You can either strain the juice or enjoy it as is. Serve immediately."
     />
         </details>
@@ -162,13 +160,15 @@ return (
     ingDescription4="Adds natural sweetness to enhance the flavor."
     ingName5="Ice cubes (optional)"
     ingDescription5="For a refreshing cold drink."
-    instructions="1. Peel the ripe banana and place it in a blender.<br>
-     2. Add 1 cup of milk and raw cocoa powder or melted dark chocolate.<br>
-      3. If desired, add 1 tsp of honey for sweetness.<br>
-       4. Blend the ingredients until smooth and creamy.<br>
-        5. For a cold drink, add ice cubes and blend again.<br>
+    instructions="1. Peel the ripe banana and place it in a blender.
+     2. Add 1 cup of milk and raw cocoa powder or melted dark chocolate.
+      3. If desired, add 1 tsp of honey for sweetness.
+       4. Blend the ingredients until smooth and creamy.
+        5. For a cold drink, add ice cubes and blend again.
          6. Pour the drink into a glass and enjoy its benefits for healthier hair growth."
  />
+     <br/>
+
 <Recipes
     recipeName="Soy Protein Drink"
     image = {soyProtein}
@@ -183,11 +183,11 @@ return (
     ingDescription4="Adds natural sweetness to the drink."
     ingName5="Ice cubes (optional)"
     ingDescription5="For a refreshing cold drink."
-    instructions="1. Add soy milk to a blender.<br>
-     2. Add soy protein powder and 1 tsp of cocoa powder for extra flavor if desired.<br>
-      3. Add 1 tsp of honey to sweeten the drink.<br>
-       4. Blend all ingredients until smooth and well combined.<br>
-        5. For a chilled drink, add ice cubes and blend again.<br>
+    instructions="1. Add soy milk to a blender.
+     2. Add soy protein powder and 1 tsp of cocoa powder for extra flavor if desired.
+      3. Add 1 tsp of honey to sweeten the drink.
+       4. Blend all ingredients until smooth and well combined.
+        5. For a chilled drink, add ice cubes and blend again.
         v 6. Pour the drink into a glass and enjoy its hair-strengthening benefits."
  />
 
@@ -207,6 +207,7 @@ return (
     ingDescription1="Rich in high-quality protein, biotin, and vitamins A, D, E, iron, and zinc, all of which help promote hair health."
     instructions="Regular consumption of eggs can improve hair strength and thickness by providing essential nutrients."
  />
+    <br/>
 
 <Recipes
     recipeName="Berries for Hair Growth"
@@ -216,6 +217,7 @@ return (
     ingDescription1="Packed with vitamin C and antioxidants that protect hair follicles from free radicals and strengthen hair."
     instructions="Regular consumption of berries helps support hair growth by boosting collagen production and aiding in the absorption of iron."
  />
+    <br/>
 
 <Recipes
     recipeName="Spinach for Hair Growth"
@@ -226,6 +228,7 @@ return (
     instructions="Regular consumption of spinach helps boost iron levels and promotes healthy hair growth."
  />
 
+<br/>
 
 <Recipes
     recipeName="Avocado for Hair Health"
@@ -235,6 +238,7 @@ return (
     ingDescription1="Rich in vitamin E and essential fatty acids that help promote healthy hair growth and protect the scalp."
     instructions="Regular consumption of avocado can help improve hair quality and prevent oxidative stress."
  />
+    <br/>
 
 <Recipes
     recipeName="Nuts for Healthy Hair"
@@ -266,32 +270,38 @@ return (
     description="Pomegranate juice is a powerful drink that detoxifies the blood, making it an excellent choice for glowing skin. It also has anti-aging properties, helping to rejuvenate skin cells and give the skin a youthful glow. One cup of pomegranate juice daily can significantly enhance skin health and radiance."
     ingName1="1 pomegranate"
     ingDescription1="Rich in antioxidants that help fight free radicals and promote skin regeneration."
-    instructions="1. Cut the pomegranate in half and remove the seeds.<br>
-                 2. Place the seeds in a blender and blend until smooth.<br>
-                 3. Strain the juice to remove any pulp.<br>
-                 4. Pour the juice into a glass and enjoy fresh, rejuvenating pomegranate juice.<br>
+    instructions="1. Cut the pomegranate in half and remove the seeds.
+                 2. Place the seeds in a blender and blend until smooth.
+                 3. Strain the juice to remove any pulp.
+                 4. Pour the juice into a glass and enjoy fresh, rejuvenating pomegranate juice.
                  5. Drink one cup daily for optimal skin benefits."
  />
+     <br/>
+
 <Recipes
     recipeName="Coconut Water Benefits"
-    image = {coconutWater}
+    image = {coconutDrink}
     description="Coconut water is rich in essential nutrients like potassium, magnesium, and calcium. It helps hydrate the skin, reduce wrinkles, and fight acne with its antimicrobial properties. It also promotes faster healing of skin wounds, making it a great addition to your skincare routine."
     ingName1="Fresh coconut water"
     ingDescription1="Hydrates the skin and fights acne with its natural antimicrobial properties."
-    instructions="1. Apply fresh coconut water to your face using a cotton pad.<br>
-                 2. Gently massage the skin for 2-3 minutes.<br>
-                 3. Leave it on for 10 minutes to allow the nutrients to absorb.<br>
+    instructions="1. Apply fresh coconut water to your face using a cotton pad.
+                 2. Gently massage the skin for 2-3 minutes.
+                 3. Leave it on for 10 minutes to allow the nutrients to absorb.
                  4. Rinse with cold water for a refreshed and glowing complexion."
  />
+     <br/>
+
 <Recipes
     recipeName="Apple Juice Benefits"
     image = {appleJuice}
     description="Apple juice is rich in collagen, which enhances skin elasticity and promotes a youthful glow. It also contains antioxidants that help delay the appearance of aging signs, making it beneficial for maintaining smooth and healthy skin."
     ingName1="Fresh apple juice"
     ingDescription1="Boosts collagen production and helps maintain skin elasticity."
-    instructions="1. Drink a glass of fresh apple juice daily for improved skin elasticity and a radiant complexion.<br>
+    instructions="1. Drink a glass of fresh apple juice daily for improved skin elasticity and a radiant complexion.
                  2. You can also apply a small amount of the juice to your skin using a cotton pad for added benefits."
  />
+     <br/>
+
 <Recipes
     recipeName="Carrot and Beetroot Juice"
     image = {beetrootAndCarrotsJuice}
@@ -306,21 +316,23 @@ return (
     ingDescription4="Provides vitamin C for brightening and skin rejuvenation."
     ingName5="Sugar (optional)"
     ingDescription5="To adjust sweetness to your liking."
-    instructions="1. Boil the beetroot and cut it into quarters.<br>
-                 2. Slice the carrots and cucumbers into rounds.<br>
-                 3. Add the vegetables and fruits to a blender along with sugar and orange juice.<br>
-                 4. Blend until smooth, ensuring no lumps remain.<br>
+    instructions="1. Boil the beetroot and cut it into quarters.
+                 2. Slice the carrots and cucumbers into rounds.
+                 3. Add the vegetables and fruits to a blender along with sugar and orange juice.
+                 4. Blend until smooth, ensuring no lumps remain.
                  5. Drink the juice immediately to enjoy its full nutritional value."
  />
+     <br/>
+
 <Recipes
     recipeName="Lemon Juice for Skin Brightening"
     image = {lemonJuice}
     description="Lemon juice is rich in Vitamin C and citric acid, making it perfect for brightening the skin, reducing wrinkles, and fighting acne. It boosts collagen production, giving the skin a youthful glow and helping treat sunburns and rashes."
     ingName1="1 fresh lemon"
     ingDescription1="Rich in Vitamin C and citric acid to brighten and exfoliate the skin."
-    instructions="1. Cut the lemon in half and squeeze out the juice.<br>
-                 2. Apply the fresh lemon juice to the affected areas with a cotton pad.<br>
-                 3. Leave it on for 10-15 minutes to let the skin absorb the nutrients.<br>
+    instructions="1. Cut the lemon in half and squeeze out the juice.
+                 2. Apply the fresh lemon juice to the affected areas with a cotton pad.
+                 3. Leave it on for 10-15 minutes to let the skin absorb the nutrients.
                  4. Rinse with lukewarm water and follow with a moisturizer."
  />
     </details>
@@ -341,14 +353,16 @@ return (
     ingDescription2="Rich in nutrients and helps turmeric dissolve for easy consumption."
     ingName3="A pinch of black pepper"
     ingDescription3="Enhances the absorption of curcumin in the body."
-    instructions="1. Add 1 teaspoon of turmeric to a cup of warm milk.<br>
-                 2. Add a pinch of black pepper to enhance absorption.<br>
-                 3. Stir well and drink the mixture once a day.<br>
-                 <br>
-                 For topical use: Mix turmeric with milk to form a paste.<br>
-                 4. Apply the paste to the affected areas of the skin and leave it on for 15-20 minutes.<br>
+    instructions="1. Add 1 teaspoon of turmeric to a cup of warm milk.
+                 2. Add a pinch of black pepper to enhance absorption.
+                 3. Stir well and drink the mixture once a day.
+                 
+                 For topical use: Mix turmeric with milk to form a paste.
+                 4. Apply the paste to the affected areas of the skin and leave it on for 15-20 minutes.
                  5. Rinse with warm water and gently pat dry."
  />
+     <br/>
+
 <Recipes
     recipeName="Sage Tea"
     image = {sage}
@@ -361,11 +375,13 @@ return (
     ingDescription3="Soothes the skin and reduces inflammation."
     ingName4="1 tablespoon of tomato paste"
     ingDescription4="Helps rejuvenate and brighten the skin."
-    instructions="1. Soak 1 tablespoon of dried sage leaves in half a cup of hot water for 20 minutes.<br>
-                 2. Add 1 tablespoon of sandalwood powder and 1 tablespoon of tomato paste to the mixture.<br>
-                 3. Gently massage the mixture onto your skin for 5 minutes.<br>
+    instructions="1. Soak 1 tablespoon of dried sage leaves in half a cup of hot water for 20 minutes.
+                 2. Add 1 tablespoon of sandalwood powder and 1 tablespoon of tomato paste to the mixture.
+                 3. Gently massage the mixture onto your skin for 5 minutes.
                  4. Leave it on for 20 minutes, then rinse with warm water."
  />
+     <br/>
+
 <Recipes
     recipeName="Chlorophyll Drink"
     image = {chlorophyll}
@@ -374,10 +390,12 @@ return (
     ingDescription1="Rich in antioxidants, detoxifies the body and promotes clearer skin."
     ingName2="Water"
     ingDescription2="Helps to dilute the chlorophyll supplement for easier consumption."
-    instructions="1. Add the recommended dose of chlorophyll supplement to a glass of water.<br>
-                 2. Stir well and drink the mixture once a day.<br>
+    instructions="1. Add the recommended dose of chlorophyll supplement to a glass of water.
+                 2. Stir well and drink the mixture once a day.
                  3. Continue for a few weeks for optimal results."
  />
+     <br/>
+
 <Recipes
     recipeName="Apple Cider Vinegar Drink"
     image = {appleCider}
@@ -386,9 +404,10 @@ return (
     ingDescription1="Stimulates skin cell renewal and balances the skin's pH level."
     ingName2="A glass of water"
     ingDescription2="Dilutes the apple cider vinegar for easy consumption."
-    instructions="1. Mix 1 tablespoon of apple cider vinegar with a glass of water.<br>
+    instructions="1. Mix 1 tablespoon of apple cider vinegar with a glass of water.
                  2. Drink it in the morning before breakfast."
  />
+    <br/>
 
 <Recipes
     recipeName="Raw Nuts"
@@ -414,10 +433,11 @@ return (
     ingDescription1="Rich in antioxidants to fight free radicals and promote skin health."
     ingName2="1 cup hot water"
     ingDescription2="Base for brewing matcha tea."
-    instructions="1. Add 1 teaspoon of matcha powder to a bowl.<br>
-                 2. Pour hot water over the matcha and whisk until frothy.<br>
+    instructions="1. Add 1 teaspoon of matcha powder to a bowl.
+                 2. Pour hot water over the matcha and whisk until frothy.
                  3. Drink daily to enhance skin elasticity and protect against aging."
  />
+    <br/>
 
 <Recipes
     recipeName="Turmeric Tea"
@@ -429,10 +449,11 @@ return (
     ingDescription2="For brewing the tea."
     ingName3="Honey (optional)"
     ingDescription3="To add sweetness and enhance skin hydration."
-    instructions="1. Mix turmeric powder with hot water.<br>
-                 2. Stir well and let it steep for 5 minutes.<br>
+    instructions="1. Mix turmeric powder with hot water.
+                 2. Stir well and let it steep for 5 minutes.
                  3. Add honey if desired and enjoy warm."
  />
+    <br/>
 
 <Recipes
     recipeName="Licorice Root Juice"
@@ -442,10 +463,11 @@ return (
     ingDescription1="Antioxidant-rich to fight premature aging."
     ingName2="1 cup hot water"
     ingDescription2="For preparing the infusion."
-    instructions="1. Add licorice root powder to hot water.<br>
-                 2. Let it steep for 10 minutes.<br>
+    instructions="1. Add licorice root powder to hot water.
+                 2. Let it steep for 10 minutes.
                  3. Strain and drink once a day for visible skin benefits."
  />
+    <br/>
 
 <Recipes
     recipeName="Neem and Honey Tea"
@@ -457,8 +479,8 @@ return (
     ingDescription2="Deeply hydrates and promotes collagen production."
     ingName3="1 cup hot water"
     ingDescription3="Base for the herbal tea."
-    instructions="1. Add neem leaves to hot water and let it simmer for 20 minutes.<br>
-                 2. Strain the tea and mix in honey.<br>
+    instructions="1. Add neem leaves to hot water and let it simmer for 20 minutes.
+                 2. Strain the tea and mix in honey.
                  3. Drink warm, once daily, for maximum benefits."
  />
   </details>
@@ -487,13 +509,14 @@ return (
     ingDescription3="Adds natural sweetness and enhances the flavor."
     ingName4="A slice of lemon (optional)"
     ingDescription4="For a citrusy twist and a boost of Vitamin C."
-    instructions="1. Heat 1 cup of water until it reaches a simmer (not boiling).<br>
-                 2. Pour the hot water into a cup and add the green tea bag or loose green tea.<br>
-                 3. Let the tea steep for 3-5 minutes, depending on your desired strength.<br>
-                 4. Remove the tea bag or strain the loose tea.<br>
-                 5. Stir in honey if desired, and add a slice of lemon for extra flavor.<br>
+    instructions="1. Heat 1 cup of water until it reaches a simmer (not boiling).
+                 2. Pour the hot water into a cup and add the green tea bag or loose green tea.
+                 3. Let the tea steep for 3-5 minutes, depending on your desired strength.
+                 4. Remove the tea bag or strain the loose tea.
+                 5. Stir in honey if desired, and add a slice of lemon for extra flavor.
                  6. Serve hot or let it cool and pour over ice for a refreshing iced tea."
  />
+    <br/>
 
 <Recipes
     recipeName="Hot Turmeric Drink"
@@ -507,12 +530,13 @@ return (
     ingDescription3="Soothes and reduces inflammation in the body."
     ingName4="1/2 tsp cinnamon"
     ingDescription4="Supports digestive health and enhances flavor."
-    instructions="1. In a saucepan, heat the milk with turmeric, ginger, and cinnamon.<br>
-                 2. Stir the mixture until it is well combined and heated through.<br>
-                 3. Pour into a cup and enjoy the soothing, immune-boosting drink.<br>
-                 4. Drink once a day for best results.<br>
+    instructions="1. In a saucepan, heat the milk with turmeric, ginger, and cinnamon.
+                 2. Stir the mixture until it is well combined and heated through.
+                 3. Pour into a cup and enjoy the soothing, immune-boosting drink.
+                 4. Drink once a day for best results.
                  5. Be cautious with quantities, as excessive consumption may lead to discomfort or digestive issues."
  />
+    <br/>
 
 <Recipes
     recipeName="Tamarind Drink"
@@ -524,13 +548,14 @@ return (
     ingDescription2="Dilutes the tamarind pulp to create a refreshing drink."
     ingName3="1-2 tbsp honey (optional)"
     ingDescription3="Sweetens the drink naturally and adds additional health benefits."
-    instructions="1. Soak the tamarind pulp in water for 30 minutes.<br>
-                 2. After soaking, mash the pulp to extract the juice.<br>
-                 3. Strain the mixture to remove seeds and fiber.<br>
-                 4. Add honey to taste and stir until well mixed.<br>
-                 5. Serve chilled or at room temperature for a refreshing drink.<br>
+    instructions="1. Soak the tamarind pulp in water for 30 minutes.
+                 2. After soaking, mash the pulp to extract the juice.
+                 3. Strain the mixture to remove seeds and fiber.
+                 4. Add honey to taste and stir until well mixed.
+                 5. Serve chilled or at room temperature for a refreshing drink.
                  6. Enjoy this drink in moderation as part of a healthy diet."
  />
+    <br/>
 
 <Recipes
     recipeName="Orange & Grapefruit Juice"
@@ -542,12 +567,13 @@ return (
     ingDescription2="Contains antioxidants and vitamin C to support overall health and immunity."
     ingName3="1 tbsp honey (optional)"
     ingDescription3="Adds natural sweetness and additional immune-boosting properties."
-    instructions="1. Peel and segment the orange and grapefruit.<br>
-                 2. Place the segments in a blender and blend until smooth.<br>
-                 3. If desired, add honey to taste and blend again.<br>
-                 4. Pour the juice into a glass and serve chilled.<br>
+    instructions="1. Peel and segment the orange and grapefruit.
+                 2. Place the segments in a blender and blend until smooth.
+                 3. If desired, add honey to taste and blend again.
+                 4. Pour the juice into a glass and serve chilled.
                  5. Enjoy this refreshing drink daily to boost your immune system."
  />
+    <br/>
 
 <Recipes
     recipeName="Lemon & Ginger Drink"
@@ -559,10 +585,10 @@ return (
     ingDescription2="Ginger has anti-inflammatory properties and helps soothe the throat and reduce congestion."
     ingName3="1/2 tsp turmeric (optional)"
     ingDescription3="Turmeric enhances the drink's antioxidant properties and supports detoxification."
-    instructions="1. Slice the lemon and ginger.<br>
-                 2. Add the lemon slices and ginger to a cup of warm water.<br>
-                 3. If using, add turmeric to the mixture.<br>
-                 4. Stir the ingredients and let them steep for 5 minutes.<br>
+    instructions="1. Slice the lemon and ginger.
+                 2. Add the lemon slices and ginger to a cup of warm water.
+                 3. If using, add turmeric to the mixture.
+                 4. Stir the ingredients and let them steep for 5 minutes.
                  5. Drink this warm beverage to help with cold symptoms and boost immunity."
  />
 </details>
@@ -582,11 +608,12 @@ return (
     ingDescription1="The base for the mint drink."
     ingName2="Fresh mint leaves"
     ingDescription2="The key ingredient providing a refreshing taste and health benefits."
-    instructions="1. Boil 2 cups of water.<br>
-                 2. Add fresh mint leaves to the boiling water.<br>
-                 3. Cover the mixture and let it steep for 5 minutes.<br>
+    instructions="1. Boil 2 cups of water.
+                 2. Add fresh mint leaves to the boiling water.
+                 3. Cover the mixture and let it steep for 5 minutes.
                  4. Strain and serve warm."
  />
+    <br/>
 
 <Recipes
     recipeName="Avocado Juice"
@@ -598,14 +625,15 @@ return (
     ingDescription2="A smooth base to blend with the avocado."
     ingName3="1 tsp honey (optional)"
     ingDescription3="Adds natural sweetness and enhances the flavor."
-    instructions="1. Scoop out the avocado and blend it with milk until smooth.<br>
-                 2. Add honey if desired and blend again.<br>
+    instructions="1. Scoop out the avocado and blend it with milk until smooth.
+                 2. Add honey if desired and blend again.
                  3. Serve chilled."
  />
+    <br/>
 
 <Recipes
     recipeName="Dark Chocolate Drink"
-    image = {darkChocolate}
+    image = {chocolateDrink}
     description="Dark chocolate and cocoa powder are rich in flavonoids, caffeine, and antioxidants, which boost memory and focus while protecting the brain from age-related memory loss."
     ingName1="2 tbsp cocoa powder"
     ingDescription1="The base flavor of the drink, rich in antioxidants."
@@ -613,22 +641,24 @@ return (
     ingDescription2="The creamy base for the drink."
     ingName3="1 tsp sugar or sweetener (optional)"
     ingDescription3="Sweetens the drink to taste."
-    instructions="1. Heat the milk in a saucepan.<br>
-                 2. Stir in cocoa powder and sweetener until dissolved.<br>
+    instructions="1. Heat the milk in a saucepan.
+                 2. Stir in cocoa powder and sweetener until dissolved.
                  3. Serve warm."
  />
+    <br/>
 
 <Recipes
     recipeName="Berry Drink"
-    image = {berry}
+    image = {cranberry}
     description="Berry drinks protect against Alzheimer’s disease and enhance memory and focus for up to five hours. Perfect as a breakfast addition or a refreshing lunch beverage."
     ingName1="1 cup mixed berries (blueberries, strawberries, raspberries)"
     ingDescription1="A blend of antioxidant-rich berries to boost brain health."
     ingName2="1 cup water or coconut water"
     ingDescription2="Provides a light base to blend the berries."
-    instructions="1. Blend the mixed berries with water until smooth.<br>
+    instructions="1. Blend the mixed berries with water until smooth.
                  2. Strain if necessary and serve chilled."
  />
+    <br/>
 
 <Recipes
     recipeName="Banana, Date & Almond Smoothie"
@@ -644,8 +674,8 @@ return (
     ingDescription4="Smooth base for the smoothie."
     ingName5="1 tsp honey"
     ingDescription5="Sweetens the smoothie and adds extra nutrients."
-    instructions="1. Blend milk, banana, dates, and almonds until smooth.<br>
-                 2. Add honey and blend again.<br>
+    instructions="1. Blend milk, banana, dates, and almonds until smooth.
+                 2. Add honey and blend again.
                  3. Serve immediately."
  />
     </details>
@@ -663,10 +693,11 @@ return (
     description="Milk provides natural lactose, a carbohydrate that supplies energy. A single cup offers 13 essential nutrients, including protein, calcium, vitamins A, D, and B complex."
     ingName1="1 cup milk"
     ingDescription1="The base of the drink, packed with nutrients."
-    instructions="1. Pour 1 cup of milk into a glass.<br>
-                 2. Optionally, you can add chocolate syrup or hot cocoa mix for a flavored milk.<br>
+    instructions="1. Pour 1 cup of milk into a glass.
+                 2. Optionally, you can add chocolate syrup or hot cocoa mix for a flavored milk.
                  3. Serve chilled or warm, as desired."
  />
+    <br/>
 
 <Recipes
     recipeName="Coffee"
@@ -678,10 +709,11 @@ return (
     ingDescription2="Adds sweetness if desired."
     ingName3="1/4 cup milk (optional)"
     ingDescription3="For a creamier texture, add milk."
-    instructions="1. Brew a fresh cup of coffee.<br>
-                 2. Add sugar and/or milk to taste.<br>
+    instructions="1. Brew a fresh cup of coffee.
+                 2. Add sugar and/or milk to taste.
                  3. Serve hot and enjoy your energy boost."
  />
+    <br/>
 
 <Recipes
     recipeName="Pineapple and Ginger Juice"
@@ -695,12 +727,13 @@ return (
     ingDescription3="Dilutes the ingredients and helps blend them smoothly."
     ingName4="Juice of 1 lemon"
     ingDescription4="Adds extra vitamin C and tangy flavor."
-    instructions="1. Chop half a pineapple and a small piece of ginger.<br>
-                 2. Blend the ingredients with 1 cup of water.<br>
-                 3. Strain and add lemon juice.<br>
-                 4. Serve chilled.<br>
+    instructions="1. Chop half a pineapple and a small piece of ginger.
+                 2. Blend the ingredients with 1 cup of water.
+                 3. Strain and add lemon juice.
+                 4. Serve chilled.
                  <strong>Note:</strong> Pregnant individuals or those with heart or diabetes conditions should consult a doctor before consuming this drink."
  />
+    <br/>
 
 <Recipes
     recipeName="Black Tea"
@@ -712,13 +745,14 @@ return (
     ingDescription2="The key ingredient for a rich, caffeinated brew."
     ingName3="1 tsp honey (optional)"
     ingDescription3="For added sweetness, if desired."
-    instructions="1. Boil 1 cup of water.<br>
-                 2. Pour the hot water over the black tea bag or loose tea.<br>
-                 3. Let the tea steep for 3-5 minutes.<br>
-                 4. Remove the tea bag or strain the loose tea.<br>
-                 5. Add honey for sweetness, if desired.<br>
+    instructions="1. Boil 1 cup of water.
+                 2. Pour the hot water over the black tea bag or loose tea.
+                 3. Let the tea steep for 3-5 minutes.
+                 4. Remove the tea bag or strain the loose tea.
+                 5. Add honey for sweetness, if desired.
                  6. Serve hot."
  />
+    <br/>
 
 <Recipes
     recipeName="Coconut Water Smoothie"
@@ -732,7 +766,7 @@ return (
     ingDescription3="For natural sweetness and creaminess."
     ingName4="1/2 orange"
     ingDescription4="Adds citrusy freshness and vitamin C."
-    instructions="1. Blend 1/2 cup coconut water, 1/2 cup milk, 1/2 banana, and 1/2 orange.<br>
+    instructions="1. Blend 1/2 cup coconut water, 1/2 cup milk, 1/2 banana, and 1/2 orange.
                  2. Serve immediately as a refreshing, nutrient-packed smoothie."
  />
     </details>
@@ -760,8 +794,9 @@ return (
         ingDescription2="Soothes the digestive system and supports skin health."
         ingName3="1 tsp chia seeds"
         ingDescription3="Rich in omega-3 fatty acids and fiber."
-        instructions="1. Add water, aloe vera juice, and chia seeds to a container.<br>2. Let the mixture sit for 10 minutes.<br>3. Add lemon juice, stir well, and serve."
+        instructions="1. Add water, aloe vera juice, and chia seeds to a container.2. Let the mixture sit for 10 minutes.3. Add lemon juice, stir well, and serve."
       />
+    <br/>
 
       {/* Ginger, Honey, and Lemon Drink */}
       <Recipes
@@ -774,8 +809,9 @@ return (
         ingDescription2="Rich in vitamin C and aids digestion."
         ingName3="1/2 tsp honey"
         ingDescription3="Natural sweetener with anti-inflammatory properties."
-        instructions="1. Heat the water to a boil, then add ginger and lemon juice.<br>2. Let it steep for 5 minutes, then add honey and stir.<br>3. Serve warm."
+        instructions="1. Heat the water to a boil, then add ginger and lemon juice.2. Let it steep for 5 minutes, then add honey and stir.3. Serve warm."
       />
+    <br/>
 
       {/* Green Tea with Lemon */}
       <Recipes
@@ -788,8 +824,9 @@ return (
         ingDescription2="Detoxifies the body and supports fat burning."
         ingName3="Small piece of ginger (optional)"
         ingDescription3="Enhances digestion and boosts metabolism."
-        instructions="1. Mix green tea with lemon juice.<br>2. Add ginger for enhanced benefits and serve warm or chilled."
+        instructions="1. Mix green tea with lemon juice.2. Add ginger for enhanced benefits and serve warm or chilled."
       />
+    <br/>
 
       {/* Beetroot and Mint Juice */}
       <Recipes
@@ -802,8 +839,9 @@ return (
         ingDescription2="Soothes the digestive system and provides a refreshing taste."
         ingName3="Pinch of salt"
         ingDescription3="Balances electrolytes and enhances flavor."
-        instructions="1. Blend all ingredients in a blender.<br>2. Serve chilled with ice."
+        instructions="1. Blend all ingredients in a blender.2. Serve chilled with ice."
       />
+    <br/>
 
       {/* Pineapple and Lemon Juice */}
       <Recipes
@@ -816,7 +854,7 @@ return (
         ingDescription2="Hydrates and helps extract nutrients from the fruit."
         ingName3="Juice of 1 lemon"
         ingDescription3="Boosts vitamin C and detoxifies the body."
-        instructions="1. Blend pineapple and lemon juice.<br>2. Boil water with sugar and honey, then add to the pineapple mixture.<br>3. Chill in the refrigerator and serve cold."
+        instructions="1. Blend pineapple and lemon juice.2. Boil water with sugar and honey, then add to the pineapple mixture.3. Chill in the refrigerator and serve cold."
       />
 </details>
 
@@ -838,8 +876,9 @@ return (
   ingDescription2="Hydrates and helps blend the ingredients."
   ingName3="Optional sweetener"
   ingDescription3="Sweeten to taste with honey or agave."
-  instructions="1. Soak prunes in water for 4 hours.<br>2. Blend prunes with water until smooth.<br>3. Strain the juice and serve chilled."
+  instructions="1. Soak prunes in water for 4 hours.2. Blend prunes with water until smooth.3. Strain the juice and serve chilled."
 />
+<br/>
 
 <Recipes
   recipeName="Apricot Juice"
@@ -851,8 +890,9 @@ return (
   ingDescription2="Helps to blend and hydrate."
   ingName3="Optional sweetener"
   ingDescription3="Honey or sugar to taste."
-  instructions="1. Wash and halve apricots to remove seeds.<br>2. Blend in a juicer or blender until smooth.<br>3. Store in airtight glass containers in the refrigerator for up to 4 days."
+  instructions="1. Wash and halve apricots to remove seeds.2. Blend in a juicer or blender until smooth.3. Store in airtight glass containers in the refrigerator for up to 4 days."
 />
+<br/>
 
 <Recipes
   recipeName="Beetroot Juice"
@@ -864,8 +904,9 @@ return (
   ingDescription2="Blends the ingredients smoothly."
   ingName3="Optional lemon juice"
   ingDescription3="Adds a citrusy flavor and aids digestion."
-  instructions="1. Peel and chop beetroot into chunks.<br>2. Blend beetroot with water until smooth.<br>3. Strain the juice and serve chilled."
+  instructions="1. Peel and chop beetroot into chunks.2. Blend beetroot with water until smooth.3. Strain the juice and serve chilled."
 />
+<br/>
 
 <Recipes
   recipeName="Hibiscus Tea"
@@ -877,8 +918,9 @@ return (
   ingDescription2="Base for brewing the tea."
   ingName3="Optional honey or sweetener"
   ingDescription3="Sweetens the tea to taste."
-  instructions="1. Boil 1 liter of water and add 2 tbsp dried hibiscus flowers.<br>2. Let steep for 30 minutes to enhance flavor.<br>3. Add ice, honey, and optional ingredients like fruits or cinnamon."
+  instructions="1. Boil 1 liter of water and add 2 tbsp dried hibiscus flowers.2. Let steep for 30 minutes to enhance flavor.3. Add ice, honey, and optional ingredients like fruits or cinnamon."
 />
+<br/>
 
 <Recipes
   recipeName="Sesame and Date Drink"
@@ -890,8 +932,8 @@ return (
   ingDescription2="Rich in fiber, potassium, and natural sweetness."
   ingName3="Milk"
   ingDescription3="Provides creaminess and additional nutrients."
-  instructions="1. Add milk and honey to a blender.<br>
-  2. Mix in soaked dates and sesame seeds.<br>
+  instructions="1. Add milk and honey to a blender.
+  2. Mix in soaked dates and sesame seeds.
   3. Blend until smooth and creamy."
 />
 </details>
@@ -900,26 +942,5 @@ return (
 </div>
     )
 };   
-// const Navbar =(props) => { /*must be edited (maybe but footer instead of navbar) */
-//     return (
-//         <div>
-//             <Navbar />
-
-//             <IntroSection
-//             title="The Power of Nutrition"
-//             subtitle="Discover how clean eating enhances your beauty and vitality." />
-            
-//             <div className="Eat-container">
-//                 {EatClean.map((recipe, index) => (
-//                 <RecipeCard key={index} {...recipe} />
-//                 ))}
-//             </div>
-
-//             <BookList/>
-//             <Footer/>
-//         </div>
-//     );
-// }
-
 
 export default CleanEatClinic;
