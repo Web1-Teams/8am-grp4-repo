@@ -1,5 +1,5 @@
 import "./MedicalTeam.css";
-import DoctorCard from "../doctorCard/DoctorCard";
+import DoctorCard from "../DoctorCard/DoctorCard";
 
 const MedicalTeam = () => {
   return (
