@@ -56,6 +56,18 @@ import image51 from "../../assests/Images/imagesForC2/green tea.png";
 const BodyCare = (props) => {
     return (
         <div>
+       <IntroSection 
+  title="Radiance starts here"
+  subtitle1="Because your body deserves care as unique as you are."
+  subtitle2="Step into a haven of wellness where every "
+  specific1="touch nurtures vitality"
+  subtitle3=", every treatment is a celebration, and every moment brings you closer to total rejuvenation."
+  subtitle4="Your body isn’t just a body – it’s "
+  specific2="strength"
+  subtitle5=", grace, and the essence of your inner beauty."
+  subtitle6="Feel empowered, glow naturally, and embrace the care you deserve – because body care is self-love. Let’s make your transformation unforgettable."
+/>
+
             <details>
         <summary>Dryness treatment</summary>
         <div className="container">
