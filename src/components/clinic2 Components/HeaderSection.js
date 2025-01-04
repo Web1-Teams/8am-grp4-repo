@@ -1,4 +1,5 @@
 import React from "react";
+import "../clinics-components/clinic2/Styles_C2.css"
 
 const HeaderSection = (props) => {
   return (
