@@ -15,7 +15,7 @@ import visitor2 from "../../../assests/Images/imagesForC2/child2.png";
 import visitor3 from "../../../assests/Images/imagesForC2/women4.png";
 import visitor4 from "../../../assests/Images/imagesForC2/man3.png";
 import visitor5 from "../../../assests/Images/imagesForC2/women2.png";
-import visitor6 from "../../../assests/Images/imagesForC2/women4.png";
+import visitor6 from "../../../assests/Images/imagesForC2/man2.png";
 
 
 const Clinic2 = (props) => {
@@ -163,7 +163,7 @@ const Clinic2 = (props) => {
   name="Laila Ahmed"
   location="Riyadh, Saudi Arabia"
   stars={5}
-  comment="The website is amazing! I tried several skincare recipes, and the results were incredible. My skin looks more radiant and glowing."
+  comment="This platform offers practical and easy-to-follow tips for healthier skin. The face mask recipe is exceptional—it nourishes the skin while being completely safe. Great work!"
 />
 <TestimonialBox
   image={visitor2}
@@ -174,8 +174,8 @@ const Clinic2 = (props) => {
 />
 <TestimonialBox
   image={visitor3}
-  name="Sara Ali"
-  location="Dubai, UAE"
+  name="Manar Khader"
+  location="Jerusalem, Palestine"
   stars={5}
   comment="I loved the hair care recipes! I tried the hair mask, and my hair feels so soft and healthy now. Highly recommended!"
 />
@@ -183,22 +183,22 @@ const Clinic2 = (props) => {
   image={visitor4}
   name="Omar Hassan"
   location="Amman, Jordan"
-  stars={4}
+  stars={3}
   comment="Great website for self-care! The body scrub recipe worked wonders for my skin. I’ll definitely try more tips from here."
 />
 <TestimonialBox
   image={visitor5}
-  name="Omar Hassan"
-  location="Amman, Jordan"
+  name="Farah Mari"
+  location="Nablus, Palestine"
   stars={4}
-  comment="Great website for self-care! The body scrub recipe worked wonders for my skin. I’ll definitely try more tips from here."
+  comment="This website is a treasure trove of self-care recipes! The natural ingredients used in the DIY masks and scrubs make my skin feel amazing."
 />
 <TestimonialBox
   image={visitor6}
-  name="Omar Hassan"
-  location="Amman, Jordan"
-  stars={4}
-  comment="Great website for self-care! The body scrub recipe worked wonders for my skin. I’ll definitely try more tips from here."
+  name="Ahmed Saleh"
+  location="Dubai, UAE"
+  stars={2}
+  comment="The recipes are okay, but a bit time-consuming. Could be more practical."
 />
 </div>
 </section>
