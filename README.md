@@ -16,7 +16,7 @@ VitalCare features four specialized clinics, each catering to specific medical n
 
 1. **[Physiotherapy clinic]**  
    - Physical therapy provides a comprehensive and patient-centered approach to improving health and recovery.<br> It focuses on addressing the root causes of health issues rather than just masking symptoms. With personalized care, physical therapy aims to enhance mobility, reduce pain, and improve overall well-being for individuals of all ages.
-   - [Placeholder for Image 1]
+   - [<img src="./public/images/PT.png"]
 
 2. **[SelfCare Clinic]**  
    - A SelfCare Clinic is a specialized healthcare facility focused on promoting overall wellness by empowering individuals to take charge of their health.  
@@ -40,16 +40,6 @@ VitalCare features four specialized clinics, each catering to specific medical n
 - **Detailed Information**: Comprehensive details about each clinic and its services.  
 - **Interactive Components**: Booking forms, FAQ section, and contact information.  
 - **Multi-Language Support**: Available in multiple languages for diverse audiences.
-
----
-
-## 📸 Images
-
-### Add your clinic images here:  
-- Replace the placeholders with the actual images of each clinic.  
-- Example:  
-  - `Clinic1.jpg` for Clinic 1  
-  - `Clinic2.jpg` for Clinic 2  
 
 ---
 
