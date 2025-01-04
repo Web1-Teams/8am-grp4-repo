@@ -2,7 +2,6 @@ import React from "react";
 import "./Styles_C2.css";
 import HeaderSection from "../../clinic2 Components/HeaderSection";
 import ServiceCard from "../../clinic2 Components/ServiceCard";
-// import { BrowserRouter as Router, Route, Routes, Link} from "react-router-dom";
 import skincarebackground from "../../../assests/Images/imagesForC2/skincareBackground.jpeg";
 import haircarebackground from "../../../assests/Images/imagesForC2/haircareBackground.jpg";
 import bodycarebackground from "../../../assests/Images/imagesForC2/bodycareBackground.jpeg";
