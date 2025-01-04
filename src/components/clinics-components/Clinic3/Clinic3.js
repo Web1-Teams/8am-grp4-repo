@@ -16,6 +16,7 @@ import { SlackIcon } from "hugeicons-react";
 import Canvas from '../../clinic3ComponentsTemp/canvass/Canvas';
 import Sound from '../../clinic3ComponentsTemp/Sound';
 import Book from '../../Books/Book';
+import MedicalTeam from '../MedicalTeam';
 
 
 
@@ -31,7 +32,6 @@ const Clinic3 = (props) => {
     return ( 
       
        <div>
-
 
      
         
