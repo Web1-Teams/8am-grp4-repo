@@ -16,21 +16,21 @@ VitalCare features four specialized clinics, each catering to specific medical n
 
 1. **[Physiotherapy clinic]**  
    - Physical therapy provides a comprehensive and patient-centered approach to improving health and recovery.<br> It focuses on addressing the root causes of health issues rather than just masking symptoms. With personalized care, physical therapy aims to enhance mobility, reduce pain, and improve overall well-being for individuals of all ages.
-   - [<img src="./public/images/PT.png"]
+
 
 2. **[SelfCare Clinic]**  
    - A SelfCare Clinic is a specialized healthcare facility focused on promoting overall wellness by empowering individuals to take charge of their health.  
-   - [Placeholder for Image 2]
+
 
 3. **[Mental Health Clinic]**  
    - Welcome to vital care mental health clinic, your trusted partner in mental health. Our online platform is designed to provide convenient, accessible, and personalized mental health support in anytime.<br>
                     Your Mental Health Matters.<br>
                     Take the first step towards a healthier mind and a brighter future. Explore our services, connect with professionals, and find the support you need to shine.
-   - [Placeholder for Image 3]
+
 
 4. **[Nutrition Clinic]**  
    -  A Nutrition Clinic is a healthcare facility that provides expert advice and guidance on diet, nutrition, and overall wellness.<br> They focus on helping individuals improve their eating habits.
-   - [Placeholder for Image 4]
+
 
 ---
 
@@ -60,3 +60,7 @@ The VitalCare website is built with the following technologies:
    ```bash
    git clone https://github.com/YourUsername/VitalCare.git
    cd VitalCare
+
+2.run by :
+cd folder name
+npm start.
