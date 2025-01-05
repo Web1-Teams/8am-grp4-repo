@@ -55,6 +55,15 @@
 
 }
 
+.page8Background {
+  background-image: url("./tbl_articles_article_32142_797cee973b2-d229-462a-a12d-ebcddcc032fa.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(0.9);
+  
+
+}
 .page4Background {
   background-image: url("./Healthy\ food\ and\ sport\ background\ on\ table\ with\ scale\ top.jpg");
   background-size: cover;

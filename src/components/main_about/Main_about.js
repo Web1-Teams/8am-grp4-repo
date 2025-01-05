@@ -4,7 +4,7 @@ import './mainAbout.css'
 const Main_about=()=>{
 
     return(
-        <section className="info-section">
+        <section className="info-section" id='11111'>
   <div className="containerMain">
     <h2>About Our Clinics</h2>
     <p className='mHead'>A comprehensive group of clinics designed to meet various health needs.</p>
