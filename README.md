@@ -60,7 +60,8 @@ The VitalCare website is built with the following technologies:
    ```bash
    git clone https://github.com/YourUsername/VitalCare.git
    cd VitalCare
+2. Start The Project :  
+   ```bash
+   npm start
+  
 
-2.run by :
-cd folder name
-npm start.
