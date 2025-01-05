@@ -58,7 +58,7 @@ The VitalCare website is built with the following technologies:
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/YourUsername/VitalCare.git
+   git clone https://github.com/Web1-Teams/8am-grp4-repo.git
    cd VitalCare
 2. Start The Project :  
    ```bash
