@@ -20,7 +20,7 @@ import BookList from '../../Books/BookList';
 import SleepTracker from '../../clinic3ComponentsTemp/SleepTracker';
 import MedicalTeam from '../MedicalTeam';
 
-import DoctorCard from '../../doctorCard/DoctorCard';
+import DoctorCard from '../../DoctorCard/DoctorCard';
 import Dr5 from "../../../assests/Images/medical team/DO3.jpg";
 import Dr6 from "../../../assests/Images/medical team/DO4.png";
 import Dr7 from "../../../assests/Images/medical team/D3.avif";
