@@ -45,6 +45,7 @@ VitalCare features four specialized clinics, each catering to specific medical n
 -  **Sounds**: Relaxing sounds in mental health clinic .
 - **Tip Card**:in Self Care clinic Quick tips for better self-care and wellness..
 - **Calories calculator**: to help you calculate your calories in Nutrition clinic .
+- **Books**:Books to support wellness across all clinics .
 
 
 
