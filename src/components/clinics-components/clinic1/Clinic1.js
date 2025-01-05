@@ -6,7 +6,7 @@ import BenefitsSection from "../../clinic1components/BenefitsSection";
 import ServiceCard from '../../clinic2 Components/ServiceCard';
 import services  from '../../clinic1components/ServicesSection'
 import FAQ from '../../clinic1components/FAQ';
-import DoctorCard from '../../doctorCard/DoctorCard';
+import DoctorCard from '../../DoctorCard/DoctorCard';
 import Dr1 from "../../../assests/Images/medical team/D1.png";
 import Dr2 from "../../../assests/Images/medical team/D2.png";
 import Dr3 from "../../../assests/Images/medical team/DO1.jpeg";
