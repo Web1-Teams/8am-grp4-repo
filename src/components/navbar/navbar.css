@@ -65,7 +65,7 @@
     border-radius: 20px;
     box-shadow: 0px 4px 6px rgba(245, 244, 244, 0.1); /* إضافة ظل */
     z-index: 1000;
-    min-width: 170px; /* نفس عرض الأزرار */
+    min-width: 210px; /* نفس عرض الأزرار */
 }
 
 .dropdown-menu a {
@@ -116,12 +116,11 @@
     align-items: center;
 }
 
-/* Sidebar */
 .sidebar {
     position: fixed;
     top: 0;
     right: 0;
-    width: 250px;
+    width: 300px; /* عرض السايد بار */
     height: 100%;
     background-color: #0a335c;
     color: #F1F0E8;
@@ -131,34 +130,36 @@
 }
 
 .sidebar-links {
-    list-style: none;
+    list-style: none; /* إزالة النقاط */
     padding: 0;
 }
 
 .sidebar-links li {
     margin: 20px 0;
+    font-size: 18px; /* تكبير الخط */
 }
 
 .sidebar-links a {
     text-decoration: none;
     color: #F1F0E8;
+    font-size: 18px; /* تكبير الخط */
 }
 
 .close-btn {
     background: none;
     border: none;
-    font-size: 24px;
+    font-size: 28px; /* تكبير حجم زر الإغلاق */
     color: #F1F0E8;
     cursor: pointer;
     margin-bottom: 20px;
 }
 
-/* Responsive */
+/* Responsive adjustments */
 .toggle-btn {
     display: none;
     background: none;
     border: none;
-    font-size: 24px;
+    font-size: 28px; /* تكبير زر التبديل */
     color: #0a335c;
     cursor: pointer;
 }
@@ -166,6 +167,13 @@
 .translate-icon {
     display: flex;
     align-items: center;
+    font-size: 18px; /* تكبير الأيقونات النصوص */
+}
+
+/* حل إضافي لإزالة النقاط */
+.sidebar-links ul {
+    list-style: none; /* إزالة النقاط من العناصر داخل السايد بار */
+    padding: 0;
 }
 
 @media (max-width: 768px) {
