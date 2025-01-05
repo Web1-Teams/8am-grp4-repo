@@ -40,6 +40,14 @@ VitalCare features four specialized clinics, each catering to specific medical n
 - **Detailed Information**: Comprehensive details about each clinic and its services.  
 - **Interactive Components**: Booking forms, FAQ section, and contact information.  
 - **Multi-Language Support**: Available in multiple languages for diverse audiences.
+- **Canvas**: to help you in mental health clinic.
+-  **Sleep Tracker**:in mental health clinic to help you track your sleep hours.
+-  **Sounds**: Relaxing sounds in mental health clinic .
+- **Tip Card**:in Self Care clinic Quick tips for better self-care and wellness..
+- **Calories calculator**: to help you calculate your calories in Nutrition clinic .
+
+
+
 
 ---
 
