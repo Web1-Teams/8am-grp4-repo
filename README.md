@@ -57,9 +57,8 @@ VitalCare features four specialized clinics, each catering to specific medical n
 The VitalCare website is built with the following technologies:
 
 - **Frontend**: React.js, HTML5, CSS3  
-- **Styling**: Tailwind CSS or custom styles  
-- **Backend**: Node.js or any backend framework you choose  
-- **Deployment**: Deployed using [Netlify/Vercel/AWS]  
+- **Styling**: Tailwind CSS or custom styles   
+ 
 
 ---
 
